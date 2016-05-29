@@ -29,6 +29,15 @@ const std::string GREATER_THAN = ">";
 const std::string LESS_THAN = "<";
 const std::string NOT_EQUALS = "!=";
 
+
+bool sort_by_name(const org::yaorm::PropertyDefinition &first, const org::yaorm::PropertyDefinition &second) {
+    return first.name() < second.name();
+}
+
+bool sort_record_by_name(const org::yaorm::PropertyHolder &first, const org::yaorm::PropertyHolder &second) {
+    return first.property_definition().name() < second.property_definition().name();
+}
+
 std::string build_column_name_type(const org::yaorm::Definition &definition,
                                    std::map<int, std::string> &compiled_maps,
                                    const std::string &primary_key) {
@@ -63,9 +72,14 @@ std::string build_column_name_type(const org::yaorm::Definition &definition,
 std::string build_comma_separated_column_names(const org::yaorm::Definition &definition) {
     std::string workspace = "";
     bool added_column = false;
-    sort(definition.property_definitions().begin(), definition.property_definitions().end(), sort_by_name);
-
+    std::vector<org::yaorm::PropertyDefinition> list_to_sort;
     for(auto item:definition.property_definitions()) {
+        list_to_sort.push_back(item);
+    }
+
+    sort(list_to_sort.begin(), list_to_sort.end(), sort_by_name);
+
+    for(auto item:list_to_sort) {
         if (item.is_key()) {
             if (added_column) {
                 workspace += COMMA;
@@ -75,7 +89,7 @@ std::string build_comma_separated_column_names(const org::yaorm::Definition &def
         }
     }
 
-    for(auto item:definition.property_definitions()) {
+    for(auto item:list_to_sort) {
         if (!item.is_key()) {
             if (added_column) {
                 workspace += COMMA;
@@ -177,7 +191,6 @@ std::string build_where_clause_helper(org::yaorm::WhereClauseItem &where_clause)
 
         if (!current_where_clause.has_connecting_where_clause()) {
             terminated = true;
-            current_where_clause = nullptr;
         }
         else {
             current_where_clause = current_where_clause.connecting_where_clause();
@@ -186,14 +199,5 @@ std::string build_where_clause_helper(org::yaorm::WhereClauseItem &where_clause)
 
     return filter_items;
 }
-
-bool sort_by_name(const org::yaorm::PropertyDefinition &first, const org::yaorm::PropertyDefinition &second) {
-    return first.name() < second.name();
-}
-
-bool sort_record_by_name(const org::yaorm::PropertyHolder &first, const org::yaorm::PropertyHolder &second) {
-    return first.property_definition().name() < second.property_definition().name();
-}
-
 
 #endif //YAORM_CPP_COMMON_SQL_UTILITIES_H

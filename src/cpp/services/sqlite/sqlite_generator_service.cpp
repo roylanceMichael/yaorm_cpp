@@ -131,7 +131,7 @@ std::string SQLiteGeneratorService::build_bulk_insert(org::yaorm::Definition def
     std::string union_statements = "";
 
     for(auto record:records.records()) {
-        std::sort(record.columns().begin(), record.columns().end(), sort_record_by_name);
+//        std::sort(record.columns().begin(), record.columns().end(), sort_record_by_name);
         std::string select_statement = "";
         for (auto column:record.columns()) {
             if (select_statement.length() == 0) {
@@ -160,27 +160,74 @@ std::string SQLiteGeneratorService::build_bulk_insert(org::yaorm::Definition def
 }
 
 std::string SQLiteGeneratorService::build_insert(org::yaorm::Definition definition, org::yaorm::Record record) {
-    return "";
+    auto insert_into_table_template = "insert into %s (%s) values (%s);";
+    std::string column_names = "";
+    std::string values = "";
+    for(auto column:record.columns()) {
+        if (column_names.length() > 0) {
+            column_names += COMMA + column.property_definition().name();
+        }
+        else {
+            column_names += column.property_definition().name();
+        }
+
+        if (values.length() > 0) {
+            values += COMMA + get_formatted_string(column);
+        }
+        else {
+            values += get_formatted_string(column);
+        }
+    }
+
+
+    return "insert into " +  definition.name() + "(" + column_names + ") values (" + values + ");";
 }
 
-std::string SQLiteGeneratorService::build_update(org::yaorm::Definition definition, org::yaorm::PropertyHolder key,
+std::string SQLiteGeneratorService::build_update(org::yaorm::Definition definition,
+                                                 org::yaorm::PropertyHolder key,
                                                  org::yaorm::Record record) {
-    return "";
+    org::yaorm::WhereClauseItem where_clause_item;
+    where_clause_item.set_allocated_name_and_property(&key);
+    where_clause_item.set_operator_type(org::yaorm::WhereClauseItem::OperatorType::WhereClauseItem_OperatorType_EQUALS);
+    auto where_clause = build_where_clause_helper(where_clause_item);
+    std::string update_name_values = "";
+    for(auto column:record.columns()) {
+        if (update_name_values.length() > 0) {
+            update_name_values += COMMA + column.property_definition().name() + EQUALS + get_formatted_string(column);
+        }
+        else {
+            update_name_values += column.property_definition().name() + EQUALS + get_formatted_string(column);
+        }
+    }
+
+    return "update " + definition.name() + " set " + update_name_values + where_clause + SEMICOLON;
 }
 
 std::string SQLiteGeneratorService::build_update_with_criteria(org::yaorm::Definition definition,
                                                                org::yaorm::Record record,
                                                                org::yaorm::WhereClauseItem where_clause) {
-    return "";
+    auto where_clause_str = build_where_clause_helper(where_clause);
+    std::string update_name_values = "";
+    for(auto column:record.columns()) {
+        if (update_name_values.length() > 0) {
+            update_name_values += COMMA + column.property_definition().name() + EQUALS + get_formatted_string(column);
+        }
+        else {
+            update_name_values += column.property_definition().name() + EQUALS + get_formatted_string(column);
+        }
+    }
+
+    return "update " + definition.name() + " set " + update_name_values + update_name_values + SEMICOLON;
 }
 
-std::string SQLiteGeneratorService::build_select_all(org::yaorm::Definition, int n) {
-    return "";
+std::string SQLiteGeneratorService::build_select_all(org::yaorm::Definition definition, int n) {
+    return "select * from " + definition.name() + " limit " + std::to_string(n) + SEMICOLON;
 }
 
-std::string SQLiteGeneratorService::build_where_clause(org::yaorm::Definition,
+std::string SQLiteGeneratorService::build_where_clause(org::yaorm::Definition definition,
                                                        org::yaorm::WhereClauseItem where_clause) {
-    return "";
+    auto where_clause_str = build_where_clause_helper(where_clause);
+    return "select * from " + definition.name() + where_clause_str + SEMICOLON;
 }
 
 

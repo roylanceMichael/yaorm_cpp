@@ -12,15 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c98369-f9d3-444a-9a2f-c346fb4267b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/mroylance.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generate_proto.bash" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cpp/services/i_sql_generator_service.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proto/sqlite_models.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/proto/yaorm_models.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" afterPath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" afterPath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" />
     </list>
     <ignored path="yaorm_cpp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +37,8 @@
       <file leaf-file-name="sqlite_generator_service.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+            <state relative-caret-position="174">
+              <caret line="226" column="54" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="54" />
               <folding>
                 <element signature="e#47#84#0" expanded="true" />
               </folding>
@@ -56,8 +49,8 @@
       <file leaf-file-name="common_sql_utilities.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="194" column="84" selection-start-line="194" selection-start-column="84" selection-end-line="194" selection-end-column="84" />
+            <state relative-caret-position="520">
+              <caret line="192" column="30" selection-start-line="192" selection-start-column="30" selection-end-line="192" selection-end-column="30" />
               <folding>
                 <element signature="e#130#168#0" expanded="true" />
               </folding>
@@ -90,7 +83,7 @@
       <file leaf-file-name="sqlite_generator_service.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="370">
               <caret line="44" column="43" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="43" />
               <folding>
                 <element signature="e#139#178#0" expanded="true" />
@@ -604,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="44" column="43" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="43" />
-          <folding>
-            <element signature="e#139#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/proto/yaorm_models.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -622,20 +605,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/algorithm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="3855" column="0" selection-start-line="3855" selection-start-column="0" selection-end-line="3855" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="194" column="84" selection-start-line="194" selection-start-column="84" selection-end-line="194" selection-end-column="84" />
+        <state relative-caret-position="520">
+          <caret line="192" column="30" selection-start-line="192" selection-start-column="30" selection-end-line="192" selection-end-column="30" />
           <folding>
             <element signature="e#130#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#139#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+        <state relative-caret-position="174">
+          <caret line="226" column="54" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="54" />
           <folding>
             <element signature="e#47#84#0" expanded="true" />
           </folding>
