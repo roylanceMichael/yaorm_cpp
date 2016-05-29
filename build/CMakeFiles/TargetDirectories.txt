@@ -1,0 +1,3 @@
+/Users/mroylance/yaorm_cpp/build/CMakeFiles/edit_cache.dir
+/Users/mroylance/yaorm_cpp/build/CMakeFiles/rebuild_cache.dir
+/Users/mroylance/yaorm_cpp/build/CMakeFiles/yaorm_cpp.dir
