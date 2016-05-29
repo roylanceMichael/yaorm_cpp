@@ -10,7 +10,7 @@
 
 class SQLiteGeneratorServiceTests {
 public:
-    void simple_test();
+    void simple_create_table_test();
 
 };
 

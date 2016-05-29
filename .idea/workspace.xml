@@ -13,36 +13,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99c98369-f9d3-444a-9a2f-c346fb4267b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/test_main.cpp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/main.cpp.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/yaorm_cpp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/test/sqlite/sqlite_generator_service_tests.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/test/sqlite/sqlite_generator_service_tests.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/test/test_main.cpp.o" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/src/test/test_main.cpp.o" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libyaorm_cpp.a" afterPath="$PROJECT_DIR$/build/libyaorm_cpp.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/yaorm_cpp_test" afterPath="$PROJECT_DIR$/build/yaorm_cpp_test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yaorm_cpp.iml" afterPath="$PROJECT_DIR$/.idea/yaorm_cpp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeCache.txt" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/CXX.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/build.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/depend.internal" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/link.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/services/i_sql_generator_service.h" afterPath="$PROJECT_DIR$/src/cpp/services/i_sql_generator_service.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/CMakeFiles/yaorm_cpp_test.dir/CXX.includecache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" afterPath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h" afterPath="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" afterPath="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp" afterPath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h" afterPath="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/test_main.cpp" afterPath="$PROJECT_DIR$/src/test/test_main.cpp" />
     </list>
     <ignored path="yaorm_cpp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,47 +48,38 @@
       <file leaf-file-name="sqlite_generator_service.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-              <folding>
-                <marker date="1464545293000" expanded="true" signature="135:712" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="802:873" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="1074:1402" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="1455:1474" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="1671:2418" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="2614:2777" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="2894:3444" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="3534:3673" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="3765:3960" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="4050:4180" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="4371:4481" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="4686:4875" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="4995:6480" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="6593:7321" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="7564:8433" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="8728:9369" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="9466:9562" ph="{...}" />
-                <marker date="1464545293000" expanded="true" signature="9751:9924" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="-660">
+              <caret line="7" column="108" selection-start-line="7" selection-start-column="108" selection-end-line="7" selection-end-column="108" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_main.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sqlite_generator_service.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sqlite_generator_service_tests.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/test_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#47#66#0" expanded="true" />
               </folding>
@@ -114,21 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlite_generator_service_tests.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sqlite_generator_service_tests.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="e#150#169#0" expanded="true" />
               </folding>
@@ -149,8 +112,8 @@
       <file leaf-file-name="common_sql_utilities.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -172,11 +135,11 @@
         <option value="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h" />
         <option value="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.cpp" />
         <option value="$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp" />
         <option value="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/test/test_main.cpp" />
         <option value="$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp" />
+        <option value="$PROJECT_DIR$/src/test/test_main.cpp" />
       </list>
     </option>
   </component>
@@ -306,6 +269,10 @@
               <option name="myItemId" value="cpp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -352,6 +319,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sqlite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaorm_cpp" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaorm_cpp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cpp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,6 +539,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="99c98369-f9d3-444a-9a2f-c346fb4267b0" name="Default" comment="" />
@@ -566,9 +554,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1829" y="-102" width="1811" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18774158" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18774158" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5276074" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -587,6 +575,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -668,74 +664,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/services/i_sql_generator_service.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#138#177#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <marker date="1464545293000" expanded="true" signature="135:712" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="802:873" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="1074:1402" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="1455:1474" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="1671:2418" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="2614:2777" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="2894:3444" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="3534:3673" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="3765:3960" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="4050:4180" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="4371:4481" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="4686:4875" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="4995:6480" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="6593:7321" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="7564:8433" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="8728:9369" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="9466:9562" ph="{...}" />
-            <marker date="1464545293000" expanded="true" signature="9751:9924" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#169#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,29 +688,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/src/cpp/services/i_sql_generator_service.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="330">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test_main.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/utilities/common_sql_utilities.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cpp/services/sqlite/sqlite_generator_service.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="7" column="108" selection-start-line="7" selection-start-column="108" selection-end-line="7" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <element signature="e#47#66#0" expanded="true" />
+            <element signature="e#150#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/sqlite/sqlite_generator_service_tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/test_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

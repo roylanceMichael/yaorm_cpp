@@ -5,12 +5,18 @@
 #include "sqlite_generator_service.h"
 
 SQLiteGeneratorService::SQLiteGeneratorService() {
+    // these lists should never be that large, but this is a way for us to have default values in protobuf 3
     for(int i = 0; i < org::yaorm::sqlite::SQLiteType_descriptor()->value_count(); i++) {
         auto sqlite_type = org::yaorm::sqlite::SQLiteType_descriptor()->value(i);
         for(int j = 0; j < org::yaorm::sqlite::SQLiteTypeMapping_descriptor()->value_count(); j++) {
             auto protobuf_type = org::yaorm::sqlite::SQLiteTypeMapping_descriptor()->value(j);
             if (sqlite_type->number() == protobuf_type->number() && sqlite_type->number() != 0) {
-                compiled_maps[protobuf_type->number()] = sqlite_type->name();
+                for(int k = 0; k < org::yaorm::ProtobufType_descriptor()->value_count(); k++) {
+                    auto actual_proto_type = org::yaorm::ProtobufType_descriptor()->value(k);
+                    if (actual_proto_type->name() == protobuf_type->name()) {
+                        compiled_maps[actual_proto_type->number()] = sqlite_type->name();
+                    }
+                }
             }
         }
     }
@@ -92,7 +98,7 @@ std::string SQLiteGeneratorService::build_drop_table(org::yaorm::Definition defi
 
 std::string SQLiteGeneratorService::build_create_table(org::yaorm::Definition definition) {
     auto workspace = common_sql_utilities.build_column_name_type(definition, compiled_maps, primary_key);
-    return "create table if not exists " + definition.name() + " " + workspace + ";";
+    return "create table if not exists " + definition.name() + " (" + workspace + ");";
 }
 
 std::string SQLiteGeneratorService::build_delete_all(org::yaorm::Definition definition) {
