@@ -122,3 +122,21 @@ common_sql_utilities.h
 ../models/yaorm_models.pb.h
 /Users/mroylance/yaorm_cpp/src/cpp/models/yaorm_models.pb.h
 
+/Users/mroylance/yaorm_cpp/src/test/sqlite/sqlite_generator_service_tests.cpp
+sqlite_generator_service_tests.h
+/Users/mroylance/yaorm_cpp/src/test/sqlite/sqlite_generator_service_tests.h
+
+/Users/mroylance/yaorm_cpp/src/test/sqlite/sqlite_generator_service_tests.h
+iostream
+-
+../../cpp/services/sqlite/sqlite_generator_service.h
+/Users/mroylance/yaorm_cpp/src/cpp/services/sqlite/sqlite_generator_service.h
+
+/Users/mroylance/yaorm_cpp/src/test/test_main.cpp
+iostream
+-
+../../src/cpp/services/sqlite/sqlite_generator_service.h
+/Users/mroylance/yaorm_cpp/src/cpp/services/sqlite/sqlite_generator_service.h
+sqlite/sqlite_generator_service_tests.h
+/Users/mroylance/yaorm_cpp/src/test/sqlite/sqlite_generator_service_tests.h
+

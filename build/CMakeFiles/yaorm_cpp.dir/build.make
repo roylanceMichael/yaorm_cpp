@@ -57,33 +57,9 @@ include CMakeFiles/yaorm_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/yaorm_cpp.dir/flags.make
 
-CMakeFiles/yaorm_cpp.dir/main.cpp.o: CMakeFiles/yaorm_cpp.dir/flags.make
-CMakeFiles/yaorm_cpp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yaorm_cpp.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaorm_cpp.dir/main.cpp.o -c /Users/mroylance/yaorm_cpp/main.cpp
-
-CMakeFiles/yaorm_cpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaorm_cpp.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mroylance/yaorm_cpp/main.cpp > CMakeFiles/yaorm_cpp.dir/main.cpp.i
-
-CMakeFiles/yaorm_cpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaorm_cpp.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mroylance/yaorm_cpp/main.cpp -o CMakeFiles/yaorm_cpp.dir/main.cpp.s
-
-CMakeFiles/yaorm_cpp.dir/main.cpp.o.requires:
-
-.PHONY : CMakeFiles/yaorm_cpp.dir/main.cpp.o.requires
-
-CMakeFiles/yaorm_cpp.dir/main.cpp.o.provides: CMakeFiles/yaorm_cpp.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/yaorm_cpp.dir/main.cpp.o.provides
-
-CMakeFiles/yaorm_cpp.dir/main.cpp.o.provides.build: CMakeFiles/yaorm_cpp.dir/main.cpp.o
-
-
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o: CMakeFiles/yaorm_cpp.dir/flags.make
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o: ../src/cpp/models/yaorm_models.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o -c /Users/mroylance/yaorm_cpp/src/cpp/models/yaorm_models.pb.cc
 
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.i: cmake_force
@@ -107,7 +83,7 @@ CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o.provides.build: CMa
 
 CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o: CMakeFiles/yaorm_cpp.dir/flags.make
 CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o: ../src/cpp/services/sqlite/sqlite_generator_service.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o -c /Users/mroylance/yaorm_cpp/src/cpp/services/sqlite/sqlite_generator_service.cpp
 
 CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.i: cmake_force
@@ -131,7 +107,7 @@ CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o.
 
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o: CMakeFiles/yaorm_cpp.dir/flags.make
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o: ../src/cpp/models/sqlite_models.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o -c /Users/mroylance/yaorm_cpp/src/cpp/models/sqlite_models.pb.cc
 
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.i: cmake_force
@@ -153,34 +129,59 @@ CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o.provides: CMakeFil
 CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o.provides.build: CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o
 
 
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o: CMakeFiles/yaorm_cpp.dir/flags.make
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o: ../src/cpp/utilities/common_sql_utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o -c /Users/mroylance/yaorm_cpp/src/cpp/utilities/common_sql_utilities.cpp
+
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mroylance/yaorm_cpp/src/cpp/utilities/common_sql_utilities.cpp > CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.i
+
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mroylance/yaorm_cpp/src/cpp/utilities/common_sql_utilities.cpp -o CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.s
+
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.requires:
+
+.PHONY : CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.requires
+
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.provides: CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.requires
+	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.provides.build
+.PHONY : CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.provides
+
+CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.provides.build: CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o
+
+
 # Object files for target yaorm_cpp
 yaorm_cpp_OBJECTS = \
-"CMakeFiles/yaorm_cpp.dir/main.cpp.o" \
 "CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o" \
 "CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o" \
-"CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o"
+"CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o" \
+"CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o"
 
 # External object files for target yaorm_cpp
 yaorm_cpp_EXTERNAL_OBJECTS =
 
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/main.cpp.o
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/build.make
-yaorm_cpp: CMakeFiles/yaorm_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable yaorm_cpp"
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/build.make
+libyaorm_cpp.a: CMakeFiles/yaorm_cpp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mroylance/yaorm_cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libyaorm_cpp.a"
+	$(CMAKE_COMMAND) -P CMakeFiles/yaorm_cpp.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/yaorm_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/yaorm_cpp.dir/build: yaorm_cpp
+CMakeFiles/yaorm_cpp.dir/build: libyaorm_cpp.a
 
 .PHONY : CMakeFiles/yaorm_cpp.dir/build
 
-CMakeFiles/yaorm_cpp.dir/requires: CMakeFiles/yaorm_cpp.dir/main.cpp.o.requires
 CMakeFiles/yaorm_cpp.dir/requires: CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o.requires
 CMakeFiles/yaorm_cpp.dir/requires: CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o.requires
 CMakeFiles/yaorm_cpp.dir/requires: CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o.requires
+CMakeFiles/yaorm_cpp.dir/requires: CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o.requires
 
 .PHONY : CMakeFiles/yaorm_cpp.dir/requires
 

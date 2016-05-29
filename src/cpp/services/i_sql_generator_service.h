@@ -5,7 +5,6 @@
 #ifndef YAORM_CPP_I_SQL_GENERATOR_SERVICE_H
 #define YAORM_CPP_I_SQL_GENERATOR_SERVICE_H
 
-#include <string>
 #include "../models/yaorm_models.pb.h"
 
 class ISQLGeneratorService {

@@ -56,6 +56,17 @@ CMAKE_BINARY_DIR = /Users/mroylance/yaorm_cpp/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/local/Cellar/cmake/3.5.2/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -111,6 +122,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named yaorm_cpp_test
+
+# Build rule for target.
+yaorm_cpp_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yaorm_cpp_test
+.PHONY : yaorm_cpp_test
+
+# fast build rule for target.
+yaorm_cpp_test/fast:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/build
+.PHONY : yaorm_cpp_test/fast
+
+#=============================================================================
 # Target rules for targets named yaorm_cpp
 
 # Build rule for target.
@@ -123,39 +147,13 @@ yaorm_cpp/fast:
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/build
 .PHONY : yaorm_cpp/fast
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 src/cpp/models/sqlite_models.pb.o: src/cpp/models/sqlite_models.pb.cc.o
 
 .PHONY : src/cpp/models/sqlite_models.pb.o
 
 # target to build an object file
 src/cpp/models/sqlite_models.pb.cc.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/sqlite_models.pb.cc.o
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.o
 .PHONY : src/cpp/models/sqlite_models.pb.cc.o
 
@@ -165,6 +163,7 @@ src/cpp/models/sqlite_models.pb.i: src/cpp/models/sqlite_models.pb.cc.i
 
 # target to preprocess a source file
 src/cpp/models/sqlite_models.pb.cc.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/sqlite_models.pb.cc.i
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.i
 .PHONY : src/cpp/models/sqlite_models.pb.cc.i
 
@@ -174,6 +173,7 @@ src/cpp/models/sqlite_models.pb.s: src/cpp/models/sqlite_models.pb.cc.s
 
 # target to generate assembly for a file
 src/cpp/models/sqlite_models.pb.cc.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/sqlite_models.pb.cc.s
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/sqlite_models.pb.cc.s
 .PHONY : src/cpp/models/sqlite_models.pb.cc.s
 
@@ -183,6 +183,7 @@ src/cpp/models/yaorm_models.pb.o: src/cpp/models/yaorm_models.pb.cc.o
 
 # target to build an object file
 src/cpp/models/yaorm_models.pb.cc.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/yaorm_models.pb.cc.o
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.o
 .PHONY : src/cpp/models/yaorm_models.pb.cc.o
 
@@ -192,6 +193,7 @@ src/cpp/models/yaorm_models.pb.i: src/cpp/models/yaorm_models.pb.cc.i
 
 # target to preprocess a source file
 src/cpp/models/yaorm_models.pb.cc.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/yaorm_models.pb.cc.i
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.i
 .PHONY : src/cpp/models/yaorm_models.pb.cc.i
 
@@ -201,6 +203,7 @@ src/cpp/models/yaorm_models.pb.s: src/cpp/models/yaorm_models.pb.cc.s
 
 # target to generate assembly for a file
 src/cpp/models/yaorm_models.pb.cc.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/models/yaorm_models.pb.cc.s
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/models/yaorm_models.pb.cc.s
 .PHONY : src/cpp/models/yaorm_models.pb.cc.s
 
@@ -210,6 +213,7 @@ src/cpp/services/sqlite/sqlite_generator_service.o: src/cpp/services/sqlite/sqli
 
 # target to build an object file
 src/cpp/services/sqlite/sqlite_generator_service.cpp.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.o
 .PHONY : src/cpp/services/sqlite/sqlite_generator_service.cpp.o
 
@@ -219,6 +223,7 @@ src/cpp/services/sqlite/sqlite_generator_service.i: src/cpp/services/sqlite/sqli
 
 # target to preprocess a source file
 src/cpp/services/sqlite/sqlite_generator_service.cpp.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.i
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.i
 .PHONY : src/cpp/services/sqlite/sqlite_generator_service.cpp.i
 
@@ -228,8 +233,93 @@ src/cpp/services/sqlite/sqlite_generator_service.s: src/cpp/services/sqlite/sqli
 
 # target to generate assembly for a file
 src/cpp/services/sqlite/sqlite_generator_service.cpp.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.s
 	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/services/sqlite/sqlite_generator_service.cpp.s
 .PHONY : src/cpp/services/sqlite/sqlite_generator_service.cpp.s
+
+src/cpp/utilities/common_sql_utilities.o: src/cpp/utilities/common_sql_utilities.cpp.o
+
+.PHONY : src/cpp/utilities/common_sql_utilities.o
+
+# target to build an object file
+src/cpp/utilities/common_sql_utilities.cpp.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/utilities/common_sql_utilities.cpp.o
+	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.o
+.PHONY : src/cpp/utilities/common_sql_utilities.cpp.o
+
+src/cpp/utilities/common_sql_utilities.i: src/cpp/utilities/common_sql_utilities.cpp.i
+
+.PHONY : src/cpp/utilities/common_sql_utilities.i
+
+# target to preprocess a source file
+src/cpp/utilities/common_sql_utilities.cpp.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/utilities/common_sql_utilities.cpp.i
+	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.i
+.PHONY : src/cpp/utilities/common_sql_utilities.cpp.i
+
+src/cpp/utilities/common_sql_utilities.s: src/cpp/utilities/common_sql_utilities.cpp.s
+
+.PHONY : src/cpp/utilities/common_sql_utilities.s
+
+# target to generate assembly for a file
+src/cpp/utilities/common_sql_utilities.cpp.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/cpp/utilities/common_sql_utilities.cpp.s
+	$(MAKE) -f CMakeFiles/yaorm_cpp.dir/build.make CMakeFiles/yaorm_cpp.dir/src/cpp/utilities/common_sql_utilities.cpp.s
+.PHONY : src/cpp/utilities/common_sql_utilities.cpp.s
+
+src/test/sqlite/sqlite_generator_service_tests.o: src/test/sqlite/sqlite_generator_service_tests.cpp.o
+
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.o
+
+# target to build an object file
+src/test/sqlite/sqlite_generator_service_tests.cpp.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/sqlite/sqlite_generator_service_tests.cpp.o
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.cpp.o
+
+src/test/sqlite/sqlite_generator_service_tests.i: src/test/sqlite/sqlite_generator_service_tests.cpp.i
+
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.i
+
+# target to preprocess a source file
+src/test/sqlite/sqlite_generator_service_tests.cpp.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/sqlite/sqlite_generator_service_tests.cpp.i
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.cpp.i
+
+src/test/sqlite/sqlite_generator_service_tests.s: src/test/sqlite/sqlite_generator_service_tests.cpp.s
+
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.s
+
+# target to generate assembly for a file
+src/test/sqlite/sqlite_generator_service_tests.cpp.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/sqlite/sqlite_generator_service_tests.cpp.s
+.PHONY : src/test/sqlite/sqlite_generator_service_tests.cpp.s
+
+src/test/test_main.o: src/test/test_main.cpp.o
+
+.PHONY : src/test/test_main.o
+
+# target to build an object file
+src/test/test_main.cpp.o:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/test_main.cpp.o
+.PHONY : src/test/test_main.cpp.o
+
+src/test/test_main.i: src/test/test_main.cpp.i
+
+.PHONY : src/test/test_main.i
+
+# target to preprocess a source file
+src/test/test_main.cpp.i:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/test_main.cpp.i
+.PHONY : src/test/test_main.cpp.i
+
+src/test/test_main.s: src/test/test_main.cpp.s
+
+.PHONY : src/test/test_main.s
+
+# target to generate assembly for a file
+src/test/test_main.cpp.s:
+	$(MAKE) -f CMakeFiles/yaorm_cpp_test.dir/build.make CMakeFiles/yaorm_cpp_test.dir/src/test/test_main.cpp.s
+.PHONY : src/test/test_main.cpp.s
 
 # Help Target
 help:
@@ -237,12 +327,11 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... test"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... yaorm_cpp_test"
 	@echo "... yaorm_cpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... src/cpp/models/sqlite_models.pb.o"
 	@echo "... src/cpp/models/sqlite_models.pb.i"
 	@echo "... src/cpp/models/sqlite_models.pb.s"
@@ -252,6 +341,15 @@ help:
 	@echo "... src/cpp/services/sqlite/sqlite_generator_service.o"
 	@echo "... src/cpp/services/sqlite/sqlite_generator_service.i"
 	@echo "... src/cpp/services/sqlite/sqlite_generator_service.s"
+	@echo "... src/cpp/utilities/common_sql_utilities.o"
+	@echo "... src/cpp/utilities/common_sql_utilities.i"
+	@echo "... src/cpp/utilities/common_sql_utilities.s"
+	@echo "... src/test/sqlite/sqlite_generator_service_tests.o"
+	@echo "... src/test/sqlite/sqlite_generator_service_tests.i"
+	@echo "... src/test/sqlite/sqlite_generator_service_tests.s"
+	@echo "... src/test/test_main.o"
+	@echo "... src/test/test_main.i"
+	@echo "... src/test/test_main.s"
 .PHONY : help
 
 

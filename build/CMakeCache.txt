@@ -182,6 +182,9 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 yaorm_cpp_BINARY_DIR:STATIC=/Users/mroylance/yaorm_cpp/build
 
+//Dependencies for target
+yaorm_cpp_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 yaorm_cpp_SOURCE_DIR:STATIC=/Users/mroylance/yaorm_cpp
 

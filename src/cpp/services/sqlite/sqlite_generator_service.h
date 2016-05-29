@@ -5,9 +5,7 @@
 #ifndef YAORM_CPP_SQLITE_GENERATOR_SERVICE_H
 #define YAORM_CPP_SQLITE_GENERATOR_SERVICE_H
 
-
 #include "../i_sql_generator_service.h"
-#include "../../models/yaorm_models.pb.h"
 #include "../../models/sqlite_models.pb.h"
 #include "../../utilities/common_sql_utilities.h"
 
@@ -43,6 +41,7 @@ public:
 
 private:
     std::map<int,std::string> compiled_maps;
+    CommonSQLUtilities common_sql_utilities;
     const std::string primary_key = "primary key";
 };
 

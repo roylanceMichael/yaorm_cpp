@@ -3,8 +3,6 @@
 //
 
 #include "sqlite_generator_service.h"
-#include <iostream>
-#include <string>
 
 SQLiteGeneratorService::SQLiteGeneratorService() {
     for(int i = 0; i < org::yaorm::sqlite::SQLiteType_descriptor()->value_count(); i++) {
@@ -12,7 +10,6 @@ SQLiteGeneratorService::SQLiteGeneratorService() {
         for(int j = 0; j < org::yaorm::sqlite::SQLiteTypeMapping_descriptor()->value_count(); j++) {
             auto protobuf_type = org::yaorm::sqlite::SQLiteTypeMapping_descriptor()->value(j);
             if (sqlite_type->number() == protobuf_type->number() && sqlite_type->number() != 0) {
-                std::cout << protobuf_type->name() << " " << sqlite_type->name() << std::endl;
                 compiled_maps[protobuf_type->number()] = sqlite_type->name();
             }
         }
@@ -53,7 +50,7 @@ std::string SQLiteGeneratorService::build_drop_column(org::yaorm::Definition def
     workspace += "drop table if exists temp_" + definition.name() + SEMICOLON + CARRIAGE_RETURN;
     workspace += "alter table " + definition.name() + " rename to temp_" + definition.name() + SEMICOLON + CARRIAGE_RETURN;
 
-    std::string column_names_without_id = build_comma_separated_column_names(definition);
+    std::string column_names_without_id = common_sql_utilities.build_comma_separated_column_names(definition);
     workspace += "insert into "
                  + definition.name()
                  + " (" + column_names_without_id
@@ -65,7 +62,7 @@ std::string SQLiteGeneratorService::build_drop_column(org::yaorm::Definition def
 
 std::string SQLiteGeneratorService::build_drop_index(org::yaorm::Definition definition,
                                                      std::vector<org::yaorm::PropertyDefinition> columns) {
-    auto index_name = build_index_name(columns);
+    auto index_name = common_sql_utilities.build_index_name(columns);
     return "drop index if exists " + index_name + " on " + definition.name() + SEMICOLON;
 }
 
@@ -74,8 +71,8 @@ std::string SQLiteGeneratorService::build_create_index(org::yaorm::Definition de
     for(auto column:definition.property_definitions()) {
         columns.push_back(column);
     }
-    auto index_name = build_index_name(columns);
-    auto sorted_column_names = build_comma_separated_column_names(definition);
+    auto index_name = common_sql_utilities.build_index_name(columns);
+    auto sorted_column_names = common_sql_utilities.build_comma_separated_column_names(definition);
     return "create index if not exists "
            + index_name
            + " on "
@@ -94,15 +91,7 @@ std::string SQLiteGeneratorService::build_drop_table(org::yaorm::Definition defi
 }
 
 std::string SQLiteGeneratorService::build_create_table(org::yaorm::Definition definition) {
-    if (definition.property_definitions_size() == 0) {
-        return "";
-    }
-
-    if (definition.name().length() == 0) {
-        return "";
-    }
-
-    auto workspace = build_column_name_type(definition, compiled_maps, primary_key);
+    auto workspace = common_sql_utilities.build_column_name_type(definition, compiled_maps, primary_key);
     return "create table if not exists " + definition.name() + " " + workspace + ";";
 }
 
@@ -121,28 +110,34 @@ std::string SQLiteGeneratorService::build_delete_table(org::yaorm::Definition de
 
 std::string SQLiteGeneratorService::build_delete_with_criteria(org::yaorm::Definition definition,
                                                                org::yaorm::WhereClauseItem where_clause) {
-    auto where_clause_string = build_where_clause_helper(where_clause);
+    auto where_clause_string = common_sql_utilities.build_where_clause_helper(where_clause);
     return "delete from " + definition.name() + " where " + where_clause_string + SEMICOLON;
 }
 
 std::string SQLiteGeneratorService::build_bulk_insert(org::yaorm::Definition definition, org::yaorm::Records records) {
-    auto column_names = build_comma_separated_column_names(definition);
+    auto column_names = common_sql_utilities.build_comma_separated_column_names(definition);
     std::string initial_statement = "insert into " + definition.name() + " (" + column_names + ") ";
     std::string union_statements = "";
+    std::vector<org::yaorm::PropertyHolder> sorted_vector;
 
     for(auto record:records.records()) {
-//        std::sort(record.columns().begin(), record.columns().end(), sort_record_by_name);
+        sorted_vector.clear();
+        for(auto column:record.columns()) {
+            sorted_vector.push_back(column);
+        }
+
+        std::sort(sorted_vector.begin(), sorted_vector.end(), sort_record_by_name);
         std::string select_statement = "";
-        for (auto column:record.columns()) {
+        for (auto column:sorted_vector) {
             if (select_statement.length() == 0) {
                 select_statement += "select "
-                                    + get_formatted_string(column)
+                                    + common_sql_utilities.get_formatted_string(column)
                                     + " as "
                                     + column.property_definition().name();
             }
             else {
                 select_statement += COMMA
-                        + get_formatted_string(column)
+                        + common_sql_utilities.get_formatted_string(column)
                         + " as "
                         + column.property_definition().name();
             }
@@ -172,10 +167,10 @@ std::string SQLiteGeneratorService::build_insert(org::yaorm::Definition definiti
         }
 
         if (values.length() > 0) {
-            values += COMMA + get_formatted_string(column);
+            values += COMMA + common_sql_utilities.get_formatted_string(column);
         }
         else {
-            values += get_formatted_string(column);
+            values += common_sql_utilities.get_formatted_string(column);
         }
     }
 
@@ -189,14 +184,14 @@ std::string SQLiteGeneratorService::build_update(org::yaorm::Definition definiti
     org::yaorm::WhereClauseItem where_clause_item;
     where_clause_item.set_allocated_name_and_property(&key);
     where_clause_item.set_operator_type(org::yaorm::WhereClauseItem::OperatorType::WhereClauseItem_OperatorType_EQUALS);
-    auto where_clause = build_where_clause_helper(where_clause_item);
+    auto where_clause = common_sql_utilities.build_where_clause_helper(where_clause_item);
     std::string update_name_values = "";
     for(auto column:record.columns()) {
         if (update_name_values.length() > 0) {
-            update_name_values += COMMA + column.property_definition().name() + EQUALS + get_formatted_string(column);
+            update_name_values += COMMA + column.property_definition().name() + EQUALS + common_sql_utilities.get_formatted_string(column);
         }
         else {
-            update_name_values += column.property_definition().name() + EQUALS + get_formatted_string(column);
+            update_name_values += column.property_definition().name() + EQUALS + common_sql_utilities.get_formatted_string(column);
         }
     }
 
@@ -206,14 +201,14 @@ std::string SQLiteGeneratorService::build_update(org::yaorm::Definition definiti
 std::string SQLiteGeneratorService::build_update_with_criteria(org::yaorm::Definition definition,
                                                                org::yaorm::Record record,
                                                                org::yaorm::WhereClauseItem where_clause) {
-    auto where_clause_str = build_where_clause_helper(where_clause);
+    auto where_clause_str = common_sql_utilities.build_where_clause_helper(where_clause);
     std::string update_name_values = "";
     for(auto column:record.columns()) {
         if (update_name_values.length() > 0) {
-            update_name_values += COMMA + column.property_definition().name() + EQUALS + get_formatted_string(column);
+            update_name_values += COMMA + column.property_definition().name() + EQUALS + common_sql_utilities.get_formatted_string(column);
         }
         else {
-            update_name_values += column.property_definition().name() + EQUALS + get_formatted_string(column);
+            update_name_values += column.property_definition().name() + EQUALS + common_sql_utilities.get_formatted_string(column);
         }
     }
 
@@ -226,7 +221,7 @@ std::string SQLiteGeneratorService::build_select_all(org::yaorm::Definition defi
 
 std::string SQLiteGeneratorService::build_where_clause(org::yaorm::Definition definition,
                                                        org::yaorm::WhereClauseItem where_clause) {
-    auto where_clause_str = build_where_clause_helper(where_clause);
+    auto where_clause_str = common_sql_utilities.build_where_clause_helper(where_clause);
     return "select * from " + definition.name() + where_clause_str + SEMICOLON;
 }
 
