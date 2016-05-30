@@ -28,16 +28,16 @@ const std::string NOT_EQUALS = "!=";
 
 class CommonSQLUtilities {
 public:
-    std::string build_column_name_type(const org::yaorm::Definition &definition, std::map<int, std::string> &compiled_maps,
-                                       const std::string &primary_key);
+    std::string build_column_name_type(const org::yaorm::Definition& definition, std::map<int, std::string>& compiled_maps,
+                                       const std::string& primary_key);
 
     std::string build_comma_separated_column_names(const org::yaorm::Definition &definition);
 
-    std::string build_index_name(std::vector<org::yaorm::PropertyDefinition> columns);
+    std::string build_index_name(std::vector<org::yaorm::PropertyDefinition>& columns);
 
-    std::string get_formatted_string(org::yaorm::PropertyHolder holder);
+    std::string get_formatted_string(org::yaorm::PropertyHolder& holder);
 
-    std::string build_where_clause_helper(org::yaorm::WhereClauseItem &where_clause);
+    std::string build_where_clause_helper(org::yaorm::WhereClauseItem& where_clause);
 };
 
 static bool sort_by_name(const org::yaorm::PropertyDefinition &first, const org::yaorm::PropertyDefinition &second) {

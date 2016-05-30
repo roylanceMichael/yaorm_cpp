@@ -32,9 +32,9 @@ message WhereClauseItem {
     }
     OperatorType operator_type = 2;
     enum ConnectingAndOr {
-        AND = 0;
-        OR = 1;
-        NONE = 2;
+        NONE = 0;
+        AND = 1;
+        OR = 2;
     }
     ConnectingAndOr connecting_and_or = 3;
     WhereClauseItem connecting_where_clause = 4;

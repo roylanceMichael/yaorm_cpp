@@ -73,15 +73,15 @@ inline bool WhereClauseItem_OperatorType_Parse(
     WhereClauseItem_OperatorType_descriptor(), name, value);
 }
 enum WhereClauseItem_ConnectingAndOr {
-  WhereClauseItem_ConnectingAndOr_AND = 0,
-  WhereClauseItem_ConnectingAndOr_OR = 1,
-  WhereClauseItem_ConnectingAndOr_NONE = 2,
+  WhereClauseItem_ConnectingAndOr_NONE = 0,
+  WhereClauseItem_ConnectingAndOr_AND = 1,
+  WhereClauseItem_ConnectingAndOr_OR = 2,
   WhereClauseItem_ConnectingAndOr_WhereClauseItem_ConnectingAndOr_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   WhereClauseItem_ConnectingAndOr_WhereClauseItem_ConnectingAndOr_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
 bool WhereClauseItem_ConnectingAndOr_IsValid(int value);
-const WhereClauseItem_ConnectingAndOr WhereClauseItem_ConnectingAndOr_ConnectingAndOr_MIN = WhereClauseItem_ConnectingAndOr_AND;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem_ConnectingAndOr_ConnectingAndOr_MAX = WhereClauseItem_ConnectingAndOr_NONE;
+const WhereClauseItem_ConnectingAndOr WhereClauseItem_ConnectingAndOr_ConnectingAndOr_MIN = WhereClauseItem_ConnectingAndOr_NONE;
+const WhereClauseItem_ConnectingAndOr WhereClauseItem_ConnectingAndOr_ConnectingAndOr_MAX = WhereClauseItem_ConnectingAndOr_OR;
 const int WhereClauseItem_ConnectingAndOr_ConnectingAndOr_ARRAYSIZE = WhereClauseItem_ConnectingAndOr_ConnectingAndOr_MAX + 1;
 
 const ::google::protobuf::EnumDescriptor* WhereClauseItem_ConnectingAndOr_descriptor();
@@ -256,9 +256,9 @@ class WhereClauseItem : public ::google::protobuf::Message {
   }
 
   typedef WhereClauseItem_ConnectingAndOr ConnectingAndOr;
+  static const ConnectingAndOr NONE = WhereClauseItem_ConnectingAndOr_NONE;
   static const ConnectingAndOr AND = WhereClauseItem_ConnectingAndOr_AND;
   static const ConnectingAndOr OR = WhereClauseItem_ConnectingAndOr_OR;
-  static const ConnectingAndOr NONE = WhereClauseItem_ConnectingAndOr_NONE;
   static inline bool ConnectingAndOr_IsValid(int value) {
     return WhereClauseItem_ConnectingAndOr_IsValid(value);
   }

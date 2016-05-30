@@ -327,8 +327,8 @@ void protobuf_AddDesc_yaorm_5fmodels_2eproto() {
     "\022;\n\027connecting_where_clause\030\004 \001(\0132\032.org."
     "yaorm.WhereClauseItem\"K\n\014OperatorType\022\n\n"
     "\006EQUALS\020\000\022\020\n\014GREATER_THAN\020\001\022\r\n\tLESS_THAN"
-    "\020\002\022\016\n\nNOT_EQUALS\020\003\",\n\017ConnectingAndOr\022\007\n"
-    "\003AND\020\000\022\006\n\002OR\020\001\022\010\n\004NONE\020\002\"u\n\022PropertyDefi"
+    "\020\002\022\016\n\nNOT_EQUALS\020\003\",\n\017ConnectingAndOr\022\010\n"
+    "\004NONE\020\000\022\007\n\003AND\020\001\022\006\n\002OR\020\002\"u\n\022PropertyDefi"
     "nition\022\014\n\004name\030\001 \001(\t\022%\n\004type\030\002 \001(\0162\027.org"
     ".yaorm.ProtobufType\022\032\n\022foreign_collectio"
     "n\030\003 \001(\010\022\016\n\006is_key\030\004 \001(\010\"r\n\005Index\0223\n\014colu"
@@ -483,9 +483,9 @@ bool WhereClauseItem_ConnectingAndOr_IsValid(int value) {
 }
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
+const WhereClauseItem_ConnectingAndOr WhereClauseItem::NONE;
 const WhereClauseItem_ConnectingAndOr WhereClauseItem::AND;
 const WhereClauseItem_ConnectingAndOr WhereClauseItem::OR;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::NONE;
 const WhereClauseItem_ConnectingAndOr WhereClauseItem::ConnectingAndOr_MIN;
 const WhereClauseItem_ConnectingAndOr WhereClauseItem::ConnectingAndOr_MAX;
 const int WhereClauseItem::ConnectingAndOr_ARRAYSIZE;

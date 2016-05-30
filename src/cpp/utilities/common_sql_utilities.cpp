@@ -3,6 +3,7 @@
 //
 
 #include "common_sql_utilities.h"
+#include <iostream>
 
 std::string CommonSQLUtilities::build_column_name_type(const org::yaorm::Definition &definition,
                                    std::map<int, std::string> &compiled_maps,
@@ -68,7 +69,7 @@ std::string CommonSQLUtilities::build_comma_separated_column_names(const org::ya
     return workspace;
 }
 
-std::string CommonSQLUtilities::build_index_name(std::vector<org::yaorm::PropertyDefinition> columns) {
+std::string CommonSQLUtilities::build_index_name(std::vector<org::yaorm::PropertyDefinition>& columns) {
     std::vector<org::yaorm::PropertyDefinition> sort_vector;
     for(auto column:columns) {
         sort_vector.push_back(column);
@@ -85,7 +86,7 @@ std::string CommonSQLUtilities::build_index_name(std::vector<org::yaorm::Propert
     return workspace += "idx";
 }
 
-std::string CommonSQLUtilities::get_formatted_string(org::yaorm::PropertyHolder holder) {
+std::string CommonSQLUtilities::get_formatted_string(org::yaorm::PropertyHolder& holder) {
     switch(holder.property_definition().type()) {
         case org::yaorm::ProtobufType::NONE:
             return NULL_NAME;
@@ -133,33 +134,40 @@ std::string CommonSQLUtilities::build_where_clause_helper(org::yaorm::WhereClaus
 
     while(!terminated) {
         auto left_side = current_where_clause.name_and_property().property_definition().name();
-        auto right_side = get_formatted_string(current_where_clause.name_and_property());
+        auto right_side_raw = current_where_clause.name_and_property();
+        auto right_side = get_formatted_string(right_side_raw);
         std::string operator_type = "";
         switch (where_clause.operator_type()) {
             case org::yaorm::WhereClauseItem_OperatorType_EQUALS:
                 operator_type = EQUALS;
+                break;
             case org::yaorm::WhereClauseItem_OperatorType_GREATER_THAN:
                 operator_type = GREATER_THAN;
+                break;
             case org::yaorm::WhereClauseItem_OperatorType_LESS_THAN:
                 operator_type = LESS_THAN;
+                break;
             case org::yaorm::WhereClauseItem_OperatorType_NOT_EQUALS:
                 operator_type = NOT_EQUALS;
+                break;
             case org::yaorm::WhereClauseItem_OperatorType_WhereClauseItem_OperatorType_INT_MIN_SENTINEL_DO_NOT_USE_:
             case org::yaorm::WhereClauseItem_OperatorType_WhereClauseItem_OperatorType_INT_MAX_SENTINEL_DO_NOT_USE_:
                 operator_type = EQUALS;
+                break;
         }
 
         filter_items += SPACE + left_side + operator_type + right_side + SPACE;
         switch (current_where_clause.connecting_and_or()) {
             case org::yaorm::WhereClauseItem_ConnectingAndOr_AND:
                 filter_items += AND + SPACE;
+                break;
             case org::yaorm::WhereClauseItem_ConnectingAndOr_OR:
                 filter_items += OR + SPACE;
+                break;
             case org::yaorm::WhereClauseItem_ConnectingAndOr_NONE:
             case org::yaorm::WhereClauseItem_ConnectingAndOr_WhereClauseItem_ConnectingAndOr_INT_MIN_SENTINEL_DO_NOT_USE_:break;
             case org::yaorm::WhereClauseItem_ConnectingAndOr_WhereClauseItem_ConnectingAndOr_INT_MAX_SENTINEL_DO_NOT_USE_:break;
         }
-
         if (!current_where_clause.has_connecting_where_clause()) {
             terminated = true;
         }
