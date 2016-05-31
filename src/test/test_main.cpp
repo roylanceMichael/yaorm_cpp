@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "sqlite/sqlite_generator_service_tests.h"
+#include "sqlite/sqlite_granular_database_service_tests.h"
 
 using namespace std;
 
@@ -25,4 +26,7 @@ int main() {
     tests.simple_update_with_criteria();
     tests.simple_select_all();
     tests.simple_where_clause();
+
+    SQLiteGranularDatabaseServiceTests granular_tests;
+    granular_tests.simple_select_query_test();
 }
