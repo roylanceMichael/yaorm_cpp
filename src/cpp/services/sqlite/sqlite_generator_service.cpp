@@ -217,6 +217,7 @@ std::string SQLiteGeneratorService::build_update(org::yaorm::Definition& definit
 std::string SQLiteGeneratorService::build_update_with_criteria(org::yaorm::Definition& definition,
                                                                org::yaorm::Record& record,
                                                                org::yaorm::WhereClauseItem& where_clause) {
+
     auto where_clause_str = common_sql_utilities.build_where_clause_helper(where_clause);
     std::string update_name_values = "";
     for(auto column:record.columns()) {

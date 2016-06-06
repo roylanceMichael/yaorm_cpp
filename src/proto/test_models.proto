@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package org.yaorm.tests;
+
+message TestModel {
+    string id = 1;
+    string display = 2;
+    ChildModel child_model = 3;
+    repeated string displays = 4;
+    repeated SubChildModel sub_children = 5;
+}
+
+message ChildModel {
+    string id = 1;
+    string child_display = 2;
+}
+
+message SubChildModel {
+    string id = 1;
+    string sub_display = 2;
+}

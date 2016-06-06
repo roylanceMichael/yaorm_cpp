@@ -7,6 +7,8 @@
 
 #include "../models/yaorm_models.pb.h"
 
+const std::string ID_NAME = "id";
+const std::string PARENT_ID_NAME = "parent_id";
 const std::string SPACE = " ";
 const std::string COMMA = ",";
 const std::string NULL_NAME = "null";
@@ -28,15 +30,17 @@ const std::string NOT_EQUALS = "!=";
 
 class CommonSQLUtilities {
 public:
+    bool check_if_ok(const google::protobuf::Descriptor &descriptor);
+    bool check_if_child_ok(const google::protobuf::Descriptor &descriptor);
+    std::string build_column_name_type_field(const google::protobuf::FieldDescriptor &field);
+    std::string build_column_name_type(const google::protobuf::Descriptor &descriptor,
+                                       std::map<int, std::string> &compiled_maps,
+                                       const std::string primary_key);
     std::string build_column_name_type(const org::yaorm::Definition& definition, std::map<int, std::string>& compiled_maps,
                                        const std::string& primary_key);
-
     std::string build_comma_separated_column_names(const org::yaorm::Definition &definition);
-
     std::string build_index_name(std::vector<org::yaorm::PropertyDefinition>& columns);
-
     std::string get_formatted_string(org::yaorm::PropertyHolder& holder);
-
     std::string build_where_clause_helper(org::yaorm::WhereClauseItem& where_clause);
 };
 

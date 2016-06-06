@@ -3,11 +3,13 @@
 //
 
 #include "sqlite_granular_database_service_tests.h"
+#include <boost/uuid/uuid.hpp>
 #include <iostream>
 
 void SQLiteGranularDatabaseServiceTests::simple_select_query_test() {
     // arrange
-    std::string file_name = "test_file.db";
+    std::string file_name = "simple_select_query_test.db";
+
     TestUtilities test_utilities;
     SQLiteGranularService granular_service(file_name);
     auto definition = test_utilities.build_simple_test_definition();
@@ -36,5 +38,6 @@ void SQLiteGranularDatabaseServiceTests::simple_select_query_test() {
     assert(first_column.string_holder() == "mike");
     auto second_column = found_record.columns(1);
     assert(second_column.string_holder() == "11111");
+    remove(file_name.c_str());
 }
 

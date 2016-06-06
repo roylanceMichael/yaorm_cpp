@@ -175,6 +175,80 @@ std::string CommonSQLUtilities::build_where_clause_helper(org::yaorm::WhereClaus
             current_where_clause = current_where_clause.connecting_where_clause();
         }
     }
-
     return filter_items;
 }
+
+std::string CommonSQLUtilities::build_column_name_type(const google::protobuf::Descriptor &descriptor,
+                                                       std::map<int, std::string> &compiled_maps,
+                                                       const std::string primary_key) {
+    std::string workspace = "";
+
+    bool added_column = false;
+    for(int i = 0; i < descriptor->field_count(); i++) {
+        auto field = descriptor->field(i);
+        if (field->lowercase_name() == ID_NAME) {
+            added_column = true;
+            int found_type = field->type();
+            workspace += field->lowercase_name();
+            workspace += SPACE;
+            workspace += compiled_maps[found_type];
+            workspace += SPACE;
+            workspace += primary_key;
+        }
+    }
+    for(int i = 0; i < metadata.descriptor->field_count(); i++) {
+        auto field = metadata.descriptor->field(i);
+
+        if (field->lowercase_name() != ID_NAME) {
+            if (added_column) {
+                workspace += COMMA;
+            }
+            int found_type = field->type();
+            workspace += SPACE;
+            workspace += field->lowercase_name();
+            workspace += SPACE;
+            workspace += compiled_maps[found_type];
+            added_column = true;
+        }
+    }
+    return workspace;
+}
+
+bool CommonSQLUtilities::check_if_child_ok(const google::protobuf::Descriptor &descriptor) {
+    bool found_id = false;
+    bool found_parent_id = false;
+    for(int i = 0; i < descriptor->field_count(); i++) {
+        auto field = metadata.descriptor->field(i);
+        if (field->lowercase_name() == ID_NAME) {
+            found_id = true;
+        }
+        else if (field->lowercase_name() == PARENT_ID_NAME) {
+            found_parent_id = true;
+        }
+    }
+    return found_id && found_parent_id;
+}
+
+bool CommonSQLUtilities::check_if_ok(const google::protobuf::Descriptor &descriptor) {
+    for(int i = 0; i < descriptor.field_count(); i++) {
+        auto field = metadata.descriptor->field(i);
+        if (field->lowercase_name() == ID_NAME) {
+            return true;
+        }
+    }
+    return false;
+}
+
+std::string CommonSQLUtilities::build_column_name_type_field(const google::protobuf::FieldDescriptor &field) {
+    if (field.type() == google::protobuf::FieldDescriptor::TYPE_MESSAGE) {
+    }
+
+    return "";
+}
+
+
+
+
+
+
+
