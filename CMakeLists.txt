@@ -17,10 +17,7 @@ set(SOURCE_FILES
         src/cpp/services/i_granular_database_service.h
         src/cpp/services/i_map_streamer.h
         src/cpp/services/sqlite/sqlite_granular_database_service.cpp
-        src/cpp/services/sqlite/sqlite_granular_database_service.h
-        src/cpp/services/i_sql_proto_generator_service.h
-        src/cpp/services/sqlite/sqlite_proto_generator_service.cpp
-        src/cpp/services/sqlite/sqlite_proto_generator_service.h)
+        src/cpp/services/sqlite/sqlite_granular_database_service.h)
 add_library(yaorm_sqlite_cpp STATIC ${SOURCE_FILES})
 
 enable_testing()
@@ -35,8 +32,6 @@ set(TEST_SOURCE_FILES ${SOURCE_FILES}
         src/test/sqlite/sqlite_test_map_streamer.cpp
         src/test/sqlite/sqlite_test_map_streamer.h
         src/test/models/test_models.pb.h
-        src/test/models/test_models.pb.cc
-        src/test/sqlite/sqlite_proto_generator_service_tests.cpp
-        src/test/sqlite/sqlite_proto_generator_service_tests.h)
+        src/test/models/test_models.pb.cc)
 add_executable(yaorm_cpp_test ${TEST_SOURCE_FILES})
 

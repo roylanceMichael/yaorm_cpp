@@ -184,8 +184,8 @@ std::string CommonSQLUtilities::build_column_name_type(const google::protobuf::D
     std::string workspace = "";
 
     bool added_column = false;
-    for(int i = 0; i < descriptor->field_count(); i++) {
-        auto field = descriptor->field(i);
+    for(int i = 0; i < descriptor.field_count(); i++) {
+        auto field = descriptor.field(i);
         if (field->lowercase_name() == ID_NAME) {
             added_column = true;
             int found_type = field->type();
@@ -196,8 +196,8 @@ std::string CommonSQLUtilities::build_column_name_type(const google::protobuf::D
             workspace += primary_key;
         }
     }
-    for(int i = 0; i < metadata.descriptor->field_count(); i++) {
-        auto field = metadata.descriptor->field(i);
+    for(int i = 0; i < descriptor.field_count(); i++) {
+        auto field = descriptor.field(i);
 
         if (field->lowercase_name() != ID_NAME) {
             if (added_column) {
@@ -217,8 +217,8 @@ std::string CommonSQLUtilities::build_column_name_type(const google::protobuf::D
 bool CommonSQLUtilities::check_if_child_ok(const google::protobuf::Descriptor &descriptor) {
     bool found_id = false;
     bool found_parent_id = false;
-    for(int i = 0; i < descriptor->field_count(); i++) {
-        auto field = metadata.descriptor->field(i);
+    for(int i = 0; i < descriptor.field_count(); i++) {
+        auto field = descriptor.field(i);
         if (field->lowercase_name() == ID_NAME) {
             found_id = true;
         }
@@ -231,7 +231,7 @@ bool CommonSQLUtilities::check_if_child_ok(const google::protobuf::Descriptor &d
 
 bool CommonSQLUtilities::check_if_ok(const google::protobuf::Descriptor &descriptor) {
     for(int i = 0; i < descriptor.field_count(); i++) {
-        auto field = metadata.descriptor->field(i);
+        auto field = descriptor.field(i);
         if (field->lowercase_name() == ID_NAME) {
             return true;
         }
