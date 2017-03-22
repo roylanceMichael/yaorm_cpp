@@ -61,6 +61,7 @@ const ::google::protobuf::EnumDescriptor* ProtobufType_descriptor_ = NULL;
 }  // namespace
 
 
+void protobuf_AssignDesc_yaorm_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
 void protobuf_AssignDesc_yaorm_5fmodels_2eproto() {
   protobuf_AddDesc_yaorm_5fmodels_2eproto();
   const ::google::protobuf::FileDescriptor* file =
@@ -262,6 +263,7 @@ inline void protobuf_AssignDescriptorsOnce() {
                  &protobuf_AssignDesc_yaorm_5fmodels_2eproto);
 }
 
+void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
@@ -311,6 +313,7 @@ void protobuf_ShutdownFile_yaorm_5fmodels_2eproto() {
   delete Records_reflection_;
 }
 
+void protobuf_AddDesc_yaorm_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
 void protobuf_AddDesc_yaorm_5fmodels_2eproto() {
   static bool already_here = false;
   if (already_here) return;
@@ -428,16 +431,6 @@ bool ProtobufType_IsValid(int value) {
       return false;
   }
 }
-
-
-namespace {
-
-static void MergeFromFail(int line) GOOGLE_ATTRIBUTE_COLD;
-static void MergeFromFail(int line) {
-  GOOGLE_CHECK(false) << __FILE__ << ":" << line;
-}
-
-}  // namespace
 
 
 // ===================================================================
@@ -564,8 +557,17 @@ WhereClauseItem* WhereClauseItem::New(::google::protobuf::Arena* arena) const {
 }
 
 void WhereClauseItem::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.WhereClauseItem)
+#if defined(__clang__)
+#define ZR_HELPER_(f) \
+  _Pragma("clang diagnostic push") \
+  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
+  __builtin_offsetof(WhereClauseItem, f) \
+  _Pragma("clang diagnostic pop")
+#else
 #define ZR_HELPER_(f) reinterpret_cast<char*>(\
   &reinterpret_cast<WhereClauseItem*>(16)->f)
+#endif
 
 #define ZR_(first, last) do {\
   ::memset(&first, 0,\
@@ -585,7 +587,7 @@ void WhereClauseItem::Clear() {
 
 bool WhereClauseItem::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.WhereClauseItem)
   for (;;) {
@@ -701,14 +703,14 @@ void WhereClauseItem::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.WhereClauseItem)
 }
 
-::google::protobuf::uint8* WhereClauseItem::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* WhereClauseItem::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.WhereClauseItem)
   // optional .org.yaorm.PropertyHolder name_and_property = 1;
   if (this->has_name_and_property()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        1, *this->name_and_property_, target);
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->name_and_property_, false, target);
   }
 
   // optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
@@ -726,8 +728,8 @@ void WhereClauseItem::SerializeWithCachedSizes(
   // optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
   if (this->has_connecting_where_clause()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        4, *this->connecting_where_clause_, target);
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->connecting_where_clause_, false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.WhereClauseItem)
@@ -735,6 +737,7 @@ void WhereClauseItem::SerializeWithCachedSizes(
 }
 
 int WhereClauseItem::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.WhereClauseItem)
   int total_size = 0;
 
   // optional .org.yaorm.PropertyHolder name_and_property = 1;
@@ -770,19 +773,27 @@ int WhereClauseItem::ByteSize() const {
 }
 
 void WhereClauseItem::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.WhereClauseItem)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const WhereClauseItem* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const WhereClauseItem>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.WhereClauseItem)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.WhereClauseItem)
     MergeFrom(*source);
   }
 }
 
 void WhereClauseItem::MergeFrom(const WhereClauseItem& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.WhereClauseItem)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   if (from.has_name_and_property()) {
     mutable_name_and_property()->::org::yaorm::PropertyHolder::MergeFrom(from.name_and_property());
   }
@@ -798,12 +809,14 @@ void WhereClauseItem::MergeFrom(const WhereClauseItem& from) {
 }
 
 void WhereClauseItem::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.WhereClauseItem)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void WhereClauseItem::CopyFrom(const WhereClauseItem& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.WhereClauseItem)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -859,6 +872,7 @@ const ::org::yaorm::PropertyHolder& WhereClauseItem::name_and_property() const {
   return name_and_property_;
 }
 ::org::yaorm::PropertyHolder* WhereClauseItem::release_name_and_property() {
+  // @@protoc_insertion_point(field_release:org.yaorm.WhereClauseItem.name_and_property)
   
   ::org::yaorm::PropertyHolder* temp = name_and_property_;
   name_and_property_ = NULL;
@@ -924,6 +938,7 @@ const ::org::yaorm::WhereClauseItem& WhereClauseItem::connecting_where_clause() 
   return connecting_where_clause_;
 }
 ::org::yaorm::WhereClauseItem* WhereClauseItem::release_connecting_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.WhereClauseItem.connecting_where_clause)
   
   ::org::yaorm::WhereClauseItem* temp = connecting_where_clause_;
   connecting_where_clause_ = NULL;
@@ -1016,8 +1031,17 @@ PropertyDefinition* PropertyDefinition::New(::google::protobuf::Arena* arena) co
 }
 
 void PropertyDefinition::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.PropertyDefinition)
+#if defined(__clang__)
+#define ZR_HELPER_(f) \
+  _Pragma("clang diagnostic push") \
+  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
+  __builtin_offsetof(PropertyDefinition, f) \
+  _Pragma("clang diagnostic pop")
+#else
 #define ZR_HELPER_(f) reinterpret_cast<char*>(\
   &reinterpret_cast<PropertyDefinition*>(16)->f)
+#endif
 
 #define ZR_(first, last) do {\
   ::memset(&first, 0,\
@@ -1034,7 +1058,7 @@ void PropertyDefinition::Clear() {
 
 bool PropertyDefinition::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.PropertyDefinition)
   for (;;) {
@@ -1157,8 +1181,8 @@ void PropertyDefinition::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.PropertyDefinition)
 }
 
-::google::protobuf::uint8* PropertyDefinition::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* PropertyDefinition::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.PropertyDefinition)
   // optional string name = 1;
   if (this->name().size() > 0) {
@@ -1192,6 +1216,7 @@ void PropertyDefinition::SerializeWithCachedSizes(
 }
 
 int PropertyDefinition::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.PropertyDefinition)
   int total_size = 0;
 
   // optional string name = 1;
@@ -1224,19 +1249,27 @@ int PropertyDefinition::ByteSize() const {
 }
 
 void PropertyDefinition::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.PropertyDefinition)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const PropertyDefinition* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const PropertyDefinition>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.PropertyDefinition)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.PropertyDefinition)
     MergeFrom(*source);
   }
 }
 
 void PropertyDefinition::MergeFrom(const PropertyDefinition& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.PropertyDefinition)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   if (from.name().size() > 0) {
 
     name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
@@ -1253,12 +1286,14 @@ void PropertyDefinition::MergeFrom(const PropertyDefinition& from) {
 }
 
 void PropertyDefinition::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.PropertyDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void PropertyDefinition::CopyFrom(const PropertyDefinition& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.PropertyDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1323,6 +1358,7 @@ void PropertyDefinition::clear_name() {
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* PropertyDefinition::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.PropertyDefinition.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -1446,13 +1482,14 @@ Index* Index::New(::google::protobuf::Arena* arena) const {
 }
 
 void Index::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Index)
   column_names_.Clear();
   include_names_.Clear();
 }
 
 bool Index::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Index)
   for (;;) {
@@ -1531,21 +1568,21 @@ void Index::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Index)
 }
 
-::google::protobuf::uint8* Index::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Index::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Index)
   // repeated .org.yaorm.PropertyDefinition column_names = 1;
   for (unsigned int i = 0, n = this->column_names_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        1, this->column_names(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        1, this->column_names(i), false, target);
   }
 
   // repeated .org.yaorm.PropertyDefinition include_names = 2;
   for (unsigned int i = 0, n = this->include_names_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        2, this->include_names(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        2, this->include_names(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Index)
@@ -1553,6 +1590,7 @@ void Index::SerializeWithCachedSizes(
 }
 
 int Index::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Index)
   int total_size = 0;
 
   // repeated .org.yaorm.PropertyDefinition column_names = 1;
@@ -1578,30 +1616,40 @@ int Index::ByteSize() const {
 }
 
 void Index::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Index)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Index* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Index>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Index)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Index)
     MergeFrom(*source);
   }
 }
 
 void Index::MergeFrom(const Index& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Index)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   column_names_.MergeFrom(from.column_names_);
   include_names_.MergeFrom(from.include_names_);
 }
 
 void Index::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Index)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Index::CopyFrom(const Index& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Index)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -1824,8 +1872,17 @@ Difference* Difference::New(::google::protobuf::Arena* arena) const {
 }
 
 void Difference::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Difference)
+#if defined(__clang__)
+#define ZR_HELPER_(f) \
+  _Pragma("clang diagnostic push") \
+  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
+  __builtin_offsetof(Difference, f) \
+  _Pragma("clang diagnostic pop")
+#else
 #define ZR_HELPER_(f) reinterpret_cast<char*>(\
   &reinterpret_cast<Difference*>(16)->f)
+#endif
 
 #define ZR_(first, last) do {\
   ::memset(&first, 0,\
@@ -1848,7 +1905,7 @@ void Difference::Clear() {
 
 bool Difference::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Difference)
   for (;;) {
@@ -2010,8 +2067,8 @@ void Difference::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Difference)
 }
 
-::google::protobuf::uint8* Difference::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Difference::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Difference)
   // optional .org.yaorm.Difference.EntityType entity_type = 1;
   if (this->entity_type() != 0) {
@@ -2039,22 +2096,22 @@ void Difference::SerializeWithCachedSizes(
   // optional .org.yaorm.Index index = 4;
   if (this->has_index()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        4, *this->index_, target);
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->index_, false, target);
   }
 
   // optional .org.yaorm.PropertyDefinition property_definition = 5;
   if (this->has_property_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        5, *this->property_definition_, target);
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->property_definition_, false, target);
   }
 
   // optional .org.yaorm.Definition definition = 6;
   if (this->has_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        6, *this->definition_, target);
+      InternalWriteMessageNoVirtualToArray(
+        6, *this->definition_, false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Difference)
@@ -2062,6 +2119,7 @@ void Difference::SerializeWithCachedSizes(
 }
 
 int Difference::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Difference)
   int total_size = 0;
 
   // optional .org.yaorm.Difference.EntityType entity_type = 1;
@@ -2111,19 +2169,27 @@ int Difference::ByteSize() const {
 }
 
 void Difference::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Difference)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Difference* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Difference>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Difference)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Difference)
     MergeFrom(*source);
   }
 }
 
 void Difference::MergeFrom(const Difference& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Difference)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   if (from.entity_type() != 0) {
     set_entity_type(from.entity_type());
   }
@@ -2146,12 +2212,14 @@ void Difference::MergeFrom(const Difference& from) {
 }
 
 void Difference::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Difference)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Difference::CopyFrom(const Difference& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Difference)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2246,6 +2314,7 @@ void Difference::clear_name() {
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* Difference::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Difference.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2280,6 +2349,7 @@ const ::org::yaorm::Index& Difference::index() const {
   return index_;
 }
 ::org::yaorm::Index* Difference::release_index() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Difference.index)
   
   ::org::yaorm::Index* temp = index_;
   index_ = NULL;
@@ -2317,6 +2387,7 @@ const ::org::yaorm::PropertyDefinition& Difference::property_definition() const 
   return property_definition_;
 }
 ::org::yaorm::PropertyDefinition* Difference::release_property_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Difference.property_definition)
   
   ::org::yaorm::PropertyDefinition* temp = property_definition_;
   property_definition_ = NULL;
@@ -2354,6 +2425,7 @@ const ::org::yaorm::Definition& Difference::definition() const {
   return definition_;
 }
 ::org::yaorm::Definition* Difference::release_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Difference.definition)
   
   ::org::yaorm::Definition* temp = definition_;
   definition_ = NULL;
@@ -2445,6 +2517,7 @@ Definition* Definition::New(::google::protobuf::Arena* arena) const {
 }
 
 void Definition::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Definition)
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
   index_ = NULL;
@@ -2453,7 +2526,7 @@ void Definition::Clear() {
 
 bool Definition::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Definition)
   for (;;) {
@@ -2556,8 +2629,8 @@ void Definition::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Definition)
 }
 
-::google::protobuf::uint8* Definition::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Definition::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Definition)
   // optional string name = 1;
   if (this->name().size() > 0) {
@@ -2573,15 +2646,15 @@ void Definition::SerializeWithCachedSizes(
   // repeated .org.yaorm.PropertyDefinition property_definitions = 2;
   for (unsigned int i = 0, n = this->property_definitions_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        2, this->property_definitions(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        2, this->property_definitions(i), false, target);
   }
 
   // optional .org.yaorm.Index index = 3;
   if (this->has_index()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        3, *this->index_, target);
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->index_, false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Definition)
@@ -2589,6 +2662,7 @@ void Definition::SerializeWithCachedSizes(
 }
 
 int Definition::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Definition)
   int total_size = 0;
 
   // optional string name = 1;
@@ -2620,19 +2694,27 @@ int Definition::ByteSize() const {
 }
 
 void Definition::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Definition)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Definition* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Definition>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Definition)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Definition)
     MergeFrom(*source);
   }
 }
 
 void Definition::MergeFrom(const Definition& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Definition)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   property_definitions_.MergeFrom(from.property_definitions_);
   if (from.name().size() > 0) {
 
@@ -2644,12 +2726,14 @@ void Definition::MergeFrom(const Definition& from) {
 }
 
 void Definition::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Definition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Definition::CopyFrom(const Definition& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Definition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -2713,6 +2797,7 @@ void Definition::clear_name() {
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* Definition::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Definition.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -2777,6 +2862,7 @@ const ::org::yaorm::Index& Definition::index() const {
   return index_;
 }
 ::org::yaorm::Index* Definition::release_index() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Definition.index)
   
   ::org::yaorm::Index* temp = index_;
   index_ = NULL;
@@ -2860,12 +2946,13 @@ Definitions* Definitions::New(::google::protobuf::Arena* arena) const {
 }
 
 void Definitions::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Definitions)
   definitions_.Clear();
 }
 
 bool Definitions::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Definitions)
   for (;;) {
@@ -2922,14 +3009,14 @@ void Definitions::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Definitions)
 }
 
-::google::protobuf::uint8* Definitions::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Definitions::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Definitions)
   // repeated .org.yaorm.Definition definitions = 3;
   for (unsigned int i = 0, n = this->definitions_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        3, this->definitions(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        3, this->definitions(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Definitions)
@@ -2937,6 +3024,7 @@ void Definitions::SerializeWithCachedSizes(
 }
 
 int Definitions::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Definitions)
   int total_size = 0;
 
   // repeated .org.yaorm.Definition definitions = 3;
@@ -2954,29 +3042,39 @@ int Definitions::ByteSize() const {
 }
 
 void Definitions::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Definitions)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Definitions* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Definitions>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Definitions)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Definitions)
     MergeFrom(*source);
   }
 }
 
 void Definitions::MergeFrom(const Definitions& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Definitions)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   definitions_.MergeFrom(from.definitions_);
 }
 
 void Definitions::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Definitions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Definitions::CopyFrom(const Definitions& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Definitions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3107,13 +3205,14 @@ DifferenceReport* DifferenceReport::New(::google::protobuf::Arena* arena) const 
 }
 
 void DifferenceReport::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DifferenceReport)
   migration_exists_ = false;
   differences_.Clear();
 }
 
 bool DifferenceReport::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.DifferenceReport)
   for (;;) {
@@ -3190,8 +3289,8 @@ void DifferenceReport::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.DifferenceReport)
 }
 
-::google::protobuf::uint8* DifferenceReport::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* DifferenceReport::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DifferenceReport)
   // optional bool migration_exists = 1;
   if (this->migration_exists() != 0) {
@@ -3201,8 +3300,8 @@ void DifferenceReport::SerializeWithCachedSizes(
   // repeated .org.yaorm.Difference differences = 2;
   for (unsigned int i = 0, n = this->differences_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        2, this->differences(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        2, this->differences(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DifferenceReport)
@@ -3210,6 +3309,7 @@ void DifferenceReport::SerializeWithCachedSizes(
 }
 
 int DifferenceReport::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DifferenceReport)
   int total_size = 0;
 
   // optional bool migration_exists = 1;
@@ -3232,19 +3332,27 @@ int DifferenceReport::ByteSize() const {
 }
 
 void DifferenceReport::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DifferenceReport)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const DifferenceReport* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const DifferenceReport>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DifferenceReport)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DifferenceReport)
     MergeFrom(*source);
   }
 }
 
 void DifferenceReport::MergeFrom(const DifferenceReport& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DifferenceReport)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   differences_.MergeFrom(from.differences_);
   if (from.migration_exists() != 0) {
     set_migration_exists(from.migration_exists());
@@ -3252,12 +3360,14 @@ void DifferenceReport::MergeFrom(const DifferenceReport& from) {
 }
 
 void DifferenceReport::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DifferenceReport)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void DifferenceReport::CopyFrom(const DifferenceReport& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DifferenceReport)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -3437,8 +3547,17 @@ PropertyHolder* PropertyHolder::New(::google::protobuf::Arena* arena) const {
 }
 
 void PropertyHolder::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.PropertyHolder)
+#if defined(__clang__)
+#define ZR_HELPER_(f) \
+  _Pragma("clang diagnostic push") \
+  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
+  __builtin_offsetof(PropertyHolder, f) \
+  _Pragma("clang diagnostic pop")
+#else
 #define ZR_HELPER_(f) reinterpret_cast<char*>(\
   &reinterpret_cast<PropertyHolder*>(16)->f)
+#endif
 
 #define ZR_(first, last) do {\
   ::memset(&first, 0,\
@@ -3460,7 +3579,7 @@ void PropertyHolder::Clear() {
 
 bool PropertyHolder::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.PropertyHolder)
   for (;;) {
@@ -3819,14 +3938,14 @@ void PropertyHolder::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.PropertyHolder)
 }
 
-::google::protobuf::uint8* PropertyHolder::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* PropertyHolder::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.PropertyHolder)
   // optional .org.yaorm.PropertyDefinition property_definition = 1;
   if (this->has_property_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        1, *this->property_definition_, target);
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->property_definition_, false, target);
   }
 
   // optional double double_holder = 2;
@@ -3917,6 +4036,7 @@ void PropertyHolder::SerializeWithCachedSizes(
 }
 
 int PropertyHolder::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.PropertyHolder)
   int total_size = 0;
 
   // optional .org.yaorm.PropertyDefinition property_definition = 1;
@@ -4024,19 +4144,27 @@ int PropertyHolder::ByteSize() const {
 }
 
 void PropertyHolder::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.PropertyHolder)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const PropertyHolder* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const PropertyHolder>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.PropertyHolder)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.PropertyHolder)
     MergeFrom(*source);
   }
 }
 
 void PropertyHolder::MergeFrom(const PropertyHolder& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.PropertyHolder)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   if (from.has_property_definition()) {
     mutable_property_definition()->::org::yaorm::PropertyDefinition::MergeFrom(from.property_definition());
   }
@@ -4090,12 +4218,14 @@ void PropertyHolder::MergeFrom(const PropertyHolder& from) {
 }
 
 void PropertyHolder::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.PropertyHolder)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void PropertyHolder::CopyFrom(const PropertyHolder& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.PropertyHolder)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4163,6 +4293,7 @@ const ::org::yaorm::PropertyDefinition& PropertyHolder::property_definition() co
   return property_definition_;
 }
 ::org::yaorm::PropertyDefinition* PropertyHolder::release_property_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.property_definition)
   
   ::org::yaorm::PropertyDefinition* temp = property_definition_;
   property_definition_ = NULL;
@@ -4391,6 +4522,7 @@ void PropertyHolder::clear_string_holder() {
   return string_holder_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* PropertyHolder::release_string_holder() {
+  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.string_holder)
   
   return string_holder_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -4434,6 +4566,7 @@ void PropertyHolder::clear_bytes_holder() {
   return bytes_holder_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
  ::std::string* PropertyHolder::release_bytes_holder() {
+  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.bytes_holder)
   
   return bytes_holder_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
@@ -4514,12 +4647,13 @@ Record* Record::New(::google::protobuf::Arena* arena) const {
 }
 
 void Record::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Record)
   columns_.Clear();
 }
 
 bool Record::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Record)
   for (;;) {
@@ -4576,14 +4710,14 @@ void Record::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Record)
 }
 
-::google::protobuf::uint8* Record::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Record::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Record)
   // repeated .org.yaorm.PropertyHolder columns = 1;
   for (unsigned int i = 0, n = this->columns_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        1, this->columns(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        1, this->columns(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Record)
@@ -4591,6 +4725,7 @@ void Record::SerializeWithCachedSizes(
 }
 
 int Record::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Record)
   int total_size = 0;
 
   // repeated .org.yaorm.PropertyHolder columns = 1;
@@ -4608,29 +4743,39 @@ int Record::ByteSize() const {
 }
 
 void Record::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Record)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Record* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Record>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Record)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Record)
     MergeFrom(*source);
   }
 }
 
 void Record::MergeFrom(const Record& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Record)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   columns_.MergeFrom(from.columns_);
 }
 
 void Record::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Record)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Record::CopyFrom(const Record& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Record)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
@@ -4759,12 +4904,13 @@ Records* Records::New(::google::protobuf::Arena* arena) const {
 }
 
 void Records::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Records)
   records_.Clear();
 }
 
 bool Records::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
-#define DO_(EXPRESSION) if (!(EXPRESSION)) goto failure
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Records)
   for (;;) {
@@ -4821,14 +4967,14 @@ void Records::SerializeWithCachedSizes(
   // @@protoc_insertion_point(serialize_end:org.yaorm.Records)
 }
 
-::google::protobuf::uint8* Records::SerializeWithCachedSizesToArray(
-    ::google::protobuf::uint8* target) const {
+::google::protobuf::uint8* Records::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Records)
   // repeated .org.yaorm.Record records = 1;
   for (unsigned int i = 0, n = this->records_size(); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
-      WriteMessageNoVirtualToArray(
-        1, this->records(i), target);
+      InternalWriteMessageNoVirtualToArray(
+        1, this->records(i), false, target);
   }
 
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Records)
@@ -4836,6 +4982,7 @@ void Records::SerializeWithCachedSizes(
 }
 
 int Records::ByteSize() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Records)
   int total_size = 0;
 
   // repeated .org.yaorm.Record records = 1;
@@ -4853,29 +5000,39 @@ int Records::ByteSize() const {
 }
 
 void Records::MergeFrom(const ::google::protobuf::Message& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Records)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   const Records* source = 
       ::google::protobuf::internal::DynamicCastToGenerated<const Records>(
           &from);
   if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Records)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Records)
     MergeFrom(*source);
   }
 }
 
 void Records::MergeFrom(const Records& from) {
-  if (GOOGLE_PREDICT_FALSE(&from == this)) MergeFromFail(__LINE__);
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Records)
+  if (GOOGLE_PREDICT_FALSE(&from == this)) {
+    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+  }
   records_.MergeFrom(from.records_);
 }
 
 void Records::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Records)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
 void Records::CopyFrom(const Records& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Records)
   if (&from == this) return;
   Clear();
   MergeFrom(from);

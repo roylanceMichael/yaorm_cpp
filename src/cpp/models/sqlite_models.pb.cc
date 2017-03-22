@@ -29,6 +29,7 @@ const ::google::protobuf::EnumDescriptor* SQLiteTypeMapping_descriptor_ = NULL;
 }  // namespace
 
 
+void protobuf_AssignDesc_sqlite_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
 void protobuf_AssignDesc_sqlite_5fmodels_2eproto() {
   protobuf_AddDesc_sqlite_5fmodels_2eproto();
   const ::google::protobuf::FileDescriptor* file =
@@ -47,6 +48,7 @@ inline void protobuf_AssignDescriptorsOnce() {
                  &protobuf_AssignDesc_sqlite_5fmodels_2eproto);
 }
 
+void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
 }
@@ -56,6 +58,7 @@ void protobuf_RegisterTypes(const ::std::string&) {
 void protobuf_ShutdownFile_sqlite_5fmodels_2eproto() {
 }
 
+void protobuf_AddDesc_sqlite_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
 void protobuf_AddDesc_sqlite_5fmodels_2eproto() {
   static bool already_here = false;
   if (already_here) return;
