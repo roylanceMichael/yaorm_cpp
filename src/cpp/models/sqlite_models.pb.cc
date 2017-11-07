@@ -21,31 +21,45 @@ namespace org {
 namespace yaorm {
 namespace sqlite {
 
+namespace protobuf_sqlite_5fmodels_2eproto {
+
+
 namespace {
 
-const ::google::protobuf::EnumDescriptor* SQLiteType_descriptor_ = NULL;
-const ::google::protobuf::EnumDescriptor* SQLiteTypeMapping_descriptor_ = NULL;
+const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[2];
 
 }  // namespace
 
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
+    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
+};
 
-void protobuf_AssignDesc_sqlite_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AssignDesc_sqlite_5fmodels_2eproto() {
-  protobuf_AddDesc_sqlite_5fmodels_2eproto();
-  const ::google::protobuf::FileDescriptor* file =
-    ::google::protobuf::DescriptorPool::generated_pool()->FindFileByName(
-      "sqlite_models.proto");
-  GOOGLE_CHECK(file != NULL);
-  SQLiteType_descriptor_ = file->enum_type(0);
-  SQLiteTypeMapping_descriptor_ = file->enum_type(1);
-}
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
+    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  ::google::protobuf::internal::AuxillaryParseTableField(),
+};
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
+    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+};
 
+const ::google::protobuf::uint32 TableStruct::offsets[1] = {};
+static const ::google::protobuf::internal::MigrationSchema* schemas = NULL;
+static const ::google::protobuf::Message* const* file_default_instances = NULL;
 namespace {
 
-GOOGLE_PROTOBUF_DECLARE_ONCE(protobuf_AssignDescriptors_once_);
-inline void protobuf_AssignDescriptorsOnce() {
-  ::google::protobuf::GoogleOnceInit(&protobuf_AssignDescriptors_once_,
-                 &protobuf_AssignDesc_sqlite_5fmodels_2eproto);
+void protobuf_AssignDescriptors() {
+  AddDescriptors();
+  ::google::protobuf::MessageFactory* factory = NULL;
+  AssignDescriptors(
+      "sqlite_models.proto", schemas, file_default_instances, TableStruct::offsets, factory,
+      NULL, file_level_enum_descriptors, NULL);
+}
+
+void protobuf_AssignDescriptorsOnce() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
 }
 
 void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
@@ -54,44 +68,56 @@ void protobuf_RegisterTypes(const ::std::string&) {
 }
 
 }  // namespace
-
-void protobuf_ShutdownFile_sqlite_5fmodels_2eproto() {
-}
-
-void protobuf_AddDesc_sqlite_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AddDesc_sqlite_5fmodels_2eproto() {
-  static bool already_here = false;
-  if (already_here) return;
-  already_here = true;
+void TableStruct::InitDefaultsImpl() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\023sqlite_models.proto\022\020org.yaorm.sqlite*"
-    "H\n\nSQLiteType\022\017\n\013SQLITE_NONE\020\000\022\010\n\004TEXT\020\001"
-    "\022\013\n\007INTEGER\020\002\022\010\n\004REAL\020\003\022\010\n\004BLOB\020\004*\344\001\n\021SQ"
-    "LiteTypeMapping\022\027\n\023SQLITE_MAPPING_NONE\020\000"
-    "\022\n\n\006DOUBLE\020\003\022\t\n\005FLOAT\020\003\022\t\n\005INT32\020\002\022\t\n\005IN"
-    "T64\020\002\022\n\n\006UINT32\020\002\022\n\n\006UINT64\020\002\022\n\n\006SINT32\020"
-    "\002\022\n\n\006SINT64\020\002\022\013\n\007FIXED32\020\002\022\013\n\007FIXED64\020\002\022"
-    "\014\n\010SFIXED32\020\002\022\014\n\010SFIXED64\020\002\022\010\n\004BOOL\020\002\022\n\n"
-    "\006STRING\020\001\022\t\n\005BYTES\020\004\032\002\020\001b\006proto3", 352);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "sqlite_models.proto", &protobuf_RegisterTypes);
-  ::google::protobuf::internal::OnShutdown(&protobuf_ShutdownFile_sqlite_5fmodels_2eproto);
+  ::google::protobuf::internal::InitProtobufDefaults();
 }
 
-// Force AddDescriptors() to be called at static initialization time.
-struct StaticDescriptorInitializer_sqlite_5fmodels_2eproto {
-  StaticDescriptorInitializer_sqlite_5fmodels_2eproto() {
-    protobuf_AddDesc_sqlite_5fmodels_2eproto();
+void InitDefaults() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
+}
+namespace {
+void AddDescriptorsImpl() {
+  InitDefaults();
+  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+      "\n\023sqlite_models.proto\022\020org.yaorm.sqlite*"
+      "H\n\nSQLiteType\022\017\n\013SQLITE_NONE\020\000\022\010\n\004TEXT\020\001"
+      "\022\013\n\007INTEGER\020\002\022\010\n\004REAL\020\003\022\010\n\004BLOB\020\004*\344\001\n\021SQ"
+      "LiteTypeMapping\022\027\n\023SQLITE_MAPPING_NONE\020\000"
+      "\022\n\n\006DOUBLE\020\003\022\t\n\005FLOAT\020\003\022\t\n\005INT32\020\002\022\t\n\005IN"
+      "T64\020\002\022\n\n\006UINT32\020\002\022\n\n\006UINT64\020\002\022\n\n\006SINT32\020"
+      "\002\022\n\n\006SINT64\020\002\022\013\n\007FIXED32\020\002\022\013\n\007FIXED64\020\002\022"
+      "\014\n\010SFIXED32\020\002\022\014\n\010SFIXED64\020\002\022\010\n\004BOOL\020\002\022\n\n"
+      "\006STRING\020\001\022\t\n\005BYTES\020\004\032\002\020\001b\006proto3"
+  };
+  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
+      descriptor, 352);
+  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
+    "sqlite_models.proto", &protobuf_RegisterTypes);
+}
+} // anonymous namespace
+
+void AddDescriptors() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
+}
+// Force AddDescriptors() to be called at dynamic initialization time.
+struct StaticDescriptorInitializer {
+  StaticDescriptorInitializer() {
+    AddDescriptors();
   }
-} static_descriptor_initializer_sqlite_5fmodels_2eproto_;
+} static_descriptor_initializer;
+
+}  // namespace protobuf_sqlite_5fmodels_2eproto
+
 const ::google::protobuf::EnumDescriptor* SQLiteType_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return SQLiteType_descriptor_;
+  protobuf_sqlite_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_sqlite_5fmodels_2eproto::file_level_enum_descriptors[0];
 }
 bool SQLiteType_IsValid(int value) {
-  switch(value) {
+  switch (value) {
     case 0:
     case 1:
     case 2:
@@ -104,11 +130,11 @@ bool SQLiteType_IsValid(int value) {
 }
 
 const ::google::protobuf::EnumDescriptor* SQLiteTypeMapping_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return SQLiteTypeMapping_descriptor_;
+  protobuf_sqlite_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_sqlite_5fmodels_2eproto::file_level_enum_descriptors[1];
 }
 bool SQLiteTypeMapping_IsValid(int value) {
-  switch(value) {
+  switch (value) {
     case 0:
     case 1:
     case 2:

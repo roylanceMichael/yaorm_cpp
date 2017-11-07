@@ -8,7 +8,7 @@
 #include <future>
 
 #include "../../../src/cpp/models/sqlite_models.pb.h"
-#include "../../../src/cpp/services/sqlite/sqlite_granular_database_service.h"
+#include "sqlite_granular_database_service.h"
 #include "../../../src/cpp/services/sqlite/sqlite_generator_service.h"
 #include "sqlite_test_map_streamer.h"
 #include "test_utilities.h"

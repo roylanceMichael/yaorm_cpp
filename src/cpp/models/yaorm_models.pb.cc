@@ -19,396 +19,1232 @@
 
 namespace org {
 namespace yaorm {
+class ProtoTypeToSqlTypeDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<ProtoTypeToSqlType>
+     _instance;
+} _ProtoTypeToSqlType_default_instance_;
+class ProtoTypeToSqlTypesDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<ProtoTypeToSqlTypes>
+     _instance;
+} _ProtoTypeToSqlTypes_default_instance_;
+class WhereClauseDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<WhereClause>
+     _instance;
+} _WhereClause_default_instance_;
+class ColumnDefinitionDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<ColumnDefinition>
+     _instance;
+} _ColumnDefinition_default_instance_;
+class IndexDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Index>
+     _instance;
+} _Index_default_instance_;
+class DifferenceDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Difference>
+     _instance;
+} _Difference_default_instance_;
+class TableDefinitionDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TableDefinition>
+     _instance;
+} _TableDefinition_default_instance_;
+class TableDefinitionsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TableDefinitions>
+     _instance;
+} _TableDefinitions_default_instance_;
+class DifferenceReportDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DifferenceReport>
+     _instance;
+} _DifferenceReport_default_instance_;
+class ColumnDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Column>
+     _instance;
+} _Column_default_instance_;
+class RecordDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Record>
+     _instance;
+} _Record_default_instance_;
+class RecordsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Records>
+     _instance;
+} _Records_default_instance_;
+class TableRecordsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TableRecords>
+     _instance;
+} _TableRecords_default_instance_;
+class AllTableRecordsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<AllTableRecords>
+     _instance;
+} _AllTableRecords_default_instance_;
+class DatabaseOperationDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DatabaseOperation>
+     _instance;
+} _DatabaseOperation_default_instance_;
+class DatabaseOperationResultDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DatabaseOperationResult>
+     _instance;
+} _DatabaseOperationResult_default_instance_;
+class DatabaseDefinitionDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DatabaseDefinition>
+     _instance;
+} _DatabaseDefinition_default_instance_;
+class TableDefinitionGraphDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TableDefinitionGraph>
+     _instance;
+} _TableDefinitionGraph_default_instance_;
+class TableDefinitionGraphsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TableDefinitionGraphs>
+     _instance;
+} _TableDefinitionGraphs_default_instance_;
+class ConnectionInfoDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<ConnectionInfo>
+     _instance;
+} _ConnectionInfo_default_instance_;
+class MigrationDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Migration>
+     _instance;
+} _Migration_default_instance_;
+class DatabaseExecutionDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DatabaseExecution>
+     _instance;
+} _DatabaseExecution_default_instance_;
+class DatabaseExecutionReportDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<DatabaseExecutionReport>
+     _instance;
+} _DatabaseExecutionReport_default_instance_;
+class JoinTableDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<JoinTable>
+     _instance;
+} _JoinTable_default_instance_;
+class JoinTableRecordsDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<JoinTableRecords>
+     _instance;
+} _JoinTableRecords_default_instance_;
+class GroupByDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<GroupBy>
+     _instance;
+} _GroupBy_default_instance_;
+class OrderByDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<OrderBy>
+     _instance;
+} _OrderBy_default_instance_;
+class ProjectionDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<Projection>
+     _instance;
+} _Projection_default_instance_;
+class UIYaormRequestDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<UIYaormRequest>
+     _instance;
+} _UIYaormRequest_default_instance_;
+class UIYaormResponseDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<UIYaormResponse>
+     _instance;
+} _UIYaormResponse_default_instance_;
+class SqlGeneratorRequestResponseDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<SqlGeneratorRequestResponse>
+     _instance;
+} _SqlGeneratorRequestResponse_default_instance_;
+
+namespace protobuf_yaorm_5fmodels_2eproto {
+
 
 namespace {
 
-const ::google::protobuf::Descriptor* WhereClauseItem_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  WhereClauseItem_reflection_ = NULL;
-const ::google::protobuf::EnumDescriptor* WhereClauseItem_OperatorType_descriptor_ = NULL;
-const ::google::protobuf::EnumDescriptor* WhereClauseItem_ConnectingAndOr_descriptor_ = NULL;
-const ::google::protobuf::Descriptor* PropertyDefinition_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  PropertyDefinition_reflection_ = NULL;
-const ::google::protobuf::Descriptor* Index_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Index_reflection_ = NULL;
-const ::google::protobuf::Descriptor* Difference_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Difference_reflection_ = NULL;
-const ::google::protobuf::EnumDescriptor* Difference_EntityType_descriptor_ = NULL;
-const ::google::protobuf::EnumDescriptor* Difference_Operation_descriptor_ = NULL;
-const ::google::protobuf::Descriptor* Definition_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Definition_reflection_ = NULL;
-const ::google::protobuf::Descriptor* Definitions_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Definitions_reflection_ = NULL;
-const ::google::protobuf::Descriptor* DifferenceReport_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  DifferenceReport_reflection_ = NULL;
-const ::google::protobuf::Descriptor* PropertyHolder_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  PropertyHolder_reflection_ = NULL;
-const ::google::protobuf::Descriptor* Record_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Record_reflection_ = NULL;
-const ::google::protobuf::Descriptor* Records_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  Records_reflection_ = NULL;
-const ::google::protobuf::EnumDescriptor* ProtobufType_descriptor_ = NULL;
+::google::protobuf::Metadata file_level_metadata[31];
+const ::google::protobuf::EnumDescriptor* file_level_enum_descriptors[12];
 
 }  // namespace
 
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
+    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
+};
 
-void protobuf_AssignDesc_yaorm_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AssignDesc_yaorm_5fmodels_2eproto() {
-  protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  const ::google::protobuf::FileDescriptor* file =
-    ::google::protobuf::DescriptorPool::generated_pool()->FindFileByName(
-      "yaorm_models.proto");
-  GOOGLE_CHECK(file != NULL);
-  WhereClauseItem_descriptor_ = file->message_type(0);
-  static const int WhereClauseItem_offsets_[4] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, name_and_property_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, operator_type_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, connecting_and_or_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, connecting_where_clause_),
-  };
-  WhereClauseItem_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      WhereClauseItem_descriptor_,
-      WhereClauseItem::default_instance_,
-      WhereClauseItem_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(WhereClauseItem),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClauseItem, _is_default_instance_));
-  WhereClauseItem_OperatorType_descriptor_ = WhereClauseItem_descriptor_->enum_type(0);
-  WhereClauseItem_ConnectingAndOr_descriptor_ = WhereClauseItem_descriptor_->enum_type(1);
-  PropertyDefinition_descriptor_ = file->message_type(1);
-  static const int PropertyDefinition_offsets_[4] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, name_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, type_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, foreign_collection_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, is_key_),
-  };
-  PropertyDefinition_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      PropertyDefinition_descriptor_,
-      PropertyDefinition::default_instance_,
-      PropertyDefinition_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(PropertyDefinition),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyDefinition, _is_default_instance_));
-  Index_descriptor_ = file->message_type(2);
-  static const int Index_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, column_names_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, include_names_),
-  };
-  Index_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Index_descriptor_,
-      Index::default_instance_,
-      Index_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Index),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, _is_default_instance_));
-  Difference_descriptor_ = file->message_type(3);
-  static const int Difference_offsets_[6] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, entity_type_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, operation_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, name_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, index_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, property_definition_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, definition_),
-  };
-  Difference_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Difference_descriptor_,
-      Difference::default_instance_,
-      Difference_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Difference),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, _is_default_instance_));
-  Difference_EntityType_descriptor_ = Difference_descriptor_->enum_type(0);
-  Difference_Operation_descriptor_ = Difference_descriptor_->enum_type(1);
-  Definition_descriptor_ = file->message_type(4);
-  static const int Definition_offsets_[3] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definition, name_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definition, property_definitions_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definition, index_),
-  };
-  Definition_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Definition_descriptor_,
-      Definition::default_instance_,
-      Definition_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Definition),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definition, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definition, _is_default_instance_));
-  Definitions_descriptor_ = file->message_type(5);
-  static const int Definitions_offsets_[1] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definitions, definitions_),
-  };
-  Definitions_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Definitions_descriptor_,
-      Definitions::default_instance_,
-      Definitions_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Definitions),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definitions, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Definitions, _is_default_instance_));
-  DifferenceReport_descriptor_ = file->message_type(6);
-  static const int DifferenceReport_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, migration_exists_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, differences_),
-  };
-  DifferenceReport_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      DifferenceReport_descriptor_,
-      DifferenceReport::default_instance_,
-      DifferenceReport_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(DifferenceReport),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, _is_default_instance_));
-  PropertyHolder_descriptor_ = file->message_type(7);
-  static const int PropertyHolder_offsets_[16] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, property_definition_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, double_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, float_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, int32_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, int64_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, uint32_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, uint64_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, sint32_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, sint64_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, fixed32_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, fixed64_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, sfixed32_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, sfixed64_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, bool_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, string_holder_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, bytes_holder_),
-  };
-  PropertyHolder_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      PropertyHolder_descriptor_,
-      PropertyHolder::default_instance_,
-      PropertyHolder_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(PropertyHolder),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(PropertyHolder, _is_default_instance_));
-  Record_descriptor_ = file->message_type(8);
-  static const int Record_offsets_[1] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Record, columns_),
-  };
-  Record_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Record_descriptor_,
-      Record::default_instance_,
-      Record_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Record),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Record, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Record, _is_default_instance_));
-  Records_descriptor_ = file->message_type(9);
-  static const int Records_offsets_[1] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Records, records_),
-  };
-  Records_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      Records_descriptor_,
-      Records::default_instance_,
-      Records_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(Records),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Records, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Records, _is_default_instance_));
-  ProtobufType_descriptor_ = file->enum_type(0);
-}
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
+    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  ::google::protobuf::internal::AuxillaryParseTableField(),
+};
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
+    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+};
+
+const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ProtoTypeToSqlType, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ProtoTypeToSqlType, proto_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ProtoTypeToSqlType, sql_type_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ProtoTypeToSqlTypes, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ProtoTypeToSqlTypes, results_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, name_and_property_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, operator_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, connecting_and_or_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, connecting_where_clause_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(WhereClause, in_items_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, is_key_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, column_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, linker_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, order_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, alias_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, table_alias_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, function_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ColumnDefinition, function_text_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, column_names_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Index, include_names_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, entity_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, operation_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, index_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, property_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Difference, table_definition_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, column_definitions_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, index_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, table_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinition, alias_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitions, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitions, table_definitions_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, migration_exists_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DifferenceReport, differences_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, double_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, float_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, int32_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, int64_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, uint32_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, uint64_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, sint32_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, sint64_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, fixed32_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, fixed64_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, sfixed32_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, sfixed64_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, bool_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, string_holder_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Column, bytes_holder_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Record, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Record, columns_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Records, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Records, records_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableRecords, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableRecords, table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableRecords, records_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableRecords, table_name_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AllTableRecords, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(AllTableRecords, table_records_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, records_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, index_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, column_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, where_clause_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperation, database_operation_type_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, bool_result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, count_result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, record_result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, records_result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, error_message_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseOperationResult, database_operation_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseDefinition, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseDefinition, schema_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseDefinition, name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseDefinition, table_definitions_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseDefinition, table_definition_graphs_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, main_table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, other_table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, linker_table_table_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, definition_graph_type_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, main_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, other_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraph, column_name_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraphs, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraphs, main_table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TableDefinitionGraphs, table_definition_graphs_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, host_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, user_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, password_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, schema_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, should_create_schema_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ConnectionInfo, port_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Migration, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Migration, id_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Migration, context_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Migration, model_definition_base64_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Migration, insert_date_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecution, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecution, raw_sql_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecution, time_called_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecution, result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecution, order_called_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecutionReport, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecutionReport, calls_to_database_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(DatabaseExecutionReport, executions_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, first_table_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, second_table_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, first_column_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, second_column_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTable, where_clause_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTableRecords, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTableRecords, join_table_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(JoinTableRecords, records_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupBy, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(GroupBy, columns_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OrderBy, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OrderBy, column_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(OrderBy, type_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, labels_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, main_table_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, joins_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, where_clause_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, group_by_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, order_bys_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, limit_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(Projection, offset_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, token_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, records_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, connection_info_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, where_clause_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, limit_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, offset_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, insert_same_as_update_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, schema_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, table_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, custom_sql_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, file_descriptor_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormRequest, ids_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, records_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, schemas_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, tables_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, table_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, table_definitions_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, record_count_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, result_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, proto_type_to_sql_types_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(UIYaormResponse, string_result_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, column_definition_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, index_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, column_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, where_clause_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, records_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, limit_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, offset_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, schema_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, table_name_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, response_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SqlGeneratorRequestResponse, proto_type_to_sql_types_),
+};
+static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, -1, sizeof(ProtoTypeToSqlType)},
+  { 7, -1, sizeof(ProtoTypeToSqlTypes)},
+  { 13, -1, sizeof(WhereClause)},
+  { 23, -1, sizeof(ColumnDefinition)},
+  { 38, -1, sizeof(Index)},
+  { 45, -1, sizeof(Difference)},
+  { 56, -1, sizeof(TableDefinition)},
+  { 66, -1, sizeof(TableDefinitions)},
+  { 72, -1, sizeof(DifferenceReport)},
+  { 79, -1, sizeof(Column)},
+  { 100, -1, sizeof(Record)},
+  { 106, -1, sizeof(Records)},
+  { 112, -1, sizeof(TableRecords)},
+  { 120, -1, sizeof(AllTableRecords)},
+  { 126, -1, sizeof(DatabaseOperation)},
+  { 137, -1, sizeof(DatabaseOperationResult)},
+  { 148, -1, sizeof(DatabaseDefinition)},
+  { 157, -1, sizeof(TableDefinitionGraph)},
+  { 169, -1, sizeof(TableDefinitionGraphs)},
+  { 176, -1, sizeof(ConnectionInfo)},
+  { 187, -1, sizeof(Migration)},
+  { 196, -1, sizeof(DatabaseExecution)},
+  { 205, -1, sizeof(DatabaseExecutionReport)},
+  { 212, -1, sizeof(JoinTable)},
+  { 222, -1, sizeof(JoinTableRecords)},
+  { 229, -1, sizeof(GroupBy)},
+  { 235, -1, sizeof(OrderBy)},
+  { 242, -1, sizeof(Projection)},
+  { 256, -1, sizeof(UIYaormRequest)},
+  { 274, -1, sizeof(UIYaormResponse)},
+  { 288, -1, sizeof(SqlGeneratorRequestResponse)},
+};
+
+static ::google::protobuf::Message const * const file_default_instances[] = {
+  reinterpret_cast<const ::google::protobuf::Message*>(&_ProtoTypeToSqlType_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_ProtoTypeToSqlTypes_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_WhereClause_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_ColumnDefinition_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Index_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Difference_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TableDefinition_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TableDefinitions_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DifferenceReport_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Column_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Record_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Records_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TableRecords_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_AllTableRecords_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DatabaseOperation_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DatabaseOperationResult_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DatabaseDefinition_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TableDefinitionGraph_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TableDefinitionGraphs_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_ConnectionInfo_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Migration_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DatabaseExecution_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_DatabaseExecutionReport_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_JoinTable_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_JoinTableRecords_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_GroupBy_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_OrderBy_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_Projection_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_UIYaormRequest_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_UIYaormResponse_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_SqlGeneratorRequestResponse_default_instance_),
+};
 
 namespace {
 
-GOOGLE_PROTOBUF_DECLARE_ONCE(protobuf_AssignDescriptors_once_);
-inline void protobuf_AssignDescriptorsOnce() {
-  ::google::protobuf::GoogleOnceInit(&protobuf_AssignDescriptors_once_,
-                 &protobuf_AssignDesc_yaorm_5fmodels_2eproto);
+void protobuf_AssignDescriptors() {
+  AddDescriptors();
+  ::google::protobuf::MessageFactory* factory = NULL;
+  AssignDescriptors(
+      "yaorm_models.proto", schemas, file_default_instances, TableStruct::offsets, factory,
+      file_level_metadata, file_level_enum_descriptors, NULL);
+}
+
+void protobuf_AssignDescriptorsOnce() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
 }
 
 void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      WhereClauseItem_descriptor_, &WhereClauseItem::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      PropertyDefinition_descriptor_, &PropertyDefinition::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Index_descriptor_, &Index::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Difference_descriptor_, &Difference::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Definition_descriptor_, &Definition::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Definitions_descriptor_, &Definitions::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      DifferenceReport_descriptor_, &DifferenceReport::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      PropertyHolder_descriptor_, &PropertyHolder::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Record_descriptor_, &Record::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      Records_descriptor_, &Records::default_instance());
+  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 31);
 }
 
 }  // namespace
-
-void protobuf_ShutdownFile_yaorm_5fmodels_2eproto() {
-  delete WhereClauseItem::default_instance_;
-  delete WhereClauseItem_reflection_;
-  delete PropertyDefinition::default_instance_;
-  delete PropertyDefinition_reflection_;
-  delete Index::default_instance_;
-  delete Index_reflection_;
-  delete Difference::default_instance_;
-  delete Difference_reflection_;
-  delete Definition::default_instance_;
-  delete Definition_reflection_;
-  delete Definitions::default_instance_;
-  delete Definitions_reflection_;
-  delete DifferenceReport::default_instance_;
-  delete DifferenceReport_reflection_;
-  delete PropertyHolder::default_instance_;
-  delete PropertyHolder_reflection_;
-  delete Record::default_instance_;
-  delete Record_reflection_;
-  delete Records::default_instance_;
-  delete Records_reflection_;
-}
-
-void protobuf_AddDesc_yaorm_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AddDesc_yaorm_5fmodels_2eproto() {
-  static bool already_here = false;
-  if (already_here) return;
-  already_here = true;
+void TableStruct::InitDefaultsImpl() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\022yaorm_models.proto\022\torg.yaorm\"\206\003\n\017Wher"
-    "eClauseItem\0224\n\021name_and_property\030\001 \001(\0132\031"
-    ".org.yaorm.PropertyHolder\022>\n\roperator_ty"
-    "pe\030\002 \001(\0162\'.org.yaorm.WhereClauseItem.Ope"
-    "ratorType\022E\n\021connecting_and_or\030\003 \001(\0162*.o"
-    "rg.yaorm.WhereClauseItem.ConnectingAndOr"
-    "\022;\n\027connecting_where_clause\030\004 \001(\0132\032.org."
-    "yaorm.WhereClauseItem\"K\n\014OperatorType\022\n\n"
-    "\006EQUALS\020\000\022\020\n\014GREATER_THAN\020\001\022\r\n\tLESS_THAN"
-    "\020\002\022\016\n\nNOT_EQUALS\020\003\",\n\017ConnectingAndOr\022\010\n"
-    "\004NONE\020\000\022\007\n\003AND\020\001\022\006\n\002OR\020\002\"u\n\022PropertyDefi"
-    "nition\022\014\n\004name\030\001 \001(\t\022%\n\004type\030\002 \001(\0162\027.org"
-    ".yaorm.ProtobufType\022\032\n\022foreign_collectio"
-    "n\030\003 \001(\010\022\016\n\006is_key\030\004 \001(\010\"r\n\005Index\0223\n\014colu"
-    "mn_names\030\001 \003(\0132\035.org.yaorm.PropertyDefin"
-    "ition\0224\n\rinclude_names\030\002 \003(\0132\035.org.yaorm"
-    ".PropertyDefinition\"\340\002\n\nDifference\0225\n\013en"
-    "tity_type\030\001 \001(\0162 .org.yaorm.Difference.E"
-    "ntityType\0222\n\toperation\030\002 \001(\0162\037.org.yaorm"
-    ".Difference.Operation\022\014\n\004name\030\003 \001(\t\022\037\n\005i"
-    "ndex\030\004 \001(\0132\020.org.yaorm.Index\022:\n\023property"
-    "_definition\030\005 \001(\0132\035.org.yaorm.PropertyDe"
-    "finition\022)\n\ndefinition\030\006 \001(\0132\025.org.yaorm"
-    ".Definition\".\n\nEntityType\022\t\n\005INDEX\020\000\022\n\n\006"
-    "COLUMN\020\001\022\t\n\005TABLE\020\002\"!\n\tOperation\022\n\n\006CREA"
-    "TE\020\000\022\010\n\004DROP\020\001\"x\n\nDefinition\022\014\n\004name\030\001 \001"
-    "(\t\022;\n\024property_definitions\030\002 \003(\0132\035.org.y"
-    "aorm.PropertyDefinition\022\037\n\005index\030\003 \001(\0132\020"
-    ".org.yaorm.Index\"9\n\013Definitions\022*\n\013defin"
-    "itions\030\003 \003(\0132\025.org.yaorm.Definition\"X\n\020D"
-    "ifferenceReport\022\030\n\020migration_exists\030\001 \001("
-    "\010\022*\n\013differences\030\002 \003(\0132\025.org.yaorm.Diffe"
-    "rence\"\245\003\n\016PropertyHolder\022:\n\023property_def"
-    "inition\030\001 \001(\0132\035.org.yaorm.PropertyDefini"
-    "tion\022\025\n\rdouble_holder\030\002 \001(\001\022\024\n\014float_hol"
-    "der\030\003 \001(\002\022\024\n\014int32_holder\030\004 \001(\005\022\024\n\014int64"
-    "_holder\030\005 \001(\003\022\025\n\ruint32_holder\030\006 \001(\r\022\025\n\r"
-    "uint64_holder\030\007 \001(\004\022\025\n\rsint32_holder\030\010 \001"
-    "(\021\022\025\n\rsint64_holder\030\t \001(\022\022\026\n\016fixed32_hol"
-    "der\030\n \001(\007\022\026\n\016fixed64_holder\030\013 \001(\006\022\027\n\017sfi"
-    "xed32_holder\030\014 \001(\017\022\027\n\017sfixed64_holder\030\r "
-    "\001(\020\022\023\n\013bool_holder\030\016 \001(\010\022\025\n\rstring_holde"
-    "r\030\017 \001(\t\022\024\n\014bytes_holder\030\020 \001(\014\"4\n\006Record\022"
-    "*\n\007columns\030\001 \003(\0132\031.org.yaorm.PropertyHol"
-    "der\"-\n\007Records\022\"\n\007records\030\001 \003(\0132\021.org.ya"
-    "orm.Record*\327\001\n\014ProtobufType\022\010\n\004NONE\020\000\022\n\n"
-    "\006DOUBLE\020\001\022\t\n\005FLOAT\020\002\022\t\n\005INT32\020\003\022\t\n\005INT64"
-    "\020\004\022\n\n\006UINT32\020\005\022\n\n\006UINT64\020\006\022\n\n\006SINT32\020\007\022\n"
-    "\n\006SINT64\020\010\022\013\n\007FIXED32\020\t\022\013\n\007FIXED64\020\n\022\014\n\010"
-    "SFIXED32\020\013\022\014\n\010SFIXED64\020\014\022\010\n\004BOOL\020\r\022\n\n\006ST"
-    "RING\020\016\022\t\n\005BYTES\020\017\022\t\n\005PROTO\020\020b\006proto3", 2036);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "yaorm_models.proto", &protobuf_RegisterTypes);
-  WhereClauseItem::default_instance_ = new WhereClauseItem();
-  PropertyDefinition::default_instance_ = new PropertyDefinition();
-  Index::default_instance_ = new Index();
-  Difference::default_instance_ = new Difference();
-  Definition::default_instance_ = new Definition();
-  Definitions::default_instance_ = new Definitions();
-  DifferenceReport::default_instance_ = new DifferenceReport();
-  PropertyHolder::default_instance_ = new PropertyHolder();
-  Record::default_instance_ = new Record();
-  Records::default_instance_ = new Records();
-  WhereClauseItem::default_instance_->InitAsDefaultInstance();
-  PropertyDefinition::default_instance_->InitAsDefaultInstance();
-  Index::default_instance_->InitAsDefaultInstance();
-  Difference::default_instance_->InitAsDefaultInstance();
-  Definition::default_instance_->InitAsDefaultInstance();
-  Definitions::default_instance_->InitAsDefaultInstance();
-  DifferenceReport::default_instance_->InitAsDefaultInstance();
-  PropertyHolder::default_instance_->InitAsDefaultInstance();
-  Record::default_instance_->InitAsDefaultInstance();
-  Records::default_instance_->InitAsDefaultInstance();
-  ::google::protobuf::internal::OnShutdown(&protobuf_ShutdownFile_yaorm_5fmodels_2eproto);
+  ::google::protobuf::internal::InitProtobufDefaults();
+  _ProtoTypeToSqlType_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_ProtoTypeToSqlType_default_instance_);_ProtoTypeToSqlTypes_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_ProtoTypeToSqlTypes_default_instance_);_WhereClause_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_WhereClause_default_instance_);_ColumnDefinition_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_ColumnDefinition_default_instance_);_Index_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Index_default_instance_);_Difference_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Difference_default_instance_);_TableDefinition_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TableDefinition_default_instance_);_TableDefinitions_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TableDefinitions_default_instance_);_DifferenceReport_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DifferenceReport_default_instance_);_Column_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Column_default_instance_);_Record_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Record_default_instance_);_Records_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Records_default_instance_);_TableRecords_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TableRecords_default_instance_);_AllTableRecords_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_AllTableRecords_default_instance_);_DatabaseOperation_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DatabaseOperation_default_instance_);_DatabaseOperationResult_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DatabaseOperationResult_default_instance_);_DatabaseDefinition_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DatabaseDefinition_default_instance_);_TableDefinitionGraph_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TableDefinitionGraph_default_instance_);_TableDefinitionGraphs_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TableDefinitionGraphs_default_instance_);_ConnectionInfo_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_ConnectionInfo_default_instance_);_Migration_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Migration_default_instance_);_DatabaseExecution_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DatabaseExecution_default_instance_);_DatabaseExecutionReport_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_DatabaseExecutionReport_default_instance_);_JoinTable_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_JoinTable_default_instance_);_JoinTableRecords_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_JoinTableRecords_default_instance_);_GroupBy_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_GroupBy_default_instance_);_OrderBy_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_OrderBy_default_instance_);_Projection_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_Projection_default_instance_);_UIYaormRequest_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_UIYaormRequest_default_instance_);_UIYaormResponse_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_UIYaormResponse_default_instance_);_SqlGeneratorRequestResponse_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_SqlGeneratorRequestResponse_default_instance_);_WhereClause_default_instance_._instance.get_mutable()->name_and_property_ = const_cast< ::org::yaorm::Column*>(
+      ::org::yaorm::Column::internal_default_instance());
+  _WhereClause_default_instance_._instance.get_mutable()->connecting_where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _Difference_default_instance_._instance.get_mutable()->index_ = const_cast< ::org::yaorm::Index*>(
+      ::org::yaorm::Index::internal_default_instance());
+  _Difference_default_instance_._instance.get_mutable()->property_definition_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _Difference_default_instance_._instance.get_mutable()->table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _TableDefinition_default_instance_._instance.get_mutable()->index_ = const_cast< ::org::yaorm::Index*>(
+      ::org::yaorm::Index::internal_default_instance());
+  _Column_default_instance_._instance.get_mutable()->definition_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _TableRecords_default_instance_._instance.get_mutable()->table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _TableRecords_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _DatabaseOperation_default_instance_._instance.get_mutable()->table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _DatabaseOperation_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _DatabaseOperation_default_instance_._instance.get_mutable()->index_ = const_cast< ::org::yaorm::Index*>(
+      ::org::yaorm::Index::internal_default_instance());
+  _DatabaseOperation_default_instance_._instance.get_mutable()->column_definition_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _DatabaseOperation_default_instance_._instance.get_mutable()->where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _DatabaseOperationResult_default_instance_._instance.get_mutable()->record_result_ = const_cast< ::org::yaorm::Record*>(
+      ::org::yaorm::Record::internal_default_instance());
+  _DatabaseOperationResult_default_instance_._instance.get_mutable()->records_result_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _DatabaseOperationResult_default_instance_._instance.get_mutable()->database_operation_ = const_cast< ::org::yaorm::DatabaseOperation*>(
+      ::org::yaorm::DatabaseOperation::internal_default_instance());
+  _DatabaseDefinition_default_instance_._instance.get_mutable()->table_definitions_ = const_cast< ::org::yaorm::TableDefinitions*>(
+      ::org::yaorm::TableDefinitions::internal_default_instance());
+  _TableDefinitionGraph_default_instance_._instance.get_mutable()->main_table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _TableDefinitionGraph_default_instance_._instance.get_mutable()->other_table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _TableDefinitionGraph_default_instance_._instance.get_mutable()->linker_table_table_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _TableDefinitionGraphs_default_instance_._instance.get_mutable()->main_table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _JoinTable_default_instance_._instance.get_mutable()->first_table_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _JoinTable_default_instance_._instance.get_mutable()->second_table_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _JoinTable_default_instance_._instance.get_mutable()->first_column_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _JoinTable_default_instance_._instance.get_mutable()->second_column_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _JoinTable_default_instance_._instance.get_mutable()->where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _JoinTableRecords_default_instance_._instance.get_mutable()->join_table_ = const_cast< ::org::yaorm::JoinTable*>(
+      ::org::yaorm::JoinTable::internal_default_instance());
+  _JoinTableRecords_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _OrderBy_default_instance_._instance.get_mutable()->column_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _Projection_default_instance_._instance.get_mutable()->main_table_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _Projection_default_instance_._instance.get_mutable()->where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _Projection_default_instance_._instance.get_mutable()->group_by_ = const_cast< ::org::yaorm::GroupBy*>(
+      ::org::yaorm::GroupBy::internal_default_instance());
+  _UIYaormRequest_default_instance_._instance.get_mutable()->table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _UIYaormRequest_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _UIYaormRequest_default_instance_._instance.get_mutable()->connection_info_ = const_cast< ::org::yaorm::ConnectionInfo*>(
+      ::org::yaorm::ConnectionInfo::internal_default_instance());
+  _UIYaormRequest_default_instance_._instance.get_mutable()->where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _UIYaormResponse_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _UIYaormResponse_default_instance_._instance.get_mutable()->table_definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _UIYaormResponse_default_instance_._instance.get_mutable()->table_definitions_ = const_cast< ::org::yaorm::TableDefinitions*>(
+      ::org::yaorm::TableDefinitions::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->definition_ = const_cast< ::org::yaorm::TableDefinition*>(
+      ::org::yaorm::TableDefinition::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->column_definition_ = const_cast< ::org::yaorm::ColumnDefinition*>(
+      ::org::yaorm::ColumnDefinition::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->index_ = const_cast< ::org::yaorm::Index*>(
+      ::org::yaorm::Index::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->column_ = const_cast< ::org::yaorm::Column*>(
+      ::org::yaorm::Column::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->where_clause_ = const_cast< ::org::yaorm::WhereClause*>(
+      ::org::yaorm::WhereClause::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->records_ = const_cast< ::org::yaorm::Records*>(
+      ::org::yaorm::Records::internal_default_instance());
+  _SqlGeneratorRequestResponse_default_instance_._instance.get_mutable()->proto_type_to_sql_types_ = const_cast< ::org::yaorm::ProtoTypeToSqlTypes*>(
+      ::org::yaorm::ProtoTypeToSqlTypes::internal_default_instance());
 }
 
-// Force AddDescriptors() to be called at static initialization time.
-struct StaticDescriptorInitializer_yaorm_5fmodels_2eproto {
-  StaticDescriptorInitializer_yaorm_5fmodels_2eproto() {
-    protobuf_AddDesc_yaorm_5fmodels_2eproto();
+void InitDefaults() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
+}
+namespace {
+void AddDescriptorsImpl() {
+  InitDefaults();
+  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+      "\n\022yaorm_models.proto\022\torg.yaorm\"S\n\022Proto"
+      "TypeToSqlType\022+\n\nproto_type\030\001 \001(\0162\027.org."
+      "yaorm.ProtobufType\022\020\n\010sql_type\030\002 \001(\t\"E\n\023"
+      "ProtoTypeToSqlTypes\022.\n\007results\030\001 \003(\0132\035.o"
+      "rg.yaorm.ProtoTypeToSqlType\"\210\003\n\013WhereCla"
+      "use\022,\n\021name_and_property\030\001 \001(\0132\021.org.yao"
+      "rm.Column\022:\n\roperator_type\030\002 \001(\0162#.org.y"
+      "aorm.WhereClause.OperatorType\022A\n\021connect"
+      "ing_and_or\030\003 \001(\0162&.org.yaorm.WhereClause"
+      ".ConnectingAndOr\0227\n\027connecting_where_cla"
+      "use\030\004 \001(\0132\026.org.yaorm.WhereClause\022\020\n\010in_"
+      "items\030\005 \003(\t\"S\n\014OperatorType\022\n\n\006EQUALS\020\000\022"
+      "\020\n\014GREATER_THAN\020\001\022\r\n\tLESS_THAN\020\002\022\016\n\nNOT_"
+      "EQUALS\020\003\022\006\n\002IN\020\004\",\n\017ConnectingAndOr\022\010\n\004N"
+      "ONE\020\000\022\007\n\003AND\020\001\022\006\n\002OR\020\002\"\327\003\n\020ColumnDefinit"
+      "ion\022\014\n\004name\030\001 \001(\t\022%\n\004type\030\002 \001(\0162\027.org.ya"
+      "orm.ProtobufType\022\016\n\006is_key\030\003 \001(\010\022;\n\013colu"
+      "mn_type\030\004 \001(\0162&.org.yaorm.ColumnDefiniti"
+      "on.ColumnType\022;\n\013linker_type\030\005 \001(\0162&.org"
+      ".yaorm.ColumnDefinition.LinkerType\022\r\n\005or"
+      "der\030\006 \001(\005\022\r\n\005alias\030\007 \001(\t\022\023\n\013table_alias\030"
+      "\010 \001(\t\0224\n\rfunction_type\030\t \001(\0162\035.org.yaorm"
+      ".SelectFunctionType\022\025\n\rfunction_text\030\n \001"
+      "(\t\"H\n\nColumnType\022\n\n\006SCALAR\020\000\022\r\n\tENUM_NAM"
+      "E\020\001\022\016\n\nENUM_VALUE\020\002\022\017\n\013MESSAGE_KEY\020\003\":\n\n"
+      "LinkerType\022\010\n\004NONE\020\000\022\n\n\006PARENT\020\001\022\t\n\005CHIL"
+      "D\020\002\022\013\n\007NEITHER\020\003\"n\n\005Index\0221\n\014column_name"
+      "s\030\001 \003(\0132\033.org.yaorm.ColumnDefinition\0222\n\r"
+      "include_names\030\002 \003(\0132\033.org.yaorm.ColumnDe"
+      "finition\"\351\002\n\nDifference\0225\n\013entity_type\030\001"
+      " \001(\0162 .org.yaorm.Difference.EntityType\0222"
+      "\n\toperation\030\002 \001(\0162\037.org.yaorm.Difference"
+      ".Operation\022\014\n\004name\030\003 \001(\t\022\037\n\005index\030\004 \001(\0132"
+      "\020.org.yaorm.Index\0228\n\023property_definition"
+      "\030\005 \001(\0132\033.org.yaorm.ColumnDefinition\0224\n\020t"
+      "able_definition\030\006 \001(\0132\032.org.yaorm.TableD"
+      "efinition\".\n\nEntityType\022\t\n\005INDEX\020\000\022\n\n\006CO"
+      "LUMN\020\001\022\t\n\005TABLE\020\002\"!\n\tOperation\022\n\n\006CREATE"
+      "\020\000\022\010\n\004DROP\020\001\"\200\002\n\017TableDefinition\022\014\n\004name"
+      "\030\001 \001(\t\0227\n\022column_definitions\030\002 \003(\0132\033.org"
+      ".yaorm.ColumnDefinition\022\037\n\005index\030\003 \001(\0132\020"
+      ".org.yaorm.Index\0228\n\ntable_type\030\004 \001(\0162$.o"
+      "rg.yaorm.TableDefinition.TableType\022\r\n\005al"
+      "ias\030\005 \001(\t\"<\n\tTableType\022\n\n\006NORMAL\020\000\022\022\n\016LI"
+      "NKER_MESSAGE\020\001\022\017\n\013LINKER_ENUM\020\002\"I\n\020Table"
+      "Definitions\0225\n\021table_definitions\030\001 \003(\0132\032"
+      ".org.yaorm.TableDefinition\"X\n\020Difference"
+      "Report\022\030\n\020migration_exists\030\001 \001(\010\022*\n\013diff"
+      "erences\030\002 \003(\0132\025.org.yaorm.Difference\"\222\003\n"
+      "\006Column\022/\n\ndefinition\030\001 \001(\0132\033.org.yaorm."
+      "ColumnDefinition\022\025\n\rdouble_holder\030\002 \001(\001\022"
+      "\024\n\014float_holder\030\003 \001(\002\022\024\n\014int32_holder\030\004 "
+      "\001(\005\022\024\n\014int64_holder\030\005 \001(\003\022\025\n\ruint32_hold"
+      "er\030\006 \001(\r\022\025\n\ruint64_holder\030\007 \001(\004\022\025\n\rsint3"
+      "2_holder\030\010 \001(\021\022\025\n\rsint64_holder\030\t \001(\022\022\026\n"
+      "\016fixed32_holder\030\n \001(\007\022\026\n\016fixed64_holder\030"
+      "\013 \001(\006\022\027\n\017sfixed32_holder\030\014 \001(\017\022\027\n\017sfixed"
+      "64_holder\030\r \001(\020\022\023\n\013bool_holder\030\016 \001(\010\022\025\n\r"
+      "string_holder\030\017 \001(\t\022\024\n\014bytes_holder\030\020 \001("
+      "\014\",\n\006Record\022\"\n\007columns\030\001 \003(\0132\021.org.yaorm"
+      ".Column\"-\n\007Records\022\"\n\007records\030\001 \003(\0132\021.or"
+      "g.yaorm.Record\"}\n\014TableRecords\0224\n\020table_"
+      "definition\030\001 \001(\0132\032.org.yaorm.TableDefini"
+      "tion\022#\n\007records\030\002 \001(\0132\022.org.yaorm.Record"
+      "s\022\022\n\ntable_name\030\003 \001(\t\"A\n\017AllTableRecords"
+      "\022.\n\rtable_records\030\001 \003(\0132\027.org.yaorm.Tabl"
+      "eRecords\"\231\005\n\021DatabaseOperation\0224\n\020table_"
+      "definition\030\001 \001(\0132\032.org.yaorm.TableDefini"
+      "tion\022#\n\007records\030\002 \001(\0132\022.org.yaorm.Record"
+      "s\022\037\n\005index\030\003 \001(\0132\020.org.yaorm.Index\0226\n\021co"
+      "lumn_definition\030\004 \001(\0132\033.org.yaorm.Column"
+      "Definition\022,\n\014where_clause\030\005 \001(\0132\026.org.y"
+      "aorm.WhereClause\022S\n\027database_operation_t"
+      "ype\030\006 \001(\01622.org.yaorm.DatabaseOperation."
+      "DatabaseOperationType\"\314\002\n\025DatabaseOperat"
+      "ionType\022\020\n\014CREATE_TABLE\020\000\022\016\n\nDROP_TABLE\020"
+      "\001\022\020\n\014CREATE_INDEX\020\002\022\016\n\nDROP_INDEX\020\003\022\021\n\rC"
+      "REATE_COLUMN\020\004\022\017\n\013DROP_COLUMN\020\005\022\r\n\tGET_C"
+      "OUNT\020\006\022\016\n\nGET_CUSTOM\020\007\022\007\n\003GET\020\010\022\014\n\010GET_M"
+      "ANY\020\t\022\r\n\tGET_WHERE\020\n\022\017\n\013BULK_INSERT\020\013\022\024\n"
+      "\020CREATE_OR_UPDATE\020\014\022\n\n\006CREATE\020\r\022\n\n\006UPDAT"
+      "E\020\016\022\030\n\024UPDATE_WITH_CRITERIA\020\017\022\021\n\rUPDATE_"
+      "CUSTOM\020\020\022\n\n\006DELETE\020\021\022\016\n\nDELETE_ALL\020\022\"\353\001\n"
+      "\027DatabaseOperationResult\022\023\n\013bool_result\030"
+      "\001 \001(\010\022\024\n\014count_result\030\002 \001(\003\022(\n\rrecord_re"
+      "sult\030\003 \001(\0132\021.org.yaorm.Record\022*\n\016records"
+      "_result\030\004 \001(\0132\022.org.yaorm.Records\022\025\n\rerr"
+      "or_message\030\005 \001(\t\0228\n\022database_operation\030\006"
+      " \001(\0132\034.org.yaorm.DatabaseOperation\"\255\001\n\022D"
+      "atabaseDefinition\022\016\n\006schema\030\001 \001(\t\022\014\n\004nam"
+      "e\030\002 \001(\t\0226\n\021table_definitions\030\003 \001(\0132\033.org"
+      ".yaorm.TableDefinitions\022A\n\027table_definit"
+      "ion_graphs\030\004 \003(\0132 .org.yaorm.TableDefini"
+      "tionGraphs\"\227\003\n\024TableDefinitionGraph\0229\n\025m"
+      "ain_table_definition\030\001 \001(\0132\032.org.yaorm.T"
+      "ableDefinition\022:\n\026other_table_definition"
+      "\030\002 \001(\0132\032.org.yaorm.TableDefinition\0226\n\022li"
+      "nker_table_table\030\003 \001(\0132\032.org.yaorm.Table"
+      "Definition\022W\n\025definition_graph_type\030\004 \001("
+      "\01628.org.yaorm.TableDefinitionGraph.Table"
+      "DefinitionGraphType\022\021\n\tmain_name\030\005 \001(\t\022\022"
+      "\n\nother_name\030\006 \001(\t\022\023\n\013column_name\030\007 \001(\t\""
+      ";\n\030TableDefinitionGraphType\022\r\n\tENUM_TYPE"
+      "\020\000\022\020\n\014MESSAGE_TYPE\020\001\"\224\001\n\025TableDefinition"
+      "Graphs\0229\n\025main_table_definition\030\001 \001(\0132\032."
+      "org.yaorm.TableDefinition\022@\n\027table_defin"
+      "ition_graphs\030\002 \003(\0132\037.org.yaorm.TableDefi"
+      "nitionGraph\"z\n\016ConnectionInfo\022\014\n\004host\030\001 "
+      "\001(\t\022\014\n\004user\030\002 \001(\t\022\020\n\010password\030\003 \001(\t\022\016\n\006s"
+      "chema\030\004 \001(\t\022\034\n\024should_create_schema\030\005 \001("
+      "\010\022\014\n\004port\030\006 \001(\005\"c\n\tMigration\022\n\n\002id\030\001 \001(\t"
+      "\022\024\n\014context_name\030\002 \001(\t\022\037\n\027model_definiti"
+      "on_base64\030\003 \001(\t\022\023\n\013insert_date\030\004 \001(\003\"_\n\021"
+      "DatabaseExecution\022\017\n\007raw_sql\030\001 \001(\t\022\023\n\013ti"
+      "me_called\030\002 \001(\003\022\016\n\006result\030\003 \001(\010\022\024\n\014order"
+      "_called\030\004 \001(\003\"f\n\027DatabaseExecutionReport"
+      "\022\031\n\021calls_to_database\030\001 \001(\003\0220\n\nexecution"
+      "s\030\002 \003(\0132\034.org.yaorm.DatabaseExecution\"\203\002"
+      "\n\tJoinTable\022/\n\013first_table\030\001 \001(\0132\032.org.y"
+      "aorm.TableDefinition\0220\n\014second_table\030\002 \001"
+      "(\0132\032.org.yaorm.TableDefinition\0221\n\014first_"
+      "column\030\007 \001(\0132\033.org.yaorm.ColumnDefinitio"
+      "n\0222\n\rsecond_column\030\010 \001(\0132\033.org.yaorm.Col"
+      "umnDefinition\022,\n\014where_clause\030\t \001(\0132\026.or"
+      "g.yaorm.WhereClause\"a\n\020JoinTableRecords\022"
+      "(\n\njoin_table\030\001 \001(\0132\024.org.yaorm.JoinTabl"
+      "e\022#\n\007records\030\002 \001(\0132\022.org.yaorm.Records\"7"
+      "\n\007GroupBy\022,\n\007columns\030\001 \003(\0132\033.org.yaorm.C"
+      "olumnDefinition\"\\\n\007OrderBy\022+\n\006column\030\001 \001"
+      "(\0132\033.org.yaorm.ColumnDefinition\022$\n\004type\030"
+      "\002 \001(\0162\026.org.yaorm.OrderByType\"\266\002\n\nProjec"
+      "tion\022+\n\006labels\030\001 \003(\0132\033.org.yaorm.ColumnD"
+      "efinition\022.\n\nmain_table\030\002 \001(\0132\032.org.yaor"
+      "m.TableDefinition\022#\n\005joins\030\003 \003(\0132\024.org.y"
+      "aorm.JoinTable\022,\n\014where_clause\030\004 \001(\0132\026.o"
+      "rg.yaorm.WhereClause\022$\n\010group_by\030\005 \001(\0132\022"
+      ".org.yaorm.GroupBy\022%\n\torder_bys\030\006 \003(\0132\022."
+      "org.yaorm.OrderBy\022\014\n\004name\030\007 \001(\t\022\r\n\005limit"
+      "\030\010 \001(\003\022\016\n\006offset\030\t \001(\003\"\375\002\n\016UIYaormReques"
+      "t\022\r\n\005token\030\001 \001(\t\0224\n\020table_definition\030\002 \001"
+      "(\0132\032.org.yaorm.TableDefinition\022#\n\007record"
+      "s\030\003 \001(\0132\022.org.yaorm.Records\0222\n\017connectio"
+      "n_info\030\004 \001(\0132\031.org.yaorm.ConnectionInfo\022"
+      ",\n\014where_clause\030\005 \001(\0132\026.org.yaorm.WhereC"
+      "lause\022\r\n\005limit\030\006 \001(\003\022\016\n\006offset\030\007 \001(\003\022\035\n\025"
+      "insert_same_as_update\030\010 \001(\010\022\023\n\013schema_na"
+      "me\030\t \001(\t\022\022\n\ntable_name\030\n \001(\t\022\022\n\ncustom_s"
+      "ql\030\013 \001(\t\022\027\n\017file_descriptor\030\r \001(\t\022\013\n\003ids"
+      "\030\016 \003(\t\"\302\002\n\017UIYaormResponse\022#\n\007records\030\001 "
+      "\001(\0132\022.org.yaorm.Records\022\017\n\007schemas\030\002 \003(\t"
+      "\022\016\n\006tables\030\003 \003(\t\0224\n\020table_definition\030\004 \001"
+      "(\0132\032.org.yaorm.TableDefinition\0226\n\021table_"
+      "definitions\030\005 \001(\0132\033.org.yaorm.TableDefin"
+      "itions\022\024\n\014record_count\030\006 \001(\003\022\016\n\006result\030\007"
+      " \001(\010\022>\n\027proto_type_to_sql_types\030\010 \003(\0132\035."
+      "org.yaorm.ProtoTypeToSqlType\022\025\n\rstring_r"
+      "esult\030\t \001(\t\"\267\003\n\033SqlGeneratorRequestRespo"
+      "nse\022.\n\ndefinition\030\001 \001(\0132\032.org.yaorm.Tabl"
+      "eDefinition\0226\n\021column_definition\030\002 \001(\0132\033"
+      ".org.yaorm.ColumnDefinition\022\037\n\005index\030\003 \001"
+      "(\0132\020.org.yaorm.Index\022!\n\006column\030\004 \001(\0132\021.o"
+      "rg.yaorm.Column\022,\n\014where_clause\030\005 \001(\0132\026."
+      "org.yaorm.WhereClause\022#\n\007records\030\006 \001(\0132\022"
+      ".org.yaorm.Records\022\r\n\005limit\030\007 \001(\003\022\016\n\006off"
+      "set\030\010 \001(\003\022\023\n\013schema_name\030\t \001(\t\022\022\n\ntable_"
+      "name\030\n \001(\t\022\020\n\010response\030\013 \001(\t\022\?\n\027proto_ty"
+      "pe_to_sql_types\030\014 \001(\0132\036.org.yaorm.ProtoT"
+      "ypeToSqlTypes*\327\001\n\014ProtobufType\022\010\n\004NONE\020\000"
+      "\022\n\n\006DOUBLE\020\001\022\t\n\005FLOAT\020\002\022\t\n\005INT32\020\003\022\t\n\005IN"
+      "T64\020\004\022\n\n\006UINT32\020\005\022\n\n\006UINT64\020\006\022\n\n\006SINT32\020"
+      "\007\022\n\n\006SINT64\020\010\022\013\n\007FIXED32\020\t\022\013\n\007FIXED64\020\n\022"
+      "\014\n\010SFIXED32\020\013\022\014\n\010SFIXED64\020\014\022\010\n\004BOOL\020\r\022\n\n"
+      "\006STRING\020\016\022\t\n\005BYTES\020\017\022\t\n\005PROTO\020\020*\255\001\n\022Sele"
+      "ctFunctionType\022\035\n\031NONE_SELECT_FUNCTION_T"
+      "YPE\020\000\022\036\n\032COUNT_SELECT_FUNCTION_TYPE\020\001\022\034\n"
+      "\030MAX_SELECT_FUNCTION_TYPE\020\002\022\034\n\030MIN_SELEC"
+      "T_FUNCTION_TYPE\020\003\022\034\n\030SUM_SELECT_FUNCTION"
+      "_TYPE\020\004* \n\013OrderByType\022\007\n\003ASC\020\000\022\010\n\004DESC\020"
+      "\001b\006proto3"
+  };
+  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
+      descriptor, 7129);
+  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
+    "yaorm_models.proto", &protobuf_RegisterTypes);
+}
+} // anonymous namespace
+
+void AddDescriptors() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
+}
+// Force AddDescriptors() to be called at dynamic initialization time.
+struct StaticDescriptorInitializer {
+  StaticDescriptorInitializer() {
+    AddDescriptors();
   }
-} static_descriptor_initializer_yaorm_5fmodels_2eproto_;
+} static_descriptor_initializer;
+
+}  // namespace protobuf_yaorm_5fmodels_2eproto
+
+const ::google::protobuf::EnumDescriptor* WhereClause_OperatorType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[0];
+}
+bool WhereClause_OperatorType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const WhereClause_OperatorType WhereClause::EQUALS;
+const WhereClause_OperatorType WhereClause::GREATER_THAN;
+const WhereClause_OperatorType WhereClause::LESS_THAN;
+const WhereClause_OperatorType WhereClause::NOT_EQUALS;
+const WhereClause_OperatorType WhereClause::IN;
+const WhereClause_OperatorType WhereClause::OperatorType_MIN;
+const WhereClause_OperatorType WhereClause::OperatorType_MAX;
+const int WhereClause::OperatorType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* WhereClause_ConnectingAndOr_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[1];
+}
+bool WhereClause_ConnectingAndOr_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const WhereClause_ConnectingAndOr WhereClause::NONE;
+const WhereClause_ConnectingAndOr WhereClause::AND;
+const WhereClause_ConnectingAndOr WhereClause::OR;
+const WhereClause_ConnectingAndOr WhereClause::ConnectingAndOr_MIN;
+const WhereClause_ConnectingAndOr WhereClause::ConnectingAndOr_MAX;
+const int WhereClause::ConnectingAndOr_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* ColumnDefinition_ColumnType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[2];
+}
+bool ColumnDefinition_ColumnType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const ColumnDefinition_ColumnType ColumnDefinition::SCALAR;
+const ColumnDefinition_ColumnType ColumnDefinition::ENUM_NAME;
+const ColumnDefinition_ColumnType ColumnDefinition::ENUM_VALUE;
+const ColumnDefinition_ColumnType ColumnDefinition::MESSAGE_KEY;
+const ColumnDefinition_ColumnType ColumnDefinition::ColumnType_MIN;
+const ColumnDefinition_ColumnType ColumnDefinition::ColumnType_MAX;
+const int ColumnDefinition::ColumnType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* ColumnDefinition_LinkerType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[3];
+}
+bool ColumnDefinition_LinkerType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const ColumnDefinition_LinkerType ColumnDefinition::NONE;
+const ColumnDefinition_LinkerType ColumnDefinition::PARENT;
+const ColumnDefinition_LinkerType ColumnDefinition::CHILD;
+const ColumnDefinition_LinkerType ColumnDefinition::NEITHER;
+const ColumnDefinition_LinkerType ColumnDefinition::LinkerType_MIN;
+const ColumnDefinition_LinkerType ColumnDefinition::LinkerType_MAX;
+const int ColumnDefinition::LinkerType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* Difference_EntityType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[4];
+}
+bool Difference_EntityType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const Difference_EntityType Difference::INDEX;
+const Difference_EntityType Difference::COLUMN;
+const Difference_EntityType Difference::TABLE;
+const Difference_EntityType Difference::EntityType_MIN;
+const Difference_EntityType Difference::EntityType_MAX;
+const int Difference::EntityType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* Difference_Operation_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[5];
+}
+bool Difference_Operation_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const Difference_Operation Difference::CREATE;
+const Difference_Operation Difference::DROP;
+const Difference_Operation Difference::Operation_MIN;
+const Difference_Operation Difference::Operation_MAX;
+const int Difference::Operation_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* TableDefinition_TableType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[6];
+}
+bool TableDefinition_TableType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const TableDefinition_TableType TableDefinition::NORMAL;
+const TableDefinition_TableType TableDefinition::LINKER_MESSAGE;
+const TableDefinition_TableType TableDefinition::LINKER_ENUM;
+const TableDefinition_TableType TableDefinition::TableType_MIN;
+const TableDefinition_TableType TableDefinition::TableType_MAX;
+const int TableDefinition::TableType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* DatabaseOperation_DatabaseOperationType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[7];
+}
+bool DatabaseOperation_DatabaseOperationType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+    case 11:
+    case 12:
+    case 13:
+    case 14:
+    case 15:
+    case 16:
+    case 17:
+    case 18:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::CREATE_TABLE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DROP_TABLE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::CREATE_INDEX;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DROP_INDEX;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::CREATE_COLUMN;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DROP_COLUMN;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::GET_COUNT;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::GET_CUSTOM;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::GET;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::GET_MANY;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::GET_WHERE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::BULK_INSERT;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::CREATE_OR_UPDATE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::CREATE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::UPDATE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::UPDATE_WITH_CRITERIA;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::UPDATE_CUSTOM;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DELETE;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DELETE_ALL;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DatabaseOperationType_MIN;
+const DatabaseOperation_DatabaseOperationType DatabaseOperation::DatabaseOperationType_MAX;
+const int DatabaseOperation::DatabaseOperationType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+const ::google::protobuf::EnumDescriptor* TableDefinitionGraph_TableDefinitionGraphType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[8];
+}
+bool TableDefinitionGraph_TableDefinitionGraphType_IsValid(int value) {
+  switch (value) {
+    case 0:
+    case 1:
+      return true;
+    default:
+      return false;
+  }
+}
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const TableDefinitionGraph_TableDefinitionGraphType TableDefinitionGraph::ENUM_TYPE;
+const TableDefinitionGraph_TableDefinitionGraphType TableDefinitionGraph::MESSAGE_TYPE;
+const TableDefinitionGraph_TableDefinitionGraphType TableDefinitionGraph::TableDefinitionGraphType_MIN;
+const TableDefinitionGraph_TableDefinitionGraphType TableDefinitionGraph::TableDefinitionGraphType_MAX;
+const int TableDefinitionGraph::TableDefinitionGraphType_ARRAYSIZE;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 const ::google::protobuf::EnumDescriptor* ProtobufType_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return ProtobufType_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[9];
 }
 bool ProtobufType_IsValid(int value) {
-  switch(value) {
+  switch (value) {
     case 0:
     case 1:
     case 2:
@@ -432,527 +1268,400 @@ bool ProtobufType_IsValid(int value) {
   }
 }
 
-
-// ===================================================================
-
-const ::google::protobuf::EnumDescriptor* WhereClauseItem_OperatorType_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return WhereClauseItem_OperatorType_descriptor_;
+const ::google::protobuf::EnumDescriptor* SelectFunctionType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[10];
 }
-bool WhereClauseItem_OperatorType_IsValid(int value) {
-  switch(value) {
+bool SelectFunctionType_IsValid(int value) {
+  switch (value) {
     case 0:
     case 1:
     case 2:
     case 3:
+    case 4:
       return true;
     default:
       return false;
   }
 }
 
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WhereClauseItem_OperatorType WhereClauseItem::EQUALS;
-const WhereClauseItem_OperatorType WhereClauseItem::GREATER_THAN;
-const WhereClauseItem_OperatorType WhereClauseItem::LESS_THAN;
-const WhereClauseItem_OperatorType WhereClauseItem::NOT_EQUALS;
-const WhereClauseItem_OperatorType WhereClauseItem::OperatorType_MIN;
-const WhereClauseItem_OperatorType WhereClauseItem::OperatorType_MAX;
-const int WhereClauseItem::OperatorType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* WhereClauseItem_ConnectingAndOr_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return WhereClauseItem_ConnectingAndOr_descriptor_;
+const ::google::protobuf::EnumDescriptor* OrderByType_descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_enum_descriptors[11];
 }
-bool WhereClauseItem_ConnectingAndOr_IsValid(int value) {
-  switch(value) {
+bool OrderByType_IsValid(int value) {
+  switch (value) {
     case 0:
     case 1:
-    case 2:
       return true;
     default:
       return false;
   }
 }
 
+
+// ===================================================================
+
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::NONE;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::AND;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::OR;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::ConnectingAndOr_MIN;
-const WhereClauseItem_ConnectingAndOr WhereClauseItem::ConnectingAndOr_MAX;
-const int WhereClauseItem::ConnectingAndOr_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int WhereClauseItem::kNameAndPropertyFieldNumber;
-const int WhereClauseItem::kOperatorTypeFieldNumber;
-const int WhereClauseItem::kConnectingAndOrFieldNumber;
-const int WhereClauseItem::kConnectingWhereClauseFieldNumber;
+const int ProtoTypeToSqlType::kProtoTypeFieldNumber;
+const int ProtoTypeToSqlType::kSqlTypeFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
-WhereClauseItem::WhereClauseItem()
+ProtoTypeToSqlType::ProtoTypeToSqlType()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
-  // @@protoc_insertion_point(constructor:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(constructor:org.yaorm.ProtoTypeToSqlType)
 }
-
-void WhereClauseItem::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-  name_and_property_ = const_cast< ::org::yaorm::PropertyHolder*>(&::org::yaorm::PropertyHolder::default_instance());
-  connecting_where_clause_ = const_cast< ::org::yaorm::WhereClauseItem*>(&::org::yaorm::WhereClauseItem::default_instance());
-}
-
-WhereClauseItem::WhereClauseItem(const WhereClauseItem& from)
+ProtoTypeToSqlType::ProtoTypeToSqlType(const ProtoTypeToSqlType& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:org.yaorm.WhereClauseItem)
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  sql_type_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.sql_type().size() > 0) {
+    sql_type_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.sql_type_);
+  }
+  proto_type_ = from.proto_type_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.ProtoTypeToSqlType)
 }
 
-void WhereClauseItem::SharedCtor() {
-    _is_default_instance_ = false;
+void ProtoTypeToSqlType::SharedCtor() {
+  sql_type_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  proto_type_ = 0;
   _cached_size_ = 0;
-  name_and_property_ = NULL;
-  operator_type_ = 0;
-  connecting_and_or_ = 0;
-  connecting_where_clause_ = NULL;
 }
 
-WhereClauseItem::~WhereClauseItem() {
-  // @@protoc_insertion_point(destructor:org.yaorm.WhereClauseItem)
+ProtoTypeToSqlType::~ProtoTypeToSqlType() {
+  // @@protoc_insertion_point(destructor:org.yaorm.ProtoTypeToSqlType)
   SharedDtor();
 }
 
-void WhereClauseItem::SharedDtor() {
-  if (this != default_instance_) {
-    delete name_and_property_;
-    delete connecting_where_clause_;
-  }
+void ProtoTypeToSqlType::SharedDtor() {
+  sql_type_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
 
-void WhereClauseItem::SetCachedSize(int size) const {
+void ProtoTypeToSqlType::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* WhereClauseItem::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return WhereClauseItem_descriptor_;
+const ::google::protobuf::Descriptor* ProtoTypeToSqlType::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
-const WhereClauseItem& WhereClauseItem::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+const ProtoTypeToSqlType& ProtoTypeToSqlType::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
 
-WhereClauseItem* WhereClauseItem::default_instance_ = NULL;
-
-WhereClauseItem* WhereClauseItem::New(::google::protobuf::Arena* arena) const {
-  WhereClauseItem* n = new WhereClauseItem;
+ProtoTypeToSqlType* ProtoTypeToSqlType::New(::google::protobuf::Arena* arena) const {
+  ProtoTypeToSqlType* n = new ProtoTypeToSqlType;
   if (arena != NULL) {
     arena->Own(n);
   }
   return n;
 }
 
-void WhereClauseItem::Clear() {
-// @@protoc_insertion_point(message_clear_start:org.yaorm.WhereClauseItem)
-#if defined(__clang__)
-#define ZR_HELPER_(f) \
-  _Pragma("clang diagnostic push") \
-  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
-  __builtin_offsetof(WhereClauseItem, f) \
-  _Pragma("clang diagnostic pop")
-#else
-#define ZR_HELPER_(f) reinterpret_cast<char*>(\
-  &reinterpret_cast<WhereClauseItem*>(16)->f)
-#endif
+void ProtoTypeToSqlType::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.ProtoTypeToSqlType)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
 
-#define ZR_(first, last) do {\
-  ::memset(&first, 0,\
-           ZR_HELPER_(last) - ZR_HELPER_(first) + sizeof(last));\
-} while (0)
-
-  ZR_(operator_type_, connecting_and_or_);
-  if (GetArenaNoVirtual() == NULL && name_and_property_ != NULL) delete name_and_property_;
-  name_and_property_ = NULL;
-  if (GetArenaNoVirtual() == NULL && connecting_where_clause_ != NULL) delete connecting_where_clause_;
-  connecting_where_clause_ = NULL;
-
-#undef ZR_HELPER_
-#undef ZR_
-
+  sql_type_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  proto_type_ = 0;
+  _internal_metadata_.Clear();
 }
 
-bool WhereClauseItem::MergePartialFromCodedStream(
+bool ProtoTypeToSqlType::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(parse_start:org.yaorm.ProtoTypeToSqlType)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional .org.yaorm.PropertyHolder name_and_property = 1;
+      // .org.yaorm.ProtobufType proto_type = 1;
       case 1: {
-        if (tag == 10) {
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
-               input, mutable_name_and_property()));
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(8u /* 8 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_proto_type(static_cast< ::org::yaorm::ProtobufType >(value));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(16)) goto parse_operator_type;
         break;
       }
 
-      // optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
+      // string sql_type = 2;
       case 2: {
-        if (tag == 16) {
-         parse_operator_type:
-          int value;
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
-                 input, &value)));
-          set_operator_type(static_cast< ::org::yaorm::WhereClauseItem_OperatorType >(value));
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_sql_type()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->sql_type().data(), static_cast<int>(this->sql_type().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ProtoTypeToSqlType.sql_type"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(24)) goto parse_connecting_and_or;
-        break;
-      }
-
-      // optional .org.yaorm.WhereClauseItem.ConnectingAndOr connecting_and_or = 3;
-      case 3: {
-        if (tag == 24) {
-         parse_connecting_and_or:
-          int value;
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
-                 input, &value)));
-          set_connecting_and_or(static_cast< ::org::yaorm::WhereClauseItem_ConnectingAndOr >(value));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(34)) goto parse_connecting_where_clause;
-        break;
-      }
-
-      // optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
-      case 4: {
-        if (tag == 34) {
-         parse_connecting_where_clause:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
-               input, mutable_connecting_where_clause()));
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(parse_success:org.yaorm.ProtoTypeToSqlType)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(parse_failure:org.yaorm.ProtoTypeToSqlType)
   return false;
 #undef DO_
 }
 
-void WhereClauseItem::SerializeWithCachedSizes(
+void ProtoTypeToSqlType::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:org.yaorm.WhereClauseItem)
-  // optional .org.yaorm.PropertyHolder name_and_property = 1;
-  if (this->has_name_and_property()) {
-    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      1, *this->name_and_property_, output);
-  }
+  // @@protoc_insertion_point(serialize_start:org.yaorm.ProtoTypeToSqlType)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
 
-  // optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
-  if (this->operator_type() != 0) {
+  // .org.yaorm.ProtobufType proto_type = 1;
+  if (this->proto_type() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
-      2, this->operator_type(), output);
+      1, this->proto_type(), output);
   }
 
-  // optional .org.yaorm.WhereClauseItem.ConnectingAndOr connecting_and_or = 3;
-  if (this->connecting_and_or() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteEnum(
-      3, this->connecting_and_or(), output);
+  // string sql_type = 2;
+  if (this->sql_type().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->sql_type().data(), static_cast<int>(this->sql_type().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ProtoTypeToSqlType.sql_type");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      2, this->sql_type(), output);
   }
 
-  // optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
-  if (this->has_connecting_where_clause()) {
-    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      4, *this->connecting_where_clause_, output);
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
   }
-
-  // @@protoc_insertion_point(serialize_end:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(serialize_end:org.yaorm.ProtoTypeToSqlType)
 }
 
-::google::protobuf::uint8* WhereClauseItem::InternalSerializeWithCachedSizesToArray(
+::google::protobuf::uint8* ProtoTypeToSqlType::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.WhereClauseItem)
-  // optional .org.yaorm.PropertyHolder name_and_property = 1;
-  if (this->has_name_and_property()) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      InternalWriteMessageNoVirtualToArray(
-        1, *this->name_and_property_, false, target);
-  }
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.ProtoTypeToSqlType)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
 
-  // optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
-  if (this->operator_type() != 0) {
+  // .org.yaorm.ProtobufType proto_type = 1;
+  if (this->proto_type() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
-      2, this->operator_type(), target);
+      1, this->proto_type(), target);
   }
 
-  // optional .org.yaorm.WhereClauseItem.ConnectingAndOr connecting_and_or = 3;
-  if (this->connecting_and_or() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
-      3, this->connecting_and_or(), target);
+  // string sql_type = 2;
+  if (this->sql_type().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->sql_type().data(), static_cast<int>(this->sql_type().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ProtoTypeToSqlType.sql_type");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        2, this->sql_type(), target);
   }
 
-  // optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
-  if (this->has_connecting_where_clause()) {
-    target = ::google::protobuf::internal::WireFormatLite::
-      InternalWriteMessageNoVirtualToArray(
-        4, *this->connecting_where_clause_, false, target);
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
   }
-
-  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.ProtoTypeToSqlType)
   return target;
 }
 
-int WhereClauseItem::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:org.yaorm.WhereClauseItem)
-  int total_size = 0;
+size_t ProtoTypeToSqlType::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.ProtoTypeToSqlType)
+  size_t total_size = 0;
 
-  // optional .org.yaorm.PropertyHolder name_and_property = 1;
-  if (this->has_name_and_property()) {
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string sql_type = 2;
+  if (this->sql_type().size() > 0) {
     total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        *this->name_and_property_);
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->sql_type());
   }
 
-  // optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
-  if (this->operator_type() != 0) {
+  // .org.yaorm.ProtobufType proto_type = 1;
+  if (this->proto_type() != 0) {
     total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::EnumSize(this->operator_type());
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->proto_type());
   }
 
-  // optional .org.yaorm.WhereClauseItem.ConnectingAndOr connecting_and_or = 3;
-  if (this->connecting_and_or() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::EnumSize(this->connecting_and_or());
-  }
-
-  // optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
-  if (this->has_connecting_where_clause()) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        *this->connecting_where_clause_);
-  }
-
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
-void WhereClauseItem::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.WhereClauseItem)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const WhereClauseItem* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const WhereClauseItem>(
+void ProtoTypeToSqlType::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.ProtoTypeToSqlType)
+  GOOGLE_DCHECK_NE(&from, this);
+  const ProtoTypeToSqlType* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const ProtoTypeToSqlType>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.ProtoTypeToSqlType)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.WhereClauseItem)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.ProtoTypeToSqlType)
     MergeFrom(*source);
   }
 }
 
-void WhereClauseItem::MergeFrom(const WhereClauseItem& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.WhereClauseItem)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+void ProtoTypeToSqlType::MergeFrom(const ProtoTypeToSqlType& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.ProtoTypeToSqlType)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.sql_type().size() > 0) {
+
+    sql_type_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.sql_type_);
   }
-  if (from.has_name_and_property()) {
-    mutable_name_and_property()->::org::yaorm::PropertyHolder::MergeFrom(from.name_and_property());
-  }
-  if (from.operator_type() != 0) {
-    set_operator_type(from.operator_type());
-  }
-  if (from.connecting_and_or() != 0) {
-    set_connecting_and_or(from.connecting_and_or());
-  }
-  if (from.has_connecting_where_clause()) {
-    mutable_connecting_where_clause()->::org::yaorm::WhereClauseItem::MergeFrom(from.connecting_where_clause());
+  if (from.proto_type() != 0) {
+    set_proto_type(from.proto_type());
   }
 }
 
-void WhereClauseItem::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.WhereClauseItem)
+void ProtoTypeToSqlType::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.ProtoTypeToSqlType)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void WhereClauseItem::CopyFrom(const WhereClauseItem& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.WhereClauseItem)
+void ProtoTypeToSqlType::CopyFrom(const ProtoTypeToSqlType& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.ProtoTypeToSqlType)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool WhereClauseItem::IsInitialized() const {
-
+bool ProtoTypeToSqlType::IsInitialized() const {
   return true;
 }
 
-void WhereClauseItem::Swap(WhereClauseItem* other) {
+void ProtoTypeToSqlType::Swap(ProtoTypeToSqlType* other) {
   if (other == this) return;
   InternalSwap(other);
 }
-void WhereClauseItem::InternalSwap(WhereClauseItem* other) {
-  std::swap(name_and_property_, other->name_and_property_);
-  std::swap(operator_type_, other->operator_type_);
-  std::swap(connecting_and_or_, other->connecting_and_or_);
-  std::swap(connecting_where_clause_, other->connecting_where_clause_);
+void ProtoTypeToSqlType::InternalSwap(ProtoTypeToSqlType* other) {
+  using std::swap;
+  sql_type_.Swap(&other->sql_type_);
+  swap(proto_type_, other->proto_type_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
-::google::protobuf::Metadata WhereClauseItem::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = WhereClauseItem_descriptor_;
-  metadata.reflection = WhereClauseItem_reflection_;
-  return metadata;
+::google::protobuf::Metadata ProtoTypeToSqlType::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
-// WhereClauseItem
+// ProtoTypeToSqlType
 
-// optional .org.yaorm.PropertyHolder name_and_property = 1;
-bool WhereClauseItem::has_name_and_property() const {
-  return !_is_default_instance_ && name_and_property_ != NULL;
+// .org.yaorm.ProtobufType proto_type = 1;
+void ProtoTypeToSqlType::clear_proto_type() {
+  proto_type_ = 0;
 }
-void WhereClauseItem::clear_name_and_property() {
-  if (GetArenaNoVirtual() == NULL && name_and_property_ != NULL) delete name_and_property_;
-  name_and_property_ = NULL;
+::org::yaorm::ProtobufType ProtoTypeToSqlType::proto_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ProtoTypeToSqlType.proto_type)
+  return static_cast< ::org::yaorm::ProtobufType >(proto_type_);
 }
-const ::org::yaorm::PropertyHolder& WhereClauseItem::name_and_property() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.WhereClauseItem.name_and_property)
-  return name_and_property_ != NULL ? *name_and_property_ : *default_instance_->name_and_property_;
-}
-::org::yaorm::PropertyHolder* WhereClauseItem::mutable_name_and_property() {
+void ProtoTypeToSqlType::set_proto_type(::org::yaorm::ProtobufType value) {
   
-  if (name_and_property_ == NULL) {
-    name_and_property_ = new ::org::yaorm::PropertyHolder;
-  }
-  // @@protoc_insertion_point(field_mutable:org.yaorm.WhereClauseItem.name_and_property)
-  return name_and_property_;
+  proto_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ProtoTypeToSqlType.proto_type)
 }
-::org::yaorm::PropertyHolder* WhereClauseItem::release_name_and_property() {
-  // @@protoc_insertion_point(field_release:org.yaorm.WhereClauseItem.name_and_property)
+
+// string sql_type = 2;
+void ProtoTypeToSqlType::clear_sql_type() {
+  sql_type_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ProtoTypeToSqlType::sql_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ProtoTypeToSqlType.sql_type)
+  return sql_type_.GetNoArena();
+}
+void ProtoTypeToSqlType::set_sql_type(const ::std::string& value) {
   
-  ::org::yaorm::PropertyHolder* temp = name_and_property_;
-  name_and_property_ = NULL;
-  return temp;
+  sql_type_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ProtoTypeToSqlType.sql_type)
 }
-void WhereClauseItem::set_allocated_name_and_property(::org::yaorm::PropertyHolder* name_and_property) {
-  delete name_and_property_;
-  name_and_property_ = name_and_property;
-  if (name_and_property) {
+#if LANG_CXX11
+void ProtoTypeToSqlType::set_sql_type(::std::string&& value) {
+  
+  sql_type_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ProtoTypeToSqlType.sql_type)
+}
+#endif
+void ProtoTypeToSqlType::set_sql_type(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  sql_type_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ProtoTypeToSqlType.sql_type)
+}
+void ProtoTypeToSqlType::set_sql_type(const char* value, size_t size) {
+  
+  sql_type_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ProtoTypeToSqlType.sql_type)
+}
+::std::string* ProtoTypeToSqlType::mutable_sql_type() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ProtoTypeToSqlType.sql_type)
+  return sql_type_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ProtoTypeToSqlType::release_sql_type() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ProtoTypeToSqlType.sql_type)
+  
+  return sql_type_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ProtoTypeToSqlType::set_allocated_sql_type(::std::string* sql_type) {
+  if (sql_type != NULL) {
     
   } else {
     
   }
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.WhereClauseItem.name_and_property)
-}
-
-// optional .org.yaorm.WhereClauseItem.OperatorType operator_type = 2;
-void WhereClauseItem::clear_operator_type() {
-  operator_type_ = 0;
-}
- ::org::yaorm::WhereClauseItem_OperatorType WhereClauseItem::operator_type() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.WhereClauseItem.operator_type)
-  return static_cast< ::org::yaorm::WhereClauseItem_OperatorType >(operator_type_);
-}
- void WhereClauseItem::set_operator_type(::org::yaorm::WhereClauseItem_OperatorType value) {
-  
-  operator_type_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.WhereClauseItem.operator_type)
-}
-
-// optional .org.yaorm.WhereClauseItem.ConnectingAndOr connecting_and_or = 3;
-void WhereClauseItem::clear_connecting_and_or() {
-  connecting_and_or_ = 0;
-}
- ::org::yaorm::WhereClauseItem_ConnectingAndOr WhereClauseItem::connecting_and_or() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.WhereClauseItem.connecting_and_or)
-  return static_cast< ::org::yaorm::WhereClauseItem_ConnectingAndOr >(connecting_and_or_);
-}
- void WhereClauseItem::set_connecting_and_or(::org::yaorm::WhereClauseItem_ConnectingAndOr value) {
-  
-  connecting_and_or_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.WhereClauseItem.connecting_and_or)
-}
-
-// optional .org.yaorm.WhereClauseItem connecting_where_clause = 4;
-bool WhereClauseItem::has_connecting_where_clause() const {
-  return !_is_default_instance_ && connecting_where_clause_ != NULL;
-}
-void WhereClauseItem::clear_connecting_where_clause() {
-  if (GetArenaNoVirtual() == NULL && connecting_where_clause_ != NULL) delete connecting_where_clause_;
-  connecting_where_clause_ = NULL;
-}
-const ::org::yaorm::WhereClauseItem& WhereClauseItem::connecting_where_clause() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.WhereClauseItem.connecting_where_clause)
-  return connecting_where_clause_ != NULL ? *connecting_where_clause_ : *default_instance_->connecting_where_clause_;
-}
-::org::yaorm::WhereClauseItem* WhereClauseItem::mutable_connecting_where_clause() {
-  
-  if (connecting_where_clause_ == NULL) {
-    connecting_where_clause_ = new ::org::yaorm::WhereClauseItem;
-  }
-  // @@protoc_insertion_point(field_mutable:org.yaorm.WhereClauseItem.connecting_where_clause)
-  return connecting_where_clause_;
-}
-::org::yaorm::WhereClauseItem* WhereClauseItem::release_connecting_where_clause() {
-  // @@protoc_insertion_point(field_release:org.yaorm.WhereClauseItem.connecting_where_clause)
-  
-  ::org::yaorm::WhereClauseItem* temp = connecting_where_clause_;
-  connecting_where_clause_ = NULL;
-  return temp;
-}
-void WhereClauseItem::set_allocated_connecting_where_clause(::org::yaorm::WhereClauseItem* connecting_where_clause) {
-  delete connecting_where_clause_;
-  connecting_where_clause_ = connecting_where_clause;
-  if (connecting_where_clause) {
-    
-  } else {
-    
-  }
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.WhereClauseItem.connecting_where_clause)
+  sql_type_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), sql_type);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ProtoTypeToSqlType.sql_type)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -960,132 +1669,1026 @@ void WhereClauseItem::set_allocated_connecting_where_clause(::org::yaorm::WhereC
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PropertyDefinition::kNameFieldNumber;
-const int PropertyDefinition::kTypeFieldNumber;
-const int PropertyDefinition::kForeignCollectionFieldNumber;
-const int PropertyDefinition::kIsKeyFieldNumber;
+const int ProtoTypeToSqlTypes::kResultsFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
-PropertyDefinition::PropertyDefinition()
+ProtoTypeToSqlTypes::ProtoTypeToSqlTypes()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
-  // @@protoc_insertion_point(constructor:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(constructor:org.yaorm.ProtoTypeToSqlTypes)
 }
-
-void PropertyDefinition::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
-PropertyDefinition::PropertyDefinition(const PropertyDefinition& from)
+ProtoTypeToSqlTypes::ProtoTypeToSqlTypes(const ProtoTypeToSqlTypes& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:org.yaorm.PropertyDefinition)
+      _internal_metadata_(NULL),
+      results_(from.results_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.ProtoTypeToSqlTypes)
 }
 
-void PropertyDefinition::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
+void ProtoTypeToSqlTypes::SharedCtor() {
   _cached_size_ = 0;
-  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  type_ = 0;
-  foreign_collection_ = false;
-  is_key_ = false;
 }
 
-PropertyDefinition::~PropertyDefinition() {
-  // @@protoc_insertion_point(destructor:org.yaorm.PropertyDefinition)
+ProtoTypeToSqlTypes::~ProtoTypeToSqlTypes() {
+  // @@protoc_insertion_point(destructor:org.yaorm.ProtoTypeToSqlTypes)
   SharedDtor();
 }
 
-void PropertyDefinition::SharedDtor() {
-  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-  }
+void ProtoTypeToSqlTypes::SharedDtor() {
 }
 
-void PropertyDefinition::SetCachedSize(int size) const {
+void ProtoTypeToSqlTypes::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* PropertyDefinition::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return PropertyDefinition_descriptor_;
+const ::google::protobuf::Descriptor* ProtoTypeToSqlTypes::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
-const PropertyDefinition& PropertyDefinition::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+const ProtoTypeToSqlTypes& ProtoTypeToSqlTypes::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
 
-PropertyDefinition* PropertyDefinition::default_instance_ = NULL;
-
-PropertyDefinition* PropertyDefinition::New(::google::protobuf::Arena* arena) const {
-  PropertyDefinition* n = new PropertyDefinition;
+ProtoTypeToSqlTypes* ProtoTypeToSqlTypes::New(::google::protobuf::Arena* arena) const {
+  ProtoTypeToSqlTypes* n = new ProtoTypeToSqlTypes;
   if (arena != NULL) {
     arena->Own(n);
   }
   return n;
 }
 
-void PropertyDefinition::Clear() {
-// @@protoc_insertion_point(message_clear_start:org.yaorm.PropertyDefinition)
-#if defined(__clang__)
-#define ZR_HELPER_(f) \
-  _Pragma("clang diagnostic push") \
-  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
-  __builtin_offsetof(PropertyDefinition, f) \
-  _Pragma("clang diagnostic pop")
-#else
-#define ZR_HELPER_(f) reinterpret_cast<char*>(\
-  &reinterpret_cast<PropertyDefinition*>(16)->f)
-#endif
+void ProtoTypeToSqlTypes::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.ProtoTypeToSqlTypes)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
 
-#define ZR_(first, last) do {\
-  ::memset(&first, 0,\
-           ZR_HELPER_(last) - ZR_HELPER_(first) + sizeof(last));\
-} while (0)
-
-  ZR_(type_, is_key_);
-  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-
-#undef ZR_HELPER_
-#undef ZR_
-
+  results_.Clear();
+  _internal_metadata_.Clear();
 }
 
-bool PropertyDefinition::MergePartialFromCodedStream(
+bool ProtoTypeToSqlTypes::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(parse_start:org.yaorm.ProtoTypeToSqlTypes)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional string name = 1;
+      // repeated .org.yaorm.ProtoTypeToSqlType results = 1;
       case 1: {
-        if (tag == 10) {
-          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
-                input, this->mutable_name()));
-          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->name().data(), this->name().length(),
-            ::google::protobuf::internal::WireFormatLite::PARSE,
-            "org.yaorm.PropertyDefinition.name"));
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_results()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(16)) goto parse_type;
         break;
       }
 
-      // optional .org.yaorm.ProtobufType type = 2;
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.ProtoTypeToSqlTypes)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.ProtoTypeToSqlTypes)
+  return false;
+#undef DO_
+}
+
+void ProtoTypeToSqlTypes::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.ProtoTypeToSqlTypes)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ProtoTypeToSqlType results = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->results_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, this->results(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.ProtoTypeToSqlTypes)
+}
+
+::google::protobuf::uint8* ProtoTypeToSqlTypes::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.ProtoTypeToSqlTypes)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ProtoTypeToSqlType results = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->results_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, this->results(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.ProtoTypeToSqlTypes)
+  return target;
+}
+
+size_t ProtoTypeToSqlTypes::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.ProtoTypeToSqlTypes)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.ProtoTypeToSqlType results = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->results_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->results(static_cast<int>(i)));
+    }
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void ProtoTypeToSqlTypes::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.ProtoTypeToSqlTypes)
+  GOOGLE_DCHECK_NE(&from, this);
+  const ProtoTypeToSqlTypes* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const ProtoTypeToSqlTypes>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.ProtoTypeToSqlTypes)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.ProtoTypeToSqlTypes)
+    MergeFrom(*source);
+  }
+}
+
+void ProtoTypeToSqlTypes::MergeFrom(const ProtoTypeToSqlTypes& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.ProtoTypeToSqlTypes)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  results_.MergeFrom(from.results_);
+}
+
+void ProtoTypeToSqlTypes::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.ProtoTypeToSqlTypes)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void ProtoTypeToSqlTypes::CopyFrom(const ProtoTypeToSqlTypes& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.ProtoTypeToSqlTypes)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool ProtoTypeToSqlTypes::IsInitialized() const {
+  return true;
+}
+
+void ProtoTypeToSqlTypes::Swap(ProtoTypeToSqlTypes* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void ProtoTypeToSqlTypes::InternalSwap(ProtoTypeToSqlTypes* other) {
+  using std::swap;
+  results_.InternalSwap(&other->results_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata ProtoTypeToSqlTypes::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// ProtoTypeToSqlTypes
+
+// repeated .org.yaorm.ProtoTypeToSqlType results = 1;
+int ProtoTypeToSqlTypes::results_size() const {
+  return results_.size();
+}
+void ProtoTypeToSqlTypes::clear_results() {
+  results_.Clear();
+}
+const ::org::yaorm::ProtoTypeToSqlType& ProtoTypeToSqlTypes::results(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ProtoTypeToSqlTypes.results)
+  return results_.Get(index);
+}
+::org::yaorm::ProtoTypeToSqlType* ProtoTypeToSqlTypes::mutable_results(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ProtoTypeToSqlTypes.results)
+  return results_.Mutable(index);
+}
+::org::yaorm::ProtoTypeToSqlType* ProtoTypeToSqlTypes::add_results() {
+  // @@protoc_insertion_point(field_add:org.yaorm.ProtoTypeToSqlTypes.results)
+  return results_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ProtoTypeToSqlType >*
+ProtoTypeToSqlTypes::mutable_results() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.ProtoTypeToSqlTypes.results)
+  return &results_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ProtoTypeToSqlType >&
+ProtoTypeToSqlTypes::results() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.ProtoTypeToSqlTypes.results)
+  return results_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int WhereClause::kNameAndPropertyFieldNumber;
+const int WhereClause::kOperatorTypeFieldNumber;
+const int WhereClause::kConnectingAndOrFieldNumber;
+const int WhereClause::kConnectingWhereClauseFieldNumber;
+const int WhereClause::kInItemsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+WhereClause::WhereClause()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.WhereClause)
+}
+WhereClause::WhereClause(const WhereClause& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      in_items_(from.in_items_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_name_and_property()) {
+    name_and_property_ = new ::org::yaorm::Column(*from.name_and_property_);
+  } else {
+    name_and_property_ = NULL;
+  }
+  if (from.has_connecting_where_clause()) {
+    connecting_where_clause_ = new ::org::yaorm::WhereClause(*from.connecting_where_clause_);
+  } else {
+    connecting_where_clause_ = NULL;
+  }
+  ::memcpy(&operator_type_, &from.operator_type_,
+    static_cast<size_t>(reinterpret_cast<char*>(&connecting_and_or_) -
+    reinterpret_cast<char*>(&operator_type_)) + sizeof(connecting_and_or_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.WhereClause)
+}
+
+void WhereClause::SharedCtor() {
+  ::memset(&name_and_property_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&connecting_and_or_) -
+      reinterpret_cast<char*>(&name_and_property_)) + sizeof(connecting_and_or_));
+  _cached_size_ = 0;
+}
+
+WhereClause::~WhereClause() {
+  // @@protoc_insertion_point(destructor:org.yaorm.WhereClause)
+  SharedDtor();
+}
+
+void WhereClause::SharedDtor() {
+  if (this != internal_default_instance()) delete name_and_property_;
+  if (this != internal_default_instance()) delete connecting_where_clause_;
+}
+
+void WhereClause::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* WhereClause::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const WhereClause& WhereClause::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+WhereClause* WhereClause::New(::google::protobuf::Arena* arena) const {
+  WhereClause* n = new WhereClause;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void WhereClause::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.WhereClause)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  in_items_.Clear();
+  if (GetArenaNoVirtual() == NULL && name_and_property_ != NULL) {
+    delete name_and_property_;
+  }
+  name_and_property_ = NULL;
+  if (GetArenaNoVirtual() == NULL && connecting_where_clause_ != NULL) {
+    delete connecting_where_clause_;
+  }
+  connecting_where_clause_ = NULL;
+  ::memset(&operator_type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&connecting_and_or_) -
+      reinterpret_cast<char*>(&operator_type_)) + sizeof(connecting_and_or_));
+  _internal_metadata_.Clear();
+}
+
+bool WhereClause::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.WhereClause)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.Column name_and_property = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_name_and_property()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause.OperatorType operator_type = 2;
       case 2: {
-        if (tag == 16) {
-         parse_type:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_operator_type(static_cast< ::org::yaorm::WhereClause_OperatorType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause.ConnectingAndOr connecting_and_or = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(24u /* 24 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_connecting_and_or(static_cast< ::org::yaorm::WhereClause_ConnectingAndOr >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause connecting_where_clause = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_connecting_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated string in_items = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->add_in_items()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->in_items(this->in_items_size() - 1).data(),
+            static_cast<int>(this->in_items(this->in_items_size() - 1).length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.WhereClause.in_items"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.WhereClause)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.WhereClause)
+  return false;
+#undef DO_
+}
+
+void WhereClause::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.WhereClause)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Column name_and_property = 1;
+  if (this->has_name_and_property()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->name_and_property_, output);
+  }
+
+  // .org.yaorm.WhereClause.OperatorType operator_type = 2;
+  if (this->operator_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      2, this->operator_type(), output);
+  }
+
+  // .org.yaorm.WhereClause.ConnectingAndOr connecting_and_or = 3;
+  if (this->connecting_and_or() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      3, this->connecting_and_or(), output);
+  }
+
+  // .org.yaorm.WhereClause connecting_where_clause = 4;
+  if (this->has_connecting_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->connecting_where_clause_, output);
+  }
+
+  // repeated string in_items = 5;
+  for (int i = 0, n = this->in_items_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->in_items(i).data(), static_cast<int>(this->in_items(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.WhereClause.in_items");
+    ::google::protobuf::internal::WireFormatLite::WriteString(
+      5, this->in_items(i), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.WhereClause)
+}
+
+::google::protobuf::uint8* WhereClause::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.WhereClause)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Column name_and_property = 1;
+  if (this->has_name_and_property()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->name_and_property_, deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause.OperatorType operator_type = 2;
+  if (this->operator_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      2, this->operator_type(), target);
+  }
+
+  // .org.yaorm.WhereClause.ConnectingAndOr connecting_and_or = 3;
+  if (this->connecting_and_or() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      3, this->connecting_and_or(), target);
+  }
+
+  // .org.yaorm.WhereClause connecting_where_clause = 4;
+  if (this->has_connecting_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->connecting_where_clause_, deterministic, target);
+  }
+
+  // repeated string in_items = 5;
+  for (int i = 0, n = this->in_items_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->in_items(i).data(), static_cast<int>(this->in_items(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.WhereClause.in_items");
+    target = ::google::protobuf::internal::WireFormatLite::
+      WriteStringToArray(5, this->in_items(i), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.WhereClause)
+  return target;
+}
+
+size_t WhereClause::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.WhereClause)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated string in_items = 5;
+  total_size += 1 *
+      ::google::protobuf::internal::FromIntSize(this->in_items_size());
+  for (int i = 0, n = this->in_items_size(); i < n; i++) {
+    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
+      this->in_items(i));
+  }
+
+  // .org.yaorm.Column name_and_property = 1;
+  if (this->has_name_and_property()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->name_and_property_);
+  }
+
+  // .org.yaorm.WhereClause connecting_where_clause = 4;
+  if (this->has_connecting_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->connecting_where_clause_);
+  }
+
+  // .org.yaorm.WhereClause.OperatorType operator_type = 2;
+  if (this->operator_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->operator_type());
+  }
+
+  // .org.yaorm.WhereClause.ConnectingAndOr connecting_and_or = 3;
+  if (this->connecting_and_or() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->connecting_and_or());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void WhereClause::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.WhereClause)
+  GOOGLE_DCHECK_NE(&from, this);
+  const WhereClause* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const WhereClause>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.WhereClause)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.WhereClause)
+    MergeFrom(*source);
+  }
+}
+
+void WhereClause::MergeFrom(const WhereClause& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.WhereClause)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  in_items_.MergeFrom(from.in_items_);
+  if (from.has_name_and_property()) {
+    mutable_name_and_property()->::org::yaorm::Column::MergeFrom(from.name_and_property());
+  }
+  if (from.has_connecting_where_clause()) {
+    mutable_connecting_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.connecting_where_clause());
+  }
+  if (from.operator_type() != 0) {
+    set_operator_type(from.operator_type());
+  }
+  if (from.connecting_and_or() != 0) {
+    set_connecting_and_or(from.connecting_and_or());
+  }
+}
+
+void WhereClause::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.WhereClause)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void WhereClause::CopyFrom(const WhereClause& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.WhereClause)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool WhereClause::IsInitialized() const {
+  return true;
+}
+
+void WhereClause::Swap(WhereClause* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void WhereClause::InternalSwap(WhereClause* other) {
+  using std::swap;
+  in_items_.InternalSwap(&other->in_items_);
+  swap(name_and_property_, other->name_and_property_);
+  swap(connecting_where_clause_, other->connecting_where_clause_);
+  swap(operator_type_, other->operator_type_);
+  swap(connecting_and_or_, other->connecting_and_or_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata WhereClause::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// WhereClause
+
+// .org.yaorm.Column name_and_property = 1;
+bool WhereClause::has_name_and_property() const {
+  return this != internal_default_instance() && name_and_property_ != NULL;
+}
+void WhereClause::clear_name_and_property() {
+  if (GetArenaNoVirtual() == NULL && name_and_property_ != NULL) delete name_and_property_;
+  name_and_property_ = NULL;
+}
+const ::org::yaorm::Column& WhereClause::name_and_property() const {
+  const ::org::yaorm::Column* p = name_and_property_;
+  // @@protoc_insertion_point(field_get:org.yaorm.WhereClause.name_and_property)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Column*>(
+      &::org::yaorm::_Column_default_instance_);
+}
+::org::yaorm::Column* WhereClause::mutable_name_and_property() {
+  
+  if (name_and_property_ == NULL) {
+    name_and_property_ = new ::org::yaorm::Column;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.WhereClause.name_and_property)
+  return name_and_property_;
+}
+::org::yaorm::Column* WhereClause::release_name_and_property() {
+  // @@protoc_insertion_point(field_release:org.yaorm.WhereClause.name_and_property)
+  
+  ::org::yaorm::Column* temp = name_and_property_;
+  name_and_property_ = NULL;
+  return temp;
+}
+void WhereClause::set_allocated_name_and_property(::org::yaorm::Column* name_and_property) {
+  delete name_and_property_;
+  name_and_property_ = name_and_property;
+  if (name_and_property) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.WhereClause.name_and_property)
+}
+
+// .org.yaorm.WhereClause.OperatorType operator_type = 2;
+void WhereClause::clear_operator_type() {
+  operator_type_ = 0;
+}
+::org::yaorm::WhereClause_OperatorType WhereClause::operator_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.WhereClause.operator_type)
+  return static_cast< ::org::yaorm::WhereClause_OperatorType >(operator_type_);
+}
+void WhereClause::set_operator_type(::org::yaorm::WhereClause_OperatorType value) {
+  
+  operator_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.WhereClause.operator_type)
+}
+
+// .org.yaorm.WhereClause.ConnectingAndOr connecting_and_or = 3;
+void WhereClause::clear_connecting_and_or() {
+  connecting_and_or_ = 0;
+}
+::org::yaorm::WhereClause_ConnectingAndOr WhereClause::connecting_and_or() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.WhereClause.connecting_and_or)
+  return static_cast< ::org::yaorm::WhereClause_ConnectingAndOr >(connecting_and_or_);
+}
+void WhereClause::set_connecting_and_or(::org::yaorm::WhereClause_ConnectingAndOr value) {
+  
+  connecting_and_or_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.WhereClause.connecting_and_or)
+}
+
+// .org.yaorm.WhereClause connecting_where_clause = 4;
+bool WhereClause::has_connecting_where_clause() const {
+  return this != internal_default_instance() && connecting_where_clause_ != NULL;
+}
+void WhereClause::clear_connecting_where_clause() {
+  if (GetArenaNoVirtual() == NULL && connecting_where_clause_ != NULL) delete connecting_where_clause_;
+  connecting_where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& WhereClause::connecting_where_clause() const {
+  const ::org::yaorm::WhereClause* p = connecting_where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.WhereClause.connecting_where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* WhereClause::mutable_connecting_where_clause() {
+  
+  if (connecting_where_clause_ == NULL) {
+    connecting_where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.WhereClause.connecting_where_clause)
+  return connecting_where_clause_;
+}
+::org::yaorm::WhereClause* WhereClause::release_connecting_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.WhereClause.connecting_where_clause)
+  
+  ::org::yaorm::WhereClause* temp = connecting_where_clause_;
+  connecting_where_clause_ = NULL;
+  return temp;
+}
+void WhereClause::set_allocated_connecting_where_clause(::org::yaorm::WhereClause* connecting_where_clause) {
+  delete connecting_where_clause_;
+  connecting_where_clause_ = connecting_where_clause;
+  if (connecting_where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.WhereClause.connecting_where_clause)
+}
+
+// repeated string in_items = 5;
+int WhereClause::in_items_size() const {
+  return in_items_.size();
+}
+void WhereClause::clear_in_items() {
+  in_items_.Clear();
+}
+const ::std::string& WhereClause::in_items(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.WhereClause.in_items)
+  return in_items_.Get(index);
+}
+::std::string* WhereClause::mutable_in_items(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.WhereClause.in_items)
+  return in_items_.Mutable(index);
+}
+void WhereClause::set_in_items(int index, const ::std::string& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.WhereClause.in_items)
+  in_items_.Mutable(index)->assign(value);
+}
+#if LANG_CXX11
+void WhereClause::set_in_items(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.WhereClause.in_items)
+  in_items_.Mutable(index)->assign(std::move(value));
+}
+#endif
+void WhereClause::set_in_items(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  in_items_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:org.yaorm.WhereClause.in_items)
+}
+void WhereClause::set_in_items(int index, const char* value, size_t size) {
+  in_items_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.WhereClause.in_items)
+}
+::std::string* WhereClause::add_in_items() {
+  // @@protoc_insertion_point(field_add_mutable:org.yaorm.WhereClause.in_items)
+  return in_items_.Add();
+}
+void WhereClause::add_in_items(const ::std::string& value) {
+  in_items_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:org.yaorm.WhereClause.in_items)
+}
+#if LANG_CXX11
+void WhereClause::add_in_items(::std::string&& value) {
+  in_items_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:org.yaorm.WhereClause.in_items)
+}
+#endif
+void WhereClause::add_in_items(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  in_items_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:org.yaorm.WhereClause.in_items)
+}
+void WhereClause::add_in_items(const char* value, size_t size) {
+  in_items_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:org.yaorm.WhereClause.in_items)
+}
+const ::google::protobuf::RepeatedPtrField< ::std::string>&
+WhereClause::in_items() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.WhereClause.in_items)
+  return in_items_;
+}
+::google::protobuf::RepeatedPtrField< ::std::string>*
+WhereClause::mutable_in_items() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.WhereClause.in_items)
+  return &in_items_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int ColumnDefinition::kNameFieldNumber;
+const int ColumnDefinition::kTypeFieldNumber;
+const int ColumnDefinition::kIsKeyFieldNumber;
+const int ColumnDefinition::kColumnTypeFieldNumber;
+const int ColumnDefinition::kLinkerTypeFieldNumber;
+const int ColumnDefinition::kOrderFieldNumber;
+const int ColumnDefinition::kAliasFieldNumber;
+const int ColumnDefinition::kTableAliasFieldNumber;
+const int ColumnDefinition::kFunctionTypeFieldNumber;
+const int ColumnDefinition::kFunctionTextFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+ColumnDefinition::ColumnDefinition()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.ColumnDefinition)
+}
+ColumnDefinition::ColumnDefinition(const ColumnDefinition& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.name().size() > 0) {
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.alias().size() > 0) {
+    alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.alias_);
+  }
+  table_alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.table_alias().size() > 0) {
+    table_alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_alias_);
+  }
+  function_text_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.function_text().size() > 0) {
+    function_text_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.function_text_);
+  }
+  ::memcpy(&type_, &from.type_,
+    static_cast<size_t>(reinterpret_cast<char*>(&function_type_) -
+    reinterpret_cast<char*>(&type_)) + sizeof(function_type_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.ColumnDefinition)
+}
+
+void ColumnDefinition::SharedCtor() {
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  function_text_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&function_type_) -
+      reinterpret_cast<char*>(&type_)) + sizeof(function_type_));
+  _cached_size_ = 0;
+}
+
+ColumnDefinition::~ColumnDefinition() {
+  // @@protoc_insertion_point(destructor:org.yaorm.ColumnDefinition)
+  SharedDtor();
+}
+
+void ColumnDefinition::SharedDtor() {
+  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  alias_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_alias_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  function_text_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+
+void ColumnDefinition::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* ColumnDefinition::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const ColumnDefinition& ColumnDefinition::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+ColumnDefinition* ColumnDefinition::New(::google::protobuf::Arena* arena) const {
+  ColumnDefinition* n = new ColumnDefinition;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void ColumnDefinition::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.ColumnDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  function_text_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&function_type_) -
+      reinterpret_cast<char*>(&type_)) + sizeof(function_type_));
+  _internal_metadata_.Clear();
+}
+
+bool ColumnDefinition::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.ColumnDefinition)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string name = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->name().data(), static_cast<int>(this->name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ColumnDefinition.name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ProtobufType type = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
           int value;
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
@@ -1094,324 +2697,808 @@ bool PropertyDefinition::MergePartialFromCodedStream(
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(24)) goto parse_foreign_collection;
         break;
       }
 
-      // optional bool foreign_collection = 3;
+      // bool is_key = 3;
       case 3: {
-        if (tag == 24) {
-         parse_foreign_collection:
-          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
-                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
-                 input, &foreign_collection_)));
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(24u /* 24 & 0xFF */)) {
 
-        } else {
-          goto handle_unusual;
-        }
-        if (input->ExpectTag(32)) goto parse_is_key;
-        break;
-      }
-
-      // optional bool is_key = 4;
-      case 4: {
-        if (tag == 32) {
-         parse_is_key:
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
                  input, &is_key_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition.ColumnType column_type = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_column_type(static_cast< ::org::yaorm::ColumnDefinition_ColumnType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition.LinkerType linker_type = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(40u /* 40 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_linker_type(static_cast< ::org::yaorm::ColumnDefinition_LinkerType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int32 order = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
+                 input, &order_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string alias = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_alias()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->alias().data(), static_cast<int>(this->alias().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ColumnDefinition.alias"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string table_alias = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(66u /* 66 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_table_alias()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->table_alias().data(), static_cast<int>(this->table_alias().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ColumnDefinition.table_alias"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.SelectFunctionType function_type = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(72u /* 72 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_function_type(static_cast< ::org::yaorm::SelectFunctionType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string function_text = 10;
+      case 10: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(82u /* 82 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_function_text()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->function_text().data(), static_cast<int>(this->function_text().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ColumnDefinition.function_text"));
+        } else {
+          goto handle_unusual;
+        }
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(parse_success:org.yaorm.ColumnDefinition)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(parse_failure:org.yaorm.ColumnDefinition)
   return false;
 #undef DO_
 }
 
-void PropertyDefinition::SerializeWithCachedSizes(
+void ColumnDefinition::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:org.yaorm.PropertyDefinition)
-  // optional string name = 1;
+  // @@protoc_insertion_point(serialize_start:org.yaorm.ColumnDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string name = 1;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.PropertyDefinition.name");
+      "org.yaorm.ColumnDefinition.name");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       1, this->name(), output);
   }
 
-  // optional .org.yaorm.ProtobufType type = 2;
+  // .org.yaorm.ProtobufType type = 2;
   if (this->type() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
       2, this->type(), output);
   }
 
-  // optional bool foreign_collection = 3;
-  if (this->foreign_collection() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteBool(3, this->foreign_collection(), output);
-  }
-
-  // optional bool is_key = 4;
+  // bool is_key = 3;
   if (this->is_key() != 0) {
-    ::google::protobuf::internal::WireFormatLite::WriteBool(4, this->is_key(), output);
+    ::google::protobuf::internal::WireFormatLite::WriteBool(3, this->is_key(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:org.yaorm.PropertyDefinition)
+  // .org.yaorm.ColumnDefinition.ColumnType column_type = 4;
+  if (this->column_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      4, this->column_type(), output);
+  }
+
+  // .org.yaorm.ColumnDefinition.LinkerType linker_type = 5;
+  if (this->linker_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      5, this->linker_type(), output);
+  }
+
+  // int32 order = 6;
+  if (this->order() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt32(6, this->order(), output);
+  }
+
+  // string alias = 7;
+  if (this->alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->alias().data(), static_cast<int>(this->alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.alias");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      7, this->alias(), output);
+  }
+
+  // string table_alias = 8;
+  if (this->table_alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_alias().data(), static_cast<int>(this->table_alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.table_alias");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      8, this->table_alias(), output);
+  }
+
+  // .org.yaorm.SelectFunctionType function_type = 9;
+  if (this->function_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      9, this->function_type(), output);
+  }
+
+  // string function_text = 10;
+  if (this->function_text().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->function_text().data(), static_cast<int>(this->function_text().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.function_text");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      10, this->function_text(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.ColumnDefinition)
 }
 
-::google::protobuf::uint8* PropertyDefinition::InternalSerializeWithCachedSizesToArray(
+::google::protobuf::uint8* ColumnDefinition::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.PropertyDefinition)
-  // optional string name = 1;
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.ColumnDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string name = 1;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.PropertyDefinition.name");
+      "org.yaorm.ColumnDefinition.name");
     target =
       ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
         1, this->name(), target);
   }
 
-  // optional .org.yaorm.ProtobufType type = 2;
+  // .org.yaorm.ProtobufType type = 2;
   if (this->type() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
       2, this->type(), target);
   }
 
-  // optional bool foreign_collection = 3;
-  if (this->foreign_collection() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(3, this->foreign_collection(), target);
-  }
-
-  // optional bool is_key = 4;
+  // bool is_key = 3;
   if (this->is_key() != 0) {
-    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(4, this->is_key(), target);
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(3, this->is_key(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.PropertyDefinition)
+  // .org.yaorm.ColumnDefinition.ColumnType column_type = 4;
+  if (this->column_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      4, this->column_type(), target);
+  }
+
+  // .org.yaorm.ColumnDefinition.LinkerType linker_type = 5;
+  if (this->linker_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      5, this->linker_type(), target);
+  }
+
+  // int32 order = 6;
+  if (this->order() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(6, this->order(), target);
+  }
+
+  // string alias = 7;
+  if (this->alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->alias().data(), static_cast<int>(this->alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.alias");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        7, this->alias(), target);
+  }
+
+  // string table_alias = 8;
+  if (this->table_alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_alias().data(), static_cast<int>(this->table_alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.table_alias");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        8, this->table_alias(), target);
+  }
+
+  // .org.yaorm.SelectFunctionType function_type = 9;
+  if (this->function_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      9, this->function_type(), target);
+  }
+
+  // string function_text = 10;
+  if (this->function_text().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->function_text().data(), static_cast<int>(this->function_text().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ColumnDefinition.function_text");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        10, this->function_text(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.ColumnDefinition)
   return target;
 }
 
-int PropertyDefinition::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:org.yaorm.PropertyDefinition)
-  int total_size = 0;
+size_t ColumnDefinition::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.ColumnDefinition)
+  size_t total_size = 0;
 
-  // optional string name = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string name = 1;
   if (this->name().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
 
-  // optional .org.yaorm.ProtobufType type = 2;
+  // string alias = 7;
+  if (this->alias().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->alias());
+  }
+
+  // string table_alias = 8;
+  if (this->table_alias().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->table_alias());
+  }
+
+  // string function_text = 10;
+  if (this->function_text().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->function_text());
+  }
+
+  // .org.yaorm.ProtobufType type = 2;
   if (this->type() != 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::EnumSize(this->type());
   }
 
-  // optional bool foreign_collection = 3;
-  if (this->foreign_collection() != 0) {
-    total_size += 1 + 1;
-  }
-
-  // optional bool is_key = 4;
+  // bool is_key = 3;
   if (this->is_key() != 0) {
     total_size += 1 + 1;
   }
 
+  // .org.yaorm.ColumnDefinition.ColumnType column_type = 4;
+  if (this->column_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->column_type());
+  }
+
+  // .org.yaorm.ColumnDefinition.LinkerType linker_type = 5;
+  if (this->linker_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->linker_type());
+  }
+
+  // int32 order = 6;
+  if (this->order() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int32Size(
+        this->order());
+  }
+
+  // .org.yaorm.SelectFunctionType function_type = 9;
+  if (this->function_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->function_type());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
-void PropertyDefinition::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.PropertyDefinition)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const PropertyDefinition* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const PropertyDefinition>(
+void ColumnDefinition::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.ColumnDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  const ColumnDefinition* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const ColumnDefinition>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.ColumnDefinition)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.PropertyDefinition)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.ColumnDefinition)
     MergeFrom(*source);
   }
 }
 
-void PropertyDefinition::MergeFrom(const PropertyDefinition& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.PropertyDefinition)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+void ColumnDefinition::MergeFrom(const ColumnDefinition& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.ColumnDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   if (from.name().size() > 0) {
 
     name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
   }
+  if (from.alias().size() > 0) {
+
+    alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.alias_);
+  }
+  if (from.table_alias().size() > 0) {
+
+    table_alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_alias_);
+  }
+  if (from.function_text().size() > 0) {
+
+    function_text_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.function_text_);
+  }
   if (from.type() != 0) {
     set_type(from.type());
-  }
-  if (from.foreign_collection() != 0) {
-    set_foreign_collection(from.foreign_collection());
   }
   if (from.is_key() != 0) {
     set_is_key(from.is_key());
   }
+  if (from.column_type() != 0) {
+    set_column_type(from.column_type());
+  }
+  if (from.linker_type() != 0) {
+    set_linker_type(from.linker_type());
+  }
+  if (from.order() != 0) {
+    set_order(from.order());
+  }
+  if (from.function_type() != 0) {
+    set_function_type(from.function_type());
+  }
 }
 
-void PropertyDefinition::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.PropertyDefinition)
+void ColumnDefinition::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.ColumnDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void PropertyDefinition::CopyFrom(const PropertyDefinition& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.PropertyDefinition)
+void ColumnDefinition::CopyFrom(const ColumnDefinition& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.ColumnDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool PropertyDefinition::IsInitialized() const {
-
+bool ColumnDefinition::IsInitialized() const {
   return true;
 }
 
-void PropertyDefinition::Swap(PropertyDefinition* other) {
+void ColumnDefinition::Swap(ColumnDefinition* other) {
   if (other == this) return;
   InternalSwap(other);
 }
-void PropertyDefinition::InternalSwap(PropertyDefinition* other) {
+void ColumnDefinition::InternalSwap(ColumnDefinition* other) {
+  using std::swap;
   name_.Swap(&other->name_);
-  std::swap(type_, other->type_);
-  std::swap(foreign_collection_, other->foreign_collection_);
-  std::swap(is_key_, other->is_key_);
+  alias_.Swap(&other->alias_);
+  table_alias_.Swap(&other->table_alias_);
+  function_text_.Swap(&other->function_text_);
+  swap(type_, other->type_);
+  swap(is_key_, other->is_key_);
+  swap(column_type_, other->column_type_);
+  swap(linker_type_, other->linker_type_);
+  swap(order_, other->order_);
+  swap(function_type_, other->function_type_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
-::google::protobuf::Metadata PropertyDefinition::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = PropertyDefinition_descriptor_;
-  metadata.reflection = PropertyDefinition_reflection_;
-  return metadata;
+::google::protobuf::Metadata ColumnDefinition::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PropertyDefinition
+// ColumnDefinition
 
-// optional string name = 1;
-void PropertyDefinition::clear_name() {
+// string name = 1;
+void ColumnDefinition::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& PropertyDefinition::name() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyDefinition.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+const ::std::string& ColumnDefinition::name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.name)
+  return name_.GetNoArena();
 }
- void PropertyDefinition::set_name(const ::std::string& value) {
+void ColumnDefinition::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyDefinition.name)
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.name)
 }
- void PropertyDefinition::set_name(const char* value) {
+#if LANG_CXX11
+void ColumnDefinition::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ColumnDefinition.name)
+}
+#endif
+void ColumnDefinition::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:org.yaorm.PropertyDefinition.name)
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ColumnDefinition.name)
 }
- void PropertyDefinition::set_name(const char* value, size_t size) {
+void ColumnDefinition::set_name(const char* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:org.yaorm.PropertyDefinition.name)
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ColumnDefinition.name)
 }
- ::std::string* PropertyDefinition::mutable_name() {
+::std::string* ColumnDefinition::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:org.yaorm.PropertyDefinition.name)
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ColumnDefinition.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* PropertyDefinition::release_name() {
-  // @@protoc_insertion_point(field_release:org.yaorm.PropertyDefinition.name)
+::std::string* ColumnDefinition::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ColumnDefinition.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void PropertyDefinition::set_allocated_name(::std::string* name) {
+void ColumnDefinition::set_allocated_name(::std::string* name) {
   if (name != NULL) {
     
   } else {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.PropertyDefinition.name)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ColumnDefinition.name)
 }
 
-// optional .org.yaorm.ProtobufType type = 2;
-void PropertyDefinition::clear_type() {
+// .org.yaorm.ProtobufType type = 2;
+void ColumnDefinition::clear_type() {
   type_ = 0;
 }
- ::org::yaorm::ProtobufType PropertyDefinition::type() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyDefinition.type)
+::org::yaorm::ProtobufType ColumnDefinition::type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.type)
   return static_cast< ::org::yaorm::ProtobufType >(type_);
 }
- void PropertyDefinition::set_type(::org::yaorm::ProtobufType value) {
+void ColumnDefinition::set_type(::org::yaorm::ProtobufType value) {
   
   type_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyDefinition.type)
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.type)
 }
 
-// optional bool foreign_collection = 3;
-void PropertyDefinition::clear_foreign_collection() {
-  foreign_collection_ = false;
-}
- bool PropertyDefinition::foreign_collection() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyDefinition.foreign_collection)
-  return foreign_collection_;
-}
- void PropertyDefinition::set_foreign_collection(bool value) {
-  
-  foreign_collection_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyDefinition.foreign_collection)
-}
-
-// optional bool is_key = 4;
-void PropertyDefinition::clear_is_key() {
+// bool is_key = 3;
+void ColumnDefinition::clear_is_key() {
   is_key_ = false;
 }
- bool PropertyDefinition::is_key() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyDefinition.is_key)
+bool ColumnDefinition::is_key() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.is_key)
   return is_key_;
 }
- void PropertyDefinition::set_is_key(bool value) {
+void ColumnDefinition::set_is_key(bool value) {
   
   is_key_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyDefinition.is_key)
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.is_key)
+}
+
+// .org.yaorm.ColumnDefinition.ColumnType column_type = 4;
+void ColumnDefinition::clear_column_type() {
+  column_type_ = 0;
+}
+::org::yaorm::ColumnDefinition_ColumnType ColumnDefinition::column_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.column_type)
+  return static_cast< ::org::yaorm::ColumnDefinition_ColumnType >(column_type_);
+}
+void ColumnDefinition::set_column_type(::org::yaorm::ColumnDefinition_ColumnType value) {
+  
+  column_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.column_type)
+}
+
+// .org.yaorm.ColumnDefinition.LinkerType linker_type = 5;
+void ColumnDefinition::clear_linker_type() {
+  linker_type_ = 0;
+}
+::org::yaorm::ColumnDefinition_LinkerType ColumnDefinition::linker_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.linker_type)
+  return static_cast< ::org::yaorm::ColumnDefinition_LinkerType >(linker_type_);
+}
+void ColumnDefinition::set_linker_type(::org::yaorm::ColumnDefinition_LinkerType value) {
+  
+  linker_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.linker_type)
+}
+
+// int32 order = 6;
+void ColumnDefinition::clear_order() {
+  order_ = 0;
+}
+::google::protobuf::int32 ColumnDefinition::order() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.order)
+  return order_;
+}
+void ColumnDefinition::set_order(::google::protobuf::int32 value) {
+  
+  order_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.order)
+}
+
+// string alias = 7;
+void ColumnDefinition::clear_alias() {
+  alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ColumnDefinition::alias() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.alias)
+  return alias_.GetNoArena();
+}
+void ColumnDefinition::set_alias(const ::std::string& value) {
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.alias)
+}
+#if LANG_CXX11
+void ColumnDefinition::set_alias(::std::string&& value) {
+  
+  alias_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ColumnDefinition.alias)
+}
+#endif
+void ColumnDefinition::set_alias(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ColumnDefinition.alias)
+}
+void ColumnDefinition::set_alias(const char* value, size_t size) {
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ColumnDefinition.alias)
+}
+::std::string* ColumnDefinition::mutable_alias() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ColumnDefinition.alias)
+  return alias_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ColumnDefinition::release_alias() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ColumnDefinition.alias)
+  
+  return alias_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ColumnDefinition::set_allocated_alias(::std::string* alias) {
+  if (alias != NULL) {
+    
+  } else {
+    
+  }
+  alias_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), alias);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ColumnDefinition.alias)
+}
+
+// string table_alias = 8;
+void ColumnDefinition::clear_table_alias() {
+  table_alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ColumnDefinition::table_alias() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.table_alias)
+  return table_alias_.GetNoArena();
+}
+void ColumnDefinition::set_table_alias(const ::std::string& value) {
+  
+  table_alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.table_alias)
+}
+#if LANG_CXX11
+void ColumnDefinition::set_table_alias(::std::string&& value) {
+  
+  table_alias_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ColumnDefinition.table_alias)
+}
+#endif
+void ColumnDefinition::set_table_alias(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  table_alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ColumnDefinition.table_alias)
+}
+void ColumnDefinition::set_table_alias(const char* value, size_t size) {
+  
+  table_alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ColumnDefinition.table_alias)
+}
+::std::string* ColumnDefinition::mutable_table_alias() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ColumnDefinition.table_alias)
+  return table_alias_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ColumnDefinition::release_table_alias() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ColumnDefinition.table_alias)
+  
+  return table_alias_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ColumnDefinition::set_allocated_table_alias(::std::string* table_alias) {
+  if (table_alias != NULL) {
+    
+  } else {
+    
+  }
+  table_alias_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), table_alias);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ColumnDefinition.table_alias)
+}
+
+// .org.yaorm.SelectFunctionType function_type = 9;
+void ColumnDefinition::clear_function_type() {
+  function_type_ = 0;
+}
+::org::yaorm::SelectFunctionType ColumnDefinition::function_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.function_type)
+  return static_cast< ::org::yaorm::SelectFunctionType >(function_type_);
+}
+void ColumnDefinition::set_function_type(::org::yaorm::SelectFunctionType value) {
+  
+  function_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.function_type)
+}
+
+// string function_text = 10;
+void ColumnDefinition::clear_function_text() {
+  function_text_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ColumnDefinition::function_text() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ColumnDefinition.function_text)
+  return function_text_.GetNoArena();
+}
+void ColumnDefinition::set_function_text(const ::std::string& value) {
+  
+  function_text_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ColumnDefinition.function_text)
+}
+#if LANG_CXX11
+void ColumnDefinition::set_function_text(::std::string&& value) {
+  
+  function_text_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ColumnDefinition.function_text)
+}
+#endif
+void ColumnDefinition::set_function_text(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  function_text_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ColumnDefinition.function_text)
+}
+void ColumnDefinition::set_function_text(const char* value, size_t size) {
+  
+  function_text_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ColumnDefinition.function_text)
+}
+::std::string* ColumnDefinition::mutable_function_text() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ColumnDefinition.function_text)
+  return function_text_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ColumnDefinition::release_function_text() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ColumnDefinition.function_text)
+  
+  return function_text_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ColumnDefinition::set_allocated_function_text(::std::string* function_text) {
+  if (function_text != NULL) {
+    
+  } else {
+    
+  }
+  function_text_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), function_text);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ColumnDefinition.function_text)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -1425,24 +3512,23 @@ const int Index::kIncludeNamesFieldNumber;
 
 Index::Index()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.Index)
 }
-
-void Index::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 Index::Index(const Index& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      column_names_(from.column_names_),
+      include_names_(from.include_names_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:org.yaorm.Index)
 }
 
 void Index::SharedCtor() {
-    _is_default_instance_ = false;
   _cached_size_ = 0;
 }
 
@@ -1452,8 +3538,6 @@ Index::~Index() {
 }
 
 void Index::SharedDtor() {
-  if (this != default_instance_) {
-  }
 }
 
 void Index::SetCachedSize(int size) const {
@@ -1462,16 +3546,14 @@ void Index::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* Index::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Index_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const Index& Index::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-Index* Index::default_instance_ = NULL;
 
 Index* Index::New(::google::protobuf::Arena* arena) const {
   Index* n = new Index;
@@ -1483,8 +3565,13 @@ Index* Index::New(::google::protobuf::Arena* arena) const {
 
 void Index::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.Index)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   column_names_.Clear();
   include_names_.Clear();
+  _internal_metadata_.Clear();
 }
 
 bool Index::MergePartialFromCodedStream(
@@ -1493,50 +3580,41 @@ bool Index::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Index)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // repeated .org.yaorm.PropertyDefinition column_names = 1;
+      // repeated .org.yaorm.ColumnDefinition column_names = 1;
       case 1: {
-        if (tag == 10) {
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_column_names:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_column_names()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(10)) goto parse_loop_column_names;
-        if (input->ExpectTag(18)) goto parse_loop_include_names;
-        input->UnsafeDecrementRecursionDepth();
         break;
       }
 
-      // repeated .org.yaorm.PropertyDefinition include_names = 2;
+      // repeated .org.yaorm.ColumnDefinition include_names = 2;
       case 2: {
-        if (tag == 18) {
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_include_names:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_include_names()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_loop_include_names;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -1553,74 +3631,103 @@ failure:
 void Index::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.Index)
-  // repeated .org.yaorm.PropertyDefinition column_names = 1;
-  for (unsigned int i = 0, n = this->column_names_size(); i < n; i++) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition column_names = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->column_names_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      1, this->column_names(i), output);
+      1, this->column_names(static_cast<int>(i)), output);
   }
 
-  // repeated .org.yaorm.PropertyDefinition include_names = 2;
-  for (unsigned int i = 0, n = this->include_names_size(); i < n; i++) {
+  // repeated .org.yaorm.ColumnDefinition include_names = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->include_names_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      2, this->include_names(i), output);
+      2, this->include_names(static_cast<int>(i)), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.Index)
 }
 
 ::google::protobuf::uint8* Index::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Index)
-  // repeated .org.yaorm.PropertyDefinition column_names = 1;
-  for (unsigned int i = 0, n = this->column_names_size(); i < n; i++) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition column_names = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->column_names_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        1, this->column_names(i), false, target);
+        1, this->column_names(static_cast<int>(i)), deterministic, target);
   }
 
-  // repeated .org.yaorm.PropertyDefinition include_names = 2;
-  for (unsigned int i = 0, n = this->include_names_size(); i < n; i++) {
+  // repeated .org.yaorm.ColumnDefinition include_names = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->include_names_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        2, this->include_names(i), false, target);
+        2, this->include_names(static_cast<int>(i)), deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Index)
   return target;
 }
 
-int Index::ByteSize() const {
+size_t Index::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.Index)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // repeated .org.yaorm.PropertyDefinition column_names = 1;
-  total_size += 1 * this->column_names_size();
-  for (int i = 0; i < this->column_names_size(); i++) {
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
     total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->column_names(i));
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.ColumnDefinition column_names = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->column_names_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->column_names(static_cast<int>(i)));
+    }
   }
 
-  // repeated .org.yaorm.PropertyDefinition include_names = 2;
-  total_size += 1 * this->include_names_size();
-  for (int i = 0; i < this->include_names_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->include_names(i));
+  // repeated .org.yaorm.ColumnDefinition include_names = 2;
+  {
+    unsigned int count = static_cast<unsigned int>(this->include_names_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->include_names(static_cast<int>(i)));
+    }
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void Index::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Index)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Index* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const Index* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const Index>(
           &from);
   if (source == NULL) {
@@ -1634,9 +3741,11 @@ void Index::MergeFrom(const ::google::protobuf::Message& from) {
 
 void Index::MergeFrom(const Index& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Index)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   column_names_.MergeFrom(from.column_names_);
   include_names_.MergeFrom(from.include_names_);
 }
@@ -1656,7 +3765,6 @@ void Index::CopyFrom(const Index& from) {
 }
 
 bool Index::IsInitialized() const {
-
   return true;
 }
 
@@ -1665,78 +3773,76 @@ void Index::Swap(Index* other) {
   InternalSwap(other);
 }
 void Index::InternalSwap(Index* other) {
-  column_names_.UnsafeArenaSwap(&other->column_names_);
-  include_names_.UnsafeArenaSwap(&other->include_names_);
+  using std::swap;
+  column_names_.InternalSwap(&other->column_names_);
+  include_names_.InternalSwap(&other->include_names_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata Index::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Index_descriptor_;
-  metadata.reflection = Index_reflection_;
-  return metadata;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // Index
 
-// repeated .org.yaorm.PropertyDefinition column_names = 1;
+// repeated .org.yaorm.ColumnDefinition column_names = 1;
 int Index::column_names_size() const {
   return column_names_.size();
 }
 void Index::clear_column_names() {
   column_names_.Clear();
 }
-const ::org::yaorm::PropertyDefinition& Index::column_names(int index) const {
+const ::org::yaorm::ColumnDefinition& Index::column_names(int index) const {
   // @@protoc_insertion_point(field_get:org.yaorm.Index.column_names)
   return column_names_.Get(index);
 }
-::org::yaorm::PropertyDefinition* Index::mutable_column_names(int index) {
+::org::yaorm::ColumnDefinition* Index::mutable_column_names(int index) {
   // @@protoc_insertion_point(field_mutable:org.yaorm.Index.column_names)
   return column_names_.Mutable(index);
 }
-::org::yaorm::PropertyDefinition* Index::add_column_names() {
+::org::yaorm::ColumnDefinition* Index::add_column_names() {
   // @@protoc_insertion_point(field_add:org.yaorm.Index.column_names)
   return column_names_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >*
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >*
 Index::mutable_column_names() {
   // @@protoc_insertion_point(field_mutable_list:org.yaorm.Index.column_names)
   return &column_names_;
 }
-const ::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >&
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >&
 Index::column_names() const {
   // @@protoc_insertion_point(field_list:org.yaorm.Index.column_names)
   return column_names_;
 }
 
-// repeated .org.yaorm.PropertyDefinition include_names = 2;
+// repeated .org.yaorm.ColumnDefinition include_names = 2;
 int Index::include_names_size() const {
   return include_names_.size();
 }
 void Index::clear_include_names() {
   include_names_.Clear();
 }
-const ::org::yaorm::PropertyDefinition& Index::include_names(int index) const {
+const ::org::yaorm::ColumnDefinition& Index::include_names(int index) const {
   // @@protoc_insertion_point(field_get:org.yaorm.Index.include_names)
   return include_names_.Get(index);
 }
-::org::yaorm::PropertyDefinition* Index::mutable_include_names(int index) {
+::org::yaorm::ColumnDefinition* Index::mutable_include_names(int index) {
   // @@protoc_insertion_point(field_mutable:org.yaorm.Index.include_names)
   return include_names_.Mutable(index);
 }
-::org::yaorm::PropertyDefinition* Index::add_include_names() {
+::org::yaorm::ColumnDefinition* Index::add_include_names() {
   // @@protoc_insertion_point(field_add:org.yaorm.Index.include_names)
   return include_names_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >*
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >*
 Index::mutable_include_names() {
   // @@protoc_insertion_point(field_mutable_list:org.yaorm.Index.include_names)
   return &include_names_;
 }
-const ::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >&
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >&
 Index::include_names() const {
   // @@protoc_insertion_point(field_list:org.yaorm.Index.include_names)
   return include_names_;
@@ -1746,90 +3852,59 @@ Index::include_names() const {
 
 // ===================================================================
 
-const ::google::protobuf::EnumDescriptor* Difference_EntityType_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Difference_EntityType_descriptor_;
-}
-bool Difference_EntityType_IsValid(int value) {
-  switch(value) {
-    case 0:
-    case 1:
-    case 2:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const Difference_EntityType Difference::INDEX;
-const Difference_EntityType Difference::COLUMN;
-const Difference_EntityType Difference::TABLE;
-const Difference_EntityType Difference::EntityType_MIN;
-const Difference_EntityType Difference::EntityType_MAX;
-const int Difference::EntityType_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
-const ::google::protobuf::EnumDescriptor* Difference_Operation_descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Difference_Operation_descriptor_;
-}
-bool Difference_Operation_IsValid(int value) {
-  switch(value) {
-    case 0:
-    case 1:
-      return true;
-    default:
-      return false;
-  }
-}
-
-#if !defined(_MSC_VER) || _MSC_VER >= 1900
-const Difference_Operation Difference::CREATE;
-const Difference_Operation Difference::DROP;
-const Difference_Operation Difference::Operation_MIN;
-const Difference_Operation Difference::Operation_MAX;
-const int Difference::Operation_ARRAYSIZE;
-#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
 const int Difference::kEntityTypeFieldNumber;
 const int Difference::kOperationFieldNumber;
 const int Difference::kNameFieldNumber;
 const int Difference::kIndexFieldNumber;
 const int Difference::kPropertyDefinitionFieldNumber;
-const int Difference::kDefinitionFieldNumber;
+const int Difference::kTableDefinitionFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
 Difference::Difference()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.Difference)
 }
-
-void Difference::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-  index_ = const_cast< ::org::yaorm::Index*>(&::org::yaorm::Index::default_instance());
-  property_definition_ = const_cast< ::org::yaorm::PropertyDefinition*>(&::org::yaorm::PropertyDefinition::default_instance());
-  definition_ = const_cast< ::org::yaorm::Definition*>(&::org::yaorm::Definition::default_instance());
-}
-
 Difference::Difference(const Difference& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.name().size() > 0) {
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.has_index()) {
+    index_ = new ::org::yaorm::Index(*from.index_);
+  } else {
+    index_ = NULL;
+  }
+  if (from.has_property_definition()) {
+    property_definition_ = new ::org::yaorm::ColumnDefinition(*from.property_definition_);
+  } else {
+    property_definition_ = NULL;
+  }
+  if (from.has_table_definition()) {
+    table_definition_ = new ::org::yaorm::TableDefinition(*from.table_definition_);
+  } else {
+    table_definition_ = NULL;
+  }
+  ::memcpy(&entity_type_, &from.entity_type_,
+    static_cast<size_t>(reinterpret_cast<char*>(&operation_) -
+    reinterpret_cast<char*>(&entity_type_)) + sizeof(operation_));
   // @@protoc_insertion_point(copy_constructor:org.yaorm.Difference)
 }
 
 void Difference::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
-  entity_type_ = 0;
-  operation_ = 0;
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  index_ = NULL;
-  property_definition_ = NULL;
-  definition_ = NULL;
+  ::memset(&index_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&operation_) -
+      reinterpret_cast<char*>(&index_)) + sizeof(operation_));
+  _cached_size_ = 0;
 }
 
 Difference::~Difference() {
@@ -1839,11 +3914,9 @@ Difference::~Difference() {
 
 void Difference::SharedDtor() {
   name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-    delete index_;
-    delete property_definition_;
-    delete definition_;
-  }
+  if (this != internal_default_instance()) delete index_;
+  if (this != internal_default_instance()) delete property_definition_;
+  if (this != internal_default_instance()) delete table_definition_;
 }
 
 void Difference::SetCachedSize(int size) const {
@@ -1852,16 +3925,14 @@ void Difference::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* Difference::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Difference_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const Difference& Difference::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-Difference* Difference::default_instance_ = NULL;
 
 Difference* Difference::New(::google::protobuf::Arena* arena) const {
   Difference* n = new Difference;
@@ -1873,34 +3944,27 @@ Difference* Difference::New(::google::protobuf::Arena* arena) const {
 
 void Difference::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.Difference)
-#if defined(__clang__)
-#define ZR_HELPER_(f) \
-  _Pragma("clang diagnostic push") \
-  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
-  __builtin_offsetof(Difference, f) \
-  _Pragma("clang diagnostic pop")
-#else
-#define ZR_HELPER_(f) reinterpret_cast<char*>(\
-  &reinterpret_cast<Difference*>(16)->f)
-#endif
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
 
-#define ZR_(first, last) do {\
-  ::memset(&first, 0,\
-           ZR_HELPER_(last) - ZR_HELPER_(first) + sizeof(last));\
-} while (0)
-
-  ZR_(entity_type_, operation_);
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) {
+    delete index_;
+  }
   index_ = NULL;
-  if (GetArenaNoVirtual() == NULL && property_definition_ != NULL) delete property_definition_;
+  if (GetArenaNoVirtual() == NULL && property_definition_ != NULL) {
+    delete property_definition_;
+  }
   property_definition_ = NULL;
-  if (GetArenaNoVirtual() == NULL && definition_ != NULL) delete definition_;
-  definition_ = NULL;
-
-#undef ZR_HELPER_
-#undef ZR_
-
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) {
+    delete table_definition_;
+  }
+  table_definition_ = NULL;
+  ::memset(&entity_type_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&operation_) -
+      reinterpret_cast<char*>(&entity_type_)) + sizeof(operation_));
+  _internal_metadata_.Clear();
 }
 
 bool Difference::MergePartialFromCodedStream(
@@ -1909,13 +3973,14 @@ bool Difference::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Difference)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional .org.yaorm.Difference.EntityType entity_type = 1;
+      // .org.yaorm.Difference.EntityType entity_type = 1;
       case 1: {
-        if (tag == 8) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(8u /* 8 & 0xFF */)) {
           int value;
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
@@ -1924,14 +3989,13 @@ bool Difference::MergePartialFromCodedStream(
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(16)) goto parse_operation;
         break;
       }
 
-      // optional .org.yaorm.Difference.Operation operation = 2;
+      // .org.yaorm.Difference.Operation operation = 2;
       case 2: {
-        if (tag == 16) {
-         parse_operation:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
           int value;
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
@@ -1940,74 +4004,68 @@ bool Difference::MergePartialFromCodedStream(
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(26)) goto parse_name;
         break;
       }
 
-      // optional string name = 3;
+      // string name = 3;
       case 3: {
-        if (tag == 26) {
-         parse_name:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_name()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->name().data(), this->name().length(),
+            this->name().data(), static_cast<int>(this->name().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.Difference.name"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(34)) goto parse_index;
         break;
       }
 
-      // optional .org.yaorm.Index index = 4;
+      // .org.yaorm.Index index = 4;
       case 4: {
-        if (tag == 34) {
-         parse_index:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                input, mutable_index()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(42)) goto parse_property_definition;
         break;
       }
 
-      // optional .org.yaorm.PropertyDefinition property_definition = 5;
+      // .org.yaorm.ColumnDefinition property_definition = 5;
       case 5: {
-        if (tag == 42) {
-         parse_property_definition:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                input, mutable_property_definition()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(50)) goto parse_definition;
         break;
       }
 
-      // optional .org.yaorm.Definition definition = 6;
+      // .org.yaorm.TableDefinition table_definition = 6;
       case 6: {
-        if (tag == 50) {
-         parse_definition:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
-               input, mutable_definition()));
+               input, mutable_table_definition()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -2024,68 +4082,79 @@ failure:
 void Difference::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.Difference)
-  // optional .org.yaorm.Difference.EntityType entity_type = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Difference.EntityType entity_type = 1;
   if (this->entity_type() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
       1, this->entity_type(), output);
   }
 
-  // optional .org.yaorm.Difference.Operation operation = 2;
+  // .org.yaorm.Difference.Operation operation = 2;
   if (this->operation() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteEnum(
       2, this->operation(), output);
   }
 
-  // optional string name = 3;
+  // string name = 3;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.Difference.name");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       3, this->name(), output);
   }
 
-  // optional .org.yaorm.Index index = 4;
+  // .org.yaorm.Index index = 4;
   if (this->has_index()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       4, *this->index_, output);
   }
 
-  // optional .org.yaorm.PropertyDefinition property_definition = 5;
+  // .org.yaorm.ColumnDefinition property_definition = 5;
   if (this->has_property_definition()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       5, *this->property_definition_, output);
   }
 
-  // optional .org.yaorm.Definition definition = 6;
-  if (this->has_definition()) {
+  // .org.yaorm.TableDefinition table_definition = 6;
+  if (this->has_table_definition()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      6, *this->definition_, output);
+      6, *this->table_definition_, output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.Difference)
 }
 
 ::google::protobuf::uint8* Difference::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Difference)
-  // optional .org.yaorm.Difference.EntityType entity_type = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Difference.EntityType entity_type = 1;
   if (this->entity_type() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
       1, this->entity_type(), target);
   }
 
-  // optional .org.yaorm.Difference.Operation operation = 2;
+  // .org.yaorm.Difference.Operation operation = 2;
   if (this->operation() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
       2, this->operation(), target);
   }
 
-  // optional string name = 3;
+  // string name = 3;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.Difference.name");
     target =
@@ -2093,87 +4162,95 @@ void Difference::SerializeWithCachedSizes(
         3, this->name(), target);
   }
 
-  // optional .org.yaorm.Index index = 4;
+  // .org.yaorm.Index index = 4;
   if (this->has_index()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        4, *this->index_, false, target);
+        4, *this->index_, deterministic, target);
   }
 
-  // optional .org.yaorm.PropertyDefinition property_definition = 5;
+  // .org.yaorm.ColumnDefinition property_definition = 5;
   if (this->has_property_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        5, *this->property_definition_, false, target);
+        5, *this->property_definition_, deterministic, target);
   }
 
-  // optional .org.yaorm.Definition definition = 6;
-  if (this->has_definition()) {
+  // .org.yaorm.TableDefinition table_definition = 6;
+  if (this->has_table_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        6, *this->definition_, false, target);
+        6, *this->table_definition_, deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Difference)
   return target;
 }
 
-int Difference::ByteSize() const {
+size_t Difference::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.Difference)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // optional .org.yaorm.Difference.EntityType entity_type = 1;
-  if (this->entity_type() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::EnumSize(this->entity_type());
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
-
-  // optional .org.yaorm.Difference.Operation operation = 2;
-  if (this->operation() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::EnumSize(this->operation());
-  }
-
-  // optional string name = 3;
+  // string name = 3;
   if (this->name().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
 
-  // optional .org.yaorm.Index index = 4;
+  // .org.yaorm.Index index = 4;
   if (this->has_index()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->index_);
   }
 
-  // optional .org.yaorm.PropertyDefinition property_definition = 5;
+  // .org.yaorm.ColumnDefinition property_definition = 5;
   if (this->has_property_definition()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->property_definition_);
   }
 
-  // optional .org.yaorm.Definition definition = 6;
-  if (this->has_definition()) {
+  // .org.yaorm.TableDefinition table_definition = 6;
+  if (this->has_table_definition()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        *this->definition_);
+        *this->table_definition_);
   }
 
+  // .org.yaorm.Difference.EntityType entity_type = 1;
+  if (this->entity_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->entity_type());
+  }
+
+  // .org.yaorm.Difference.Operation operation = 2;
+  if (this->operation() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->operation());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void Difference::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Difference)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Difference* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const Difference* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const Difference>(
           &from);
   if (source == NULL) {
@@ -2187,15 +4264,11 @@ void Difference::MergeFrom(const ::google::protobuf::Message& from) {
 
 void Difference::MergeFrom(const Difference& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Difference)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  if (from.entity_type() != 0) {
-    set_entity_type(from.entity_type());
-  }
-  if (from.operation() != 0) {
-    set_operation(from.operation());
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   if (from.name().size() > 0) {
 
     name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
@@ -2204,10 +4277,16 @@ void Difference::MergeFrom(const Difference& from) {
     mutable_index()->::org::yaorm::Index::MergeFrom(from.index());
   }
   if (from.has_property_definition()) {
-    mutable_property_definition()->::org::yaorm::PropertyDefinition::MergeFrom(from.property_definition());
+    mutable_property_definition()->::org::yaorm::ColumnDefinition::MergeFrom(from.property_definition());
   }
-  if (from.has_definition()) {
-    mutable_definition()->::org::yaorm::Definition::MergeFrom(from.definition());
+  if (from.has_table_definition()) {
+    mutable_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.table_definition());
+  }
+  if (from.entity_type() != 0) {
+    set_entity_type(from.entity_type());
+  }
+  if (from.operation() != 0) {
+    set_operation(from.operation());
   }
 }
 
@@ -2226,7 +4305,6 @@ void Difference::CopyFrom(const Difference& from) {
 }
 
 bool Difference::IsInitialized() const {
-
   return true;
 }
 
@@ -2235,90 +4313,97 @@ void Difference::Swap(Difference* other) {
   InternalSwap(other);
 }
 void Difference::InternalSwap(Difference* other) {
-  std::swap(entity_type_, other->entity_type_);
-  std::swap(operation_, other->operation_);
+  using std::swap;
   name_.Swap(&other->name_);
-  std::swap(index_, other->index_);
-  std::swap(property_definition_, other->property_definition_);
-  std::swap(definition_, other->definition_);
+  swap(index_, other->index_);
+  swap(property_definition_, other->property_definition_);
+  swap(table_definition_, other->table_definition_);
+  swap(entity_type_, other->entity_type_);
+  swap(operation_, other->operation_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata Difference::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Difference_descriptor_;
-  metadata.reflection = Difference_reflection_;
-  return metadata;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // Difference
 
-// optional .org.yaorm.Difference.EntityType entity_type = 1;
+// .org.yaorm.Difference.EntityType entity_type = 1;
 void Difference::clear_entity_type() {
   entity_type_ = 0;
 }
- ::org::yaorm::Difference_EntityType Difference::entity_type() const {
+::org::yaorm::Difference_EntityType Difference::entity_type() const {
   // @@protoc_insertion_point(field_get:org.yaorm.Difference.entity_type)
   return static_cast< ::org::yaorm::Difference_EntityType >(entity_type_);
 }
- void Difference::set_entity_type(::org::yaorm::Difference_EntityType value) {
+void Difference::set_entity_type(::org::yaorm::Difference_EntityType value) {
   
   entity_type_ = value;
   // @@protoc_insertion_point(field_set:org.yaorm.Difference.entity_type)
 }
 
-// optional .org.yaorm.Difference.Operation operation = 2;
+// .org.yaorm.Difference.Operation operation = 2;
 void Difference::clear_operation() {
   operation_ = 0;
 }
- ::org::yaorm::Difference_Operation Difference::operation() const {
+::org::yaorm::Difference_Operation Difference::operation() const {
   // @@protoc_insertion_point(field_get:org.yaorm.Difference.operation)
   return static_cast< ::org::yaorm::Difference_Operation >(operation_);
 }
- void Difference::set_operation(::org::yaorm::Difference_Operation value) {
+void Difference::set_operation(::org::yaorm::Difference_Operation value) {
   
   operation_ = value;
   // @@protoc_insertion_point(field_set:org.yaorm.Difference.operation)
 }
 
-// optional string name = 3;
+// string name = 3;
 void Difference::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& Difference::name() const {
+const ::std::string& Difference::name() const {
   // @@protoc_insertion_point(field_get:org.yaorm.Difference.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return name_.GetNoArena();
 }
- void Difference::set_name(const ::std::string& value) {
+void Difference::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.Difference.name)
 }
- void Difference::set_name(const char* value) {
+#if LANG_CXX11
+void Difference::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Difference.name)
+}
+#endif
+void Difference::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.Difference.name)
 }
- void Difference::set_name(const char* value, size_t size) {
+void Difference::set_name(const char* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.Difference.name)
 }
- ::std::string* Difference::mutable_name() {
+::std::string* Difference::mutable_name() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.Difference.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* Difference::release_name() {
+::std::string* Difference::release_name() {
   // @@protoc_insertion_point(field_release:org.yaorm.Difference.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void Difference::set_allocated_name(::std::string* name) {
+void Difference::set_allocated_name(::std::string* name) {
   if (name != NULL) {
     
   } else {
@@ -2328,17 +4413,19 @@ void Difference::clear_name() {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.Difference.name)
 }
 
-// optional .org.yaorm.Index index = 4;
+// .org.yaorm.Index index = 4;
 bool Difference::has_index() const {
-  return !_is_default_instance_ && index_ != NULL;
+  return this != internal_default_instance() && index_ != NULL;
 }
 void Difference::clear_index() {
   if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
   index_ = NULL;
 }
 const ::org::yaorm::Index& Difference::index() const {
+  const ::org::yaorm::Index* p = index_;
   // @@protoc_insertion_point(field_get:org.yaorm.Difference.index)
-  return index_ != NULL ? *index_ : *default_instance_->index_;
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Index*>(
+      &::org::yaorm::_Index_default_instance_);
 }
 ::org::yaorm::Index* Difference::mutable_index() {
   
@@ -2366,34 +4453,36 @@ void Difference::set_allocated_index(::org::yaorm::Index* index) {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.Difference.index)
 }
 
-// optional .org.yaorm.PropertyDefinition property_definition = 5;
+// .org.yaorm.ColumnDefinition property_definition = 5;
 bool Difference::has_property_definition() const {
-  return !_is_default_instance_ && property_definition_ != NULL;
+  return this != internal_default_instance() && property_definition_ != NULL;
 }
 void Difference::clear_property_definition() {
   if (GetArenaNoVirtual() == NULL && property_definition_ != NULL) delete property_definition_;
   property_definition_ = NULL;
 }
-const ::org::yaorm::PropertyDefinition& Difference::property_definition() const {
+const ::org::yaorm::ColumnDefinition& Difference::property_definition() const {
+  const ::org::yaorm::ColumnDefinition* p = property_definition_;
   // @@protoc_insertion_point(field_get:org.yaorm.Difference.property_definition)
-  return property_definition_ != NULL ? *property_definition_ : *default_instance_->property_definition_;
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
 }
-::org::yaorm::PropertyDefinition* Difference::mutable_property_definition() {
+::org::yaorm::ColumnDefinition* Difference::mutable_property_definition() {
   
   if (property_definition_ == NULL) {
-    property_definition_ = new ::org::yaorm::PropertyDefinition;
+    property_definition_ = new ::org::yaorm::ColumnDefinition;
   }
   // @@protoc_insertion_point(field_mutable:org.yaorm.Difference.property_definition)
   return property_definition_;
 }
-::org::yaorm::PropertyDefinition* Difference::release_property_definition() {
+::org::yaorm::ColumnDefinition* Difference::release_property_definition() {
   // @@protoc_insertion_point(field_release:org.yaorm.Difference.property_definition)
   
-  ::org::yaorm::PropertyDefinition* temp = property_definition_;
+  ::org::yaorm::ColumnDefinition* temp = property_definition_;
   property_definition_ = NULL;
   return temp;
 }
-void Difference::set_allocated_property_definition(::org::yaorm::PropertyDefinition* property_definition) {
+void Difference::set_allocated_property_definition(::org::yaorm::ColumnDefinition* property_definition) {
   delete property_definition_;
   property_definition_ = property_definition;
   if (property_definition) {
@@ -2404,42 +4493,44 @@ void Difference::set_allocated_property_definition(::org::yaorm::PropertyDefinit
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.Difference.property_definition)
 }
 
-// optional .org.yaorm.Definition definition = 6;
-bool Difference::has_definition() const {
-  return !_is_default_instance_ && definition_ != NULL;
+// .org.yaorm.TableDefinition table_definition = 6;
+bool Difference::has_table_definition() const {
+  return this != internal_default_instance() && table_definition_ != NULL;
 }
-void Difference::clear_definition() {
-  if (GetArenaNoVirtual() == NULL && definition_ != NULL) delete definition_;
-  definition_ = NULL;
+void Difference::clear_table_definition() {
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) delete table_definition_;
+  table_definition_ = NULL;
 }
-const ::org::yaorm::Definition& Difference::definition() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.Difference.definition)
-  return definition_ != NULL ? *definition_ : *default_instance_->definition_;
+const ::org::yaorm::TableDefinition& Difference::table_definition() const {
+  const ::org::yaorm::TableDefinition* p = table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.Difference.table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
 }
-::org::yaorm::Definition* Difference::mutable_definition() {
+::org::yaorm::TableDefinition* Difference::mutable_table_definition() {
   
-  if (definition_ == NULL) {
-    definition_ = new ::org::yaorm::Definition;
+  if (table_definition_ == NULL) {
+    table_definition_ = new ::org::yaorm::TableDefinition;
   }
-  // @@protoc_insertion_point(field_mutable:org.yaorm.Difference.definition)
-  return definition_;
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Difference.table_definition)
+  return table_definition_;
 }
-::org::yaorm::Definition* Difference::release_definition() {
-  // @@protoc_insertion_point(field_release:org.yaorm.Difference.definition)
+::org::yaorm::TableDefinition* Difference::release_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Difference.table_definition)
   
-  ::org::yaorm::Definition* temp = definition_;
-  definition_ = NULL;
+  ::org::yaorm::TableDefinition* temp = table_definition_;
+  table_definition_ = NULL;
   return temp;
 }
-void Difference::set_allocated_definition(::org::yaorm::Definition* definition) {
-  delete definition_;
-  definition_ = definition;
-  if (definition) {
+void Difference::set_allocated_table_definition(::org::yaorm::TableDefinition* table_definition) {
+  delete table_definition_;
+  table_definition_ = table_definition;
+  if (table_definition) {
     
   } else {
     
   }
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Difference.definition)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Difference.table_definition)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -2447,428 +4538,562 @@ void Difference::set_allocated_definition(::org::yaorm::Definition* definition) 
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int Definition::kNameFieldNumber;
-const int Definition::kPropertyDefinitionsFieldNumber;
-const int Definition::kIndexFieldNumber;
+const int TableDefinition::kNameFieldNumber;
+const int TableDefinition::kColumnDefinitionsFieldNumber;
+const int TableDefinition::kIndexFieldNumber;
+const int TableDefinition::kTableTypeFieldNumber;
+const int TableDefinition::kAliasFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
-Definition::Definition()
+TableDefinition::TableDefinition()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
-  // @@protoc_insertion_point(constructor:org.yaorm.Definition)
+  // @@protoc_insertion_point(constructor:org.yaorm.TableDefinition)
 }
-
-void Definition::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-  index_ = const_cast< ::org::yaorm::Index*>(&::org::yaorm::Index::default_instance());
-}
-
-Definition::Definition(const Definition& from)
+TableDefinition::TableDefinition(const TableDefinition& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:org.yaorm.Definition)
-}
-
-void Definition::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
+      _internal_metadata_(NULL),
+      column_definitions_(from.column_definitions_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  index_ = NULL;
+  if (from.name().size() > 0) {
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.alias().size() > 0) {
+    alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.alias_);
+  }
+  if (from.has_index()) {
+    index_ = new ::org::yaorm::Index(*from.index_);
+  } else {
+    index_ = NULL;
+  }
+  table_type_ = from.table_type_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.TableDefinition)
 }
 
-Definition::~Definition() {
-  // @@protoc_insertion_point(destructor:org.yaorm.Definition)
+void TableDefinition::SharedCtor() {
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  alias_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&index_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&table_type_) -
+      reinterpret_cast<char*>(&index_)) + sizeof(table_type_));
+  _cached_size_ = 0;
+}
+
+TableDefinition::~TableDefinition() {
+  // @@protoc_insertion_point(destructor:org.yaorm.TableDefinition)
   SharedDtor();
 }
 
-void Definition::SharedDtor() {
+void TableDefinition::SharedDtor() {
   name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-    delete index_;
-  }
+  alias_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete index_;
 }
 
-void Definition::SetCachedSize(int size) const {
+void TableDefinition::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* Definition::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Definition_descriptor_;
+const ::google::protobuf::Descriptor* TableDefinition::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
-const Definition& Definition::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+const TableDefinition& TableDefinition::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
 
-Definition* Definition::default_instance_ = NULL;
-
-Definition* Definition::New(::google::protobuf::Arena* arena) const {
-  Definition* n = new Definition;
+TableDefinition* TableDefinition::New(::google::protobuf::Arena* arena) const {
+  TableDefinition* n = new TableDefinition;
   if (arena != NULL) {
     arena->Own(n);
   }
   return n;
 }
 
-void Definition::Clear() {
-// @@protoc_insertion_point(message_clear_start:org.yaorm.Definition)
+void TableDefinition::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.TableDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  column_definitions_.Clear();
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
+  alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) {
+    delete index_;
+  }
   index_ = NULL;
-  property_definitions_.Clear();
+  table_type_ = 0;
+  _internal_metadata_.Clear();
 }
 
-bool Definition::MergePartialFromCodedStream(
+bool TableDefinition::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:org.yaorm.Definition)
+  // @@protoc_insertion_point(parse_start:org.yaorm.TableDefinition)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional string name = 1;
+      // string name = 1;
       case 1: {
-        if (tag == 10) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_name()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->name().data(), this->name().length(),
+            this->name().data(), static_cast<int>(this->name().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
-            "org.yaorm.Definition.name"));
+            "org.yaorm.TableDefinition.name"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_property_definitions;
         break;
       }
 
-      // repeated .org.yaorm.PropertyDefinition property_definitions = 2;
+      // repeated .org.yaorm.ColumnDefinition column_definitions = 2;
       case 2: {
-        if (tag == 18) {
-         parse_property_definitions:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_property_definitions:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
-                input, add_property_definitions()));
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_column_definitions()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_loop_property_definitions;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectTag(26)) goto parse_index;
         break;
       }
 
-      // optional .org.yaorm.Index index = 3;
+      // .org.yaorm.Index index = 3;
       case 3: {
-        if (tag == 26) {
-         parse_index:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                input, mutable_index()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
+        break;
+      }
+
+      // .org.yaorm.TableDefinition.TableType table_type = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_table_type(static_cast< ::org::yaorm::TableDefinition_TableType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string alias = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_alias()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->alias().data(), static_cast<int>(this->alias().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.TableDefinition.alias"));
+        } else {
+          goto handle_unusual;
+        }
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:org.yaorm.Definition)
+  // @@protoc_insertion_point(parse_success:org.yaorm.TableDefinition)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:org.yaorm.Definition)
+  // @@protoc_insertion_point(parse_failure:org.yaorm.TableDefinition)
   return false;
 #undef DO_
 }
 
-void Definition::SerializeWithCachedSizes(
+void TableDefinition::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:org.yaorm.Definition)
-  // optional string name = 1;
+  // @@protoc_insertion_point(serialize_start:org.yaorm.TableDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string name = 1;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.Definition.name");
+      "org.yaorm.TableDefinition.name");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       1, this->name(), output);
   }
 
-  // repeated .org.yaorm.PropertyDefinition property_definitions = 2;
-  for (unsigned int i = 0, n = this->property_definitions_size(); i < n; i++) {
+  // repeated .org.yaorm.ColumnDefinition column_definitions = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->column_definitions_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      2, this->property_definitions(i), output);
+      2, this->column_definitions(static_cast<int>(i)), output);
   }
 
-  // optional .org.yaorm.Index index = 3;
+  // .org.yaorm.Index index = 3;
   if (this->has_index()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       3, *this->index_, output);
   }
 
-  // @@protoc_insertion_point(serialize_end:org.yaorm.Definition)
+  // .org.yaorm.TableDefinition.TableType table_type = 4;
+  if (this->table_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      4, this->table_type(), output);
+  }
+
+  // string alias = 5;
+  if (this->alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->alias().data(), static_cast<int>(this->alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinition.alias");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      5, this->alias(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.TableDefinition)
 }
 
-::google::protobuf::uint8* Definition::InternalSerializeWithCachedSizesToArray(
+::google::protobuf::uint8* TableDefinition::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Definition)
-  // optional string name = 1;
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.TableDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string name = 1;
   if (this->name().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->name().data(), this->name().length(),
+      this->name().data(), static_cast<int>(this->name().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.Definition.name");
+      "org.yaorm.TableDefinition.name");
     target =
       ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
         1, this->name(), target);
   }
 
-  // repeated .org.yaorm.PropertyDefinition property_definitions = 2;
-  for (unsigned int i = 0, n = this->property_definitions_size(); i < n; i++) {
+  // repeated .org.yaorm.ColumnDefinition column_definitions = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->column_definitions_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        2, this->property_definitions(i), false, target);
+        2, this->column_definitions(static_cast<int>(i)), deterministic, target);
   }
 
-  // optional .org.yaorm.Index index = 3;
+  // .org.yaorm.Index index = 3;
   if (this->has_index()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        3, *this->index_, false, target);
+        3, *this->index_, deterministic, target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Definition)
+  // .org.yaorm.TableDefinition.TableType table_type = 4;
+  if (this->table_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      4, this->table_type(), target);
+  }
+
+  // string alias = 5;
+  if (this->alias().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->alias().data(), static_cast<int>(this->alias().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinition.alias");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        5, this->alias(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.TableDefinition)
   return target;
 }
 
-int Definition::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Definition)
-  int total_size = 0;
+size_t TableDefinition::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.TableDefinition)
+  size_t total_size = 0;
 
-  // optional string name = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.ColumnDefinition column_definitions = 2;
+  {
+    unsigned int count = static_cast<unsigned int>(this->column_definitions_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->column_definitions(static_cast<int>(i)));
+    }
+  }
+
+  // string name = 1;
   if (this->name().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->name());
   }
 
-  // optional .org.yaorm.Index index = 3;
+  // string alias = 5;
+  if (this->alias().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->alias());
+  }
+
+  // .org.yaorm.Index index = 3;
   if (this->has_index()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->index_);
   }
 
-  // repeated .org.yaorm.PropertyDefinition property_definitions = 2;
-  total_size += 1 * this->property_definitions_size();
-  for (int i = 0; i < this->property_definitions_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->property_definitions(i));
+  // .org.yaorm.TableDefinition.TableType table_type = 4;
+  if (this->table_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->table_type());
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
-void Definition::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Definition)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Definition* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const Definition>(
+void TableDefinition::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.TableDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  const TableDefinition* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const TableDefinition>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Definition)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.TableDefinition)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Definition)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.TableDefinition)
     MergeFrom(*source);
   }
 }
 
-void Definition::MergeFrom(const Definition& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Definition)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  property_definitions_.MergeFrom(from.property_definitions_);
+void TableDefinition::MergeFrom(const TableDefinition& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.TableDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  column_definitions_.MergeFrom(from.column_definitions_);
   if (from.name().size() > 0) {
 
     name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
   }
+  if (from.alias().size() > 0) {
+
+    alias_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.alias_);
+  }
   if (from.has_index()) {
     mutable_index()->::org::yaorm::Index::MergeFrom(from.index());
   }
+  if (from.table_type() != 0) {
+    set_table_type(from.table_type());
+  }
 }
 
-void Definition::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Definition)
+void TableDefinition::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.TableDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void Definition::CopyFrom(const Definition& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Definition)
+void TableDefinition::CopyFrom(const TableDefinition& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.TableDefinition)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool Definition::IsInitialized() const {
-
+bool TableDefinition::IsInitialized() const {
   return true;
 }
 
-void Definition::Swap(Definition* other) {
+void TableDefinition::Swap(TableDefinition* other) {
   if (other == this) return;
   InternalSwap(other);
 }
-void Definition::InternalSwap(Definition* other) {
+void TableDefinition::InternalSwap(TableDefinition* other) {
+  using std::swap;
+  column_definitions_.InternalSwap(&other->column_definitions_);
   name_.Swap(&other->name_);
-  property_definitions_.UnsafeArenaSwap(&other->property_definitions_);
-  std::swap(index_, other->index_);
+  alias_.Swap(&other->alias_);
+  swap(index_, other->index_);
+  swap(table_type_, other->table_type_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
-::google::protobuf::Metadata Definition::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Definition_descriptor_;
-  metadata.reflection = Definition_reflection_;
-  return metadata;
+::google::protobuf::Metadata TableDefinition::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
-// Definition
+// TableDefinition
 
-// optional string name = 1;
-void Definition::clear_name() {
+// string name = 1;
+void TableDefinition::clear_name() {
   name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& Definition::name() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.Definition.name)
-  return name_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+const ::std::string& TableDefinition::name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinition.name)
+  return name_.GetNoArena();
 }
- void Definition::set_name(const ::std::string& value) {
+void TableDefinition::set_name(const ::std::string& value) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:org.yaorm.Definition.name)
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinition.name)
 }
- void Definition::set_name(const char* value) {
+#if LANG_CXX11
+void TableDefinition::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableDefinition.name)
+}
+#endif
+void TableDefinition::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:org.yaorm.Definition.name)
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableDefinition.name)
 }
- void Definition::set_name(const char* value, size_t size) {
+void TableDefinition::set_name(const char* value, size_t size) {
   
   name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Definition.name)
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableDefinition.name)
 }
- ::std::string* Definition::mutable_name() {
+::std::string* TableDefinition::mutable_name() {
   
-  // @@protoc_insertion_point(field_mutable:org.yaorm.Definition.name)
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinition.name)
   return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* Definition::release_name() {
-  // @@protoc_insertion_point(field_release:org.yaorm.Definition.name)
+::std::string* TableDefinition::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinition.name)
   
   return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void Definition::set_allocated_name(::std::string* name) {
+void TableDefinition::set_allocated_name(::std::string* name) {
   if (name != NULL) {
     
   } else {
     
   }
   name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Definition.name)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinition.name)
 }
 
-// repeated .org.yaorm.PropertyDefinition property_definitions = 2;
-int Definition::property_definitions_size() const {
-  return property_definitions_.size();
+// repeated .org.yaorm.ColumnDefinition column_definitions = 2;
+int TableDefinition::column_definitions_size() const {
+  return column_definitions_.size();
 }
-void Definition::clear_property_definitions() {
-  property_definitions_.Clear();
+void TableDefinition::clear_column_definitions() {
+  column_definitions_.Clear();
 }
-const ::org::yaorm::PropertyDefinition& Definition::property_definitions(int index) const {
-  // @@protoc_insertion_point(field_get:org.yaorm.Definition.property_definitions)
-  return property_definitions_.Get(index);
+const ::org::yaorm::ColumnDefinition& TableDefinition::column_definitions(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinition.column_definitions)
+  return column_definitions_.Get(index);
 }
-::org::yaorm::PropertyDefinition* Definition::mutable_property_definitions(int index) {
-  // @@protoc_insertion_point(field_mutable:org.yaorm.Definition.property_definitions)
-  return property_definitions_.Mutable(index);
+::org::yaorm::ColumnDefinition* TableDefinition::mutable_column_definitions(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinition.column_definitions)
+  return column_definitions_.Mutable(index);
 }
-::org::yaorm::PropertyDefinition* Definition::add_property_definitions() {
-  // @@protoc_insertion_point(field_add:org.yaorm.Definition.property_definitions)
-  return property_definitions_.Add();
+::org::yaorm::ColumnDefinition* TableDefinition::add_column_definitions() {
+  // @@protoc_insertion_point(field_add:org.yaorm.TableDefinition.column_definitions)
+  return column_definitions_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >*
-Definition::mutable_property_definitions() {
-  // @@protoc_insertion_point(field_mutable_list:org.yaorm.Definition.property_definitions)
-  return &property_definitions_;
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >*
+TableDefinition::mutable_column_definitions() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.TableDefinition.column_definitions)
+  return &column_definitions_;
 }
-const ::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyDefinition >&
-Definition::property_definitions() const {
-  // @@protoc_insertion_point(field_list:org.yaorm.Definition.property_definitions)
-  return property_definitions_;
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >&
+TableDefinition::column_definitions() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.TableDefinition.column_definitions)
+  return column_definitions_;
 }
 
-// optional .org.yaorm.Index index = 3;
-bool Definition::has_index() const {
-  return !_is_default_instance_ && index_ != NULL;
+// .org.yaorm.Index index = 3;
+bool TableDefinition::has_index() const {
+  return this != internal_default_instance() && index_ != NULL;
 }
-void Definition::clear_index() {
+void TableDefinition::clear_index() {
   if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
   index_ = NULL;
 }
-const ::org::yaorm::Index& Definition::index() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.Definition.index)
-  return index_ != NULL ? *index_ : *default_instance_->index_;
+const ::org::yaorm::Index& TableDefinition::index() const {
+  const ::org::yaorm::Index* p = index_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinition.index)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Index*>(
+      &::org::yaorm::_Index_default_instance_);
 }
-::org::yaorm::Index* Definition::mutable_index() {
+::org::yaorm::Index* TableDefinition::mutable_index() {
   
   if (index_ == NULL) {
     index_ = new ::org::yaorm::Index;
   }
-  // @@protoc_insertion_point(field_mutable:org.yaorm.Definition.index)
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinition.index)
   return index_;
 }
-::org::yaorm::Index* Definition::release_index() {
-  // @@protoc_insertion_point(field_release:org.yaorm.Definition.index)
+::org::yaorm::Index* TableDefinition::release_index() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinition.index)
   
   ::org::yaorm::Index* temp = index_;
   index_ = NULL;
   return temp;
 }
-void Definition::set_allocated_index(::org::yaorm::Index* index) {
+void TableDefinition::set_allocated_index(::org::yaorm::Index* index) {
   delete index_;
   index_ = index;
   if (index) {
@@ -2876,7 +5101,74 @@ void Definition::set_allocated_index(::org::yaorm::Index* index) {
   } else {
     
   }
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Definition.index)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinition.index)
+}
+
+// .org.yaorm.TableDefinition.TableType table_type = 4;
+void TableDefinition::clear_table_type() {
+  table_type_ = 0;
+}
+::org::yaorm::TableDefinition_TableType TableDefinition::table_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinition.table_type)
+  return static_cast< ::org::yaorm::TableDefinition_TableType >(table_type_);
+}
+void TableDefinition::set_table_type(::org::yaorm::TableDefinition_TableType value) {
+  
+  table_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinition.table_type)
+}
+
+// string alias = 5;
+void TableDefinition::clear_alias() {
+  alias_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& TableDefinition::alias() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinition.alias)
+  return alias_.GetNoArena();
+}
+void TableDefinition::set_alias(const ::std::string& value) {
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinition.alias)
+}
+#if LANG_CXX11
+void TableDefinition::set_alias(::std::string&& value) {
+  
+  alias_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableDefinition.alias)
+}
+#endif
+void TableDefinition::set_alias(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableDefinition.alias)
+}
+void TableDefinition::set_alias(const char* value, size_t size) {
+  
+  alias_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableDefinition.alias)
+}
+::std::string* TableDefinition::mutable_alias() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinition.alias)
+  return alias_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* TableDefinition::release_alias() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinition.alias)
+  
+  return alias_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void TableDefinition::set_allocated_alias(::std::string* alias) {
+  if (alias != NULL) {
+    
+  } else {
+    
+  }
+  alias_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), alias);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinition.alias)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -2884,256 +5176,273 @@ void Definition::set_allocated_index(::org::yaorm::Index* index) {
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int Definitions::kDefinitionsFieldNumber;
+const int TableDefinitions::kTableDefinitionsFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
-Definitions::Definitions()
+TableDefinitions::TableDefinitions()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
-  // @@protoc_insertion_point(constructor:org.yaorm.Definitions)
+  // @@protoc_insertion_point(constructor:org.yaorm.TableDefinitions)
 }
-
-void Definitions::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
-Definitions::Definitions(const Definitions& from)
+TableDefinitions::TableDefinitions(const TableDefinitions& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:org.yaorm.Definitions)
+      _internal_metadata_(NULL),
+      table_definitions_(from.table_definitions_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.TableDefinitions)
 }
 
-void Definitions::SharedCtor() {
-    _is_default_instance_ = false;
+void TableDefinitions::SharedCtor() {
   _cached_size_ = 0;
 }
 
-Definitions::~Definitions() {
-  // @@protoc_insertion_point(destructor:org.yaorm.Definitions)
+TableDefinitions::~TableDefinitions() {
+  // @@protoc_insertion_point(destructor:org.yaorm.TableDefinitions)
   SharedDtor();
 }
 
-void Definitions::SharedDtor() {
-  if (this != default_instance_) {
-  }
+void TableDefinitions::SharedDtor() {
 }
 
-void Definitions::SetCachedSize(int size) const {
+void TableDefinitions::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* Definitions::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Definitions_descriptor_;
+const ::google::protobuf::Descriptor* TableDefinitions::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
-const Definitions& Definitions::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+const TableDefinitions& TableDefinitions::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
 
-Definitions* Definitions::default_instance_ = NULL;
-
-Definitions* Definitions::New(::google::protobuf::Arena* arena) const {
-  Definitions* n = new Definitions;
+TableDefinitions* TableDefinitions::New(::google::protobuf::Arena* arena) const {
+  TableDefinitions* n = new TableDefinitions;
   if (arena != NULL) {
     arena->Own(n);
   }
   return n;
 }
 
-void Definitions::Clear() {
-// @@protoc_insertion_point(message_clear_start:org.yaorm.Definitions)
-  definitions_.Clear();
+void TableDefinitions::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.TableDefinitions)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  table_definitions_.Clear();
+  _internal_metadata_.Clear();
 }
 
-bool Definitions::MergePartialFromCodedStream(
+bool TableDefinitions::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:org.yaorm.Definitions)
+  // @@protoc_insertion_point(parse_start:org.yaorm.TableDefinitions)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // repeated .org.yaorm.Definition definitions = 3;
-      case 3: {
-        if (tag == 26) {
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_definitions:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
-                input, add_definitions()));
+      // repeated .org.yaorm.TableDefinition table_definitions = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_table_definitions()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(26)) goto parse_loop_definitions;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:org.yaorm.Definitions)
+  // @@protoc_insertion_point(parse_success:org.yaorm.TableDefinitions)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:org.yaorm.Definitions)
+  // @@protoc_insertion_point(parse_failure:org.yaorm.TableDefinitions)
   return false;
 #undef DO_
 }
 
-void Definitions::SerializeWithCachedSizes(
+void TableDefinitions::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:org.yaorm.Definitions)
-  // repeated .org.yaorm.Definition definitions = 3;
-  for (unsigned int i = 0, n = this->definitions_size(); i < n; i++) {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.TableDefinitions)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.TableDefinition table_definitions = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definitions_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      3, this->definitions(i), output);
+      1, this->table_definitions(static_cast<int>(i)), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:org.yaorm.Definitions)
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.TableDefinitions)
 }
 
-::google::protobuf::uint8* Definitions::InternalSerializeWithCachedSizesToArray(
+::google::protobuf::uint8* TableDefinitions::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Definitions)
-  // repeated .org.yaorm.Definition definitions = 3;
-  for (unsigned int i = 0, n = this->definitions_size(); i < n; i++) {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.TableDefinitions)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.TableDefinition table_definitions = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definitions_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        3, this->definitions(i), false, target);
+        1, this->table_definitions(static_cast<int>(i)), deterministic, target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Definitions)
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.TableDefinitions)
   return target;
 }
 
-int Definitions::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Definitions)
-  int total_size = 0;
+size_t TableDefinitions::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.TableDefinitions)
+  size_t total_size = 0;
 
-  // repeated .org.yaorm.Definition definitions = 3;
-  total_size += 1 * this->definitions_size();
-  for (int i = 0; i < this->definitions_size(); i++) {
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
     total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->definitions(i));
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.TableDefinition table_definitions = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->table_definitions_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->table_definitions(static_cast<int>(i)));
+    }
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
-void Definitions::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Definitions)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Definitions* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const Definitions>(
+void TableDefinitions::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.TableDefinitions)
+  GOOGLE_DCHECK_NE(&from, this);
+  const TableDefinitions* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const TableDefinitions>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Definitions)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.TableDefinitions)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Definitions)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.TableDefinitions)
     MergeFrom(*source);
   }
 }
 
-void Definitions::MergeFrom(const Definitions& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Definitions)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  definitions_.MergeFrom(from.definitions_);
+void TableDefinitions::MergeFrom(const TableDefinitions& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.TableDefinitions)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  table_definitions_.MergeFrom(from.table_definitions_);
 }
 
-void Definitions::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Definitions)
+void TableDefinitions::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.TableDefinitions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void Definitions::CopyFrom(const Definitions& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Definitions)
+void TableDefinitions::CopyFrom(const TableDefinitions& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.TableDefinitions)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool Definitions::IsInitialized() const {
-
+bool TableDefinitions::IsInitialized() const {
   return true;
 }
 
-void Definitions::Swap(Definitions* other) {
+void TableDefinitions::Swap(TableDefinitions* other) {
   if (other == this) return;
   InternalSwap(other);
 }
-void Definitions::InternalSwap(Definitions* other) {
-  definitions_.UnsafeArenaSwap(&other->definitions_);
+void TableDefinitions::InternalSwap(TableDefinitions* other) {
+  using std::swap;
+  table_definitions_.InternalSwap(&other->table_definitions_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
-::google::protobuf::Metadata Definitions::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Definitions_descriptor_;
-  metadata.reflection = Definitions_reflection_;
-  return metadata;
+::google::protobuf::Metadata TableDefinitions::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
-// Definitions
+// TableDefinitions
 
-// repeated .org.yaorm.Definition definitions = 3;
-int Definitions::definitions_size() const {
-  return definitions_.size();
+// repeated .org.yaorm.TableDefinition table_definitions = 1;
+int TableDefinitions::table_definitions_size() const {
+  return table_definitions_.size();
 }
-void Definitions::clear_definitions() {
-  definitions_.Clear();
+void TableDefinitions::clear_table_definitions() {
+  table_definitions_.Clear();
 }
-const ::org::yaorm::Definition& Definitions::definitions(int index) const {
-  // @@protoc_insertion_point(field_get:org.yaorm.Definitions.definitions)
-  return definitions_.Get(index);
+const ::org::yaorm::TableDefinition& TableDefinitions::table_definitions(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitions.table_definitions)
+  return table_definitions_.Get(index);
 }
-::org::yaorm::Definition* Definitions::mutable_definitions(int index) {
-  // @@protoc_insertion_point(field_mutable:org.yaorm.Definitions.definitions)
-  return definitions_.Mutable(index);
+::org::yaorm::TableDefinition* TableDefinitions::mutable_table_definitions(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitions.table_definitions)
+  return table_definitions_.Mutable(index);
 }
-::org::yaorm::Definition* Definitions::add_definitions() {
-  // @@protoc_insertion_point(field_add:org.yaorm.Definitions.definitions)
-  return definitions_.Add();
+::org::yaorm::TableDefinition* TableDefinitions::add_table_definitions() {
+  // @@protoc_insertion_point(field_add:org.yaorm.TableDefinitions.table_definitions)
+  return table_definitions_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::org::yaorm::Definition >*
-Definitions::mutable_definitions() {
-  // @@protoc_insertion_point(field_mutable_list:org.yaorm.Definitions.definitions)
-  return &definitions_;
+::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinition >*
+TableDefinitions::mutable_table_definitions() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.TableDefinitions.table_definitions)
+  return &table_definitions_;
 }
-const ::google::protobuf::RepeatedPtrField< ::org::yaorm::Definition >&
-Definitions::definitions() const {
-  // @@protoc_insertion_point(field_list:org.yaorm.Definitions.definitions)
-  return definitions_;
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinition >&
+TableDefinitions::table_definitions() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.TableDefinitions.table_definitions)
+  return table_definitions_;
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -3147,26 +5456,25 @@ const int DifferenceReport::kDifferencesFieldNumber;
 
 DifferenceReport::DifferenceReport()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.DifferenceReport)
 }
-
-void DifferenceReport::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 DifferenceReport::DifferenceReport(const DifferenceReport& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      differences_(from.differences_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  migration_exists_ = from.migration_exists_;
   // @@protoc_insertion_point(copy_constructor:org.yaorm.DifferenceReport)
 }
 
 void DifferenceReport::SharedCtor() {
-    _is_default_instance_ = false;
-  _cached_size_ = 0;
   migration_exists_ = false;
+  _cached_size_ = 0;
 }
 
 DifferenceReport::~DifferenceReport() {
@@ -3175,8 +5483,6 @@ DifferenceReport::~DifferenceReport() {
 }
 
 void DifferenceReport::SharedDtor() {
-  if (this != default_instance_) {
-  }
 }
 
 void DifferenceReport::SetCachedSize(int size) const {
@@ -3185,16 +5491,14 @@ void DifferenceReport::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* DifferenceReport::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return DifferenceReport_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const DifferenceReport& DifferenceReport::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-DifferenceReport* DifferenceReport::default_instance_ = NULL;
 
 DifferenceReport* DifferenceReport::New(::google::protobuf::Arena* arena) const {
   DifferenceReport* n = new DifferenceReport;
@@ -3206,8 +5510,13 @@ DifferenceReport* DifferenceReport::New(::google::protobuf::Arena* arena) const 
 
 void DifferenceReport::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.DifferenceReport)
-  migration_exists_ = false;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   differences_.Clear();
+  migration_exists_ = false;
+  _internal_metadata_.Clear();
 }
 
 bool DifferenceReport::MergePartialFromCodedStream(
@@ -3216,49 +5525,43 @@ bool DifferenceReport::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.DifferenceReport)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional bool migration_exists = 1;
+      // bool migration_exists = 1;
       case 1: {
-        if (tag == 8) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(8u /* 8 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
                  input, &migration_exists_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_differences;
         break;
       }
 
       // repeated .org.yaorm.Difference differences = 2;
       case 2: {
-        if (tag == 18) {
-         parse_differences:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_differences:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_differences()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_loop_differences;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -3275,68 +5578,92 @@ failure:
 void DifferenceReport::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.DifferenceReport)
-  // optional bool migration_exists = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bool migration_exists = 1;
   if (this->migration_exists() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBool(1, this->migration_exists(), output);
   }
 
   // repeated .org.yaorm.Difference differences = 2;
-  for (unsigned int i = 0, n = this->differences_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->differences_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      2, this->differences(i), output);
+      2, this->differences(static_cast<int>(i)), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.DifferenceReport)
 }
 
 ::google::protobuf::uint8* DifferenceReport::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DifferenceReport)
-  // optional bool migration_exists = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bool migration_exists = 1;
   if (this->migration_exists() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(1, this->migration_exists(), target);
   }
 
   // repeated .org.yaorm.Difference differences = 2;
-  for (unsigned int i = 0, n = this->differences_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->differences_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        2, this->differences(i), false, target);
+        2, this->differences(static_cast<int>(i)), deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DifferenceReport)
   return target;
 }
 
-int DifferenceReport::ByteSize() const {
+size_t DifferenceReport::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.DifferenceReport)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // optional bool migration_exists = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.Difference differences = 2;
+  {
+    unsigned int count = static_cast<unsigned int>(this->differences_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->differences(static_cast<int>(i)));
+    }
+  }
+
+  // bool migration_exists = 1;
   if (this->migration_exists() != 0) {
     total_size += 1 + 1;
   }
 
-  // repeated .org.yaorm.Difference differences = 2;
-  total_size += 1 * this->differences_size();
-  for (int i = 0; i < this->differences_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->differences(i));
-  }
-
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void DifferenceReport::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DifferenceReport)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const DifferenceReport* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const DifferenceReport* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const DifferenceReport>(
           &from);
   if (source == NULL) {
@@ -3350,9 +5677,11 @@ void DifferenceReport::MergeFrom(const ::google::protobuf::Message& from) {
 
 void DifferenceReport::MergeFrom(const DifferenceReport& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DifferenceReport)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   differences_.MergeFrom(from.differences_);
   if (from.migration_exists() != 0) {
     set_migration_exists(from.migration_exists());
@@ -3374,7 +5703,6 @@ void DifferenceReport::CopyFrom(const DifferenceReport& from) {
 }
 
 bool DifferenceReport::IsInitialized() const {
-
   return true;
 }
 
@@ -3383,32 +5711,30 @@ void DifferenceReport::Swap(DifferenceReport* other) {
   InternalSwap(other);
 }
 void DifferenceReport::InternalSwap(DifferenceReport* other) {
-  std::swap(migration_exists_, other->migration_exists_);
-  differences_.UnsafeArenaSwap(&other->differences_);
+  using std::swap;
+  differences_.InternalSwap(&other->differences_);
+  swap(migration_exists_, other->migration_exists_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata DifferenceReport::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = DifferenceReport_descriptor_;
-  metadata.reflection = DifferenceReport_reflection_;
-  return metadata;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // DifferenceReport
 
-// optional bool migration_exists = 1;
+// bool migration_exists = 1;
 void DifferenceReport::clear_migration_exists() {
   migration_exists_ = false;
 }
- bool DifferenceReport::migration_exists() const {
+bool DifferenceReport::migration_exists() const {
   // @@protoc_insertion_point(field_get:org.yaorm.DifferenceReport.migration_exists)
   return migration_exists_;
 }
- void DifferenceReport::set_migration_exists(bool value) {
+void DifferenceReport::set_migration_exists(bool value) {
   
   migration_exists_ = value;
   // @@protoc_insertion_point(field_set:org.yaorm.DifferenceReport.migration_exists)
@@ -3449,724 +5775,720 @@ DifferenceReport::differences() const {
 // ===================================================================
 
 #if !defined(_MSC_VER) || _MSC_VER >= 1900
-const int PropertyHolder::kPropertyDefinitionFieldNumber;
-const int PropertyHolder::kDoubleHolderFieldNumber;
-const int PropertyHolder::kFloatHolderFieldNumber;
-const int PropertyHolder::kInt32HolderFieldNumber;
-const int PropertyHolder::kInt64HolderFieldNumber;
-const int PropertyHolder::kUint32HolderFieldNumber;
-const int PropertyHolder::kUint64HolderFieldNumber;
-const int PropertyHolder::kSint32HolderFieldNumber;
-const int PropertyHolder::kSint64HolderFieldNumber;
-const int PropertyHolder::kFixed32HolderFieldNumber;
-const int PropertyHolder::kFixed64HolderFieldNumber;
-const int PropertyHolder::kSfixed32HolderFieldNumber;
-const int PropertyHolder::kSfixed64HolderFieldNumber;
-const int PropertyHolder::kBoolHolderFieldNumber;
-const int PropertyHolder::kStringHolderFieldNumber;
-const int PropertyHolder::kBytesHolderFieldNumber;
+const int Column::kDefinitionFieldNumber;
+const int Column::kDoubleHolderFieldNumber;
+const int Column::kFloatHolderFieldNumber;
+const int Column::kInt32HolderFieldNumber;
+const int Column::kInt64HolderFieldNumber;
+const int Column::kUint32HolderFieldNumber;
+const int Column::kUint64HolderFieldNumber;
+const int Column::kSint32HolderFieldNumber;
+const int Column::kSint64HolderFieldNumber;
+const int Column::kFixed32HolderFieldNumber;
+const int Column::kFixed64HolderFieldNumber;
+const int Column::kSfixed32HolderFieldNumber;
+const int Column::kSfixed64HolderFieldNumber;
+const int Column::kBoolHolderFieldNumber;
+const int Column::kStringHolderFieldNumber;
+const int Column::kBytesHolderFieldNumber;
 #endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
 
-PropertyHolder::PropertyHolder()
+Column::Column()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
-  // @@protoc_insertion_point(constructor:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(constructor:org.yaorm.Column)
 }
-
-void PropertyHolder::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-  property_definition_ = const_cast< ::org::yaorm::PropertyDefinition*>(&::org::yaorm::PropertyDefinition::default_instance());
-}
-
-PropertyHolder::PropertyHolder(const PropertyHolder& from)
+Column::Column(const Column& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
-  // @@protoc_insertion_point(copy_constructor:org.yaorm.PropertyHolder)
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  string_holder_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.string_holder().size() > 0) {
+    string_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.string_holder_);
+  }
+  bytes_holder_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.bytes_holder().size() > 0) {
+    bytes_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.bytes_holder_);
+  }
+  if (from.has_definition()) {
+    definition_ = new ::org::yaorm::ColumnDefinition(*from.definition_);
+  } else {
+    definition_ = NULL;
+  }
+  ::memcpy(&double_holder_, &from.double_holder_,
+    static_cast<size_t>(reinterpret_cast<char*>(&bool_holder_) -
+    reinterpret_cast<char*>(&double_holder_)) + sizeof(bool_holder_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.Column)
 }
 
-void PropertyHolder::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
-  property_definition_ = NULL;
-  double_holder_ = 0;
-  float_holder_ = 0;
-  int32_holder_ = 0;
-  int64_holder_ = GOOGLE_LONGLONG(0);
-  uint32_holder_ = 0u;
-  uint64_holder_ = GOOGLE_ULONGLONG(0);
-  sint32_holder_ = 0;
-  sint64_holder_ = GOOGLE_LONGLONG(0);
-  fixed32_holder_ = 0u;
-  fixed64_holder_ = GOOGLE_ULONGLONG(0);
-  sfixed32_holder_ = 0;
-  sfixed64_holder_ = GOOGLE_LONGLONG(0);
-  bool_holder_ = false;
+void Column::SharedCtor() {
   string_holder_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   bytes_holder_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&bool_holder_) -
+      reinterpret_cast<char*>(&definition_)) + sizeof(bool_holder_));
+  _cached_size_ = 0;
 }
 
-PropertyHolder::~PropertyHolder() {
-  // @@protoc_insertion_point(destructor:org.yaorm.PropertyHolder)
+Column::~Column() {
+  // @@protoc_insertion_point(destructor:org.yaorm.Column)
   SharedDtor();
 }
 
-void PropertyHolder::SharedDtor() {
+void Column::SharedDtor() {
   string_holder_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   bytes_holder_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-    delete property_definition_;
-  }
+  if (this != internal_default_instance()) delete definition_;
 }
 
-void PropertyHolder::SetCachedSize(int size) const {
+void Column::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
   _cached_size_ = size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
-const ::google::protobuf::Descriptor* PropertyHolder::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return PropertyHolder_descriptor_;
+const ::google::protobuf::Descriptor* Column::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
-const PropertyHolder& PropertyHolder::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+const Column& Column::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
 
-PropertyHolder* PropertyHolder::default_instance_ = NULL;
-
-PropertyHolder* PropertyHolder::New(::google::protobuf::Arena* arena) const {
-  PropertyHolder* n = new PropertyHolder;
+Column* Column::New(::google::protobuf::Arena* arena) const {
+  Column* n = new Column;
   if (arena != NULL) {
     arena->Own(n);
   }
   return n;
 }
 
-void PropertyHolder::Clear() {
-// @@protoc_insertion_point(message_clear_start:org.yaorm.PropertyHolder)
-#if defined(__clang__)
-#define ZR_HELPER_(f) \
-  _Pragma("clang diagnostic push") \
-  _Pragma("clang diagnostic ignored \"-Winvalid-offsetof\"") \
-  __builtin_offsetof(PropertyHolder, f) \
-  _Pragma("clang diagnostic pop")
-#else
-#define ZR_HELPER_(f) reinterpret_cast<char*>(\
-  &reinterpret_cast<PropertyHolder*>(16)->f)
-#endif
+void Column::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Column)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
 
-#define ZR_(first, last) do {\
-  ::memset(&first, 0,\
-           ZR_HELPER_(last) - ZR_HELPER_(first) + sizeof(last));\
-} while (0)
-
-  ZR_(double_holder_, sint32_holder_);
-  if (GetArenaNoVirtual() == NULL && property_definition_ != NULL) delete property_definition_;
-  property_definition_ = NULL;
-  ZR_(sint64_holder_, sfixed64_holder_);
-  bool_holder_ = false;
   string_holder_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   bytes_holder_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-
-#undef ZR_HELPER_
-#undef ZR_
-
+  if (GetArenaNoVirtual() == NULL && definition_ != NULL) {
+    delete definition_;
+  }
+  definition_ = NULL;
+  ::memset(&double_holder_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&bool_holder_) -
+      reinterpret_cast<char*>(&double_holder_)) + sizeof(bool_holder_));
+  _internal_metadata_.Clear();
 }
 
-bool PropertyHolder::MergePartialFromCodedStream(
+bool Column::MergePartialFromCodedStream(
     ::google::protobuf::io::CodedInputStream* input) {
 #define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
   ::google::protobuf::uint32 tag;
-  // @@protoc_insertion_point(parse_start:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(parse_start:org.yaorm.Column)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(16383);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(16383u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional .org.yaorm.PropertyDefinition property_definition = 1;
+      // .org.yaorm.ColumnDefinition definition = 1;
       case 1: {
-        if (tag == 10) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
-               input, mutable_property_definition()));
+               input, mutable_definition()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(17)) goto parse_double_holder;
         break;
       }
 
-      // optional double double_holder = 2;
+      // double double_holder = 2;
       case 2: {
-        if (tag == 17) {
-         parse_double_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(17u /* 17 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    double, ::google::protobuf::internal::WireFormatLite::TYPE_DOUBLE>(
                  input, &double_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(29)) goto parse_float_holder;
         break;
       }
 
-      // optional float float_holder = 3;
+      // float float_holder = 3;
       case 3: {
-        if (tag == 29) {
-         parse_float_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(29u /* 29 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    float, ::google::protobuf::internal::WireFormatLite::TYPE_FLOAT>(
                  input, &float_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(32)) goto parse_int32_holder;
         break;
       }
 
-      // optional int32 int32_holder = 4;
+      // int32 int32_holder = 4;
       case 4: {
-        if (tag == 32) {
-         parse_int32_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
                  input, &int32_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(40)) goto parse_int64_holder;
         break;
       }
 
-      // optional int64 int64_holder = 5;
+      // int64 int64_holder = 5;
       case 5: {
-        if (tag == 40) {
-         parse_int64_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(40u /* 40 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
                  input, &int64_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(48)) goto parse_uint32_holder;
         break;
       }
 
-      // optional uint32 uint32_holder = 6;
+      // uint32 uint32_holder = 6;
       case 6: {
-        if (tag == 48) {
-         parse_uint32_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::uint32, ::google::protobuf::internal::WireFormatLite::TYPE_UINT32>(
                  input, &uint32_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(56)) goto parse_uint64_holder;
         break;
       }
 
-      // optional uint64 uint64_holder = 7;
+      // uint64 uint64_holder = 7;
       case 7: {
-        if (tag == 56) {
-         parse_uint64_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(56u /* 56 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::uint64, ::google::protobuf::internal::WireFormatLite::TYPE_UINT64>(
                  input, &uint64_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(64)) goto parse_sint32_holder;
         break;
       }
 
-      // optional sint32 sint32_holder = 8;
+      // sint32 sint32_holder = 8;
       case 8: {
-        if (tag == 64) {
-         parse_sint32_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(64u /* 64 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_SINT32>(
                  input, &sint32_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(72)) goto parse_sint64_holder;
         break;
       }
 
-      // optional sint64 sint64_holder = 9;
+      // sint64 sint64_holder = 9;
       case 9: {
-        if (tag == 72) {
-         parse_sint64_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(72u /* 72 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_SINT64>(
                  input, &sint64_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(85)) goto parse_fixed32_holder;
         break;
       }
 
-      // optional fixed32 fixed32_holder = 10;
+      // fixed32 fixed32_holder = 10;
       case 10: {
-        if (tag == 85) {
-         parse_fixed32_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(85u /* 85 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::uint32, ::google::protobuf::internal::WireFormatLite::TYPE_FIXED32>(
                  input, &fixed32_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(89)) goto parse_fixed64_holder;
         break;
       }
 
-      // optional fixed64 fixed64_holder = 11;
+      // fixed64 fixed64_holder = 11;
       case 11: {
-        if (tag == 89) {
-         parse_fixed64_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(89u /* 89 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::uint64, ::google::protobuf::internal::WireFormatLite::TYPE_FIXED64>(
                  input, &fixed64_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(101)) goto parse_sfixed32_holder;
         break;
       }
 
-      // optional sfixed32 sfixed32_holder = 12;
+      // sfixed32 sfixed32_holder = 12;
       case 12: {
-        if (tag == 101) {
-         parse_sfixed32_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(101u /* 101 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_SFIXED32>(
                  input, &sfixed32_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(105)) goto parse_sfixed64_holder;
         break;
       }
 
-      // optional sfixed64 sfixed64_holder = 13;
+      // sfixed64 sfixed64_holder = 13;
       case 13: {
-        if (tag == 105) {
-         parse_sfixed64_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(105u /* 105 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_SFIXED64>(
                  input, &sfixed64_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(112)) goto parse_bool_holder;
         break;
       }
 
-      // optional bool bool_holder = 14;
+      // bool bool_holder = 14;
       case 14: {
-        if (tag == 112) {
-         parse_bool_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(112u /* 112 & 0xFF */)) {
+
           DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
                    bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
                  input, &bool_holder_)));
-
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(122)) goto parse_string_holder;
         break;
       }
 
-      // optional string string_holder = 15;
+      // string string_holder = 15;
       case 15: {
-        if (tag == 122) {
-         parse_string_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(122u /* 122 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_string_holder()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->string_holder().data(), this->string_holder().length(),
+            this->string_holder().data(), static_cast<int>(this->string_holder().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
-            "org.yaorm.PropertyHolder.string_holder"));
+            "org.yaorm.Column.string_holder"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(130)) goto parse_bytes_holder;
         break;
       }
 
-      // optional bytes bytes_holder = 16;
+      // bytes bytes_holder = 16;
       case 16: {
-        if (tag == 130) {
-         parse_bytes_holder:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(130u /* 130 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadBytes(
                 input, this->mutable_bytes_holder()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
   }
 success:
-  // @@protoc_insertion_point(parse_success:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(parse_success:org.yaorm.Column)
   return true;
 failure:
-  // @@protoc_insertion_point(parse_failure:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(parse_failure:org.yaorm.Column)
   return false;
 #undef DO_
 }
 
-void PropertyHolder::SerializeWithCachedSizes(
+void Column::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
-  // @@protoc_insertion_point(serialize_start:org.yaorm.PropertyHolder)
-  // optional .org.yaorm.PropertyDefinition property_definition = 1;
-  if (this->has_property_definition()) {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.Column)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.ColumnDefinition definition = 1;
+  if (this->has_definition()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      1, *this->property_definition_, output);
+      1, *this->definition_, output);
   }
 
-  // optional double double_holder = 2;
+  // double double_holder = 2;
   if (this->double_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteDouble(2, this->double_holder(), output);
   }
 
-  // optional float float_holder = 3;
+  // float float_holder = 3;
   if (this->float_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteFloat(3, this->float_holder(), output);
   }
 
-  // optional int32 int32_holder = 4;
+  // int32 int32_holder = 4;
   if (this->int32_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt32(4, this->int32_holder(), output);
   }
 
-  // optional int64 int64_holder = 5;
+  // int64 int64_holder = 5;
   if (this->int64_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteInt64(5, this->int64_holder(), output);
   }
 
-  // optional uint32 uint32_holder = 6;
+  // uint32 uint32_holder = 6;
   if (this->uint32_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteUInt32(6, this->uint32_holder(), output);
   }
 
-  // optional uint64 uint64_holder = 7;
+  // uint64 uint64_holder = 7;
   if (this->uint64_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteUInt64(7, this->uint64_holder(), output);
   }
 
-  // optional sint32 sint32_holder = 8;
+  // sint32 sint32_holder = 8;
   if (this->sint32_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteSInt32(8, this->sint32_holder(), output);
   }
 
-  // optional sint64 sint64_holder = 9;
+  // sint64 sint64_holder = 9;
   if (this->sint64_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteSInt64(9, this->sint64_holder(), output);
   }
 
-  // optional fixed32 fixed32_holder = 10;
+  // fixed32 fixed32_holder = 10;
   if (this->fixed32_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteFixed32(10, this->fixed32_holder(), output);
   }
 
-  // optional fixed64 fixed64_holder = 11;
+  // fixed64 fixed64_holder = 11;
   if (this->fixed64_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteFixed64(11, this->fixed64_holder(), output);
   }
 
-  // optional sfixed32 sfixed32_holder = 12;
+  // sfixed32 sfixed32_holder = 12;
   if (this->sfixed32_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteSFixed32(12, this->sfixed32_holder(), output);
   }
 
-  // optional sfixed64 sfixed64_holder = 13;
+  // sfixed64 sfixed64_holder = 13;
   if (this->sfixed64_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteSFixed64(13, this->sfixed64_holder(), output);
   }
 
-  // optional bool bool_holder = 14;
+  // bool bool_holder = 14;
   if (this->bool_holder() != 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBool(14, this->bool_holder(), output);
   }
 
-  // optional string string_holder = 15;
+  // string string_holder = 15;
   if (this->string_holder().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->string_holder().data(), this->string_holder().length(),
+      this->string_holder().data(), static_cast<int>(this->string_holder().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.PropertyHolder.string_holder");
+      "org.yaorm.Column.string_holder");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       15, this->string_holder(), output);
   }
 
-  // optional bytes bytes_holder = 16;
+  // bytes bytes_holder = 16;
   if (this->bytes_holder().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::WriteBytesMaybeAliased(
       16, this->bytes_holder(), output);
   }
 
-  // @@protoc_insertion_point(serialize_end:org.yaorm.PropertyHolder)
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.Column)
 }
 
-::google::protobuf::uint8* PropertyHolder::InternalSerializeWithCachedSizesToArray(
+::google::protobuf::uint8* Column::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
-  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.PropertyHolder)
-  // optional .org.yaorm.PropertyDefinition property_definition = 1;
-  if (this->has_property_definition()) {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Column)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.ColumnDefinition definition = 1;
+  if (this->has_definition()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        1, *this->property_definition_, false, target);
+        1, *this->definition_, deterministic, target);
   }
 
-  // optional double double_holder = 2;
+  // double double_holder = 2;
   if (this->double_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteDoubleToArray(2, this->double_holder(), target);
   }
 
-  // optional float float_holder = 3;
+  // float float_holder = 3;
   if (this->float_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteFloatToArray(3, this->float_holder(), target);
   }
 
-  // optional int32 int32_holder = 4;
+  // int32 int32_holder = 4;
   if (this->int32_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(4, this->int32_holder(), target);
   }
 
-  // optional int64 int64_holder = 5;
+  // int64 int64_holder = 5;
   if (this->int64_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(5, this->int64_holder(), target);
   }
 
-  // optional uint32 uint32_holder = 6;
+  // uint32 uint32_holder = 6;
   if (this->uint32_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt32ToArray(6, this->uint32_holder(), target);
   }
 
-  // optional uint64 uint64_holder = 7;
+  // uint64 uint64_holder = 7;
   if (this->uint64_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteUInt64ToArray(7, this->uint64_holder(), target);
   }
 
-  // optional sint32 sint32_holder = 8;
+  // sint32 sint32_holder = 8;
   if (this->sint32_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteSInt32ToArray(8, this->sint32_holder(), target);
   }
 
-  // optional sint64 sint64_holder = 9;
+  // sint64 sint64_holder = 9;
   if (this->sint64_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteSInt64ToArray(9, this->sint64_holder(), target);
   }
 
-  // optional fixed32 fixed32_holder = 10;
+  // fixed32 fixed32_holder = 10;
   if (this->fixed32_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteFixed32ToArray(10, this->fixed32_holder(), target);
   }
 
-  // optional fixed64 fixed64_holder = 11;
+  // fixed64 fixed64_holder = 11;
   if (this->fixed64_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteFixed64ToArray(11, this->fixed64_holder(), target);
   }
 
-  // optional sfixed32 sfixed32_holder = 12;
+  // sfixed32 sfixed32_holder = 12;
   if (this->sfixed32_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteSFixed32ToArray(12, this->sfixed32_holder(), target);
   }
 
-  // optional sfixed64 sfixed64_holder = 13;
+  // sfixed64 sfixed64_holder = 13;
   if (this->sfixed64_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteSFixed64ToArray(13, this->sfixed64_holder(), target);
   }
 
-  // optional bool bool_holder = 14;
+  // bool bool_holder = 14;
   if (this->bool_holder() != 0) {
     target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(14, this->bool_holder(), target);
   }
 
-  // optional string string_holder = 15;
+  // string string_holder = 15;
   if (this->string_holder().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->string_holder().data(), this->string_holder().length(),
+      this->string_holder().data(), static_cast<int>(this->string_holder().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
-      "org.yaorm.PropertyHolder.string_holder");
+      "org.yaorm.Column.string_holder");
     target =
       ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
         15, this->string_holder(), target);
   }
 
-  // optional bytes bytes_holder = 16;
+  // bytes bytes_holder = 16;
   if (this->bytes_holder().size() > 0) {
     target =
       ::google::protobuf::internal::WireFormatLite::WriteBytesToArray(
         16, this->bytes_holder(), target);
   }
 
-  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.PropertyHolder)
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Column)
   return target;
 }
 
-int PropertyHolder::ByteSize() const {
-// @@protoc_insertion_point(message_byte_size_start:org.yaorm.PropertyHolder)
-  int total_size = 0;
+size_t Column::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Column)
+  size_t total_size = 0;
 
-  // optional .org.yaorm.PropertyDefinition property_definition = 1;
-  if (this->has_property_definition()) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        *this->property_definition_);
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
   }
-
-  // optional double double_holder = 2;
-  if (this->double_holder() != 0) {
-    total_size += 1 + 8;
-  }
-
-  // optional float float_holder = 3;
-  if (this->float_holder() != 0) {
-    total_size += 1 + 4;
-  }
-
-  // optional int32 int32_holder = 4;
-  if (this->int32_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::Int32Size(
-        this->int32_holder());
-  }
-
-  // optional int64 int64_holder = 5;
-  if (this->int64_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::Int64Size(
-        this->int64_holder());
-  }
-
-  // optional uint32 uint32_holder = 6;
-  if (this->uint32_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::UInt32Size(
-        this->uint32_holder());
-  }
-
-  // optional uint64 uint64_holder = 7;
-  if (this->uint64_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::UInt64Size(
-        this->uint64_holder());
-  }
-
-  // optional sint32 sint32_holder = 8;
-  if (this->sint32_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::SInt32Size(
-        this->sint32_holder());
-  }
-
-  // optional sint64 sint64_holder = 9;
-  if (this->sint64_holder() != 0) {
-    total_size += 1 +
-      ::google::protobuf::internal::WireFormatLite::SInt64Size(
-        this->sint64_holder());
-  }
-
-  // optional fixed32 fixed32_holder = 10;
-  if (this->fixed32_holder() != 0) {
-    total_size += 1 + 4;
-  }
-
-  // optional fixed64 fixed64_holder = 11;
-  if (this->fixed64_holder() != 0) {
-    total_size += 1 + 8;
-  }
-
-  // optional sfixed32 sfixed32_holder = 12;
-  if (this->sfixed32_holder() != 0) {
-    total_size += 1 + 4;
-  }
-
-  // optional sfixed64 sfixed64_holder = 13;
-  if (this->sfixed64_holder() != 0) {
-    total_size += 1 + 8;
-  }
-
-  // optional bool bool_holder = 14;
-  if (this->bool_holder() != 0) {
-    total_size += 1 + 1;
-  }
-
-  // optional string string_holder = 15;
+  // string string_holder = 15;
   if (this->string_holder().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->string_holder());
   }
 
-  // optional bytes bytes_holder = 16;
+  // bytes bytes_holder = 16;
   if (this->bytes_holder().size() > 0) {
     total_size += 2 +
       ::google::protobuf::internal::WireFormatLite::BytesSize(
         this->bytes_holder());
   }
 
+  // .org.yaorm.ColumnDefinition definition = 1;
+  if (this->has_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->definition_);
+  }
+
+  // double double_holder = 2;
+  if (this->double_holder() != 0) {
+    total_size += 1 + 8;
+  }
+
+  // float float_holder = 3;
+  if (this->float_holder() != 0) {
+    total_size += 1 + 4;
+  }
+
+  // int32 int32_holder = 4;
+  if (this->int32_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int32Size(
+        this->int32_holder());
+  }
+
+  // int64 int64_holder = 5;
+  if (this->int64_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->int64_holder());
+  }
+
+  // uint64 uint64_holder = 7;
+  if (this->uint64_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::UInt64Size(
+        this->uint64_holder());
+  }
+
+  // uint32 uint32_holder = 6;
+  if (this->uint32_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::UInt32Size(
+        this->uint32_holder());
+  }
+
+  // sint32 sint32_holder = 8;
+  if (this->sint32_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::SInt32Size(
+        this->sint32_holder());
+  }
+
+  // sint64 sint64_holder = 9;
+  if (this->sint64_holder() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::SInt64Size(
+        this->sint64_holder());
+  }
+
+  // fixed64 fixed64_holder = 11;
+  if (this->fixed64_holder() != 0) {
+    total_size += 1 + 8;
+  }
+
+  // fixed32 fixed32_holder = 10;
+  if (this->fixed32_holder() != 0) {
+    total_size += 1 + 4;
+  }
+
+  // sfixed32 sfixed32_holder = 12;
+  if (this->sfixed32_holder() != 0) {
+    total_size += 1 + 4;
+  }
+
+  // sfixed64 sfixed64_holder = 13;
+  if (this->sfixed64_holder() != 0) {
+    total_size += 1 + 8;
+  }
+
+  // bool bool_holder = 14;
+  if (this->bool_holder() != 0) {
+    total_size += 1 + 1;
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
-void PropertyHolder::MergeFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.PropertyHolder)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const PropertyHolder* source = 
-      ::google::protobuf::internal::DynamicCastToGenerated<const PropertyHolder>(
+void Column::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Column)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Column* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const Column>(
           &from);
   if (source == NULL) {
-  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Column)
     ::google::protobuf::internal::ReflectionOps::Merge(from, this);
   } else {
-  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.PropertyHolder)
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Column)
     MergeFrom(*source);
   }
 }
 
-void PropertyHolder::MergeFrom(const PropertyHolder& from) {
-// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.PropertyHolder)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
+void Column::MergeFrom(const Column& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Column)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.string_holder().size() > 0) {
+
+    string_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.string_holder_);
   }
-  if (from.has_property_definition()) {
-    mutable_property_definition()->::org::yaorm::PropertyDefinition::MergeFrom(from.property_definition());
+  if (from.bytes_holder().size() > 0) {
+
+    bytes_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.bytes_holder_);
+  }
+  if (from.has_definition()) {
+    mutable_definition()->::org::yaorm::ColumnDefinition::MergeFrom(from.definition());
   }
   if (from.double_holder() != 0) {
     set_double_holder(from.double_holder());
@@ -4180,11 +6502,11 @@ void PropertyHolder::MergeFrom(const PropertyHolder& from) {
   if (from.int64_holder() != 0) {
     set_int64_holder(from.int64_holder());
   }
-  if (from.uint32_holder() != 0) {
-    set_uint32_holder(from.uint32_holder());
-  }
   if (from.uint64_holder() != 0) {
     set_uint64_holder(from.uint64_holder());
+  }
+  if (from.uint32_holder() != 0) {
+    set_uint32_holder(from.uint32_holder());
   }
   if (from.sint32_holder() != 0) {
     set_sint32_holder(from.sint32_holder());
@@ -4192,11 +6514,11 @@ void PropertyHolder::MergeFrom(const PropertyHolder& from) {
   if (from.sint64_holder() != 0) {
     set_sint64_holder(from.sint64_holder());
   }
-  if (from.fixed32_holder() != 0) {
-    set_fixed32_holder(from.fixed32_holder());
-  }
   if (from.fixed64_holder() != 0) {
     set_fixed64_holder(from.fixed64_holder());
+  }
+  if (from.fixed32_holder() != 0) {
+    set_fixed32_holder(from.fixed32_holder());
   }
   if (from.sfixed32_holder() != 0) {
     set_sfixed32_holder(from.sfixed32_holder());
@@ -4207,377 +6529,386 @@ void PropertyHolder::MergeFrom(const PropertyHolder& from) {
   if (from.bool_holder() != 0) {
     set_bool_holder(from.bool_holder());
   }
-  if (from.string_holder().size() > 0) {
-
-    string_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.string_holder_);
-  }
-  if (from.bytes_holder().size() > 0) {
-
-    bytes_holder_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.bytes_holder_);
-  }
 }
 
-void PropertyHolder::CopyFrom(const ::google::protobuf::Message& from) {
-// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.PropertyHolder)
+void Column::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Column)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-void PropertyHolder::CopyFrom(const PropertyHolder& from) {
-// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.PropertyHolder)
+void Column::CopyFrom(const Column& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Column)
   if (&from == this) return;
   Clear();
   MergeFrom(from);
 }
 
-bool PropertyHolder::IsInitialized() const {
-
+bool Column::IsInitialized() const {
   return true;
 }
 
-void PropertyHolder::Swap(PropertyHolder* other) {
+void Column::Swap(Column* other) {
   if (other == this) return;
   InternalSwap(other);
 }
-void PropertyHolder::InternalSwap(PropertyHolder* other) {
-  std::swap(property_definition_, other->property_definition_);
-  std::swap(double_holder_, other->double_holder_);
-  std::swap(float_holder_, other->float_holder_);
-  std::swap(int32_holder_, other->int32_holder_);
-  std::swap(int64_holder_, other->int64_holder_);
-  std::swap(uint32_holder_, other->uint32_holder_);
-  std::swap(uint64_holder_, other->uint64_holder_);
-  std::swap(sint32_holder_, other->sint32_holder_);
-  std::swap(sint64_holder_, other->sint64_holder_);
-  std::swap(fixed32_holder_, other->fixed32_holder_);
-  std::swap(fixed64_holder_, other->fixed64_holder_);
-  std::swap(sfixed32_holder_, other->sfixed32_holder_);
-  std::swap(sfixed64_holder_, other->sfixed64_holder_);
-  std::swap(bool_holder_, other->bool_holder_);
+void Column::InternalSwap(Column* other) {
+  using std::swap;
   string_holder_.Swap(&other->string_holder_);
   bytes_holder_.Swap(&other->bytes_holder_);
+  swap(definition_, other->definition_);
+  swap(double_holder_, other->double_holder_);
+  swap(float_holder_, other->float_holder_);
+  swap(int32_holder_, other->int32_holder_);
+  swap(int64_holder_, other->int64_holder_);
+  swap(uint64_holder_, other->uint64_holder_);
+  swap(uint32_holder_, other->uint32_holder_);
+  swap(sint32_holder_, other->sint32_holder_);
+  swap(sint64_holder_, other->sint64_holder_);
+  swap(fixed64_holder_, other->fixed64_holder_);
+  swap(fixed32_holder_, other->fixed32_holder_);
+  swap(sfixed32_holder_, other->sfixed32_holder_);
+  swap(sfixed64_holder_, other->sfixed64_holder_);
+  swap(bool_holder_, other->bool_holder_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
-::google::protobuf::Metadata PropertyHolder::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = PropertyHolder_descriptor_;
-  metadata.reflection = PropertyHolder_reflection_;
-  return metadata;
+::google::protobuf::Metadata Column::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
-// PropertyHolder
+// Column
 
-// optional .org.yaorm.PropertyDefinition property_definition = 1;
-bool PropertyHolder::has_property_definition() const {
-  return !_is_default_instance_ && property_definition_ != NULL;
+// .org.yaorm.ColumnDefinition definition = 1;
+bool Column::has_definition() const {
+  return this != internal_default_instance() && definition_ != NULL;
 }
-void PropertyHolder::clear_property_definition() {
-  if (GetArenaNoVirtual() == NULL && property_definition_ != NULL) delete property_definition_;
-  property_definition_ = NULL;
+void Column::clear_definition() {
+  if (GetArenaNoVirtual() == NULL && definition_ != NULL) delete definition_;
+  definition_ = NULL;
 }
-const ::org::yaorm::PropertyDefinition& PropertyHolder::property_definition() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.property_definition)
-  return property_definition_ != NULL ? *property_definition_ : *default_instance_->property_definition_;
+const ::org::yaorm::ColumnDefinition& Column::definition() const {
+  const ::org::yaorm::ColumnDefinition* p = definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
 }
-::org::yaorm::PropertyDefinition* PropertyHolder::mutable_property_definition() {
+::org::yaorm::ColumnDefinition* Column::mutable_definition() {
   
-  if (property_definition_ == NULL) {
-    property_definition_ = new ::org::yaorm::PropertyDefinition;
+  if (definition_ == NULL) {
+    definition_ = new ::org::yaorm::ColumnDefinition;
   }
-  // @@protoc_insertion_point(field_mutable:org.yaorm.PropertyHolder.property_definition)
-  return property_definition_;
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Column.definition)
+  return definition_;
 }
-::org::yaorm::PropertyDefinition* PropertyHolder::release_property_definition() {
-  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.property_definition)
+::org::yaorm::ColumnDefinition* Column::release_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Column.definition)
   
-  ::org::yaorm::PropertyDefinition* temp = property_definition_;
-  property_definition_ = NULL;
+  ::org::yaorm::ColumnDefinition* temp = definition_;
+  definition_ = NULL;
   return temp;
 }
-void PropertyHolder::set_allocated_property_definition(::org::yaorm::PropertyDefinition* property_definition) {
-  delete property_definition_;
-  property_definition_ = property_definition;
-  if (property_definition) {
+void Column::set_allocated_definition(::org::yaorm::ColumnDefinition* definition) {
+  delete definition_;
+  definition_ = definition;
+  if (definition) {
     
   } else {
     
   }
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.PropertyHolder.property_definition)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Column.definition)
 }
 
-// optional double double_holder = 2;
-void PropertyHolder::clear_double_holder() {
+// double double_holder = 2;
+void Column::clear_double_holder() {
   double_holder_ = 0;
 }
- double PropertyHolder::double_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.double_holder)
+double Column::double_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.double_holder)
   return double_holder_;
 }
- void PropertyHolder::set_double_holder(double value) {
+void Column::set_double_holder(double value) {
   
   double_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.double_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.double_holder)
 }
 
-// optional float float_holder = 3;
-void PropertyHolder::clear_float_holder() {
+// float float_holder = 3;
+void Column::clear_float_holder() {
   float_holder_ = 0;
 }
- float PropertyHolder::float_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.float_holder)
+float Column::float_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.float_holder)
   return float_holder_;
 }
- void PropertyHolder::set_float_holder(float value) {
+void Column::set_float_holder(float value) {
   
   float_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.float_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.float_holder)
 }
 
-// optional int32 int32_holder = 4;
-void PropertyHolder::clear_int32_holder() {
+// int32 int32_holder = 4;
+void Column::clear_int32_holder() {
   int32_holder_ = 0;
 }
- ::google::protobuf::int32 PropertyHolder::int32_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.int32_holder)
+::google::protobuf::int32 Column::int32_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.int32_holder)
   return int32_holder_;
 }
- void PropertyHolder::set_int32_holder(::google::protobuf::int32 value) {
+void Column::set_int32_holder(::google::protobuf::int32 value) {
   
   int32_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.int32_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.int32_holder)
 }
 
-// optional int64 int64_holder = 5;
-void PropertyHolder::clear_int64_holder() {
+// int64 int64_holder = 5;
+void Column::clear_int64_holder() {
   int64_holder_ = GOOGLE_LONGLONG(0);
 }
- ::google::protobuf::int64 PropertyHolder::int64_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.int64_holder)
+::google::protobuf::int64 Column::int64_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.int64_holder)
   return int64_holder_;
 }
- void PropertyHolder::set_int64_holder(::google::protobuf::int64 value) {
+void Column::set_int64_holder(::google::protobuf::int64 value) {
   
   int64_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.int64_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.int64_holder)
 }
 
-// optional uint32 uint32_holder = 6;
-void PropertyHolder::clear_uint32_holder() {
+// uint32 uint32_holder = 6;
+void Column::clear_uint32_holder() {
   uint32_holder_ = 0u;
 }
- ::google::protobuf::uint32 PropertyHolder::uint32_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.uint32_holder)
+::google::protobuf::uint32 Column::uint32_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.uint32_holder)
   return uint32_holder_;
 }
- void PropertyHolder::set_uint32_holder(::google::protobuf::uint32 value) {
+void Column::set_uint32_holder(::google::protobuf::uint32 value) {
   
   uint32_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.uint32_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.uint32_holder)
 }
 
-// optional uint64 uint64_holder = 7;
-void PropertyHolder::clear_uint64_holder() {
+// uint64 uint64_holder = 7;
+void Column::clear_uint64_holder() {
   uint64_holder_ = GOOGLE_ULONGLONG(0);
 }
- ::google::protobuf::uint64 PropertyHolder::uint64_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.uint64_holder)
+::google::protobuf::uint64 Column::uint64_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.uint64_holder)
   return uint64_holder_;
 }
- void PropertyHolder::set_uint64_holder(::google::protobuf::uint64 value) {
+void Column::set_uint64_holder(::google::protobuf::uint64 value) {
   
   uint64_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.uint64_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.uint64_holder)
 }
 
-// optional sint32 sint32_holder = 8;
-void PropertyHolder::clear_sint32_holder() {
+// sint32 sint32_holder = 8;
+void Column::clear_sint32_holder() {
   sint32_holder_ = 0;
 }
- ::google::protobuf::int32 PropertyHolder::sint32_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.sint32_holder)
+::google::protobuf::int32 Column::sint32_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.sint32_holder)
   return sint32_holder_;
 }
- void PropertyHolder::set_sint32_holder(::google::protobuf::int32 value) {
+void Column::set_sint32_holder(::google::protobuf::int32 value) {
   
   sint32_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.sint32_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.sint32_holder)
 }
 
-// optional sint64 sint64_holder = 9;
-void PropertyHolder::clear_sint64_holder() {
+// sint64 sint64_holder = 9;
+void Column::clear_sint64_holder() {
   sint64_holder_ = GOOGLE_LONGLONG(0);
 }
- ::google::protobuf::int64 PropertyHolder::sint64_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.sint64_holder)
+::google::protobuf::int64 Column::sint64_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.sint64_holder)
   return sint64_holder_;
 }
- void PropertyHolder::set_sint64_holder(::google::protobuf::int64 value) {
+void Column::set_sint64_holder(::google::protobuf::int64 value) {
   
   sint64_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.sint64_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.sint64_holder)
 }
 
-// optional fixed32 fixed32_holder = 10;
-void PropertyHolder::clear_fixed32_holder() {
+// fixed32 fixed32_holder = 10;
+void Column::clear_fixed32_holder() {
   fixed32_holder_ = 0u;
 }
- ::google::protobuf::uint32 PropertyHolder::fixed32_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.fixed32_holder)
+::google::protobuf::uint32 Column::fixed32_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.fixed32_holder)
   return fixed32_holder_;
 }
- void PropertyHolder::set_fixed32_holder(::google::protobuf::uint32 value) {
+void Column::set_fixed32_holder(::google::protobuf::uint32 value) {
   
   fixed32_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.fixed32_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.fixed32_holder)
 }
 
-// optional fixed64 fixed64_holder = 11;
-void PropertyHolder::clear_fixed64_holder() {
+// fixed64 fixed64_holder = 11;
+void Column::clear_fixed64_holder() {
   fixed64_holder_ = GOOGLE_ULONGLONG(0);
 }
- ::google::protobuf::uint64 PropertyHolder::fixed64_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.fixed64_holder)
+::google::protobuf::uint64 Column::fixed64_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.fixed64_holder)
   return fixed64_holder_;
 }
- void PropertyHolder::set_fixed64_holder(::google::protobuf::uint64 value) {
+void Column::set_fixed64_holder(::google::protobuf::uint64 value) {
   
   fixed64_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.fixed64_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.fixed64_holder)
 }
 
-// optional sfixed32 sfixed32_holder = 12;
-void PropertyHolder::clear_sfixed32_holder() {
+// sfixed32 sfixed32_holder = 12;
+void Column::clear_sfixed32_holder() {
   sfixed32_holder_ = 0;
 }
- ::google::protobuf::int32 PropertyHolder::sfixed32_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.sfixed32_holder)
+::google::protobuf::int32 Column::sfixed32_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.sfixed32_holder)
   return sfixed32_holder_;
 }
- void PropertyHolder::set_sfixed32_holder(::google::protobuf::int32 value) {
+void Column::set_sfixed32_holder(::google::protobuf::int32 value) {
   
   sfixed32_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.sfixed32_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.sfixed32_holder)
 }
 
-// optional sfixed64 sfixed64_holder = 13;
-void PropertyHolder::clear_sfixed64_holder() {
+// sfixed64 sfixed64_holder = 13;
+void Column::clear_sfixed64_holder() {
   sfixed64_holder_ = GOOGLE_LONGLONG(0);
 }
- ::google::protobuf::int64 PropertyHolder::sfixed64_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.sfixed64_holder)
+::google::protobuf::int64 Column::sfixed64_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.sfixed64_holder)
   return sfixed64_holder_;
 }
- void PropertyHolder::set_sfixed64_holder(::google::protobuf::int64 value) {
+void Column::set_sfixed64_holder(::google::protobuf::int64 value) {
   
   sfixed64_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.sfixed64_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.sfixed64_holder)
 }
 
-// optional bool bool_holder = 14;
-void PropertyHolder::clear_bool_holder() {
+// bool bool_holder = 14;
+void Column::clear_bool_holder() {
   bool_holder_ = false;
 }
- bool PropertyHolder::bool_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.bool_holder)
+bool Column::bool_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.bool_holder)
   return bool_holder_;
 }
- void PropertyHolder::set_bool_holder(bool value) {
+void Column::set_bool_holder(bool value) {
   
   bool_holder_ = value;
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.bool_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.bool_holder)
 }
 
-// optional string string_holder = 15;
-void PropertyHolder::clear_string_holder() {
+// string string_holder = 15;
+void Column::clear_string_holder() {
   string_holder_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& PropertyHolder::string_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.string_holder)
-  return string_holder_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+const ::std::string& Column::string_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.string_holder)
+  return string_holder_.GetNoArena();
 }
- void PropertyHolder::set_string_holder(const ::std::string& value) {
+void Column::set_string_holder(const ::std::string& value) {
   
   string_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.string_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.string_holder)
 }
- void PropertyHolder::set_string_holder(const char* value) {
+#if LANG_CXX11
+void Column::set_string_holder(::std::string&& value) {
+  
+  string_holder_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Column.string_holder)
+}
+#endif
+void Column::set_string_holder(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   string_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:org.yaorm.PropertyHolder.string_holder)
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Column.string_holder)
 }
- void PropertyHolder::set_string_holder(const char* value, size_t size) {
+void Column::set_string_holder(const char* value, size_t size) {
   
   string_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:org.yaorm.PropertyHolder.string_holder)
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Column.string_holder)
 }
- ::std::string* PropertyHolder::mutable_string_holder() {
+::std::string* Column::mutable_string_holder() {
   
-  // @@protoc_insertion_point(field_mutable:org.yaorm.PropertyHolder.string_holder)
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Column.string_holder)
   return string_holder_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* PropertyHolder::release_string_holder() {
-  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.string_holder)
+::std::string* Column::release_string_holder() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Column.string_holder)
   
   return string_holder_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void PropertyHolder::set_allocated_string_holder(::std::string* string_holder) {
+void Column::set_allocated_string_holder(::std::string* string_holder) {
   if (string_holder != NULL) {
     
   } else {
     
   }
   string_holder_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), string_holder);
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.PropertyHolder.string_holder)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Column.string_holder)
 }
 
-// optional bytes bytes_holder = 16;
-void PropertyHolder::clear_bytes_holder() {
+// bytes bytes_holder = 16;
+void Column::clear_bytes_holder() {
   bytes_holder_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& PropertyHolder::bytes_holder() const {
-  // @@protoc_insertion_point(field_get:org.yaorm.PropertyHolder.bytes_holder)
-  return bytes_holder_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+const ::std::string& Column::bytes_holder() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Column.bytes_holder)
+  return bytes_holder_.GetNoArena();
 }
- void PropertyHolder::set_bytes_holder(const ::std::string& value) {
+void Column::set_bytes_holder(const ::std::string& value) {
   
   bytes_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
-  // @@protoc_insertion_point(field_set:org.yaorm.PropertyHolder.bytes_holder)
+  // @@protoc_insertion_point(field_set:org.yaorm.Column.bytes_holder)
 }
- void PropertyHolder::set_bytes_holder(const char* value) {
+#if LANG_CXX11
+void Column::set_bytes_holder(::std::string&& value) {
+  
+  bytes_holder_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Column.bytes_holder)
+}
+#endif
+void Column::set_bytes_holder(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   bytes_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
-  // @@protoc_insertion_point(field_set_char:org.yaorm.PropertyHolder.bytes_holder)
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Column.bytes_holder)
 }
- void PropertyHolder::set_bytes_holder(const void* value, size_t size) {
+void Column::set_bytes_holder(const void* value, size_t size) {
   
   bytes_holder_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
-  // @@protoc_insertion_point(field_set_pointer:org.yaorm.PropertyHolder.bytes_holder)
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Column.bytes_holder)
 }
- ::std::string* PropertyHolder::mutable_bytes_holder() {
+::std::string* Column::mutable_bytes_holder() {
   
-  // @@protoc_insertion_point(field_mutable:org.yaorm.PropertyHolder.bytes_holder)
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Column.bytes_holder)
   return bytes_holder_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* PropertyHolder::release_bytes_holder() {
-  // @@protoc_insertion_point(field_release:org.yaorm.PropertyHolder.bytes_holder)
+::std::string* Column::release_bytes_holder() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Column.bytes_holder)
   
   return bytes_holder_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void PropertyHolder::set_allocated_bytes_holder(::std::string* bytes_holder) {
+void Column::set_allocated_bytes_holder(::std::string* bytes_holder) {
   if (bytes_holder != NULL) {
     
   } else {
     
   }
   bytes_holder_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), bytes_holder);
-  // @@protoc_insertion_point(field_set_allocated:org.yaorm.PropertyHolder.bytes_holder)
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Column.bytes_holder)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -4590,24 +6921,22 @@ const int Record::kColumnsFieldNumber;
 
 Record::Record()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.Record)
 }
-
-void Record::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 Record::Record(const Record& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      columns_(from.columns_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:org.yaorm.Record)
 }
 
 void Record::SharedCtor() {
-    _is_default_instance_ = false;
   _cached_size_ = 0;
 }
 
@@ -4617,8 +6946,6 @@ Record::~Record() {
 }
 
 void Record::SharedDtor() {
-  if (this != default_instance_) {
-  }
 }
 
 void Record::SetCachedSize(int size) const {
@@ -4627,16 +6954,14 @@ void Record::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* Record::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Record_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const Record& Record::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-Record* Record::default_instance_ = NULL;
 
 Record* Record::New(::google::protobuf::Arena* arena) const {
   Record* n = new Record;
@@ -4648,7 +6973,12 @@ Record* Record::New(::google::protobuf::Arena* arena) const {
 
 void Record::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.Record)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   columns_.Clear();
+  _internal_metadata_.Clear();
 }
 
 bool Record::MergePartialFromCodedStream(
@@ -4657,34 +6987,29 @@ bool Record::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Record)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // repeated .org.yaorm.PropertyHolder columns = 1;
+      // repeated .org.yaorm.Column columns = 1;
       case 1: {
-        if (tag == 10) {
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_columns:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_columns()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(10)) goto parse_loop_columns;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -4701,53 +7026,77 @@ failure:
 void Record::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.Record)
-  // repeated .org.yaorm.PropertyHolder columns = 1;
-  for (unsigned int i = 0, n = this->columns_size(); i < n; i++) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.Column columns = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->columns_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      1, this->columns(i), output);
+      1, this->columns(static_cast<int>(i)), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.Record)
 }
 
 ::google::protobuf::uint8* Record::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Record)
-  // repeated .org.yaorm.PropertyHolder columns = 1;
-  for (unsigned int i = 0, n = this->columns_size(); i < n; i++) {
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.Column columns = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->columns_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        1, this->columns(i), false, target);
+        1, this->columns(static_cast<int>(i)), deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Record)
   return target;
 }
 
-int Record::ByteSize() const {
+size_t Record::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.Record)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // repeated .org.yaorm.PropertyHolder columns = 1;
-  total_size += 1 * this->columns_size();
-  for (int i = 0; i < this->columns_size(); i++) {
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
     total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->columns(i));
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.Column columns = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->columns_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->columns(static_cast<int>(i)));
+    }
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void Record::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Record)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Record* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const Record* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const Record>(
           &from);
   if (source == NULL) {
@@ -4761,9 +7110,11 @@ void Record::MergeFrom(const ::google::protobuf::Message& from) {
 
 void Record::MergeFrom(const Record& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Record)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   columns_.MergeFrom(from.columns_);
 }
 
@@ -4782,7 +7133,6 @@ void Record::CopyFrom(const Record& from) {
 }
 
 bool Record::IsInitialized() const {
-
   return true;
 }
 
@@ -4791,47 +7141,45 @@ void Record::Swap(Record* other) {
   InternalSwap(other);
 }
 void Record::InternalSwap(Record* other) {
-  columns_.UnsafeArenaSwap(&other->columns_);
+  using std::swap;
+  columns_.InternalSwap(&other->columns_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata Record::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Record_descriptor_;
-  metadata.reflection = Record_reflection_;
-  return metadata;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // Record
 
-// repeated .org.yaorm.PropertyHolder columns = 1;
+// repeated .org.yaorm.Column columns = 1;
 int Record::columns_size() const {
   return columns_.size();
 }
 void Record::clear_columns() {
   columns_.Clear();
 }
-const ::org::yaorm::PropertyHolder& Record::columns(int index) const {
+const ::org::yaorm::Column& Record::columns(int index) const {
   // @@protoc_insertion_point(field_get:org.yaorm.Record.columns)
   return columns_.Get(index);
 }
-::org::yaorm::PropertyHolder* Record::mutable_columns(int index) {
+::org::yaorm::Column* Record::mutable_columns(int index) {
   // @@protoc_insertion_point(field_mutable:org.yaorm.Record.columns)
   return columns_.Mutable(index);
 }
-::org::yaorm::PropertyHolder* Record::add_columns() {
+::org::yaorm::Column* Record::add_columns() {
   // @@protoc_insertion_point(field_add:org.yaorm.Record.columns)
   return columns_.Add();
 }
-::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyHolder >*
+::google::protobuf::RepeatedPtrField< ::org::yaorm::Column >*
 Record::mutable_columns() {
   // @@protoc_insertion_point(field_mutable_list:org.yaorm.Record.columns)
   return &columns_;
 }
-const ::google::protobuf::RepeatedPtrField< ::org::yaorm::PropertyHolder >&
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::Column >&
 Record::columns() const {
   // @@protoc_insertion_point(field_list:org.yaorm.Record.columns)
   return columns_;
@@ -4847,24 +7195,22 @@ const int Records::kRecordsFieldNumber;
 
 Records::Records()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.Records)
 }
-
-void Records::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 Records::Records(const Records& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      records_(from.records_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
   // @@protoc_insertion_point(copy_constructor:org.yaorm.Records)
 }
 
 void Records::SharedCtor() {
-    _is_default_instance_ = false;
   _cached_size_ = 0;
 }
 
@@ -4874,8 +7220,6 @@ Records::~Records() {
 }
 
 void Records::SharedDtor() {
-  if (this != default_instance_) {
-  }
 }
 
 void Records::SetCachedSize(int size) const {
@@ -4884,16 +7228,14 @@ void Records::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* Records::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return Records_descriptor_;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const Records& Records::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_yaorm_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-Records* Records::default_instance_ = NULL;
 
 Records* Records::New(::google::protobuf::Arena* arena) const {
   Records* n = new Records;
@@ -4905,7 +7247,12 @@ Records* Records::New(::google::protobuf::Arena* arena) const {
 
 void Records::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.Records)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   records_.Clear();
+  _internal_metadata_.Clear();
 }
 
 bool Records::MergePartialFromCodedStream(
@@ -4914,34 +7261,29 @@ bool Records::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.Records)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
       // repeated .org.yaorm.Record records = 1;
       case 1: {
-        if (tag == 10) {
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_records:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_records()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(10)) goto parse_loop_records;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -4958,53 +7300,77 @@ failure:
 void Records::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.Records)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   // repeated .org.yaorm.Record records = 1;
-  for (unsigned int i = 0, n = this->records_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->records_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      1, this->records(i), output);
+      1, this->records(static_cast<int>(i)), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.Records)
 }
 
 ::google::protobuf::uint8* Records::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Records)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   // repeated .org.yaorm.Record records = 1;
-  for (unsigned int i = 0, n = this->records_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->records_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        1, this->records(i), false, target);
+        1, this->records(static_cast<int>(i)), deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Records)
   return target;
 }
 
-int Records::ByteSize() const {
+size_t Records::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.Records)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // repeated .org.yaorm.Record records = 1;
-  total_size += 1 * this->records_size();
-  for (int i = 0; i < this->records_size(); i++) {
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
     total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->records(i));
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.Record records = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->records_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->records(static_cast<int>(i)));
+    }
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void Records::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Records)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const Records* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const Records* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const Records>(
           &from);
   if (source == NULL) {
@@ -5018,9 +7384,11 @@ void Records::MergeFrom(const ::google::protobuf::Message& from) {
 
 void Records::MergeFrom(const Records& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Records)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   records_.MergeFrom(from.records_);
 }
 
@@ -5039,7 +7407,6 @@ void Records::CopyFrom(const Records& from) {
 }
 
 bool Records::IsInitialized() const {
-
   return true;
 }
 
@@ -5048,17 +7415,15 @@ void Records::Swap(Records* other) {
   InternalSwap(other);
 }
 void Records::InternalSwap(Records* other) {
-  records_.UnsafeArenaSwap(&other->records_);
+  using std::swap;
+  records_.InternalSwap(&other->records_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata Records::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = Records_descriptor_;
-  metadata.reflection = Records_reflection_;
-  return metadata;
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
@@ -5092,6 +7457,12210 @@ const ::google::protobuf::RepeatedPtrField< ::org::yaorm::Record >&
 Records::records() const {
   // @@protoc_insertion_point(field_list:org.yaorm.Records.records)
   return records_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int TableRecords::kTableDefinitionFieldNumber;
+const int TableRecords::kRecordsFieldNumber;
+const int TableRecords::kTableNameFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+TableRecords::TableRecords()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.TableRecords)
+}
+TableRecords::TableRecords(const TableRecords& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.table_name().size() > 0) {
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  if (from.has_table_definition()) {
+    table_definition_ = new ::org::yaorm::TableDefinition(*from.table_definition_);
+  } else {
+    table_definition_ = NULL;
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.TableRecords)
+}
+
+void TableRecords::SharedCtor() {
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&table_definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&records_) -
+      reinterpret_cast<char*>(&table_definition_)) + sizeof(records_));
+  _cached_size_ = 0;
+}
+
+TableRecords::~TableRecords() {
+  // @@protoc_insertion_point(destructor:org.yaorm.TableRecords)
+  SharedDtor();
+}
+
+void TableRecords::SharedDtor() {
+  table_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete table_definition_;
+  if (this != internal_default_instance()) delete records_;
+}
+
+void TableRecords::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* TableRecords::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const TableRecords& TableRecords::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+TableRecords* TableRecords::New(::google::protobuf::Arena* arena) const {
+  TableRecords* n = new TableRecords;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void TableRecords::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.TableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) {
+    delete table_definition_;
+  }
+  table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  _internal_metadata_.Clear();
+}
+
+bool TableRecords::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.TableRecords)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition table_definition = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string table_name = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_table_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->table_name().data(), static_cast<int>(this->table_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.TableRecords.table_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.TableRecords)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.TableRecords)
+  return false;
+#undef DO_
+}
+
+void TableRecords::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.TableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->table_definition_, output);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->records_, output);
+  }
+
+  // string table_name = 3;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableRecords.table_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      3, this->table_name(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.TableRecords)
+}
+
+::google::protobuf::uint8* TableRecords::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.TableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->records_, deterministic, target);
+  }
+
+  // string table_name = 3;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableRecords.table_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        3, this->table_name(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.TableRecords)
+  return target;
+}
+
+size_t TableRecords::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.TableRecords)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string table_name = 3;
+  if (this->table_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->table_name());
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definition_);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void TableRecords::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.TableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  const TableRecords* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const TableRecords>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.TableRecords)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.TableRecords)
+    MergeFrom(*source);
+  }
+}
+
+void TableRecords::MergeFrom(const TableRecords& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.TableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.table_name().size() > 0) {
+
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  if (from.has_table_definition()) {
+    mutable_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.table_definition());
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+}
+
+void TableRecords::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.TableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void TableRecords::CopyFrom(const TableRecords& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.TableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool TableRecords::IsInitialized() const {
+  return true;
+}
+
+void TableRecords::Swap(TableRecords* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void TableRecords::InternalSwap(TableRecords* other) {
+  using std::swap;
+  table_name_.Swap(&other->table_name_);
+  swap(table_definition_, other->table_definition_);
+  swap(records_, other->records_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata TableRecords::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// TableRecords
+
+// .org.yaorm.TableDefinition table_definition = 1;
+bool TableRecords::has_table_definition() const {
+  return this != internal_default_instance() && table_definition_ != NULL;
+}
+void TableRecords::clear_table_definition() {
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) delete table_definition_;
+  table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& TableRecords::table_definition() const {
+  const ::org::yaorm::TableDefinition* p = table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableRecords.table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* TableRecords::mutable_table_definition() {
+  
+  if (table_definition_ == NULL) {
+    table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableRecords.table_definition)
+  return table_definition_;
+}
+::org::yaorm::TableDefinition* TableRecords::release_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableRecords.table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = table_definition_;
+  table_definition_ = NULL;
+  return temp;
+}
+void TableRecords::set_allocated_table_definition(::org::yaorm::TableDefinition* table_definition) {
+  delete table_definition_;
+  table_definition_ = table_definition;
+  if (table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableRecords.table_definition)
+}
+
+// .org.yaorm.Records records = 2;
+bool TableRecords::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void TableRecords::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& TableRecords::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableRecords.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* TableRecords::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableRecords.records)
+  return records_;
+}
+::org::yaorm::Records* TableRecords::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableRecords.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void TableRecords::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableRecords.records)
+}
+
+// string table_name = 3;
+void TableRecords::clear_table_name() {
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& TableRecords::table_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableRecords.table_name)
+  return table_name_.GetNoArena();
+}
+void TableRecords::set_table_name(const ::std::string& value) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.TableRecords.table_name)
+}
+#if LANG_CXX11
+void TableRecords::set_table_name(::std::string&& value) {
+  
+  table_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableRecords.table_name)
+}
+#endif
+void TableRecords::set_table_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableRecords.table_name)
+}
+void TableRecords::set_table_name(const char* value, size_t size) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableRecords.table_name)
+}
+::std::string* TableRecords::mutable_table_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableRecords.table_name)
+  return table_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* TableRecords::release_table_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableRecords.table_name)
+  
+  return table_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void TableRecords::set_allocated_table_name(::std::string* table_name) {
+  if (table_name != NULL) {
+    
+  } else {
+    
+  }
+  table_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), table_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableRecords.table_name)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int AllTableRecords::kTableRecordsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+AllTableRecords::AllTableRecords()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.AllTableRecords)
+}
+AllTableRecords::AllTableRecords(const AllTableRecords& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      table_records_(from.table_records_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.AllTableRecords)
+}
+
+void AllTableRecords::SharedCtor() {
+  _cached_size_ = 0;
+}
+
+AllTableRecords::~AllTableRecords() {
+  // @@protoc_insertion_point(destructor:org.yaorm.AllTableRecords)
+  SharedDtor();
+}
+
+void AllTableRecords::SharedDtor() {
+}
+
+void AllTableRecords::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* AllTableRecords::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const AllTableRecords& AllTableRecords::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+AllTableRecords* AllTableRecords::New(::google::protobuf::Arena* arena) const {
+  AllTableRecords* n = new AllTableRecords;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void AllTableRecords::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.AllTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  table_records_.Clear();
+  _internal_metadata_.Clear();
+}
+
+bool AllTableRecords::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.AllTableRecords)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // repeated .org.yaorm.TableRecords table_records = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_table_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.AllTableRecords)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.AllTableRecords)
+  return false;
+#undef DO_
+}
+
+void AllTableRecords::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.AllTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.TableRecords table_records = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_records_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, this->table_records(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.AllTableRecords)
+}
+
+::google::protobuf::uint8* AllTableRecords::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.AllTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.TableRecords table_records = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_records_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, this->table_records(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.AllTableRecords)
+  return target;
+}
+
+size_t AllTableRecords::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.AllTableRecords)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.TableRecords table_records = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->table_records_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->table_records(static_cast<int>(i)));
+    }
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void AllTableRecords::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.AllTableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  const AllTableRecords* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const AllTableRecords>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.AllTableRecords)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.AllTableRecords)
+    MergeFrom(*source);
+  }
+}
+
+void AllTableRecords::MergeFrom(const AllTableRecords& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.AllTableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  table_records_.MergeFrom(from.table_records_);
+}
+
+void AllTableRecords::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.AllTableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void AllTableRecords::CopyFrom(const AllTableRecords& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.AllTableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool AllTableRecords::IsInitialized() const {
+  return true;
+}
+
+void AllTableRecords::Swap(AllTableRecords* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void AllTableRecords::InternalSwap(AllTableRecords* other) {
+  using std::swap;
+  table_records_.InternalSwap(&other->table_records_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata AllTableRecords::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// AllTableRecords
+
+// repeated .org.yaorm.TableRecords table_records = 1;
+int AllTableRecords::table_records_size() const {
+  return table_records_.size();
+}
+void AllTableRecords::clear_table_records() {
+  table_records_.Clear();
+}
+const ::org::yaorm::TableRecords& AllTableRecords::table_records(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.AllTableRecords.table_records)
+  return table_records_.Get(index);
+}
+::org::yaorm::TableRecords* AllTableRecords::mutable_table_records(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.AllTableRecords.table_records)
+  return table_records_.Mutable(index);
+}
+::org::yaorm::TableRecords* AllTableRecords::add_table_records() {
+  // @@protoc_insertion_point(field_add:org.yaorm.AllTableRecords.table_records)
+  return table_records_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::TableRecords >*
+AllTableRecords::mutable_table_records() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.AllTableRecords.table_records)
+  return &table_records_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::TableRecords >&
+AllTableRecords::table_records() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.AllTableRecords.table_records)
+  return table_records_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DatabaseOperation::kTableDefinitionFieldNumber;
+const int DatabaseOperation::kRecordsFieldNumber;
+const int DatabaseOperation::kIndexFieldNumber;
+const int DatabaseOperation::kColumnDefinitionFieldNumber;
+const int DatabaseOperation::kWhereClauseFieldNumber;
+const int DatabaseOperation::kDatabaseOperationTypeFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DatabaseOperation::DatabaseOperation()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.DatabaseOperation)
+}
+DatabaseOperation::DatabaseOperation(const DatabaseOperation& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_table_definition()) {
+    table_definition_ = new ::org::yaorm::TableDefinition(*from.table_definition_);
+  } else {
+    table_definition_ = NULL;
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  if (from.has_index()) {
+    index_ = new ::org::yaorm::Index(*from.index_);
+  } else {
+    index_ = NULL;
+  }
+  if (from.has_column_definition()) {
+    column_definition_ = new ::org::yaorm::ColumnDefinition(*from.column_definition_);
+  } else {
+    column_definition_ = NULL;
+  }
+  if (from.has_where_clause()) {
+    where_clause_ = new ::org::yaorm::WhereClause(*from.where_clause_);
+  } else {
+    where_clause_ = NULL;
+  }
+  database_operation_type_ = from.database_operation_type_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.DatabaseOperation)
+}
+
+void DatabaseOperation::SharedCtor() {
+  ::memset(&table_definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&database_operation_type_) -
+      reinterpret_cast<char*>(&table_definition_)) + sizeof(database_operation_type_));
+  _cached_size_ = 0;
+}
+
+DatabaseOperation::~DatabaseOperation() {
+  // @@protoc_insertion_point(destructor:org.yaorm.DatabaseOperation)
+  SharedDtor();
+}
+
+void DatabaseOperation::SharedDtor() {
+  if (this != internal_default_instance()) delete table_definition_;
+  if (this != internal_default_instance()) delete records_;
+  if (this != internal_default_instance()) delete index_;
+  if (this != internal_default_instance()) delete column_definition_;
+  if (this != internal_default_instance()) delete where_clause_;
+}
+
+void DatabaseOperation::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* DatabaseOperation::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const DatabaseOperation& DatabaseOperation::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+DatabaseOperation* DatabaseOperation::New(::google::protobuf::Arena* arena) const {
+  DatabaseOperation* n = new DatabaseOperation;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void DatabaseOperation::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DatabaseOperation)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) {
+    delete table_definition_;
+  }
+  table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) {
+    delete index_;
+  }
+  index_ = NULL;
+  if (GetArenaNoVirtual() == NULL && column_definition_ != NULL) {
+    delete column_definition_;
+  }
+  column_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) {
+    delete where_clause_;
+  }
+  where_clause_ = NULL;
+  database_operation_type_ = 0;
+  _internal_metadata_.Clear();
+}
+
+bool DatabaseOperation::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.DatabaseOperation)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition table_definition = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Index index = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_index()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition column_definition = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_column_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause where_clause = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.DatabaseOperation.DatabaseOperationType database_operation_type = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_database_operation_type(static_cast< ::org::yaorm::DatabaseOperation_DatabaseOperationType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.DatabaseOperation)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.DatabaseOperation)
+  return false;
+#undef DO_
+}
+
+void DatabaseOperation::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.DatabaseOperation)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->table_definition_, output);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->records_, output);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->index_, output);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 4;
+  if (this->has_column_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->column_definition_, output);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, *this->where_clause_, output);
+  }
+
+  // .org.yaorm.DatabaseOperation.DatabaseOperationType database_operation_type = 6;
+  if (this->database_operation_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      6, this->database_operation_type(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.DatabaseOperation)
+}
+
+::google::protobuf::uint8* DatabaseOperation::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DatabaseOperation)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->records_, deterministic, target);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->index_, deterministic, target);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 4;
+  if (this->has_column_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->column_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->where_clause_, deterministic, target);
+  }
+
+  // .org.yaorm.DatabaseOperation.DatabaseOperationType database_operation_type = 6;
+  if (this->database_operation_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      6, this->database_operation_type(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DatabaseOperation)
+  return target;
+}
+
+size_t DatabaseOperation::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DatabaseOperation)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // .org.yaorm.TableDefinition table_definition = 1;
+  if (this->has_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definition_);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->index_);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 4;
+  if (this->has_column_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->column_definition_);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->where_clause_);
+  }
+
+  // .org.yaorm.DatabaseOperation.DatabaseOperationType database_operation_type = 6;
+  if (this->database_operation_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->database_operation_type());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void DatabaseOperation::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DatabaseOperation)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DatabaseOperation* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const DatabaseOperation>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DatabaseOperation)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DatabaseOperation)
+    MergeFrom(*source);
+  }
+}
+
+void DatabaseOperation::MergeFrom(const DatabaseOperation& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DatabaseOperation)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_table_definition()) {
+    mutable_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.table_definition());
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+  if (from.has_index()) {
+    mutable_index()->::org::yaorm::Index::MergeFrom(from.index());
+  }
+  if (from.has_column_definition()) {
+    mutable_column_definition()->::org::yaorm::ColumnDefinition::MergeFrom(from.column_definition());
+  }
+  if (from.has_where_clause()) {
+    mutable_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.where_clause());
+  }
+  if (from.database_operation_type() != 0) {
+    set_database_operation_type(from.database_operation_type());
+  }
+}
+
+void DatabaseOperation::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DatabaseOperation)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DatabaseOperation::CopyFrom(const DatabaseOperation& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DatabaseOperation)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DatabaseOperation::IsInitialized() const {
+  return true;
+}
+
+void DatabaseOperation::Swap(DatabaseOperation* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void DatabaseOperation::InternalSwap(DatabaseOperation* other) {
+  using std::swap;
+  swap(table_definition_, other->table_definition_);
+  swap(records_, other->records_);
+  swap(index_, other->index_);
+  swap(column_definition_, other->column_definition_);
+  swap(where_clause_, other->where_clause_);
+  swap(database_operation_type_, other->database_operation_type_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata DatabaseOperation::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// DatabaseOperation
+
+// .org.yaorm.TableDefinition table_definition = 1;
+bool DatabaseOperation::has_table_definition() const {
+  return this != internal_default_instance() && table_definition_ != NULL;
+}
+void DatabaseOperation::clear_table_definition() {
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) delete table_definition_;
+  table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& DatabaseOperation::table_definition() const {
+  const ::org::yaorm::TableDefinition* p = table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* DatabaseOperation::mutable_table_definition() {
+  
+  if (table_definition_ == NULL) {
+    table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperation.table_definition)
+  return table_definition_;
+}
+::org::yaorm::TableDefinition* DatabaseOperation::release_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperation.table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = table_definition_;
+  table_definition_ = NULL;
+  return temp;
+}
+void DatabaseOperation::set_allocated_table_definition(::org::yaorm::TableDefinition* table_definition) {
+  delete table_definition_;
+  table_definition_ = table_definition;
+  if (table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperation.table_definition)
+}
+
+// .org.yaorm.Records records = 2;
+bool DatabaseOperation::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void DatabaseOperation::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& DatabaseOperation::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* DatabaseOperation::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperation.records)
+  return records_;
+}
+::org::yaorm::Records* DatabaseOperation::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperation.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void DatabaseOperation::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperation.records)
+}
+
+// .org.yaorm.Index index = 3;
+bool DatabaseOperation::has_index() const {
+  return this != internal_default_instance() && index_ != NULL;
+}
+void DatabaseOperation::clear_index() {
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
+  index_ = NULL;
+}
+const ::org::yaorm::Index& DatabaseOperation::index() const {
+  const ::org::yaorm::Index* p = index_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.index)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Index*>(
+      &::org::yaorm::_Index_default_instance_);
+}
+::org::yaorm::Index* DatabaseOperation::mutable_index() {
+  
+  if (index_ == NULL) {
+    index_ = new ::org::yaorm::Index;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperation.index)
+  return index_;
+}
+::org::yaorm::Index* DatabaseOperation::release_index() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperation.index)
+  
+  ::org::yaorm::Index* temp = index_;
+  index_ = NULL;
+  return temp;
+}
+void DatabaseOperation::set_allocated_index(::org::yaorm::Index* index) {
+  delete index_;
+  index_ = index;
+  if (index) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperation.index)
+}
+
+// .org.yaorm.ColumnDefinition column_definition = 4;
+bool DatabaseOperation::has_column_definition() const {
+  return this != internal_default_instance() && column_definition_ != NULL;
+}
+void DatabaseOperation::clear_column_definition() {
+  if (GetArenaNoVirtual() == NULL && column_definition_ != NULL) delete column_definition_;
+  column_definition_ = NULL;
+}
+const ::org::yaorm::ColumnDefinition& DatabaseOperation::column_definition() const {
+  const ::org::yaorm::ColumnDefinition* p = column_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.column_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
+}
+::org::yaorm::ColumnDefinition* DatabaseOperation::mutable_column_definition() {
+  
+  if (column_definition_ == NULL) {
+    column_definition_ = new ::org::yaorm::ColumnDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperation.column_definition)
+  return column_definition_;
+}
+::org::yaorm::ColumnDefinition* DatabaseOperation::release_column_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperation.column_definition)
+  
+  ::org::yaorm::ColumnDefinition* temp = column_definition_;
+  column_definition_ = NULL;
+  return temp;
+}
+void DatabaseOperation::set_allocated_column_definition(::org::yaorm::ColumnDefinition* column_definition) {
+  delete column_definition_;
+  column_definition_ = column_definition;
+  if (column_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperation.column_definition)
+}
+
+// .org.yaorm.WhereClause where_clause = 5;
+bool DatabaseOperation::has_where_clause() const {
+  return this != internal_default_instance() && where_clause_ != NULL;
+}
+void DatabaseOperation::clear_where_clause() {
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) delete where_clause_;
+  where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& DatabaseOperation::where_clause() const {
+  const ::org::yaorm::WhereClause* p = where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* DatabaseOperation::mutable_where_clause() {
+  
+  if (where_clause_ == NULL) {
+    where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperation.where_clause)
+  return where_clause_;
+}
+::org::yaorm::WhereClause* DatabaseOperation::release_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperation.where_clause)
+  
+  ::org::yaorm::WhereClause* temp = where_clause_;
+  where_clause_ = NULL;
+  return temp;
+}
+void DatabaseOperation::set_allocated_where_clause(::org::yaorm::WhereClause* where_clause) {
+  delete where_clause_;
+  where_clause_ = where_clause;
+  if (where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperation.where_clause)
+}
+
+// .org.yaorm.DatabaseOperation.DatabaseOperationType database_operation_type = 6;
+void DatabaseOperation::clear_database_operation_type() {
+  database_operation_type_ = 0;
+}
+::org::yaorm::DatabaseOperation_DatabaseOperationType DatabaseOperation::database_operation_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperation.database_operation_type)
+  return static_cast< ::org::yaorm::DatabaseOperation_DatabaseOperationType >(database_operation_type_);
+}
+void DatabaseOperation::set_database_operation_type(::org::yaorm::DatabaseOperation_DatabaseOperationType value) {
+  
+  database_operation_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseOperation.database_operation_type)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DatabaseOperationResult::kBoolResultFieldNumber;
+const int DatabaseOperationResult::kCountResultFieldNumber;
+const int DatabaseOperationResult::kRecordResultFieldNumber;
+const int DatabaseOperationResult::kRecordsResultFieldNumber;
+const int DatabaseOperationResult::kErrorMessageFieldNumber;
+const int DatabaseOperationResult::kDatabaseOperationFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DatabaseOperationResult::DatabaseOperationResult()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.DatabaseOperationResult)
+}
+DatabaseOperationResult::DatabaseOperationResult(const DatabaseOperationResult& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  error_message_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.error_message().size() > 0) {
+    error_message_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.error_message_);
+  }
+  if (from.has_record_result()) {
+    record_result_ = new ::org::yaorm::Record(*from.record_result_);
+  } else {
+    record_result_ = NULL;
+  }
+  if (from.has_records_result()) {
+    records_result_ = new ::org::yaorm::Records(*from.records_result_);
+  } else {
+    records_result_ = NULL;
+  }
+  if (from.has_database_operation()) {
+    database_operation_ = new ::org::yaorm::DatabaseOperation(*from.database_operation_);
+  } else {
+    database_operation_ = NULL;
+  }
+  ::memcpy(&count_result_, &from.count_result_,
+    static_cast<size_t>(reinterpret_cast<char*>(&bool_result_) -
+    reinterpret_cast<char*>(&count_result_)) + sizeof(bool_result_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.DatabaseOperationResult)
+}
+
+void DatabaseOperationResult::SharedCtor() {
+  error_message_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&record_result_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&bool_result_) -
+      reinterpret_cast<char*>(&record_result_)) + sizeof(bool_result_));
+  _cached_size_ = 0;
+}
+
+DatabaseOperationResult::~DatabaseOperationResult() {
+  // @@protoc_insertion_point(destructor:org.yaorm.DatabaseOperationResult)
+  SharedDtor();
+}
+
+void DatabaseOperationResult::SharedDtor() {
+  error_message_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete record_result_;
+  if (this != internal_default_instance()) delete records_result_;
+  if (this != internal_default_instance()) delete database_operation_;
+}
+
+void DatabaseOperationResult::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* DatabaseOperationResult::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const DatabaseOperationResult& DatabaseOperationResult::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+DatabaseOperationResult* DatabaseOperationResult::New(::google::protobuf::Arena* arena) const {
+  DatabaseOperationResult* n = new DatabaseOperationResult;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void DatabaseOperationResult::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DatabaseOperationResult)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  error_message_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && record_result_ != NULL) {
+    delete record_result_;
+  }
+  record_result_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_result_ != NULL) {
+    delete records_result_;
+  }
+  records_result_ = NULL;
+  if (GetArenaNoVirtual() == NULL && database_operation_ != NULL) {
+    delete database_operation_;
+  }
+  database_operation_ = NULL;
+  ::memset(&count_result_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&bool_result_) -
+      reinterpret_cast<char*>(&count_result_)) + sizeof(bool_result_));
+  _internal_metadata_.Clear();
+}
+
+bool DatabaseOperationResult::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.DatabaseOperationResult)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // bool bool_result = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(8u /* 8 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
+                 input, &bool_result_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 count_result = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &count_result_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Record record_result = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_record_result()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records_result = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records_result()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string error_message = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_error_message()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->error_message().data(), static_cast<int>(this->error_message().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.DatabaseOperationResult.error_message"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.DatabaseOperation database_operation = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_database_operation()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.DatabaseOperationResult)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.DatabaseOperationResult)
+  return false;
+#undef DO_
+}
+
+void DatabaseOperationResult::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.DatabaseOperationResult)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bool bool_result = 1;
+  if (this->bool_result() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteBool(1, this->bool_result(), output);
+  }
+
+  // int64 count_result = 2;
+  if (this->count_result() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(2, this->count_result(), output);
+  }
+
+  // .org.yaorm.Record record_result = 3;
+  if (this->has_record_result()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->record_result_, output);
+  }
+
+  // .org.yaorm.Records records_result = 4;
+  if (this->has_records_result()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->records_result_, output);
+  }
+
+  // string error_message = 5;
+  if (this->error_message().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->error_message().data(), static_cast<int>(this->error_message().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseOperationResult.error_message");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      5, this->error_message(), output);
+  }
+
+  // .org.yaorm.DatabaseOperation database_operation = 6;
+  if (this->has_database_operation()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      6, *this->database_operation_, output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.DatabaseOperationResult)
+}
+
+::google::protobuf::uint8* DatabaseOperationResult::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DatabaseOperationResult)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // bool bool_result = 1;
+  if (this->bool_result() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(1, this->bool_result(), target);
+  }
+
+  // int64 count_result = 2;
+  if (this->count_result() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(2, this->count_result(), target);
+  }
+
+  // .org.yaorm.Record record_result = 3;
+  if (this->has_record_result()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->record_result_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records_result = 4;
+  if (this->has_records_result()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->records_result_, deterministic, target);
+  }
+
+  // string error_message = 5;
+  if (this->error_message().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->error_message().data(), static_cast<int>(this->error_message().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseOperationResult.error_message");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        5, this->error_message(), target);
+  }
+
+  // .org.yaorm.DatabaseOperation database_operation = 6;
+  if (this->has_database_operation()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        6, *this->database_operation_, deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DatabaseOperationResult)
+  return target;
+}
+
+size_t DatabaseOperationResult::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DatabaseOperationResult)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string error_message = 5;
+  if (this->error_message().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->error_message());
+  }
+
+  // .org.yaorm.Record record_result = 3;
+  if (this->has_record_result()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->record_result_);
+  }
+
+  // .org.yaorm.Records records_result = 4;
+  if (this->has_records_result()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_result_);
+  }
+
+  // .org.yaorm.DatabaseOperation database_operation = 6;
+  if (this->has_database_operation()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->database_operation_);
+  }
+
+  // int64 count_result = 2;
+  if (this->count_result() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->count_result());
+  }
+
+  // bool bool_result = 1;
+  if (this->bool_result() != 0) {
+    total_size += 1 + 1;
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void DatabaseOperationResult::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DatabaseOperationResult)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DatabaseOperationResult* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const DatabaseOperationResult>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DatabaseOperationResult)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DatabaseOperationResult)
+    MergeFrom(*source);
+  }
+}
+
+void DatabaseOperationResult::MergeFrom(const DatabaseOperationResult& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DatabaseOperationResult)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.error_message().size() > 0) {
+
+    error_message_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.error_message_);
+  }
+  if (from.has_record_result()) {
+    mutable_record_result()->::org::yaorm::Record::MergeFrom(from.record_result());
+  }
+  if (from.has_records_result()) {
+    mutable_records_result()->::org::yaorm::Records::MergeFrom(from.records_result());
+  }
+  if (from.has_database_operation()) {
+    mutable_database_operation()->::org::yaorm::DatabaseOperation::MergeFrom(from.database_operation());
+  }
+  if (from.count_result() != 0) {
+    set_count_result(from.count_result());
+  }
+  if (from.bool_result() != 0) {
+    set_bool_result(from.bool_result());
+  }
+}
+
+void DatabaseOperationResult::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DatabaseOperationResult)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DatabaseOperationResult::CopyFrom(const DatabaseOperationResult& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DatabaseOperationResult)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DatabaseOperationResult::IsInitialized() const {
+  return true;
+}
+
+void DatabaseOperationResult::Swap(DatabaseOperationResult* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void DatabaseOperationResult::InternalSwap(DatabaseOperationResult* other) {
+  using std::swap;
+  error_message_.Swap(&other->error_message_);
+  swap(record_result_, other->record_result_);
+  swap(records_result_, other->records_result_);
+  swap(database_operation_, other->database_operation_);
+  swap(count_result_, other->count_result_);
+  swap(bool_result_, other->bool_result_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata DatabaseOperationResult::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// DatabaseOperationResult
+
+// bool bool_result = 1;
+void DatabaseOperationResult::clear_bool_result() {
+  bool_result_ = false;
+}
+bool DatabaseOperationResult::bool_result() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.bool_result)
+  return bool_result_;
+}
+void DatabaseOperationResult::set_bool_result(bool value) {
+  
+  bool_result_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseOperationResult.bool_result)
+}
+
+// int64 count_result = 2;
+void DatabaseOperationResult::clear_count_result() {
+  count_result_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 DatabaseOperationResult::count_result() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.count_result)
+  return count_result_;
+}
+void DatabaseOperationResult::set_count_result(::google::protobuf::int64 value) {
+  
+  count_result_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseOperationResult.count_result)
+}
+
+// .org.yaorm.Record record_result = 3;
+bool DatabaseOperationResult::has_record_result() const {
+  return this != internal_default_instance() && record_result_ != NULL;
+}
+void DatabaseOperationResult::clear_record_result() {
+  if (GetArenaNoVirtual() == NULL && record_result_ != NULL) delete record_result_;
+  record_result_ = NULL;
+}
+const ::org::yaorm::Record& DatabaseOperationResult::record_result() const {
+  const ::org::yaorm::Record* p = record_result_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.record_result)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Record*>(
+      &::org::yaorm::_Record_default_instance_);
+}
+::org::yaorm::Record* DatabaseOperationResult::mutable_record_result() {
+  
+  if (record_result_ == NULL) {
+    record_result_ = new ::org::yaorm::Record;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperationResult.record_result)
+  return record_result_;
+}
+::org::yaorm::Record* DatabaseOperationResult::release_record_result() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperationResult.record_result)
+  
+  ::org::yaorm::Record* temp = record_result_;
+  record_result_ = NULL;
+  return temp;
+}
+void DatabaseOperationResult::set_allocated_record_result(::org::yaorm::Record* record_result) {
+  delete record_result_;
+  record_result_ = record_result;
+  if (record_result) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperationResult.record_result)
+}
+
+// .org.yaorm.Records records_result = 4;
+bool DatabaseOperationResult::has_records_result() const {
+  return this != internal_default_instance() && records_result_ != NULL;
+}
+void DatabaseOperationResult::clear_records_result() {
+  if (GetArenaNoVirtual() == NULL && records_result_ != NULL) delete records_result_;
+  records_result_ = NULL;
+}
+const ::org::yaorm::Records& DatabaseOperationResult::records_result() const {
+  const ::org::yaorm::Records* p = records_result_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.records_result)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* DatabaseOperationResult::mutable_records_result() {
+  
+  if (records_result_ == NULL) {
+    records_result_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperationResult.records_result)
+  return records_result_;
+}
+::org::yaorm::Records* DatabaseOperationResult::release_records_result() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperationResult.records_result)
+  
+  ::org::yaorm::Records* temp = records_result_;
+  records_result_ = NULL;
+  return temp;
+}
+void DatabaseOperationResult::set_allocated_records_result(::org::yaorm::Records* records_result) {
+  delete records_result_;
+  records_result_ = records_result;
+  if (records_result) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperationResult.records_result)
+}
+
+// string error_message = 5;
+void DatabaseOperationResult::clear_error_message() {
+  error_message_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& DatabaseOperationResult::error_message() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.error_message)
+  return error_message_.GetNoArena();
+}
+void DatabaseOperationResult::set_error_message(const ::std::string& value) {
+  
+  error_message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseOperationResult.error_message)
+}
+#if LANG_CXX11
+void DatabaseOperationResult::set_error_message(::std::string&& value) {
+  
+  error_message_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.DatabaseOperationResult.error_message)
+}
+#endif
+void DatabaseOperationResult::set_error_message(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  error_message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.DatabaseOperationResult.error_message)
+}
+void DatabaseOperationResult::set_error_message(const char* value, size_t size) {
+  
+  error_message_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.DatabaseOperationResult.error_message)
+}
+::std::string* DatabaseOperationResult::mutable_error_message() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperationResult.error_message)
+  return error_message_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* DatabaseOperationResult::release_error_message() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperationResult.error_message)
+  
+  return error_message_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void DatabaseOperationResult::set_allocated_error_message(::std::string* error_message) {
+  if (error_message != NULL) {
+    
+  } else {
+    
+  }
+  error_message_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), error_message);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperationResult.error_message)
+}
+
+// .org.yaorm.DatabaseOperation database_operation = 6;
+bool DatabaseOperationResult::has_database_operation() const {
+  return this != internal_default_instance() && database_operation_ != NULL;
+}
+void DatabaseOperationResult::clear_database_operation() {
+  if (GetArenaNoVirtual() == NULL && database_operation_ != NULL) delete database_operation_;
+  database_operation_ = NULL;
+}
+const ::org::yaorm::DatabaseOperation& DatabaseOperationResult::database_operation() const {
+  const ::org::yaorm::DatabaseOperation* p = database_operation_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseOperationResult.database_operation)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::DatabaseOperation*>(
+      &::org::yaorm::_DatabaseOperation_default_instance_);
+}
+::org::yaorm::DatabaseOperation* DatabaseOperationResult::mutable_database_operation() {
+  
+  if (database_operation_ == NULL) {
+    database_operation_ = new ::org::yaorm::DatabaseOperation;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseOperationResult.database_operation)
+  return database_operation_;
+}
+::org::yaorm::DatabaseOperation* DatabaseOperationResult::release_database_operation() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseOperationResult.database_operation)
+  
+  ::org::yaorm::DatabaseOperation* temp = database_operation_;
+  database_operation_ = NULL;
+  return temp;
+}
+void DatabaseOperationResult::set_allocated_database_operation(::org::yaorm::DatabaseOperation* database_operation) {
+  delete database_operation_;
+  database_operation_ = database_operation;
+  if (database_operation) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseOperationResult.database_operation)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DatabaseDefinition::kSchemaFieldNumber;
+const int DatabaseDefinition::kNameFieldNumber;
+const int DatabaseDefinition::kTableDefinitionsFieldNumber;
+const int DatabaseDefinition::kTableDefinitionGraphsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DatabaseDefinition::DatabaseDefinition()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.DatabaseDefinition)
+}
+DatabaseDefinition::DatabaseDefinition(const DatabaseDefinition& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      table_definition_graphs_(from.table_definition_graphs_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  schema_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.schema().size() > 0) {
+    schema_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_);
+  }
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.name().size() > 0) {
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.has_table_definitions()) {
+    table_definitions_ = new ::org::yaorm::TableDefinitions(*from.table_definitions_);
+  } else {
+    table_definitions_ = NULL;
+  }
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.DatabaseDefinition)
+}
+
+void DatabaseDefinition::SharedCtor() {
+  schema_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_definitions_ = NULL;
+  _cached_size_ = 0;
+}
+
+DatabaseDefinition::~DatabaseDefinition() {
+  // @@protoc_insertion_point(destructor:org.yaorm.DatabaseDefinition)
+  SharedDtor();
+}
+
+void DatabaseDefinition::SharedDtor() {
+  schema_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete table_definitions_;
+}
+
+void DatabaseDefinition::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* DatabaseDefinition::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const DatabaseDefinition& DatabaseDefinition::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+DatabaseDefinition* DatabaseDefinition::New(::google::protobuf::Arena* arena) const {
+  DatabaseDefinition* n = new DatabaseDefinition;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void DatabaseDefinition::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DatabaseDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  table_definition_graphs_.Clear();
+  schema_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && table_definitions_ != NULL) {
+    delete table_definitions_;
+  }
+  table_definitions_ = NULL;
+  _internal_metadata_.Clear();
+}
+
+bool DatabaseDefinition::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.DatabaseDefinition)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string schema = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_schema()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->schema().data(), static_cast<int>(this->schema().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.DatabaseDefinition.schema"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string name = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->name().data(), static_cast<int>(this->name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.DatabaseDefinition.name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinitions table_definitions = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definitions()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.TableDefinitionGraphs table_definition_graphs = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_table_definition_graphs()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.DatabaseDefinition)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.DatabaseDefinition)
+  return false;
+#undef DO_
+}
+
+void DatabaseDefinition::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.DatabaseDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string schema = 1;
+  if (this->schema().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema().data(), static_cast<int>(this->schema().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseDefinition.schema");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->schema(), output);
+  }
+
+  // string name = 2;
+  if (this->name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->name().data(), static_cast<int>(this->name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseDefinition.name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      2, this->name(), output);
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 3;
+  if (this->has_table_definitions()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->table_definitions_, output);
+  }
+
+  // repeated .org.yaorm.TableDefinitionGraphs table_definition_graphs = 4;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definition_graphs_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, this->table_definition_graphs(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.DatabaseDefinition)
+}
+
+::google::protobuf::uint8* DatabaseDefinition::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DatabaseDefinition)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string schema = 1;
+  if (this->schema().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema().data(), static_cast<int>(this->schema().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseDefinition.schema");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        1, this->schema(), target);
+  }
+
+  // string name = 2;
+  if (this->name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->name().data(), static_cast<int>(this->name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseDefinition.name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        2, this->name(), target);
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 3;
+  if (this->has_table_definitions()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->table_definitions_, deterministic, target);
+  }
+
+  // repeated .org.yaorm.TableDefinitionGraphs table_definition_graphs = 4;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definition_graphs_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, this->table_definition_graphs(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DatabaseDefinition)
+  return target;
+}
+
+size_t DatabaseDefinition::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DatabaseDefinition)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.TableDefinitionGraphs table_definition_graphs = 4;
+  {
+    unsigned int count = static_cast<unsigned int>(this->table_definition_graphs_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->table_definition_graphs(static_cast<int>(i)));
+    }
+  }
+
+  // string schema = 1;
+  if (this->schema().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->schema());
+  }
+
+  // string name = 2;
+  if (this->name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->name());
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 3;
+  if (this->has_table_definitions()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definitions_);
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void DatabaseDefinition::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DatabaseDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DatabaseDefinition* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const DatabaseDefinition>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DatabaseDefinition)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DatabaseDefinition)
+    MergeFrom(*source);
+  }
+}
+
+void DatabaseDefinition::MergeFrom(const DatabaseDefinition& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DatabaseDefinition)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  table_definition_graphs_.MergeFrom(from.table_definition_graphs_);
+  if (from.schema().size() > 0) {
+
+    schema_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_);
+  }
+  if (from.name().size() > 0) {
+
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.has_table_definitions()) {
+    mutable_table_definitions()->::org::yaorm::TableDefinitions::MergeFrom(from.table_definitions());
+  }
+}
+
+void DatabaseDefinition::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DatabaseDefinition)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DatabaseDefinition::CopyFrom(const DatabaseDefinition& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DatabaseDefinition)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DatabaseDefinition::IsInitialized() const {
+  return true;
+}
+
+void DatabaseDefinition::Swap(DatabaseDefinition* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void DatabaseDefinition::InternalSwap(DatabaseDefinition* other) {
+  using std::swap;
+  table_definition_graphs_.InternalSwap(&other->table_definition_graphs_);
+  schema_.Swap(&other->schema_);
+  name_.Swap(&other->name_);
+  swap(table_definitions_, other->table_definitions_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata DatabaseDefinition::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// DatabaseDefinition
+
+// string schema = 1;
+void DatabaseDefinition::clear_schema() {
+  schema_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& DatabaseDefinition::schema() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseDefinition.schema)
+  return schema_.GetNoArena();
+}
+void DatabaseDefinition::set_schema(const ::std::string& value) {
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseDefinition.schema)
+}
+#if LANG_CXX11
+void DatabaseDefinition::set_schema(::std::string&& value) {
+  
+  schema_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.DatabaseDefinition.schema)
+}
+#endif
+void DatabaseDefinition::set_schema(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.DatabaseDefinition.schema)
+}
+void DatabaseDefinition::set_schema(const char* value, size_t size) {
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.DatabaseDefinition.schema)
+}
+::std::string* DatabaseDefinition::mutable_schema() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseDefinition.schema)
+  return schema_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* DatabaseDefinition::release_schema() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseDefinition.schema)
+  
+  return schema_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void DatabaseDefinition::set_allocated_schema(::std::string* schema) {
+  if (schema != NULL) {
+    
+  } else {
+    
+  }
+  schema_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), schema);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseDefinition.schema)
+}
+
+// string name = 2;
+void DatabaseDefinition::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& DatabaseDefinition::name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseDefinition.name)
+  return name_.GetNoArena();
+}
+void DatabaseDefinition::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseDefinition.name)
+}
+#if LANG_CXX11
+void DatabaseDefinition::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.DatabaseDefinition.name)
+}
+#endif
+void DatabaseDefinition::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.DatabaseDefinition.name)
+}
+void DatabaseDefinition::set_name(const char* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.DatabaseDefinition.name)
+}
+::std::string* DatabaseDefinition::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseDefinition.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* DatabaseDefinition::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseDefinition.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void DatabaseDefinition::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseDefinition.name)
+}
+
+// .org.yaorm.TableDefinitions table_definitions = 3;
+bool DatabaseDefinition::has_table_definitions() const {
+  return this != internal_default_instance() && table_definitions_ != NULL;
+}
+void DatabaseDefinition::clear_table_definitions() {
+  if (GetArenaNoVirtual() == NULL && table_definitions_ != NULL) delete table_definitions_;
+  table_definitions_ = NULL;
+}
+const ::org::yaorm::TableDefinitions& DatabaseDefinition::table_definitions() const {
+  const ::org::yaorm::TableDefinitions* p = table_definitions_;
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseDefinition.table_definitions)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinitions*>(
+      &::org::yaorm::_TableDefinitions_default_instance_);
+}
+::org::yaorm::TableDefinitions* DatabaseDefinition::mutable_table_definitions() {
+  
+  if (table_definitions_ == NULL) {
+    table_definitions_ = new ::org::yaorm::TableDefinitions;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseDefinition.table_definitions)
+  return table_definitions_;
+}
+::org::yaorm::TableDefinitions* DatabaseDefinition::release_table_definitions() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseDefinition.table_definitions)
+  
+  ::org::yaorm::TableDefinitions* temp = table_definitions_;
+  table_definitions_ = NULL;
+  return temp;
+}
+void DatabaseDefinition::set_allocated_table_definitions(::org::yaorm::TableDefinitions* table_definitions) {
+  delete table_definitions_;
+  table_definitions_ = table_definitions;
+  if (table_definitions) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseDefinition.table_definitions)
+}
+
+// repeated .org.yaorm.TableDefinitionGraphs table_definition_graphs = 4;
+int DatabaseDefinition::table_definition_graphs_size() const {
+  return table_definition_graphs_.size();
+}
+void DatabaseDefinition::clear_table_definition_graphs() {
+  table_definition_graphs_.Clear();
+}
+const ::org::yaorm::TableDefinitionGraphs& DatabaseDefinition::table_definition_graphs(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseDefinition.table_definition_graphs)
+  return table_definition_graphs_.Get(index);
+}
+::org::yaorm::TableDefinitionGraphs* DatabaseDefinition::mutable_table_definition_graphs(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseDefinition.table_definition_graphs)
+  return table_definition_graphs_.Mutable(index);
+}
+::org::yaorm::TableDefinitionGraphs* DatabaseDefinition::add_table_definition_graphs() {
+  // @@protoc_insertion_point(field_add:org.yaorm.DatabaseDefinition.table_definition_graphs)
+  return table_definition_graphs_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinitionGraphs >*
+DatabaseDefinition::mutable_table_definition_graphs() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.DatabaseDefinition.table_definition_graphs)
+  return &table_definition_graphs_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinitionGraphs >&
+DatabaseDefinition::table_definition_graphs() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.DatabaseDefinition.table_definition_graphs)
+  return table_definition_graphs_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int TableDefinitionGraph::kMainTableDefinitionFieldNumber;
+const int TableDefinitionGraph::kOtherTableDefinitionFieldNumber;
+const int TableDefinitionGraph::kLinkerTableTableFieldNumber;
+const int TableDefinitionGraph::kDefinitionGraphTypeFieldNumber;
+const int TableDefinitionGraph::kMainNameFieldNumber;
+const int TableDefinitionGraph::kOtherNameFieldNumber;
+const int TableDefinitionGraph::kColumnNameFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+TableDefinitionGraph::TableDefinitionGraph()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.TableDefinitionGraph)
+}
+TableDefinitionGraph::TableDefinitionGraph(const TableDefinitionGraph& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  main_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.main_name().size() > 0) {
+    main_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.main_name_);
+  }
+  other_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.other_name().size() > 0) {
+    other_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.other_name_);
+  }
+  column_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.column_name().size() > 0) {
+    column_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.column_name_);
+  }
+  if (from.has_main_table_definition()) {
+    main_table_definition_ = new ::org::yaorm::TableDefinition(*from.main_table_definition_);
+  } else {
+    main_table_definition_ = NULL;
+  }
+  if (from.has_other_table_definition()) {
+    other_table_definition_ = new ::org::yaorm::TableDefinition(*from.other_table_definition_);
+  } else {
+    other_table_definition_ = NULL;
+  }
+  if (from.has_linker_table_table()) {
+    linker_table_table_ = new ::org::yaorm::TableDefinition(*from.linker_table_table_);
+  } else {
+    linker_table_table_ = NULL;
+  }
+  definition_graph_type_ = from.definition_graph_type_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.TableDefinitionGraph)
+}
+
+void TableDefinitionGraph::SharedCtor() {
+  main_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  other_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  column_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&main_table_definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&definition_graph_type_) -
+      reinterpret_cast<char*>(&main_table_definition_)) + sizeof(definition_graph_type_));
+  _cached_size_ = 0;
+}
+
+TableDefinitionGraph::~TableDefinitionGraph() {
+  // @@protoc_insertion_point(destructor:org.yaorm.TableDefinitionGraph)
+  SharedDtor();
+}
+
+void TableDefinitionGraph::SharedDtor() {
+  main_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  other_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  column_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete main_table_definition_;
+  if (this != internal_default_instance()) delete other_table_definition_;
+  if (this != internal_default_instance()) delete linker_table_table_;
+}
+
+void TableDefinitionGraph::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* TableDefinitionGraph::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const TableDefinitionGraph& TableDefinitionGraph::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+TableDefinitionGraph* TableDefinitionGraph::New(::google::protobuf::Arena* arena) const {
+  TableDefinitionGraph* n = new TableDefinitionGraph;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void TableDefinitionGraph::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.TableDefinitionGraph)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  main_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  other_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  column_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && main_table_definition_ != NULL) {
+    delete main_table_definition_;
+  }
+  main_table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && other_table_definition_ != NULL) {
+    delete other_table_definition_;
+  }
+  other_table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && linker_table_table_ != NULL) {
+    delete linker_table_table_;
+  }
+  linker_table_table_ = NULL;
+  definition_graph_type_ = 0;
+  _internal_metadata_.Clear();
+}
+
+bool TableDefinitionGraph::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.TableDefinitionGraph)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition main_table_definition = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_main_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition other_table_definition = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_other_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition linker_table_table = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_linker_table_table()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinitionGraph.TableDefinitionGraphType definition_graph_type = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_definition_graph_type(static_cast< ::org::yaorm::TableDefinitionGraph_TableDefinitionGraphType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string main_name = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_main_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->main_name().data(), static_cast<int>(this->main_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.TableDefinitionGraph.main_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string other_name = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_other_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->other_name().data(), static_cast<int>(this->other_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.TableDefinitionGraph.other_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string column_name = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_column_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->column_name().data(), static_cast<int>(this->column_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.TableDefinitionGraph.column_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.TableDefinitionGraph)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.TableDefinitionGraph)
+  return false;
+#undef DO_
+}
+
+void TableDefinitionGraph::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.TableDefinitionGraph)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->main_table_definition_, output);
+  }
+
+  // .org.yaorm.TableDefinition other_table_definition = 2;
+  if (this->has_other_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->other_table_definition_, output);
+  }
+
+  // .org.yaorm.TableDefinition linker_table_table = 3;
+  if (this->has_linker_table_table()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->linker_table_table_, output);
+  }
+
+  // .org.yaorm.TableDefinitionGraph.TableDefinitionGraphType definition_graph_type = 4;
+  if (this->definition_graph_type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      4, this->definition_graph_type(), output);
+  }
+
+  // string main_name = 5;
+  if (this->main_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->main_name().data(), static_cast<int>(this->main_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.main_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      5, this->main_name(), output);
+  }
+
+  // string other_name = 6;
+  if (this->other_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->other_name().data(), static_cast<int>(this->other_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.other_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      6, this->other_name(), output);
+  }
+
+  // string column_name = 7;
+  if (this->column_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->column_name().data(), static_cast<int>(this->column_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.column_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      7, this->column_name(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.TableDefinitionGraph)
+}
+
+::google::protobuf::uint8* TableDefinitionGraph::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.TableDefinitionGraph)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->main_table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinition other_table_definition = 2;
+  if (this->has_other_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->other_table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinition linker_table_table = 3;
+  if (this->has_linker_table_table()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->linker_table_table_, deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinitionGraph.TableDefinitionGraphType definition_graph_type = 4;
+  if (this->definition_graph_type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      4, this->definition_graph_type(), target);
+  }
+
+  // string main_name = 5;
+  if (this->main_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->main_name().data(), static_cast<int>(this->main_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.main_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        5, this->main_name(), target);
+  }
+
+  // string other_name = 6;
+  if (this->other_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->other_name().data(), static_cast<int>(this->other_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.other_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        6, this->other_name(), target);
+  }
+
+  // string column_name = 7;
+  if (this->column_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->column_name().data(), static_cast<int>(this->column_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.TableDefinitionGraph.column_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        7, this->column_name(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.TableDefinitionGraph)
+  return target;
+}
+
+size_t TableDefinitionGraph::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.TableDefinitionGraph)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string main_name = 5;
+  if (this->main_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->main_name());
+  }
+
+  // string other_name = 6;
+  if (this->other_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->other_name());
+  }
+
+  // string column_name = 7;
+  if (this->column_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->column_name());
+  }
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->main_table_definition_);
+  }
+
+  // .org.yaorm.TableDefinition other_table_definition = 2;
+  if (this->has_other_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->other_table_definition_);
+  }
+
+  // .org.yaorm.TableDefinition linker_table_table = 3;
+  if (this->has_linker_table_table()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->linker_table_table_);
+  }
+
+  // .org.yaorm.TableDefinitionGraph.TableDefinitionGraphType definition_graph_type = 4;
+  if (this->definition_graph_type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->definition_graph_type());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void TableDefinitionGraph::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.TableDefinitionGraph)
+  GOOGLE_DCHECK_NE(&from, this);
+  const TableDefinitionGraph* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const TableDefinitionGraph>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.TableDefinitionGraph)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.TableDefinitionGraph)
+    MergeFrom(*source);
+  }
+}
+
+void TableDefinitionGraph::MergeFrom(const TableDefinitionGraph& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.TableDefinitionGraph)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.main_name().size() > 0) {
+
+    main_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.main_name_);
+  }
+  if (from.other_name().size() > 0) {
+
+    other_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.other_name_);
+  }
+  if (from.column_name().size() > 0) {
+
+    column_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.column_name_);
+  }
+  if (from.has_main_table_definition()) {
+    mutable_main_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.main_table_definition());
+  }
+  if (from.has_other_table_definition()) {
+    mutable_other_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.other_table_definition());
+  }
+  if (from.has_linker_table_table()) {
+    mutable_linker_table_table()->::org::yaorm::TableDefinition::MergeFrom(from.linker_table_table());
+  }
+  if (from.definition_graph_type() != 0) {
+    set_definition_graph_type(from.definition_graph_type());
+  }
+}
+
+void TableDefinitionGraph::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.TableDefinitionGraph)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void TableDefinitionGraph::CopyFrom(const TableDefinitionGraph& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.TableDefinitionGraph)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool TableDefinitionGraph::IsInitialized() const {
+  return true;
+}
+
+void TableDefinitionGraph::Swap(TableDefinitionGraph* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void TableDefinitionGraph::InternalSwap(TableDefinitionGraph* other) {
+  using std::swap;
+  main_name_.Swap(&other->main_name_);
+  other_name_.Swap(&other->other_name_);
+  column_name_.Swap(&other->column_name_);
+  swap(main_table_definition_, other->main_table_definition_);
+  swap(other_table_definition_, other->other_table_definition_);
+  swap(linker_table_table_, other->linker_table_table_);
+  swap(definition_graph_type_, other->definition_graph_type_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata TableDefinitionGraph::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// TableDefinitionGraph
+
+// .org.yaorm.TableDefinition main_table_definition = 1;
+bool TableDefinitionGraph::has_main_table_definition() const {
+  return this != internal_default_instance() && main_table_definition_ != NULL;
+}
+void TableDefinitionGraph::clear_main_table_definition() {
+  if (GetArenaNoVirtual() == NULL && main_table_definition_ != NULL) delete main_table_definition_;
+  main_table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& TableDefinitionGraph::main_table_definition() const {
+  const ::org::yaorm::TableDefinition* p = main_table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.main_table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::mutable_main_table_definition() {
+  
+  if (main_table_definition_ == NULL) {
+    main_table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.main_table_definition)
+  return main_table_definition_;
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::release_main_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.main_table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = main_table_definition_;
+  main_table_definition_ = NULL;
+  return temp;
+}
+void TableDefinitionGraph::set_allocated_main_table_definition(::org::yaorm::TableDefinition* main_table_definition) {
+  delete main_table_definition_;
+  main_table_definition_ = main_table_definition;
+  if (main_table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.main_table_definition)
+}
+
+// .org.yaorm.TableDefinition other_table_definition = 2;
+bool TableDefinitionGraph::has_other_table_definition() const {
+  return this != internal_default_instance() && other_table_definition_ != NULL;
+}
+void TableDefinitionGraph::clear_other_table_definition() {
+  if (GetArenaNoVirtual() == NULL && other_table_definition_ != NULL) delete other_table_definition_;
+  other_table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& TableDefinitionGraph::other_table_definition() const {
+  const ::org::yaorm::TableDefinition* p = other_table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.other_table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::mutable_other_table_definition() {
+  
+  if (other_table_definition_ == NULL) {
+    other_table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.other_table_definition)
+  return other_table_definition_;
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::release_other_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.other_table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = other_table_definition_;
+  other_table_definition_ = NULL;
+  return temp;
+}
+void TableDefinitionGraph::set_allocated_other_table_definition(::org::yaorm::TableDefinition* other_table_definition) {
+  delete other_table_definition_;
+  other_table_definition_ = other_table_definition;
+  if (other_table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.other_table_definition)
+}
+
+// .org.yaorm.TableDefinition linker_table_table = 3;
+bool TableDefinitionGraph::has_linker_table_table() const {
+  return this != internal_default_instance() && linker_table_table_ != NULL;
+}
+void TableDefinitionGraph::clear_linker_table_table() {
+  if (GetArenaNoVirtual() == NULL && linker_table_table_ != NULL) delete linker_table_table_;
+  linker_table_table_ = NULL;
+}
+const ::org::yaorm::TableDefinition& TableDefinitionGraph::linker_table_table() const {
+  const ::org::yaorm::TableDefinition* p = linker_table_table_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.linker_table_table)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::mutable_linker_table_table() {
+  
+  if (linker_table_table_ == NULL) {
+    linker_table_table_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.linker_table_table)
+  return linker_table_table_;
+}
+::org::yaorm::TableDefinition* TableDefinitionGraph::release_linker_table_table() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.linker_table_table)
+  
+  ::org::yaorm::TableDefinition* temp = linker_table_table_;
+  linker_table_table_ = NULL;
+  return temp;
+}
+void TableDefinitionGraph::set_allocated_linker_table_table(::org::yaorm::TableDefinition* linker_table_table) {
+  delete linker_table_table_;
+  linker_table_table_ = linker_table_table;
+  if (linker_table_table) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.linker_table_table)
+}
+
+// .org.yaorm.TableDefinitionGraph.TableDefinitionGraphType definition_graph_type = 4;
+void TableDefinitionGraph::clear_definition_graph_type() {
+  definition_graph_type_ = 0;
+}
+::org::yaorm::TableDefinitionGraph_TableDefinitionGraphType TableDefinitionGraph::definition_graph_type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.definition_graph_type)
+  return static_cast< ::org::yaorm::TableDefinitionGraph_TableDefinitionGraphType >(definition_graph_type_);
+}
+void TableDefinitionGraph::set_definition_graph_type(::org::yaorm::TableDefinitionGraph_TableDefinitionGraphType value) {
+  
+  definition_graph_type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinitionGraph.definition_graph_type)
+}
+
+// string main_name = 5;
+void TableDefinitionGraph::clear_main_name() {
+  main_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& TableDefinitionGraph::main_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.main_name)
+  return main_name_.GetNoArena();
+}
+void TableDefinitionGraph::set_main_name(const ::std::string& value) {
+  
+  main_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinitionGraph.main_name)
+}
+#if LANG_CXX11
+void TableDefinitionGraph::set_main_name(::std::string&& value) {
+  
+  main_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableDefinitionGraph.main_name)
+}
+#endif
+void TableDefinitionGraph::set_main_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  main_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableDefinitionGraph.main_name)
+}
+void TableDefinitionGraph::set_main_name(const char* value, size_t size) {
+  
+  main_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableDefinitionGraph.main_name)
+}
+::std::string* TableDefinitionGraph::mutable_main_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.main_name)
+  return main_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* TableDefinitionGraph::release_main_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.main_name)
+  
+  return main_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void TableDefinitionGraph::set_allocated_main_name(::std::string* main_name) {
+  if (main_name != NULL) {
+    
+  } else {
+    
+  }
+  main_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), main_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.main_name)
+}
+
+// string other_name = 6;
+void TableDefinitionGraph::clear_other_name() {
+  other_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& TableDefinitionGraph::other_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.other_name)
+  return other_name_.GetNoArena();
+}
+void TableDefinitionGraph::set_other_name(const ::std::string& value) {
+  
+  other_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinitionGraph.other_name)
+}
+#if LANG_CXX11
+void TableDefinitionGraph::set_other_name(::std::string&& value) {
+  
+  other_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableDefinitionGraph.other_name)
+}
+#endif
+void TableDefinitionGraph::set_other_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  other_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableDefinitionGraph.other_name)
+}
+void TableDefinitionGraph::set_other_name(const char* value, size_t size) {
+  
+  other_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableDefinitionGraph.other_name)
+}
+::std::string* TableDefinitionGraph::mutable_other_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.other_name)
+  return other_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* TableDefinitionGraph::release_other_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.other_name)
+  
+  return other_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void TableDefinitionGraph::set_allocated_other_name(::std::string* other_name) {
+  if (other_name != NULL) {
+    
+  } else {
+    
+  }
+  other_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), other_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.other_name)
+}
+
+// string column_name = 7;
+void TableDefinitionGraph::clear_column_name() {
+  column_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& TableDefinitionGraph::column_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraph.column_name)
+  return column_name_.GetNoArena();
+}
+void TableDefinitionGraph::set_column_name(const ::std::string& value) {
+  
+  column_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.TableDefinitionGraph.column_name)
+}
+#if LANG_CXX11
+void TableDefinitionGraph::set_column_name(::std::string&& value) {
+  
+  column_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.TableDefinitionGraph.column_name)
+}
+#endif
+void TableDefinitionGraph::set_column_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  column_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.TableDefinitionGraph.column_name)
+}
+void TableDefinitionGraph::set_column_name(const char* value, size_t size) {
+  
+  column_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.TableDefinitionGraph.column_name)
+}
+::std::string* TableDefinitionGraph::mutable_column_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraph.column_name)
+  return column_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* TableDefinitionGraph::release_column_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraph.column_name)
+  
+  return column_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void TableDefinitionGraph::set_allocated_column_name(::std::string* column_name) {
+  if (column_name != NULL) {
+    
+  } else {
+    
+  }
+  column_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), column_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraph.column_name)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int TableDefinitionGraphs::kMainTableDefinitionFieldNumber;
+const int TableDefinitionGraphs::kTableDefinitionGraphsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+TableDefinitionGraphs::TableDefinitionGraphs()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.TableDefinitionGraphs)
+}
+TableDefinitionGraphs::TableDefinitionGraphs(const TableDefinitionGraphs& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      table_definition_graphs_(from.table_definition_graphs_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_main_table_definition()) {
+    main_table_definition_ = new ::org::yaorm::TableDefinition(*from.main_table_definition_);
+  } else {
+    main_table_definition_ = NULL;
+  }
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.TableDefinitionGraphs)
+}
+
+void TableDefinitionGraphs::SharedCtor() {
+  main_table_definition_ = NULL;
+  _cached_size_ = 0;
+}
+
+TableDefinitionGraphs::~TableDefinitionGraphs() {
+  // @@protoc_insertion_point(destructor:org.yaorm.TableDefinitionGraphs)
+  SharedDtor();
+}
+
+void TableDefinitionGraphs::SharedDtor() {
+  if (this != internal_default_instance()) delete main_table_definition_;
+}
+
+void TableDefinitionGraphs::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* TableDefinitionGraphs::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const TableDefinitionGraphs& TableDefinitionGraphs::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+TableDefinitionGraphs* TableDefinitionGraphs::New(::google::protobuf::Arena* arena) const {
+  TableDefinitionGraphs* n = new TableDefinitionGraphs;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void TableDefinitionGraphs::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.TableDefinitionGraphs)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  table_definition_graphs_.Clear();
+  if (GetArenaNoVirtual() == NULL && main_table_definition_ != NULL) {
+    delete main_table_definition_;
+  }
+  main_table_definition_ = NULL;
+  _internal_metadata_.Clear();
+}
+
+bool TableDefinitionGraphs::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.TableDefinitionGraphs)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition main_table_definition = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_main_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.TableDefinitionGraph table_definition_graphs = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_table_definition_graphs()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.TableDefinitionGraphs)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.TableDefinitionGraphs)
+  return false;
+#undef DO_
+}
+
+void TableDefinitionGraphs::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.TableDefinitionGraphs)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->main_table_definition_, output);
+  }
+
+  // repeated .org.yaorm.TableDefinitionGraph table_definition_graphs = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definition_graphs_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, this->table_definition_graphs(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.TableDefinitionGraphs)
+}
+
+::google::protobuf::uint8* TableDefinitionGraphs::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.TableDefinitionGraphs)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->main_table_definition_, deterministic, target);
+  }
+
+  // repeated .org.yaorm.TableDefinitionGraph table_definition_graphs = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->table_definition_graphs_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, this->table_definition_graphs(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.TableDefinitionGraphs)
+  return target;
+}
+
+size_t TableDefinitionGraphs::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.TableDefinitionGraphs)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.TableDefinitionGraph table_definition_graphs = 2;
+  {
+    unsigned int count = static_cast<unsigned int>(this->table_definition_graphs_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->table_definition_graphs(static_cast<int>(i)));
+    }
+  }
+
+  // .org.yaorm.TableDefinition main_table_definition = 1;
+  if (this->has_main_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->main_table_definition_);
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void TableDefinitionGraphs::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.TableDefinitionGraphs)
+  GOOGLE_DCHECK_NE(&from, this);
+  const TableDefinitionGraphs* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const TableDefinitionGraphs>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.TableDefinitionGraphs)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.TableDefinitionGraphs)
+    MergeFrom(*source);
+  }
+}
+
+void TableDefinitionGraphs::MergeFrom(const TableDefinitionGraphs& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.TableDefinitionGraphs)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  table_definition_graphs_.MergeFrom(from.table_definition_graphs_);
+  if (from.has_main_table_definition()) {
+    mutable_main_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.main_table_definition());
+  }
+}
+
+void TableDefinitionGraphs::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.TableDefinitionGraphs)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void TableDefinitionGraphs::CopyFrom(const TableDefinitionGraphs& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.TableDefinitionGraphs)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool TableDefinitionGraphs::IsInitialized() const {
+  return true;
+}
+
+void TableDefinitionGraphs::Swap(TableDefinitionGraphs* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void TableDefinitionGraphs::InternalSwap(TableDefinitionGraphs* other) {
+  using std::swap;
+  table_definition_graphs_.InternalSwap(&other->table_definition_graphs_);
+  swap(main_table_definition_, other->main_table_definition_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata TableDefinitionGraphs::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// TableDefinitionGraphs
+
+// .org.yaorm.TableDefinition main_table_definition = 1;
+bool TableDefinitionGraphs::has_main_table_definition() const {
+  return this != internal_default_instance() && main_table_definition_ != NULL;
+}
+void TableDefinitionGraphs::clear_main_table_definition() {
+  if (GetArenaNoVirtual() == NULL && main_table_definition_ != NULL) delete main_table_definition_;
+  main_table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& TableDefinitionGraphs::main_table_definition() const {
+  const ::org::yaorm::TableDefinition* p = main_table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraphs.main_table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* TableDefinitionGraphs::mutable_main_table_definition() {
+  
+  if (main_table_definition_ == NULL) {
+    main_table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraphs.main_table_definition)
+  return main_table_definition_;
+}
+::org::yaorm::TableDefinition* TableDefinitionGraphs::release_main_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.TableDefinitionGraphs.main_table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = main_table_definition_;
+  main_table_definition_ = NULL;
+  return temp;
+}
+void TableDefinitionGraphs::set_allocated_main_table_definition(::org::yaorm::TableDefinition* main_table_definition) {
+  delete main_table_definition_;
+  main_table_definition_ = main_table_definition;
+  if (main_table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.TableDefinitionGraphs.main_table_definition)
+}
+
+// repeated .org.yaorm.TableDefinitionGraph table_definition_graphs = 2;
+int TableDefinitionGraphs::table_definition_graphs_size() const {
+  return table_definition_graphs_.size();
+}
+void TableDefinitionGraphs::clear_table_definition_graphs() {
+  table_definition_graphs_.Clear();
+}
+const ::org::yaorm::TableDefinitionGraph& TableDefinitionGraphs::table_definition_graphs(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.TableDefinitionGraphs.table_definition_graphs)
+  return table_definition_graphs_.Get(index);
+}
+::org::yaorm::TableDefinitionGraph* TableDefinitionGraphs::mutable_table_definition_graphs(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.TableDefinitionGraphs.table_definition_graphs)
+  return table_definition_graphs_.Mutable(index);
+}
+::org::yaorm::TableDefinitionGraph* TableDefinitionGraphs::add_table_definition_graphs() {
+  // @@protoc_insertion_point(field_add:org.yaorm.TableDefinitionGraphs.table_definition_graphs)
+  return table_definition_graphs_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinitionGraph >*
+TableDefinitionGraphs::mutable_table_definition_graphs() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.TableDefinitionGraphs.table_definition_graphs)
+  return &table_definition_graphs_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::TableDefinitionGraph >&
+TableDefinitionGraphs::table_definition_graphs() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.TableDefinitionGraphs.table_definition_graphs)
+  return table_definition_graphs_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int ConnectionInfo::kHostFieldNumber;
+const int ConnectionInfo::kUserFieldNumber;
+const int ConnectionInfo::kPasswordFieldNumber;
+const int ConnectionInfo::kSchemaFieldNumber;
+const int ConnectionInfo::kShouldCreateSchemaFieldNumber;
+const int ConnectionInfo::kPortFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+ConnectionInfo::ConnectionInfo()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.ConnectionInfo)
+}
+ConnectionInfo::ConnectionInfo(const ConnectionInfo& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  host_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.host().size() > 0) {
+    host_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.host_);
+  }
+  user_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.user().size() > 0) {
+    user_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.user_);
+  }
+  password_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.password().size() > 0) {
+    password_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.password_);
+  }
+  schema_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.schema().size() > 0) {
+    schema_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_);
+  }
+  ::memcpy(&should_create_schema_, &from.should_create_schema_,
+    static_cast<size_t>(reinterpret_cast<char*>(&port_) -
+    reinterpret_cast<char*>(&should_create_schema_)) + sizeof(port_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.ConnectionInfo)
+}
+
+void ConnectionInfo::SharedCtor() {
+  host_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  user_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  password_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&should_create_schema_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&port_) -
+      reinterpret_cast<char*>(&should_create_schema_)) + sizeof(port_));
+  _cached_size_ = 0;
+}
+
+ConnectionInfo::~ConnectionInfo() {
+  // @@protoc_insertion_point(destructor:org.yaorm.ConnectionInfo)
+  SharedDtor();
+}
+
+void ConnectionInfo::SharedDtor() {
+  host_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  user_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  password_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+
+void ConnectionInfo::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* ConnectionInfo::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const ConnectionInfo& ConnectionInfo::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+ConnectionInfo* ConnectionInfo::New(::google::protobuf::Arena* arena) const {
+  ConnectionInfo* n = new ConnectionInfo;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void ConnectionInfo::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.ConnectionInfo)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  host_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  user_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&should_create_schema_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&port_) -
+      reinterpret_cast<char*>(&should_create_schema_)) + sizeof(port_));
+  _internal_metadata_.Clear();
+}
+
+bool ConnectionInfo::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.ConnectionInfo)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string host = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_host()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->host().data(), static_cast<int>(this->host().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ConnectionInfo.host"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string user = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_user()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->user().data(), static_cast<int>(this->user().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ConnectionInfo.user"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string password = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_password()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->password().data(), static_cast<int>(this->password().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ConnectionInfo.password"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string schema = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_schema()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->schema().data(), static_cast<int>(this->schema().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.ConnectionInfo.schema"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // bool should_create_schema = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(40u /* 40 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
+                 input, &should_create_schema_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int32 port = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int32, ::google::protobuf::internal::WireFormatLite::TYPE_INT32>(
+                 input, &port_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.ConnectionInfo)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.ConnectionInfo)
+  return false;
+#undef DO_
+}
+
+void ConnectionInfo::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.ConnectionInfo)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string host = 1;
+  if (this->host().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->host().data(), static_cast<int>(this->host().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.host");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->host(), output);
+  }
+
+  // string user = 2;
+  if (this->user().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->user().data(), static_cast<int>(this->user().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.user");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      2, this->user(), output);
+  }
+
+  // string password = 3;
+  if (this->password().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->password().data(), static_cast<int>(this->password().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.password");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      3, this->password(), output);
+  }
+
+  // string schema = 4;
+  if (this->schema().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema().data(), static_cast<int>(this->schema().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.schema");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      4, this->schema(), output);
+  }
+
+  // bool should_create_schema = 5;
+  if (this->should_create_schema() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteBool(5, this->should_create_schema(), output);
+  }
+
+  // int32 port = 6;
+  if (this->port() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt32(6, this->port(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.ConnectionInfo)
+}
+
+::google::protobuf::uint8* ConnectionInfo::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.ConnectionInfo)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string host = 1;
+  if (this->host().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->host().data(), static_cast<int>(this->host().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.host");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        1, this->host(), target);
+  }
+
+  // string user = 2;
+  if (this->user().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->user().data(), static_cast<int>(this->user().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.user");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        2, this->user(), target);
+  }
+
+  // string password = 3;
+  if (this->password().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->password().data(), static_cast<int>(this->password().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.password");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        3, this->password(), target);
+  }
+
+  // string schema = 4;
+  if (this->schema().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema().data(), static_cast<int>(this->schema().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.ConnectionInfo.schema");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        4, this->schema(), target);
+  }
+
+  // bool should_create_schema = 5;
+  if (this->should_create_schema() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(5, this->should_create_schema(), target);
+  }
+
+  // int32 port = 6;
+  if (this->port() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt32ToArray(6, this->port(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.ConnectionInfo)
+  return target;
+}
+
+size_t ConnectionInfo::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.ConnectionInfo)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string host = 1;
+  if (this->host().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->host());
+  }
+
+  // string user = 2;
+  if (this->user().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->user());
+  }
+
+  // string password = 3;
+  if (this->password().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->password());
+  }
+
+  // string schema = 4;
+  if (this->schema().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->schema());
+  }
+
+  // bool should_create_schema = 5;
+  if (this->should_create_schema() != 0) {
+    total_size += 1 + 1;
+  }
+
+  // int32 port = 6;
+  if (this->port() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int32Size(
+        this->port());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void ConnectionInfo::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.ConnectionInfo)
+  GOOGLE_DCHECK_NE(&from, this);
+  const ConnectionInfo* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const ConnectionInfo>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.ConnectionInfo)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.ConnectionInfo)
+    MergeFrom(*source);
+  }
+}
+
+void ConnectionInfo::MergeFrom(const ConnectionInfo& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.ConnectionInfo)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.host().size() > 0) {
+
+    host_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.host_);
+  }
+  if (from.user().size() > 0) {
+
+    user_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.user_);
+  }
+  if (from.password().size() > 0) {
+
+    password_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.password_);
+  }
+  if (from.schema().size() > 0) {
+
+    schema_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_);
+  }
+  if (from.should_create_schema() != 0) {
+    set_should_create_schema(from.should_create_schema());
+  }
+  if (from.port() != 0) {
+    set_port(from.port());
+  }
+}
+
+void ConnectionInfo::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.ConnectionInfo)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void ConnectionInfo::CopyFrom(const ConnectionInfo& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.ConnectionInfo)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool ConnectionInfo::IsInitialized() const {
+  return true;
+}
+
+void ConnectionInfo::Swap(ConnectionInfo* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void ConnectionInfo::InternalSwap(ConnectionInfo* other) {
+  using std::swap;
+  host_.Swap(&other->host_);
+  user_.Swap(&other->user_);
+  password_.Swap(&other->password_);
+  schema_.Swap(&other->schema_);
+  swap(should_create_schema_, other->should_create_schema_);
+  swap(port_, other->port_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata ConnectionInfo::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// ConnectionInfo
+
+// string host = 1;
+void ConnectionInfo::clear_host() {
+  host_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ConnectionInfo::host() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.host)
+  return host_.GetNoArena();
+}
+void ConnectionInfo::set_host(const ::std::string& value) {
+  
+  host_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.host)
+}
+#if LANG_CXX11
+void ConnectionInfo::set_host(::std::string&& value) {
+  
+  host_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ConnectionInfo.host)
+}
+#endif
+void ConnectionInfo::set_host(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  host_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ConnectionInfo.host)
+}
+void ConnectionInfo::set_host(const char* value, size_t size) {
+  
+  host_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ConnectionInfo.host)
+}
+::std::string* ConnectionInfo::mutable_host() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ConnectionInfo.host)
+  return host_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ConnectionInfo::release_host() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ConnectionInfo.host)
+  
+  return host_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ConnectionInfo::set_allocated_host(::std::string* host) {
+  if (host != NULL) {
+    
+  } else {
+    
+  }
+  host_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), host);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ConnectionInfo.host)
+}
+
+// string user = 2;
+void ConnectionInfo::clear_user() {
+  user_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ConnectionInfo::user() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.user)
+  return user_.GetNoArena();
+}
+void ConnectionInfo::set_user(const ::std::string& value) {
+  
+  user_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.user)
+}
+#if LANG_CXX11
+void ConnectionInfo::set_user(::std::string&& value) {
+  
+  user_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ConnectionInfo.user)
+}
+#endif
+void ConnectionInfo::set_user(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  user_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ConnectionInfo.user)
+}
+void ConnectionInfo::set_user(const char* value, size_t size) {
+  
+  user_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ConnectionInfo.user)
+}
+::std::string* ConnectionInfo::mutable_user() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ConnectionInfo.user)
+  return user_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ConnectionInfo::release_user() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ConnectionInfo.user)
+  
+  return user_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ConnectionInfo::set_allocated_user(::std::string* user) {
+  if (user != NULL) {
+    
+  } else {
+    
+  }
+  user_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), user);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ConnectionInfo.user)
+}
+
+// string password = 3;
+void ConnectionInfo::clear_password() {
+  password_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ConnectionInfo::password() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.password)
+  return password_.GetNoArena();
+}
+void ConnectionInfo::set_password(const ::std::string& value) {
+  
+  password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.password)
+}
+#if LANG_CXX11
+void ConnectionInfo::set_password(::std::string&& value) {
+  
+  password_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ConnectionInfo.password)
+}
+#endif
+void ConnectionInfo::set_password(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ConnectionInfo.password)
+}
+void ConnectionInfo::set_password(const char* value, size_t size) {
+  
+  password_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ConnectionInfo.password)
+}
+::std::string* ConnectionInfo::mutable_password() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ConnectionInfo.password)
+  return password_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ConnectionInfo::release_password() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ConnectionInfo.password)
+  
+  return password_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ConnectionInfo::set_allocated_password(::std::string* password) {
+  if (password != NULL) {
+    
+  } else {
+    
+  }
+  password_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), password);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ConnectionInfo.password)
+}
+
+// string schema = 4;
+void ConnectionInfo::clear_schema() {
+  schema_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& ConnectionInfo::schema() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.schema)
+  return schema_.GetNoArena();
+}
+void ConnectionInfo::set_schema(const ::std::string& value) {
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.schema)
+}
+#if LANG_CXX11
+void ConnectionInfo::set_schema(::std::string&& value) {
+  
+  schema_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.ConnectionInfo.schema)
+}
+#endif
+void ConnectionInfo::set_schema(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.ConnectionInfo.schema)
+}
+void ConnectionInfo::set_schema(const char* value, size_t size) {
+  
+  schema_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.ConnectionInfo.schema)
+}
+::std::string* ConnectionInfo::mutable_schema() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.ConnectionInfo.schema)
+  return schema_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* ConnectionInfo::release_schema() {
+  // @@protoc_insertion_point(field_release:org.yaorm.ConnectionInfo.schema)
+  
+  return schema_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void ConnectionInfo::set_allocated_schema(::std::string* schema) {
+  if (schema != NULL) {
+    
+  } else {
+    
+  }
+  schema_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), schema);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.ConnectionInfo.schema)
+}
+
+// bool should_create_schema = 5;
+void ConnectionInfo::clear_should_create_schema() {
+  should_create_schema_ = false;
+}
+bool ConnectionInfo::should_create_schema() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.should_create_schema)
+  return should_create_schema_;
+}
+void ConnectionInfo::set_should_create_schema(bool value) {
+  
+  should_create_schema_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.should_create_schema)
+}
+
+// int32 port = 6;
+void ConnectionInfo::clear_port() {
+  port_ = 0;
+}
+::google::protobuf::int32 ConnectionInfo::port() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.ConnectionInfo.port)
+  return port_;
+}
+void ConnectionInfo::set_port(::google::protobuf::int32 value) {
+  
+  port_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.ConnectionInfo.port)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int Migration::kIdFieldNumber;
+const int Migration::kContextNameFieldNumber;
+const int Migration::kModelDefinitionBase64FieldNumber;
+const int Migration::kInsertDateFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+Migration::Migration()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.Migration)
+}
+Migration::Migration(const Migration& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.id().size() > 0) {
+    id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  context_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.context_name().size() > 0) {
+    context_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.context_name_);
+  }
+  model_definition_base64_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.model_definition_base64().size() > 0) {
+    model_definition_base64_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.model_definition_base64_);
+  }
+  insert_date_ = from.insert_date_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.Migration)
+}
+
+void Migration::SharedCtor() {
+  id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  context_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  model_definition_base64_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  insert_date_ = GOOGLE_LONGLONG(0);
+  _cached_size_ = 0;
+}
+
+Migration::~Migration() {
+  // @@protoc_insertion_point(destructor:org.yaorm.Migration)
+  SharedDtor();
+}
+
+void Migration::SharedDtor() {
+  id_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  context_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  model_definition_base64_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+
+void Migration::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* Migration::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const Migration& Migration::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+Migration* Migration::New(::google::protobuf::Arena* arena) const {
+  Migration* n = new Migration;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void Migration::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Migration)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  context_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  model_definition_base64_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  insert_date_ = GOOGLE_LONGLONG(0);
+  _internal_metadata_.Clear();
+}
+
+bool Migration::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.Migration)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string id = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_id()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->id().data(), static_cast<int>(this->id().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.Migration.id"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string context_name = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_context_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->context_name().data(), static_cast<int>(this->context_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.Migration.context_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string model_definition_base64 = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_model_definition_base64()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->model_definition_base64().data(), static_cast<int>(this->model_definition_base64().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.Migration.model_definition_base64"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 insert_date = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &insert_date_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.Migration)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.Migration)
+  return false;
+#undef DO_
+}
+
+void Migration::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.Migration)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
+  if (this->id().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->id().data(), static_cast<int>(this->id().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.id");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->id(), output);
+  }
+
+  // string context_name = 2;
+  if (this->context_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->context_name().data(), static_cast<int>(this->context_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.context_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      2, this->context_name(), output);
+  }
+
+  // string model_definition_base64 = 3;
+  if (this->model_definition_base64().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->model_definition_base64().data(), static_cast<int>(this->model_definition_base64().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.model_definition_base64");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      3, this->model_definition_base64(), output);
+  }
+
+  // int64 insert_date = 4;
+  if (this->insert_date() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(4, this->insert_date(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.Migration)
+}
+
+::google::protobuf::uint8* Migration::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Migration)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
+  if (this->id().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->id().data(), static_cast<int>(this->id().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.id");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        1, this->id(), target);
+  }
+
+  // string context_name = 2;
+  if (this->context_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->context_name().data(), static_cast<int>(this->context_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.context_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        2, this->context_name(), target);
+  }
+
+  // string model_definition_base64 = 3;
+  if (this->model_definition_base64().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->model_definition_base64().data(), static_cast<int>(this->model_definition_base64().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Migration.model_definition_base64");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        3, this->model_definition_base64(), target);
+  }
+
+  // int64 insert_date = 4;
+  if (this->insert_date() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(4, this->insert_date(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Migration)
+  return target;
+}
+
+size_t Migration::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Migration)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string id = 1;
+  if (this->id().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->id());
+  }
+
+  // string context_name = 2;
+  if (this->context_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->context_name());
+  }
+
+  // string model_definition_base64 = 3;
+  if (this->model_definition_base64().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->model_definition_base64());
+  }
+
+  // int64 insert_date = 4;
+  if (this->insert_date() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->insert_date());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void Migration::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Migration)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Migration* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const Migration>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Migration)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Migration)
+    MergeFrom(*source);
+  }
+}
+
+void Migration::MergeFrom(const Migration& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Migration)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.id().size() > 0) {
+
+    id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  if (from.context_name().size() > 0) {
+
+    context_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.context_name_);
+  }
+  if (from.model_definition_base64().size() > 0) {
+
+    model_definition_base64_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.model_definition_base64_);
+  }
+  if (from.insert_date() != 0) {
+    set_insert_date(from.insert_date());
+  }
+}
+
+void Migration::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Migration)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Migration::CopyFrom(const Migration& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Migration)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Migration::IsInitialized() const {
+  return true;
+}
+
+void Migration::Swap(Migration* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void Migration::InternalSwap(Migration* other) {
+  using std::swap;
+  id_.Swap(&other->id_);
+  context_name_.Swap(&other->context_name_);
+  model_definition_base64_.Swap(&other->model_definition_base64_);
+  swap(insert_date_, other->insert_date_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata Migration::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// Migration
+
+// string id = 1;
+void Migration::clear_id() {
+  id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& Migration::id() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Migration.id)
+  return id_.GetNoArena();
+}
+void Migration::set_id(const ::std::string& value) {
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.Migration.id)
+}
+#if LANG_CXX11
+void Migration::set_id(::std::string&& value) {
+  
+  id_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Migration.id)
+}
+#endif
+void Migration::set_id(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Migration.id)
+}
+void Migration::set_id(const char* value, size_t size) {
+  
+  id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Migration.id)
+}
+::std::string* Migration::mutable_id() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Migration.id)
+  return id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* Migration::release_id() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Migration.id)
+  
+  return id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void Migration::set_allocated_id(::std::string* id) {
+  if (id != NULL) {
+    
+  } else {
+    
+  }
+  id_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), id);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Migration.id)
+}
+
+// string context_name = 2;
+void Migration::clear_context_name() {
+  context_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& Migration::context_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Migration.context_name)
+  return context_name_.GetNoArena();
+}
+void Migration::set_context_name(const ::std::string& value) {
+  
+  context_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.Migration.context_name)
+}
+#if LANG_CXX11
+void Migration::set_context_name(::std::string&& value) {
+  
+  context_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Migration.context_name)
+}
+#endif
+void Migration::set_context_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  context_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Migration.context_name)
+}
+void Migration::set_context_name(const char* value, size_t size) {
+  
+  context_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Migration.context_name)
+}
+::std::string* Migration::mutable_context_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Migration.context_name)
+  return context_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* Migration::release_context_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Migration.context_name)
+  
+  return context_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void Migration::set_allocated_context_name(::std::string* context_name) {
+  if (context_name != NULL) {
+    
+  } else {
+    
+  }
+  context_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), context_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Migration.context_name)
+}
+
+// string model_definition_base64 = 3;
+void Migration::clear_model_definition_base64() {
+  model_definition_base64_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& Migration::model_definition_base64() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Migration.model_definition_base64)
+  return model_definition_base64_.GetNoArena();
+}
+void Migration::set_model_definition_base64(const ::std::string& value) {
+  
+  model_definition_base64_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.Migration.model_definition_base64)
+}
+#if LANG_CXX11
+void Migration::set_model_definition_base64(::std::string&& value) {
+  
+  model_definition_base64_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Migration.model_definition_base64)
+}
+#endif
+void Migration::set_model_definition_base64(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  model_definition_base64_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Migration.model_definition_base64)
+}
+void Migration::set_model_definition_base64(const char* value, size_t size) {
+  
+  model_definition_base64_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Migration.model_definition_base64)
+}
+::std::string* Migration::mutable_model_definition_base64() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Migration.model_definition_base64)
+  return model_definition_base64_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* Migration::release_model_definition_base64() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Migration.model_definition_base64)
+  
+  return model_definition_base64_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void Migration::set_allocated_model_definition_base64(::std::string* model_definition_base64) {
+  if (model_definition_base64 != NULL) {
+    
+  } else {
+    
+  }
+  model_definition_base64_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), model_definition_base64);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Migration.model_definition_base64)
+}
+
+// int64 insert_date = 4;
+void Migration::clear_insert_date() {
+  insert_date_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 Migration::insert_date() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Migration.insert_date)
+  return insert_date_;
+}
+void Migration::set_insert_date(::google::protobuf::int64 value) {
+  
+  insert_date_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.Migration.insert_date)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DatabaseExecution::kRawSqlFieldNumber;
+const int DatabaseExecution::kTimeCalledFieldNumber;
+const int DatabaseExecution::kResultFieldNumber;
+const int DatabaseExecution::kOrderCalledFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DatabaseExecution::DatabaseExecution()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.DatabaseExecution)
+}
+DatabaseExecution::DatabaseExecution(const DatabaseExecution& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  raw_sql_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.raw_sql().size() > 0) {
+    raw_sql_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.raw_sql_);
+  }
+  ::memcpy(&time_called_, &from.time_called_,
+    static_cast<size_t>(reinterpret_cast<char*>(&result_) -
+    reinterpret_cast<char*>(&time_called_)) + sizeof(result_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.DatabaseExecution)
+}
+
+void DatabaseExecution::SharedCtor() {
+  raw_sql_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&time_called_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&result_) -
+      reinterpret_cast<char*>(&time_called_)) + sizeof(result_));
+  _cached_size_ = 0;
+}
+
+DatabaseExecution::~DatabaseExecution() {
+  // @@protoc_insertion_point(destructor:org.yaorm.DatabaseExecution)
+  SharedDtor();
+}
+
+void DatabaseExecution::SharedDtor() {
+  raw_sql_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+
+void DatabaseExecution::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* DatabaseExecution::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const DatabaseExecution& DatabaseExecution::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+DatabaseExecution* DatabaseExecution::New(::google::protobuf::Arena* arena) const {
+  DatabaseExecution* n = new DatabaseExecution;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void DatabaseExecution::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DatabaseExecution)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  raw_sql_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&time_called_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&result_) -
+      reinterpret_cast<char*>(&time_called_)) + sizeof(result_));
+  _internal_metadata_.Clear();
+}
+
+bool DatabaseExecution::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.DatabaseExecution)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string raw_sql = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_raw_sql()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->raw_sql().data(), static_cast<int>(this->raw_sql().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.DatabaseExecution.raw_sql"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 time_called = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &time_called_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // bool result = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(24u /* 24 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
+                 input, &result_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 order_called = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(32u /* 32 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &order_called_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.DatabaseExecution)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.DatabaseExecution)
+  return false;
+#undef DO_
+}
+
+void DatabaseExecution::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.DatabaseExecution)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string raw_sql = 1;
+  if (this->raw_sql().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->raw_sql().data(), static_cast<int>(this->raw_sql().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseExecution.raw_sql");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->raw_sql(), output);
+  }
+
+  // int64 time_called = 2;
+  if (this->time_called() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(2, this->time_called(), output);
+  }
+
+  // bool result = 3;
+  if (this->result() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteBool(3, this->result(), output);
+  }
+
+  // int64 order_called = 4;
+  if (this->order_called() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(4, this->order_called(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.DatabaseExecution)
+}
+
+::google::protobuf::uint8* DatabaseExecution::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DatabaseExecution)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string raw_sql = 1;
+  if (this->raw_sql().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->raw_sql().data(), static_cast<int>(this->raw_sql().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.DatabaseExecution.raw_sql");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        1, this->raw_sql(), target);
+  }
+
+  // int64 time_called = 2;
+  if (this->time_called() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(2, this->time_called(), target);
+  }
+
+  // bool result = 3;
+  if (this->result() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(3, this->result(), target);
+  }
+
+  // int64 order_called = 4;
+  if (this->order_called() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(4, this->order_called(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DatabaseExecution)
+  return target;
+}
+
+size_t DatabaseExecution::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DatabaseExecution)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string raw_sql = 1;
+  if (this->raw_sql().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->raw_sql());
+  }
+
+  // int64 time_called = 2;
+  if (this->time_called() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->time_called());
+  }
+
+  // int64 order_called = 4;
+  if (this->order_called() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->order_called());
+  }
+
+  // bool result = 3;
+  if (this->result() != 0) {
+    total_size += 1 + 1;
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void DatabaseExecution::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DatabaseExecution)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DatabaseExecution* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const DatabaseExecution>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DatabaseExecution)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DatabaseExecution)
+    MergeFrom(*source);
+  }
+}
+
+void DatabaseExecution::MergeFrom(const DatabaseExecution& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DatabaseExecution)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.raw_sql().size() > 0) {
+
+    raw_sql_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.raw_sql_);
+  }
+  if (from.time_called() != 0) {
+    set_time_called(from.time_called());
+  }
+  if (from.order_called() != 0) {
+    set_order_called(from.order_called());
+  }
+  if (from.result() != 0) {
+    set_result(from.result());
+  }
+}
+
+void DatabaseExecution::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DatabaseExecution)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DatabaseExecution::CopyFrom(const DatabaseExecution& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DatabaseExecution)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DatabaseExecution::IsInitialized() const {
+  return true;
+}
+
+void DatabaseExecution::Swap(DatabaseExecution* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void DatabaseExecution::InternalSwap(DatabaseExecution* other) {
+  using std::swap;
+  raw_sql_.Swap(&other->raw_sql_);
+  swap(time_called_, other->time_called_);
+  swap(order_called_, other->order_called_);
+  swap(result_, other->result_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata DatabaseExecution::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// DatabaseExecution
+
+// string raw_sql = 1;
+void DatabaseExecution::clear_raw_sql() {
+  raw_sql_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& DatabaseExecution::raw_sql() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecution.raw_sql)
+  return raw_sql_.GetNoArena();
+}
+void DatabaseExecution::set_raw_sql(const ::std::string& value) {
+  
+  raw_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseExecution.raw_sql)
+}
+#if LANG_CXX11
+void DatabaseExecution::set_raw_sql(::std::string&& value) {
+  
+  raw_sql_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.DatabaseExecution.raw_sql)
+}
+#endif
+void DatabaseExecution::set_raw_sql(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  raw_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.DatabaseExecution.raw_sql)
+}
+void DatabaseExecution::set_raw_sql(const char* value, size_t size) {
+  
+  raw_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.DatabaseExecution.raw_sql)
+}
+::std::string* DatabaseExecution::mutable_raw_sql() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseExecution.raw_sql)
+  return raw_sql_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* DatabaseExecution::release_raw_sql() {
+  // @@protoc_insertion_point(field_release:org.yaorm.DatabaseExecution.raw_sql)
+  
+  return raw_sql_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void DatabaseExecution::set_allocated_raw_sql(::std::string* raw_sql) {
+  if (raw_sql != NULL) {
+    
+  } else {
+    
+  }
+  raw_sql_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), raw_sql);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.DatabaseExecution.raw_sql)
+}
+
+// int64 time_called = 2;
+void DatabaseExecution::clear_time_called() {
+  time_called_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 DatabaseExecution::time_called() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecution.time_called)
+  return time_called_;
+}
+void DatabaseExecution::set_time_called(::google::protobuf::int64 value) {
+  
+  time_called_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseExecution.time_called)
+}
+
+// bool result = 3;
+void DatabaseExecution::clear_result() {
+  result_ = false;
+}
+bool DatabaseExecution::result() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecution.result)
+  return result_;
+}
+void DatabaseExecution::set_result(bool value) {
+  
+  result_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseExecution.result)
+}
+
+// int64 order_called = 4;
+void DatabaseExecution::clear_order_called() {
+  order_called_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 DatabaseExecution::order_called() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecution.order_called)
+  return order_called_;
+}
+void DatabaseExecution::set_order_called(::google::protobuf::int64 value) {
+  
+  order_called_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseExecution.order_called)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int DatabaseExecutionReport::kCallsToDatabaseFieldNumber;
+const int DatabaseExecutionReport::kExecutionsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+DatabaseExecutionReport::DatabaseExecutionReport()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.DatabaseExecutionReport)
+}
+DatabaseExecutionReport::DatabaseExecutionReport(const DatabaseExecutionReport& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      executions_(from.executions_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  calls_to_database_ = from.calls_to_database_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.DatabaseExecutionReport)
+}
+
+void DatabaseExecutionReport::SharedCtor() {
+  calls_to_database_ = GOOGLE_LONGLONG(0);
+  _cached_size_ = 0;
+}
+
+DatabaseExecutionReport::~DatabaseExecutionReport() {
+  // @@protoc_insertion_point(destructor:org.yaorm.DatabaseExecutionReport)
+  SharedDtor();
+}
+
+void DatabaseExecutionReport::SharedDtor() {
+}
+
+void DatabaseExecutionReport::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* DatabaseExecutionReport::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const DatabaseExecutionReport& DatabaseExecutionReport::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+DatabaseExecutionReport* DatabaseExecutionReport::New(::google::protobuf::Arena* arena) const {
+  DatabaseExecutionReport* n = new DatabaseExecutionReport;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void DatabaseExecutionReport::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.DatabaseExecutionReport)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  executions_.Clear();
+  calls_to_database_ = GOOGLE_LONGLONG(0);
+  _internal_metadata_.Clear();
+}
+
+bool DatabaseExecutionReport::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.DatabaseExecutionReport)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // int64 calls_to_database = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(8u /* 8 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &calls_to_database_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.DatabaseExecution executions = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_executions()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.DatabaseExecutionReport)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.DatabaseExecutionReport)
+  return false;
+#undef DO_
+}
+
+void DatabaseExecutionReport::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.DatabaseExecutionReport)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // int64 calls_to_database = 1;
+  if (this->calls_to_database() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(1, this->calls_to_database(), output);
+  }
+
+  // repeated .org.yaorm.DatabaseExecution executions = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->executions_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, this->executions(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.DatabaseExecutionReport)
+}
+
+::google::protobuf::uint8* DatabaseExecutionReport::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.DatabaseExecutionReport)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // int64 calls_to_database = 1;
+  if (this->calls_to_database() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(1, this->calls_to_database(), target);
+  }
+
+  // repeated .org.yaorm.DatabaseExecution executions = 2;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->executions_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, this->executions(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.DatabaseExecutionReport)
+  return target;
+}
+
+size_t DatabaseExecutionReport::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.DatabaseExecutionReport)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.DatabaseExecution executions = 2;
+  {
+    unsigned int count = static_cast<unsigned int>(this->executions_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->executions(static_cast<int>(i)));
+    }
+  }
+
+  // int64 calls_to_database = 1;
+  if (this->calls_to_database() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->calls_to_database());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void DatabaseExecutionReport::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.DatabaseExecutionReport)
+  GOOGLE_DCHECK_NE(&from, this);
+  const DatabaseExecutionReport* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const DatabaseExecutionReport>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.DatabaseExecutionReport)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.DatabaseExecutionReport)
+    MergeFrom(*source);
+  }
+}
+
+void DatabaseExecutionReport::MergeFrom(const DatabaseExecutionReport& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.DatabaseExecutionReport)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  executions_.MergeFrom(from.executions_);
+  if (from.calls_to_database() != 0) {
+    set_calls_to_database(from.calls_to_database());
+  }
+}
+
+void DatabaseExecutionReport::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.DatabaseExecutionReport)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void DatabaseExecutionReport::CopyFrom(const DatabaseExecutionReport& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.DatabaseExecutionReport)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool DatabaseExecutionReport::IsInitialized() const {
+  return true;
+}
+
+void DatabaseExecutionReport::Swap(DatabaseExecutionReport* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void DatabaseExecutionReport::InternalSwap(DatabaseExecutionReport* other) {
+  using std::swap;
+  executions_.InternalSwap(&other->executions_);
+  swap(calls_to_database_, other->calls_to_database_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata DatabaseExecutionReport::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// DatabaseExecutionReport
+
+// int64 calls_to_database = 1;
+void DatabaseExecutionReport::clear_calls_to_database() {
+  calls_to_database_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 DatabaseExecutionReport::calls_to_database() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecutionReport.calls_to_database)
+  return calls_to_database_;
+}
+void DatabaseExecutionReport::set_calls_to_database(::google::protobuf::int64 value) {
+  
+  calls_to_database_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.DatabaseExecutionReport.calls_to_database)
+}
+
+// repeated .org.yaorm.DatabaseExecution executions = 2;
+int DatabaseExecutionReport::executions_size() const {
+  return executions_.size();
+}
+void DatabaseExecutionReport::clear_executions() {
+  executions_.Clear();
+}
+const ::org::yaorm::DatabaseExecution& DatabaseExecutionReport::executions(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.DatabaseExecutionReport.executions)
+  return executions_.Get(index);
+}
+::org::yaorm::DatabaseExecution* DatabaseExecutionReport::mutable_executions(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.DatabaseExecutionReport.executions)
+  return executions_.Mutable(index);
+}
+::org::yaorm::DatabaseExecution* DatabaseExecutionReport::add_executions() {
+  // @@protoc_insertion_point(field_add:org.yaorm.DatabaseExecutionReport.executions)
+  return executions_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::DatabaseExecution >*
+DatabaseExecutionReport::mutable_executions() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.DatabaseExecutionReport.executions)
+  return &executions_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::DatabaseExecution >&
+DatabaseExecutionReport::executions() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.DatabaseExecutionReport.executions)
+  return executions_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int JoinTable::kFirstTableFieldNumber;
+const int JoinTable::kSecondTableFieldNumber;
+const int JoinTable::kFirstColumnFieldNumber;
+const int JoinTable::kSecondColumnFieldNumber;
+const int JoinTable::kWhereClauseFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+JoinTable::JoinTable()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.JoinTable)
+}
+JoinTable::JoinTable(const JoinTable& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_first_table()) {
+    first_table_ = new ::org::yaorm::TableDefinition(*from.first_table_);
+  } else {
+    first_table_ = NULL;
+  }
+  if (from.has_second_table()) {
+    second_table_ = new ::org::yaorm::TableDefinition(*from.second_table_);
+  } else {
+    second_table_ = NULL;
+  }
+  if (from.has_first_column()) {
+    first_column_ = new ::org::yaorm::ColumnDefinition(*from.first_column_);
+  } else {
+    first_column_ = NULL;
+  }
+  if (from.has_second_column()) {
+    second_column_ = new ::org::yaorm::ColumnDefinition(*from.second_column_);
+  } else {
+    second_column_ = NULL;
+  }
+  if (from.has_where_clause()) {
+    where_clause_ = new ::org::yaorm::WhereClause(*from.where_clause_);
+  } else {
+    where_clause_ = NULL;
+  }
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.JoinTable)
+}
+
+void JoinTable::SharedCtor() {
+  ::memset(&first_table_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&where_clause_) -
+      reinterpret_cast<char*>(&first_table_)) + sizeof(where_clause_));
+  _cached_size_ = 0;
+}
+
+JoinTable::~JoinTable() {
+  // @@protoc_insertion_point(destructor:org.yaorm.JoinTable)
+  SharedDtor();
+}
+
+void JoinTable::SharedDtor() {
+  if (this != internal_default_instance()) delete first_table_;
+  if (this != internal_default_instance()) delete second_table_;
+  if (this != internal_default_instance()) delete first_column_;
+  if (this != internal_default_instance()) delete second_column_;
+  if (this != internal_default_instance()) delete where_clause_;
+}
+
+void JoinTable::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* JoinTable::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const JoinTable& JoinTable::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+JoinTable* JoinTable::New(::google::protobuf::Arena* arena) const {
+  JoinTable* n = new JoinTable;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void JoinTable::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.JoinTable)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == NULL && first_table_ != NULL) {
+    delete first_table_;
+  }
+  first_table_ = NULL;
+  if (GetArenaNoVirtual() == NULL && second_table_ != NULL) {
+    delete second_table_;
+  }
+  second_table_ = NULL;
+  if (GetArenaNoVirtual() == NULL && first_column_ != NULL) {
+    delete first_column_;
+  }
+  first_column_ = NULL;
+  if (GetArenaNoVirtual() == NULL && second_column_ != NULL) {
+    delete second_column_;
+  }
+  second_column_ = NULL;
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) {
+    delete where_clause_;
+  }
+  where_clause_ = NULL;
+  _internal_metadata_.Clear();
+}
+
+bool JoinTable::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.JoinTable)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition first_table = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_first_table()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition second_table = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_second_table()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition first_column = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_first_column()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition second_column = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(66u /* 66 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_second_column()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause where_clause = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(74u /* 74 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.JoinTable)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.JoinTable)
+  return false;
+#undef DO_
+}
+
+void JoinTable::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.JoinTable)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition first_table = 1;
+  if (this->has_first_table()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->first_table_, output);
+  }
+
+  // .org.yaorm.TableDefinition second_table = 2;
+  if (this->has_second_table()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->second_table_, output);
+  }
+
+  // .org.yaorm.ColumnDefinition first_column = 7;
+  if (this->has_first_column()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      7, *this->first_column_, output);
+  }
+
+  // .org.yaorm.ColumnDefinition second_column = 8;
+  if (this->has_second_column()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      8, *this->second_column_, output);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 9;
+  if (this->has_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      9, *this->where_clause_, output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.JoinTable)
+}
+
+::google::protobuf::uint8* JoinTable::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.JoinTable)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition first_table = 1;
+  if (this->has_first_table()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->first_table_, deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinition second_table = 2;
+  if (this->has_second_table()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->second_table_, deterministic, target);
+  }
+
+  // .org.yaorm.ColumnDefinition first_column = 7;
+  if (this->has_first_column()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        7, *this->first_column_, deterministic, target);
+  }
+
+  // .org.yaorm.ColumnDefinition second_column = 8;
+  if (this->has_second_column()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        8, *this->second_column_, deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 9;
+  if (this->has_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        9, *this->where_clause_, deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.JoinTable)
+  return target;
+}
+
+size_t JoinTable::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.JoinTable)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // .org.yaorm.TableDefinition first_table = 1;
+  if (this->has_first_table()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->first_table_);
+  }
+
+  // .org.yaorm.TableDefinition second_table = 2;
+  if (this->has_second_table()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->second_table_);
+  }
+
+  // .org.yaorm.ColumnDefinition first_column = 7;
+  if (this->has_first_column()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->first_column_);
+  }
+
+  // .org.yaorm.ColumnDefinition second_column = 8;
+  if (this->has_second_column()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->second_column_);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 9;
+  if (this->has_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->where_clause_);
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void JoinTable::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.JoinTable)
+  GOOGLE_DCHECK_NE(&from, this);
+  const JoinTable* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const JoinTable>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.JoinTable)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.JoinTable)
+    MergeFrom(*source);
+  }
+}
+
+void JoinTable::MergeFrom(const JoinTable& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.JoinTable)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_first_table()) {
+    mutable_first_table()->::org::yaorm::TableDefinition::MergeFrom(from.first_table());
+  }
+  if (from.has_second_table()) {
+    mutable_second_table()->::org::yaorm::TableDefinition::MergeFrom(from.second_table());
+  }
+  if (from.has_first_column()) {
+    mutable_first_column()->::org::yaorm::ColumnDefinition::MergeFrom(from.first_column());
+  }
+  if (from.has_second_column()) {
+    mutable_second_column()->::org::yaorm::ColumnDefinition::MergeFrom(from.second_column());
+  }
+  if (from.has_where_clause()) {
+    mutable_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.where_clause());
+  }
+}
+
+void JoinTable::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.JoinTable)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void JoinTable::CopyFrom(const JoinTable& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.JoinTable)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool JoinTable::IsInitialized() const {
+  return true;
+}
+
+void JoinTable::Swap(JoinTable* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void JoinTable::InternalSwap(JoinTable* other) {
+  using std::swap;
+  swap(first_table_, other->first_table_);
+  swap(second_table_, other->second_table_);
+  swap(first_column_, other->first_column_);
+  swap(second_column_, other->second_column_);
+  swap(where_clause_, other->where_clause_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata JoinTable::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// JoinTable
+
+// .org.yaorm.TableDefinition first_table = 1;
+bool JoinTable::has_first_table() const {
+  return this != internal_default_instance() && first_table_ != NULL;
+}
+void JoinTable::clear_first_table() {
+  if (GetArenaNoVirtual() == NULL && first_table_ != NULL) delete first_table_;
+  first_table_ = NULL;
+}
+const ::org::yaorm::TableDefinition& JoinTable::first_table() const {
+  const ::org::yaorm::TableDefinition* p = first_table_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTable.first_table)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* JoinTable::mutable_first_table() {
+  
+  if (first_table_ == NULL) {
+    first_table_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTable.first_table)
+  return first_table_;
+}
+::org::yaorm::TableDefinition* JoinTable::release_first_table() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTable.first_table)
+  
+  ::org::yaorm::TableDefinition* temp = first_table_;
+  first_table_ = NULL;
+  return temp;
+}
+void JoinTable::set_allocated_first_table(::org::yaorm::TableDefinition* first_table) {
+  delete first_table_;
+  first_table_ = first_table;
+  if (first_table) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTable.first_table)
+}
+
+// .org.yaorm.TableDefinition second_table = 2;
+bool JoinTable::has_second_table() const {
+  return this != internal_default_instance() && second_table_ != NULL;
+}
+void JoinTable::clear_second_table() {
+  if (GetArenaNoVirtual() == NULL && second_table_ != NULL) delete second_table_;
+  second_table_ = NULL;
+}
+const ::org::yaorm::TableDefinition& JoinTable::second_table() const {
+  const ::org::yaorm::TableDefinition* p = second_table_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTable.second_table)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* JoinTable::mutable_second_table() {
+  
+  if (second_table_ == NULL) {
+    second_table_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTable.second_table)
+  return second_table_;
+}
+::org::yaorm::TableDefinition* JoinTable::release_second_table() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTable.second_table)
+  
+  ::org::yaorm::TableDefinition* temp = second_table_;
+  second_table_ = NULL;
+  return temp;
+}
+void JoinTable::set_allocated_second_table(::org::yaorm::TableDefinition* second_table) {
+  delete second_table_;
+  second_table_ = second_table;
+  if (second_table) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTable.second_table)
+}
+
+// .org.yaorm.ColumnDefinition first_column = 7;
+bool JoinTable::has_first_column() const {
+  return this != internal_default_instance() && first_column_ != NULL;
+}
+void JoinTable::clear_first_column() {
+  if (GetArenaNoVirtual() == NULL && first_column_ != NULL) delete first_column_;
+  first_column_ = NULL;
+}
+const ::org::yaorm::ColumnDefinition& JoinTable::first_column() const {
+  const ::org::yaorm::ColumnDefinition* p = first_column_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTable.first_column)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
+}
+::org::yaorm::ColumnDefinition* JoinTable::mutable_first_column() {
+  
+  if (first_column_ == NULL) {
+    first_column_ = new ::org::yaorm::ColumnDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTable.first_column)
+  return first_column_;
+}
+::org::yaorm::ColumnDefinition* JoinTable::release_first_column() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTable.first_column)
+  
+  ::org::yaorm::ColumnDefinition* temp = first_column_;
+  first_column_ = NULL;
+  return temp;
+}
+void JoinTable::set_allocated_first_column(::org::yaorm::ColumnDefinition* first_column) {
+  delete first_column_;
+  first_column_ = first_column;
+  if (first_column) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTable.first_column)
+}
+
+// .org.yaorm.ColumnDefinition second_column = 8;
+bool JoinTable::has_second_column() const {
+  return this != internal_default_instance() && second_column_ != NULL;
+}
+void JoinTable::clear_second_column() {
+  if (GetArenaNoVirtual() == NULL && second_column_ != NULL) delete second_column_;
+  second_column_ = NULL;
+}
+const ::org::yaorm::ColumnDefinition& JoinTable::second_column() const {
+  const ::org::yaorm::ColumnDefinition* p = second_column_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTable.second_column)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
+}
+::org::yaorm::ColumnDefinition* JoinTable::mutable_second_column() {
+  
+  if (second_column_ == NULL) {
+    second_column_ = new ::org::yaorm::ColumnDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTable.second_column)
+  return second_column_;
+}
+::org::yaorm::ColumnDefinition* JoinTable::release_second_column() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTable.second_column)
+  
+  ::org::yaorm::ColumnDefinition* temp = second_column_;
+  second_column_ = NULL;
+  return temp;
+}
+void JoinTable::set_allocated_second_column(::org::yaorm::ColumnDefinition* second_column) {
+  delete second_column_;
+  second_column_ = second_column;
+  if (second_column) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTable.second_column)
+}
+
+// .org.yaorm.WhereClause where_clause = 9;
+bool JoinTable::has_where_clause() const {
+  return this != internal_default_instance() && where_clause_ != NULL;
+}
+void JoinTable::clear_where_clause() {
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) delete where_clause_;
+  where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& JoinTable::where_clause() const {
+  const ::org::yaorm::WhereClause* p = where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTable.where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* JoinTable::mutable_where_clause() {
+  
+  if (where_clause_ == NULL) {
+    where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTable.where_clause)
+  return where_clause_;
+}
+::org::yaorm::WhereClause* JoinTable::release_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTable.where_clause)
+  
+  ::org::yaorm::WhereClause* temp = where_clause_;
+  where_clause_ = NULL;
+  return temp;
+}
+void JoinTable::set_allocated_where_clause(::org::yaorm::WhereClause* where_clause) {
+  delete where_clause_;
+  where_clause_ = where_clause;
+  if (where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTable.where_clause)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int JoinTableRecords::kJoinTableFieldNumber;
+const int JoinTableRecords::kRecordsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+JoinTableRecords::JoinTableRecords()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.JoinTableRecords)
+}
+JoinTableRecords::JoinTableRecords(const JoinTableRecords& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_join_table()) {
+    join_table_ = new ::org::yaorm::JoinTable(*from.join_table_);
+  } else {
+    join_table_ = NULL;
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.JoinTableRecords)
+}
+
+void JoinTableRecords::SharedCtor() {
+  ::memset(&join_table_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&records_) -
+      reinterpret_cast<char*>(&join_table_)) + sizeof(records_));
+  _cached_size_ = 0;
+}
+
+JoinTableRecords::~JoinTableRecords() {
+  // @@protoc_insertion_point(destructor:org.yaorm.JoinTableRecords)
+  SharedDtor();
+}
+
+void JoinTableRecords::SharedDtor() {
+  if (this != internal_default_instance()) delete join_table_;
+  if (this != internal_default_instance()) delete records_;
+}
+
+void JoinTableRecords::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* JoinTableRecords::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const JoinTableRecords& JoinTableRecords::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+JoinTableRecords* JoinTableRecords::New(::google::protobuf::Arena* arena) const {
+  JoinTableRecords* n = new JoinTableRecords;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void JoinTableRecords::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.JoinTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == NULL && join_table_ != NULL) {
+    delete join_table_;
+  }
+  join_table_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  _internal_metadata_.Clear();
+}
+
+bool JoinTableRecords::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.JoinTableRecords)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.JoinTable join_table = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_join_table()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.JoinTableRecords)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.JoinTableRecords)
+  return false;
+#undef DO_
+}
+
+void JoinTableRecords::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.JoinTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.JoinTable join_table = 1;
+  if (this->has_join_table()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->join_table_, output);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->records_, output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.JoinTableRecords)
+}
+
+::google::protobuf::uint8* JoinTableRecords::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.JoinTableRecords)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.JoinTable join_table = 1;
+  if (this->has_join_table()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->join_table_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->records_, deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.JoinTableRecords)
+  return target;
+}
+
+size_t JoinTableRecords::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.JoinTableRecords)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // .org.yaorm.JoinTable join_table = 1;
+  if (this->has_join_table()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->join_table_);
+  }
+
+  // .org.yaorm.Records records = 2;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void JoinTableRecords::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.JoinTableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  const JoinTableRecords* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const JoinTableRecords>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.JoinTableRecords)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.JoinTableRecords)
+    MergeFrom(*source);
+  }
+}
+
+void JoinTableRecords::MergeFrom(const JoinTableRecords& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.JoinTableRecords)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_join_table()) {
+    mutable_join_table()->::org::yaorm::JoinTable::MergeFrom(from.join_table());
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+}
+
+void JoinTableRecords::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.JoinTableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void JoinTableRecords::CopyFrom(const JoinTableRecords& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.JoinTableRecords)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool JoinTableRecords::IsInitialized() const {
+  return true;
+}
+
+void JoinTableRecords::Swap(JoinTableRecords* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void JoinTableRecords::InternalSwap(JoinTableRecords* other) {
+  using std::swap;
+  swap(join_table_, other->join_table_);
+  swap(records_, other->records_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata JoinTableRecords::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// JoinTableRecords
+
+// .org.yaorm.JoinTable join_table = 1;
+bool JoinTableRecords::has_join_table() const {
+  return this != internal_default_instance() && join_table_ != NULL;
+}
+void JoinTableRecords::clear_join_table() {
+  if (GetArenaNoVirtual() == NULL && join_table_ != NULL) delete join_table_;
+  join_table_ = NULL;
+}
+const ::org::yaorm::JoinTable& JoinTableRecords::join_table() const {
+  const ::org::yaorm::JoinTable* p = join_table_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTableRecords.join_table)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::JoinTable*>(
+      &::org::yaorm::_JoinTable_default_instance_);
+}
+::org::yaorm::JoinTable* JoinTableRecords::mutable_join_table() {
+  
+  if (join_table_ == NULL) {
+    join_table_ = new ::org::yaorm::JoinTable;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTableRecords.join_table)
+  return join_table_;
+}
+::org::yaorm::JoinTable* JoinTableRecords::release_join_table() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTableRecords.join_table)
+  
+  ::org::yaorm::JoinTable* temp = join_table_;
+  join_table_ = NULL;
+  return temp;
+}
+void JoinTableRecords::set_allocated_join_table(::org::yaorm::JoinTable* join_table) {
+  delete join_table_;
+  join_table_ = join_table;
+  if (join_table) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTableRecords.join_table)
+}
+
+// .org.yaorm.Records records = 2;
+bool JoinTableRecords::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void JoinTableRecords::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& JoinTableRecords::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.JoinTableRecords.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* JoinTableRecords::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.JoinTableRecords.records)
+  return records_;
+}
+::org::yaorm::Records* JoinTableRecords::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.JoinTableRecords.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void JoinTableRecords::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.JoinTableRecords.records)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int GroupBy::kColumnsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+GroupBy::GroupBy()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.GroupBy)
+}
+GroupBy::GroupBy(const GroupBy& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      columns_(from.columns_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.GroupBy)
+}
+
+void GroupBy::SharedCtor() {
+  _cached_size_ = 0;
+}
+
+GroupBy::~GroupBy() {
+  // @@protoc_insertion_point(destructor:org.yaorm.GroupBy)
+  SharedDtor();
+}
+
+void GroupBy::SharedDtor() {
+}
+
+void GroupBy::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* GroupBy::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const GroupBy& GroupBy::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+GroupBy* GroupBy::New(::google::protobuf::Arena* arena) const {
+  GroupBy* n = new GroupBy;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void GroupBy::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.GroupBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  columns_.Clear();
+  _internal_metadata_.Clear();
+}
+
+bool GroupBy::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.GroupBy)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // repeated .org.yaorm.ColumnDefinition columns = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_columns()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.GroupBy)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.GroupBy)
+  return false;
+#undef DO_
+}
+
+void GroupBy::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.GroupBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition columns = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->columns_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, this->columns(static_cast<int>(i)), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.GroupBy)
+}
+
+::google::protobuf::uint8* GroupBy::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.GroupBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition columns = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->columns_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, this->columns(static_cast<int>(i)), deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.GroupBy)
+  return target;
+}
+
+size_t GroupBy::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.GroupBy)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.ColumnDefinition columns = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->columns_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->columns(static_cast<int>(i)));
+    }
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void GroupBy::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.GroupBy)
+  GOOGLE_DCHECK_NE(&from, this);
+  const GroupBy* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const GroupBy>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.GroupBy)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.GroupBy)
+    MergeFrom(*source);
+  }
+}
+
+void GroupBy::MergeFrom(const GroupBy& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.GroupBy)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  columns_.MergeFrom(from.columns_);
+}
+
+void GroupBy::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.GroupBy)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void GroupBy::CopyFrom(const GroupBy& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.GroupBy)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool GroupBy::IsInitialized() const {
+  return true;
+}
+
+void GroupBy::Swap(GroupBy* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void GroupBy::InternalSwap(GroupBy* other) {
+  using std::swap;
+  columns_.InternalSwap(&other->columns_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata GroupBy::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// GroupBy
+
+// repeated .org.yaorm.ColumnDefinition columns = 1;
+int GroupBy::columns_size() const {
+  return columns_.size();
+}
+void GroupBy::clear_columns() {
+  columns_.Clear();
+}
+const ::org::yaorm::ColumnDefinition& GroupBy::columns(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.GroupBy.columns)
+  return columns_.Get(index);
+}
+::org::yaorm::ColumnDefinition* GroupBy::mutable_columns(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.GroupBy.columns)
+  return columns_.Mutable(index);
+}
+::org::yaorm::ColumnDefinition* GroupBy::add_columns() {
+  // @@protoc_insertion_point(field_add:org.yaorm.GroupBy.columns)
+  return columns_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >*
+GroupBy::mutable_columns() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.GroupBy.columns)
+  return &columns_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >&
+GroupBy::columns() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.GroupBy.columns)
+  return columns_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int OrderBy::kColumnFieldNumber;
+const int OrderBy::kTypeFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+OrderBy::OrderBy()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.OrderBy)
+}
+OrderBy::OrderBy(const OrderBy& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  if (from.has_column()) {
+    column_ = new ::org::yaorm::ColumnDefinition(*from.column_);
+  } else {
+    column_ = NULL;
+  }
+  type_ = from.type_;
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.OrderBy)
+}
+
+void OrderBy::SharedCtor() {
+  ::memset(&column_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&type_) -
+      reinterpret_cast<char*>(&column_)) + sizeof(type_));
+  _cached_size_ = 0;
+}
+
+OrderBy::~OrderBy() {
+  // @@protoc_insertion_point(destructor:org.yaorm.OrderBy)
+  SharedDtor();
+}
+
+void OrderBy::SharedDtor() {
+  if (this != internal_default_instance()) delete column_;
+}
+
+void OrderBy::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* OrderBy::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const OrderBy& OrderBy::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+OrderBy* OrderBy::New(::google::protobuf::Arena* arena) const {
+  OrderBy* n = new OrderBy;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void OrderBy::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.OrderBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  if (GetArenaNoVirtual() == NULL && column_ != NULL) {
+    delete column_;
+  }
+  column_ = NULL;
+  type_ = 0;
+  _internal_metadata_.Clear();
+}
+
+bool OrderBy::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.OrderBy)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.ColumnDefinition column = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_column()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.OrderByType type = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(16u /* 16 & 0xFF */)) {
+          int value;
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   int, ::google::protobuf::internal::WireFormatLite::TYPE_ENUM>(
+                 input, &value)));
+          set_type(static_cast< ::org::yaorm::OrderByType >(value));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.OrderBy)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.OrderBy)
+  return false;
+#undef DO_
+}
+
+void OrderBy::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.OrderBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.ColumnDefinition column = 1;
+  if (this->has_column()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->column_, output);
+  }
+
+  // .org.yaorm.OrderByType type = 2;
+  if (this->type() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteEnum(
+      2, this->type(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.OrderBy)
+}
+
+::google::protobuf::uint8* OrderBy::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.OrderBy)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.ColumnDefinition column = 1;
+  if (this->has_column()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->column_, deterministic, target);
+  }
+
+  // .org.yaorm.OrderByType type = 2;
+  if (this->type() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteEnumToArray(
+      2, this->type(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.OrderBy)
+  return target;
+}
+
+size_t OrderBy::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.OrderBy)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // .org.yaorm.ColumnDefinition column = 1;
+  if (this->has_column()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->column_);
+  }
+
+  // .org.yaorm.OrderByType type = 2;
+  if (this->type() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::EnumSize(this->type());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void OrderBy::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.OrderBy)
+  GOOGLE_DCHECK_NE(&from, this);
+  const OrderBy* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const OrderBy>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.OrderBy)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.OrderBy)
+    MergeFrom(*source);
+  }
+}
+
+void OrderBy::MergeFrom(const OrderBy& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.OrderBy)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.has_column()) {
+    mutable_column()->::org::yaorm::ColumnDefinition::MergeFrom(from.column());
+  }
+  if (from.type() != 0) {
+    set_type(from.type());
+  }
+}
+
+void OrderBy::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.OrderBy)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void OrderBy::CopyFrom(const OrderBy& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.OrderBy)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool OrderBy::IsInitialized() const {
+  return true;
+}
+
+void OrderBy::Swap(OrderBy* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void OrderBy::InternalSwap(OrderBy* other) {
+  using std::swap;
+  swap(column_, other->column_);
+  swap(type_, other->type_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata OrderBy::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// OrderBy
+
+// .org.yaorm.ColumnDefinition column = 1;
+bool OrderBy::has_column() const {
+  return this != internal_default_instance() && column_ != NULL;
+}
+void OrderBy::clear_column() {
+  if (GetArenaNoVirtual() == NULL && column_ != NULL) delete column_;
+  column_ = NULL;
+}
+const ::org::yaorm::ColumnDefinition& OrderBy::column() const {
+  const ::org::yaorm::ColumnDefinition* p = column_;
+  // @@protoc_insertion_point(field_get:org.yaorm.OrderBy.column)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
+}
+::org::yaorm::ColumnDefinition* OrderBy::mutable_column() {
+  
+  if (column_ == NULL) {
+    column_ = new ::org::yaorm::ColumnDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.OrderBy.column)
+  return column_;
+}
+::org::yaorm::ColumnDefinition* OrderBy::release_column() {
+  // @@protoc_insertion_point(field_release:org.yaorm.OrderBy.column)
+  
+  ::org::yaorm::ColumnDefinition* temp = column_;
+  column_ = NULL;
+  return temp;
+}
+void OrderBy::set_allocated_column(::org::yaorm::ColumnDefinition* column) {
+  delete column_;
+  column_ = column;
+  if (column) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.OrderBy.column)
+}
+
+// .org.yaorm.OrderByType type = 2;
+void OrderBy::clear_type() {
+  type_ = 0;
+}
+::org::yaorm::OrderByType OrderBy::type() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.OrderBy.type)
+  return static_cast< ::org::yaorm::OrderByType >(type_);
+}
+void OrderBy::set_type(::org::yaorm::OrderByType value) {
+  
+  type_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.OrderBy.type)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int Projection::kLabelsFieldNumber;
+const int Projection::kMainTableFieldNumber;
+const int Projection::kJoinsFieldNumber;
+const int Projection::kWhereClauseFieldNumber;
+const int Projection::kGroupByFieldNumber;
+const int Projection::kOrderBysFieldNumber;
+const int Projection::kNameFieldNumber;
+const int Projection::kLimitFieldNumber;
+const int Projection::kOffsetFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+Projection::Projection()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.Projection)
+}
+Projection::Projection(const Projection& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      labels_(from.labels_),
+      joins_(from.joins_),
+      order_bys_(from.order_bys_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.name().size() > 0) {
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.has_main_table()) {
+    main_table_ = new ::org::yaorm::TableDefinition(*from.main_table_);
+  } else {
+    main_table_ = NULL;
+  }
+  if (from.has_where_clause()) {
+    where_clause_ = new ::org::yaorm::WhereClause(*from.where_clause_);
+  } else {
+    where_clause_ = NULL;
+  }
+  if (from.has_group_by()) {
+    group_by_ = new ::org::yaorm::GroupBy(*from.group_by_);
+  } else {
+    group_by_ = NULL;
+  }
+  ::memcpy(&limit_, &from.limit_,
+    static_cast<size_t>(reinterpret_cast<char*>(&offset_) -
+    reinterpret_cast<char*>(&limit_)) + sizeof(offset_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.Projection)
+}
+
+void Projection::SharedCtor() {
+  name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&main_table_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&offset_) -
+      reinterpret_cast<char*>(&main_table_)) + sizeof(offset_));
+  _cached_size_ = 0;
+}
+
+Projection::~Projection() {
+  // @@protoc_insertion_point(destructor:org.yaorm.Projection)
+  SharedDtor();
+}
+
+void Projection::SharedDtor() {
+  name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete main_table_;
+  if (this != internal_default_instance()) delete where_clause_;
+  if (this != internal_default_instance()) delete group_by_;
+}
+
+void Projection::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* Projection::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const Projection& Projection::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+Projection* Projection::New(::google::protobuf::Arena* arena) const {
+  Projection* n = new Projection;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void Projection::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.Projection)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  labels_.Clear();
+  joins_.Clear();
+  order_bys_.Clear();
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && main_table_ != NULL) {
+    delete main_table_;
+  }
+  main_table_ = NULL;
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) {
+    delete where_clause_;
+  }
+  where_clause_ = NULL;
+  if (GetArenaNoVirtual() == NULL && group_by_ != NULL) {
+    delete group_by_;
+  }
+  group_by_ = NULL;
+  ::memset(&limit_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&offset_) -
+      reinterpret_cast<char*>(&limit_)) + sizeof(offset_));
+  _internal_metadata_.Clear();
+}
+
+bool Projection::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.Projection)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // repeated .org.yaorm.ColumnDefinition labels = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_labels()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition main_table = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_main_table()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.JoinTable joins = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_joins()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause where_clause = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.GroupBy group_by = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_group_by()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.OrderBy order_bys = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_order_bys()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string name = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(58u /* 58 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->name().data(), static_cast<int>(this->name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.Projection.name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 limit = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(64u /* 64 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &limit_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 offset = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(72u /* 72 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &offset_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.Projection)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.Projection)
+  return false;
+#undef DO_
+}
+
+void Projection::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.Projection)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition labels = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->labels_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, this->labels(static_cast<int>(i)), output);
+  }
+
+  // .org.yaorm.TableDefinition main_table = 2;
+  if (this->has_main_table()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->main_table_, output);
+  }
+
+  // repeated .org.yaorm.JoinTable joins = 3;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->joins_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, this->joins(static_cast<int>(i)), output);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 4;
+  if (this->has_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->where_clause_, output);
+  }
+
+  // .org.yaorm.GroupBy group_by = 5;
+  if (this->has_group_by()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, *this->group_by_, output);
+  }
+
+  // repeated .org.yaorm.OrderBy order_bys = 6;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->order_bys_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      6, this->order_bys(static_cast<int>(i)), output);
+  }
+
+  // string name = 7;
+  if (this->name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->name().data(), static_cast<int>(this->name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Projection.name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      7, this->name(), output);
+  }
+
+  // int64 limit = 8;
+  if (this->limit() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(8, this->limit(), output);
+  }
+
+  // int64 offset = 9;
+  if (this->offset() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(9, this->offset(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.Projection)
+}
+
+::google::protobuf::uint8* Projection::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.Projection)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // repeated .org.yaorm.ColumnDefinition labels = 1;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->labels_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, this->labels(static_cast<int>(i)), deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinition main_table = 2;
+  if (this->has_main_table()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->main_table_, deterministic, target);
+  }
+
+  // repeated .org.yaorm.JoinTable joins = 3;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->joins_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, this->joins(static_cast<int>(i)), deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 4;
+  if (this->has_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->where_clause_, deterministic, target);
+  }
+
+  // .org.yaorm.GroupBy group_by = 5;
+  if (this->has_group_by()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->group_by_, deterministic, target);
+  }
+
+  // repeated .org.yaorm.OrderBy order_bys = 6;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->order_bys_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        6, this->order_bys(static_cast<int>(i)), deterministic, target);
+  }
+
+  // string name = 7;
+  if (this->name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->name().data(), static_cast<int>(this->name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.Projection.name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        7, this->name(), target);
+  }
+
+  // int64 limit = 8;
+  if (this->limit() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(8, this->limit(), target);
+  }
+
+  // int64 offset = 9;
+  if (this->offset() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(9, this->offset(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.Projection)
+  return target;
+}
+
+size_t Projection::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.Projection)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated .org.yaorm.ColumnDefinition labels = 1;
+  {
+    unsigned int count = static_cast<unsigned int>(this->labels_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->labels(static_cast<int>(i)));
+    }
+  }
+
+  // repeated .org.yaorm.JoinTable joins = 3;
+  {
+    unsigned int count = static_cast<unsigned int>(this->joins_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->joins(static_cast<int>(i)));
+    }
+  }
+
+  // repeated .org.yaorm.OrderBy order_bys = 6;
+  {
+    unsigned int count = static_cast<unsigned int>(this->order_bys_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->order_bys(static_cast<int>(i)));
+    }
+  }
+
+  // string name = 7;
+  if (this->name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->name());
+  }
+
+  // .org.yaorm.TableDefinition main_table = 2;
+  if (this->has_main_table()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->main_table_);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 4;
+  if (this->has_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->where_clause_);
+  }
+
+  // .org.yaorm.GroupBy group_by = 5;
+  if (this->has_group_by()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->group_by_);
+  }
+
+  // int64 limit = 8;
+  if (this->limit() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->limit());
+  }
+
+  // int64 offset = 9;
+  if (this->offset() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->offset());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void Projection::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.Projection)
+  GOOGLE_DCHECK_NE(&from, this);
+  const Projection* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const Projection>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.Projection)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.Projection)
+    MergeFrom(*source);
+  }
+}
+
+void Projection::MergeFrom(const Projection& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.Projection)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  labels_.MergeFrom(from.labels_);
+  joins_.MergeFrom(from.joins_);
+  order_bys_.MergeFrom(from.order_bys_);
+  if (from.name().size() > 0) {
+
+    name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.name_);
+  }
+  if (from.has_main_table()) {
+    mutable_main_table()->::org::yaorm::TableDefinition::MergeFrom(from.main_table());
+  }
+  if (from.has_where_clause()) {
+    mutable_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.where_clause());
+  }
+  if (from.has_group_by()) {
+    mutable_group_by()->::org::yaorm::GroupBy::MergeFrom(from.group_by());
+  }
+  if (from.limit() != 0) {
+    set_limit(from.limit());
+  }
+  if (from.offset() != 0) {
+    set_offset(from.offset());
+  }
+}
+
+void Projection::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.Projection)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void Projection::CopyFrom(const Projection& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.Projection)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool Projection::IsInitialized() const {
+  return true;
+}
+
+void Projection::Swap(Projection* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void Projection::InternalSwap(Projection* other) {
+  using std::swap;
+  labels_.InternalSwap(&other->labels_);
+  joins_.InternalSwap(&other->joins_);
+  order_bys_.InternalSwap(&other->order_bys_);
+  name_.Swap(&other->name_);
+  swap(main_table_, other->main_table_);
+  swap(where_clause_, other->where_clause_);
+  swap(group_by_, other->group_by_);
+  swap(limit_, other->limit_);
+  swap(offset_, other->offset_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata Projection::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// Projection
+
+// repeated .org.yaorm.ColumnDefinition labels = 1;
+int Projection::labels_size() const {
+  return labels_.size();
+}
+void Projection::clear_labels() {
+  labels_.Clear();
+}
+const ::org::yaorm::ColumnDefinition& Projection::labels(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.labels)
+  return labels_.Get(index);
+}
+::org::yaorm::ColumnDefinition* Projection::mutable_labels(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.labels)
+  return labels_.Mutable(index);
+}
+::org::yaorm::ColumnDefinition* Projection::add_labels() {
+  // @@protoc_insertion_point(field_add:org.yaorm.Projection.labels)
+  return labels_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >*
+Projection::mutable_labels() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.Projection.labels)
+  return &labels_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ColumnDefinition >&
+Projection::labels() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.Projection.labels)
+  return labels_;
+}
+
+// .org.yaorm.TableDefinition main_table = 2;
+bool Projection::has_main_table() const {
+  return this != internal_default_instance() && main_table_ != NULL;
+}
+void Projection::clear_main_table() {
+  if (GetArenaNoVirtual() == NULL && main_table_ != NULL) delete main_table_;
+  main_table_ = NULL;
+}
+const ::org::yaorm::TableDefinition& Projection::main_table() const {
+  const ::org::yaorm::TableDefinition* p = main_table_;
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.main_table)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* Projection::mutable_main_table() {
+  
+  if (main_table_ == NULL) {
+    main_table_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.main_table)
+  return main_table_;
+}
+::org::yaorm::TableDefinition* Projection::release_main_table() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Projection.main_table)
+  
+  ::org::yaorm::TableDefinition* temp = main_table_;
+  main_table_ = NULL;
+  return temp;
+}
+void Projection::set_allocated_main_table(::org::yaorm::TableDefinition* main_table) {
+  delete main_table_;
+  main_table_ = main_table;
+  if (main_table) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Projection.main_table)
+}
+
+// repeated .org.yaorm.JoinTable joins = 3;
+int Projection::joins_size() const {
+  return joins_.size();
+}
+void Projection::clear_joins() {
+  joins_.Clear();
+}
+const ::org::yaorm::JoinTable& Projection::joins(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.joins)
+  return joins_.Get(index);
+}
+::org::yaorm::JoinTable* Projection::mutable_joins(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.joins)
+  return joins_.Mutable(index);
+}
+::org::yaorm::JoinTable* Projection::add_joins() {
+  // @@protoc_insertion_point(field_add:org.yaorm.Projection.joins)
+  return joins_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::JoinTable >*
+Projection::mutable_joins() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.Projection.joins)
+  return &joins_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::JoinTable >&
+Projection::joins() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.Projection.joins)
+  return joins_;
+}
+
+// .org.yaorm.WhereClause where_clause = 4;
+bool Projection::has_where_clause() const {
+  return this != internal_default_instance() && where_clause_ != NULL;
+}
+void Projection::clear_where_clause() {
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) delete where_clause_;
+  where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& Projection::where_clause() const {
+  const ::org::yaorm::WhereClause* p = where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* Projection::mutable_where_clause() {
+  
+  if (where_clause_ == NULL) {
+    where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.where_clause)
+  return where_clause_;
+}
+::org::yaorm::WhereClause* Projection::release_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Projection.where_clause)
+  
+  ::org::yaorm::WhereClause* temp = where_clause_;
+  where_clause_ = NULL;
+  return temp;
+}
+void Projection::set_allocated_where_clause(::org::yaorm::WhereClause* where_clause) {
+  delete where_clause_;
+  where_clause_ = where_clause;
+  if (where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Projection.where_clause)
+}
+
+// .org.yaorm.GroupBy group_by = 5;
+bool Projection::has_group_by() const {
+  return this != internal_default_instance() && group_by_ != NULL;
+}
+void Projection::clear_group_by() {
+  if (GetArenaNoVirtual() == NULL && group_by_ != NULL) delete group_by_;
+  group_by_ = NULL;
+}
+const ::org::yaorm::GroupBy& Projection::group_by() const {
+  const ::org::yaorm::GroupBy* p = group_by_;
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.group_by)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::GroupBy*>(
+      &::org::yaorm::_GroupBy_default_instance_);
+}
+::org::yaorm::GroupBy* Projection::mutable_group_by() {
+  
+  if (group_by_ == NULL) {
+    group_by_ = new ::org::yaorm::GroupBy;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.group_by)
+  return group_by_;
+}
+::org::yaorm::GroupBy* Projection::release_group_by() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Projection.group_by)
+  
+  ::org::yaorm::GroupBy* temp = group_by_;
+  group_by_ = NULL;
+  return temp;
+}
+void Projection::set_allocated_group_by(::org::yaorm::GroupBy* group_by) {
+  delete group_by_;
+  group_by_ = group_by;
+  if (group_by) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Projection.group_by)
+}
+
+// repeated .org.yaorm.OrderBy order_bys = 6;
+int Projection::order_bys_size() const {
+  return order_bys_.size();
+}
+void Projection::clear_order_bys() {
+  order_bys_.Clear();
+}
+const ::org::yaorm::OrderBy& Projection::order_bys(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.order_bys)
+  return order_bys_.Get(index);
+}
+::org::yaorm::OrderBy* Projection::mutable_order_bys(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.order_bys)
+  return order_bys_.Mutable(index);
+}
+::org::yaorm::OrderBy* Projection::add_order_bys() {
+  // @@protoc_insertion_point(field_add:org.yaorm.Projection.order_bys)
+  return order_bys_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::OrderBy >*
+Projection::mutable_order_bys() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.Projection.order_bys)
+  return &order_bys_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::OrderBy >&
+Projection::order_bys() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.Projection.order_bys)
+  return order_bys_;
+}
+
+// string name = 7;
+void Projection::clear_name() {
+  name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& Projection::name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.name)
+  return name_.GetNoArena();
+}
+void Projection::set_name(const ::std::string& value) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.Projection.name)
+}
+#if LANG_CXX11
+void Projection::set_name(::std::string&& value) {
+  
+  name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.Projection.name)
+}
+#endif
+void Projection::set_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.Projection.name)
+}
+void Projection::set_name(const char* value, size_t size) {
+  
+  name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.Projection.name)
+}
+::std::string* Projection::mutable_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.Projection.name)
+  return name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* Projection::release_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.Projection.name)
+  
+  return name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void Projection::set_allocated_name(::std::string* name) {
+  if (name != NULL) {
+    
+  } else {
+    
+  }
+  name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.Projection.name)
+}
+
+// int64 limit = 8;
+void Projection::clear_limit() {
+  limit_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 Projection::limit() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.limit)
+  return limit_;
+}
+void Projection::set_limit(::google::protobuf::int64 value) {
+  
+  limit_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.Projection.limit)
+}
+
+// int64 offset = 9;
+void Projection::clear_offset() {
+  offset_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 Projection::offset() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.Projection.offset)
+  return offset_;
+}
+void Projection::set_offset(::google::protobuf::int64 value) {
+  
+  offset_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.Projection.offset)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int UIYaormRequest::kTokenFieldNumber;
+const int UIYaormRequest::kTableDefinitionFieldNumber;
+const int UIYaormRequest::kRecordsFieldNumber;
+const int UIYaormRequest::kConnectionInfoFieldNumber;
+const int UIYaormRequest::kWhereClauseFieldNumber;
+const int UIYaormRequest::kLimitFieldNumber;
+const int UIYaormRequest::kOffsetFieldNumber;
+const int UIYaormRequest::kInsertSameAsUpdateFieldNumber;
+const int UIYaormRequest::kSchemaNameFieldNumber;
+const int UIYaormRequest::kTableNameFieldNumber;
+const int UIYaormRequest::kCustomSqlFieldNumber;
+const int UIYaormRequest::kFileDescriptorFieldNumber;
+const int UIYaormRequest::kIdsFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+UIYaormRequest::UIYaormRequest()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.UIYaormRequest)
+}
+UIYaormRequest::UIYaormRequest(const UIYaormRequest& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      ids_(from.ids_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  token_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.token().size() > 0) {
+    token_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.token_);
+  }
+  schema_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.schema_name().size() > 0) {
+    schema_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_name_);
+  }
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.table_name().size() > 0) {
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  custom_sql_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.custom_sql().size() > 0) {
+    custom_sql_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.custom_sql_);
+  }
+  file_descriptor_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.file_descriptor().size() > 0) {
+    file_descriptor_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_descriptor_);
+  }
+  if (from.has_table_definition()) {
+    table_definition_ = new ::org::yaorm::TableDefinition(*from.table_definition_);
+  } else {
+    table_definition_ = NULL;
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  if (from.has_connection_info()) {
+    connection_info_ = new ::org::yaorm::ConnectionInfo(*from.connection_info_);
+  } else {
+    connection_info_ = NULL;
+  }
+  if (from.has_where_clause()) {
+    where_clause_ = new ::org::yaorm::WhereClause(*from.where_clause_);
+  } else {
+    where_clause_ = NULL;
+  }
+  ::memcpy(&limit_, &from.limit_,
+    static_cast<size_t>(reinterpret_cast<char*>(&insert_same_as_update_) -
+    reinterpret_cast<char*>(&limit_)) + sizeof(insert_same_as_update_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.UIYaormRequest)
+}
+
+void UIYaormRequest::SharedCtor() {
+  token_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  custom_sql_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  file_descriptor_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&table_definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&insert_same_as_update_) -
+      reinterpret_cast<char*>(&table_definition_)) + sizeof(insert_same_as_update_));
+  _cached_size_ = 0;
+}
+
+UIYaormRequest::~UIYaormRequest() {
+  // @@protoc_insertion_point(destructor:org.yaorm.UIYaormRequest)
+  SharedDtor();
+}
+
+void UIYaormRequest::SharedDtor() {
+  token_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  custom_sql_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  file_descriptor_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete table_definition_;
+  if (this != internal_default_instance()) delete records_;
+  if (this != internal_default_instance()) delete connection_info_;
+  if (this != internal_default_instance()) delete where_clause_;
+}
+
+void UIYaormRequest::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* UIYaormRequest::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const UIYaormRequest& UIYaormRequest::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+UIYaormRequest* UIYaormRequest::New(::google::protobuf::Arena* arena) const {
+  UIYaormRequest* n = new UIYaormRequest;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void UIYaormRequest::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.UIYaormRequest)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  ids_.Clear();
+  token_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  schema_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  custom_sql_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  file_descriptor_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) {
+    delete table_definition_;
+  }
+  table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  if (GetArenaNoVirtual() == NULL && connection_info_ != NULL) {
+    delete connection_info_;
+  }
+  connection_info_ = NULL;
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) {
+    delete where_clause_;
+  }
+  where_clause_ = NULL;
+  ::memset(&limit_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&insert_same_as_update_) -
+      reinterpret_cast<char*>(&limit_)) + sizeof(insert_same_as_update_));
+  _internal_metadata_.Clear();
+}
+
+bool UIYaormRequest::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.UIYaormRequest)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // string token = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_token()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->token().data(), static_cast<int>(this->token().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.token"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition table_definition = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ConnectionInfo connection_info = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_connection_info()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause where_clause = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 limit = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &limit_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 offset = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(56u /* 56 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &offset_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // bool insert_same_as_update = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(64u /* 64 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
+                 input, &insert_same_as_update_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string schema_name = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(74u /* 74 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_schema_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.schema_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string table_name = 10;
+      case 10: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(82u /* 82 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_table_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->table_name().data(), static_cast<int>(this->table_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.table_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string custom_sql = 11;
+      case 11: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(90u /* 90 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_custom_sql()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->custom_sql().data(), static_cast<int>(this->custom_sql().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.custom_sql"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string file_descriptor = 13;
+      case 13: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(106u /* 106 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_file_descriptor()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->file_descriptor().data(), static_cast<int>(this->file_descriptor().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.file_descriptor"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated string ids = 14;
+      case 14: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(114u /* 114 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->add_ids()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->ids(this->ids_size() - 1).data(),
+            static_cast<int>(this->ids(this->ids_size() - 1).length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormRequest.ids"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.UIYaormRequest)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.UIYaormRequest)
+  return false;
+#undef DO_
+}
+
+void UIYaormRequest::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.UIYaormRequest)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string token = 1;
+  if (this->token().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->token().data(), static_cast<int>(this->token().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.token");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      1, this->token(), output);
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 2;
+  if (this->has_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->table_definition_, output);
+  }
+
+  // .org.yaorm.Records records = 3;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->records_, output);
+  }
+
+  // .org.yaorm.ConnectionInfo connection_info = 4;
+  if (this->has_connection_info()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->connection_info_, output);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, *this->where_clause_, output);
+  }
+
+  // int64 limit = 6;
+  if (this->limit() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(6, this->limit(), output);
+  }
+
+  // int64 offset = 7;
+  if (this->offset() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(7, this->offset(), output);
+  }
+
+  // bool insert_same_as_update = 8;
+  if (this->insert_same_as_update() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteBool(8, this->insert_same_as_update(), output);
+  }
+
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.schema_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      9, this->schema_name(), output);
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.table_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      10, this->table_name(), output);
+  }
+
+  // string custom_sql = 11;
+  if (this->custom_sql().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->custom_sql().data(), static_cast<int>(this->custom_sql().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.custom_sql");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      11, this->custom_sql(), output);
+  }
+
+  // string file_descriptor = 13;
+  if (this->file_descriptor().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->file_descriptor().data(), static_cast<int>(this->file_descriptor().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.file_descriptor");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      13, this->file_descriptor(), output);
+  }
+
+  // repeated string ids = 14;
+  for (int i = 0, n = this->ids_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->ids(i).data(), static_cast<int>(this->ids(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.ids");
+    ::google::protobuf::internal::WireFormatLite::WriteString(
+      14, this->ids(i), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.UIYaormRequest)
+}
+
+::google::protobuf::uint8* UIYaormRequest::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.UIYaormRequest)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string token = 1;
+  if (this->token().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->token().data(), static_cast<int>(this->token().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.token");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        1, this->token(), target);
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 2;
+  if (this->has_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records = 3;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->records_, deterministic, target);
+  }
+
+  // .org.yaorm.ConnectionInfo connection_info = 4;
+  if (this->has_connection_info()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->connection_info_, deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->where_clause_, deterministic, target);
+  }
+
+  // int64 limit = 6;
+  if (this->limit() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(6, this->limit(), target);
+  }
+
+  // int64 offset = 7;
+  if (this->offset() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(7, this->offset(), target);
+  }
+
+  // bool insert_same_as_update = 8;
+  if (this->insert_same_as_update() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(8, this->insert_same_as_update(), target);
+  }
+
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.schema_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        9, this->schema_name(), target);
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.table_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        10, this->table_name(), target);
+  }
+
+  // string custom_sql = 11;
+  if (this->custom_sql().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->custom_sql().data(), static_cast<int>(this->custom_sql().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.custom_sql");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        11, this->custom_sql(), target);
+  }
+
+  // string file_descriptor = 13;
+  if (this->file_descriptor().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->file_descriptor().data(), static_cast<int>(this->file_descriptor().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.file_descriptor");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        13, this->file_descriptor(), target);
+  }
+
+  // repeated string ids = 14;
+  for (int i = 0, n = this->ids_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->ids(i).data(), static_cast<int>(this->ids(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormRequest.ids");
+    target = ::google::protobuf::internal::WireFormatLite::
+      WriteStringToArray(14, this->ids(i), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.UIYaormRequest)
+  return target;
+}
+
+size_t UIYaormRequest::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.UIYaormRequest)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated string ids = 14;
+  total_size += 1 *
+      ::google::protobuf::internal::FromIntSize(this->ids_size());
+  for (int i = 0, n = this->ids_size(); i < n; i++) {
+    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
+      this->ids(i));
+  }
+
+  // string token = 1;
+  if (this->token().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->token());
+  }
+
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->schema_name());
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->table_name());
+  }
+
+  // string custom_sql = 11;
+  if (this->custom_sql().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->custom_sql());
+  }
+
+  // string file_descriptor = 13;
+  if (this->file_descriptor().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->file_descriptor());
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 2;
+  if (this->has_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definition_);
+  }
+
+  // .org.yaorm.Records records = 3;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  // .org.yaorm.ConnectionInfo connection_info = 4;
+  if (this->has_connection_info()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->connection_info_);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->where_clause_);
+  }
+
+  // int64 limit = 6;
+  if (this->limit() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->limit());
+  }
+
+  // int64 offset = 7;
+  if (this->offset() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->offset());
+  }
+
+  // bool insert_same_as_update = 8;
+  if (this->insert_same_as_update() != 0) {
+    total_size += 1 + 1;
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void UIYaormRequest::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.UIYaormRequest)
+  GOOGLE_DCHECK_NE(&from, this);
+  const UIYaormRequest* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const UIYaormRequest>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.UIYaormRequest)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.UIYaormRequest)
+    MergeFrom(*source);
+  }
+}
+
+void UIYaormRequest::MergeFrom(const UIYaormRequest& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.UIYaormRequest)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  ids_.MergeFrom(from.ids_);
+  if (from.token().size() > 0) {
+
+    token_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.token_);
+  }
+  if (from.schema_name().size() > 0) {
+
+    schema_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_name_);
+  }
+  if (from.table_name().size() > 0) {
+
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  if (from.custom_sql().size() > 0) {
+
+    custom_sql_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.custom_sql_);
+  }
+  if (from.file_descriptor().size() > 0) {
+
+    file_descriptor_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.file_descriptor_);
+  }
+  if (from.has_table_definition()) {
+    mutable_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.table_definition());
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+  if (from.has_connection_info()) {
+    mutable_connection_info()->::org::yaorm::ConnectionInfo::MergeFrom(from.connection_info());
+  }
+  if (from.has_where_clause()) {
+    mutable_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.where_clause());
+  }
+  if (from.limit() != 0) {
+    set_limit(from.limit());
+  }
+  if (from.offset() != 0) {
+    set_offset(from.offset());
+  }
+  if (from.insert_same_as_update() != 0) {
+    set_insert_same_as_update(from.insert_same_as_update());
+  }
+}
+
+void UIYaormRequest::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.UIYaormRequest)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void UIYaormRequest::CopyFrom(const UIYaormRequest& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.UIYaormRequest)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool UIYaormRequest::IsInitialized() const {
+  return true;
+}
+
+void UIYaormRequest::Swap(UIYaormRequest* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void UIYaormRequest::InternalSwap(UIYaormRequest* other) {
+  using std::swap;
+  ids_.InternalSwap(&other->ids_);
+  token_.Swap(&other->token_);
+  schema_name_.Swap(&other->schema_name_);
+  table_name_.Swap(&other->table_name_);
+  custom_sql_.Swap(&other->custom_sql_);
+  file_descriptor_.Swap(&other->file_descriptor_);
+  swap(table_definition_, other->table_definition_);
+  swap(records_, other->records_);
+  swap(connection_info_, other->connection_info_);
+  swap(where_clause_, other->where_clause_);
+  swap(limit_, other->limit_);
+  swap(offset_, other->offset_);
+  swap(insert_same_as_update_, other->insert_same_as_update_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata UIYaormRequest::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// UIYaormRequest
+
+// string token = 1;
+void UIYaormRequest::clear_token() {
+  token_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormRequest::token() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.token)
+  return token_.GetNoArena();
+}
+void UIYaormRequest::set_token(const ::std::string& value) {
+  
+  token_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.token)
+}
+#if LANG_CXX11
+void UIYaormRequest::set_token(::std::string&& value) {
+  
+  token_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormRequest.token)
+}
+#endif
+void UIYaormRequest::set_token(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  token_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.token)
+}
+void UIYaormRequest::set_token(const char* value, size_t size) {
+  
+  token_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.token)
+}
+::std::string* UIYaormRequest::mutable_token() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.token)
+  return token_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormRequest::release_token() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.token)
+  
+  return token_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormRequest::set_allocated_token(::std::string* token) {
+  if (token != NULL) {
+    
+  } else {
+    
+  }
+  token_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), token);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.token)
+}
+
+// .org.yaorm.TableDefinition table_definition = 2;
+bool UIYaormRequest::has_table_definition() const {
+  return this != internal_default_instance() && table_definition_ != NULL;
+}
+void UIYaormRequest::clear_table_definition() {
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) delete table_definition_;
+  table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& UIYaormRequest::table_definition() const {
+  const ::org::yaorm::TableDefinition* p = table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* UIYaormRequest::mutable_table_definition() {
+  
+  if (table_definition_ == NULL) {
+    table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.table_definition)
+  return table_definition_;
+}
+::org::yaorm::TableDefinition* UIYaormRequest::release_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = table_definition_;
+  table_definition_ = NULL;
+  return temp;
+}
+void UIYaormRequest::set_allocated_table_definition(::org::yaorm::TableDefinition* table_definition) {
+  delete table_definition_;
+  table_definition_ = table_definition;
+  if (table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.table_definition)
+}
+
+// .org.yaorm.Records records = 3;
+bool UIYaormRequest::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void UIYaormRequest::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& UIYaormRequest::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* UIYaormRequest::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.records)
+  return records_;
+}
+::org::yaorm::Records* UIYaormRequest::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void UIYaormRequest::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.records)
+}
+
+// .org.yaorm.ConnectionInfo connection_info = 4;
+bool UIYaormRequest::has_connection_info() const {
+  return this != internal_default_instance() && connection_info_ != NULL;
+}
+void UIYaormRequest::clear_connection_info() {
+  if (GetArenaNoVirtual() == NULL && connection_info_ != NULL) delete connection_info_;
+  connection_info_ = NULL;
+}
+const ::org::yaorm::ConnectionInfo& UIYaormRequest::connection_info() const {
+  const ::org::yaorm::ConnectionInfo* p = connection_info_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.connection_info)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ConnectionInfo*>(
+      &::org::yaorm::_ConnectionInfo_default_instance_);
+}
+::org::yaorm::ConnectionInfo* UIYaormRequest::mutable_connection_info() {
+  
+  if (connection_info_ == NULL) {
+    connection_info_ = new ::org::yaorm::ConnectionInfo;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.connection_info)
+  return connection_info_;
+}
+::org::yaorm::ConnectionInfo* UIYaormRequest::release_connection_info() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.connection_info)
+  
+  ::org::yaorm::ConnectionInfo* temp = connection_info_;
+  connection_info_ = NULL;
+  return temp;
+}
+void UIYaormRequest::set_allocated_connection_info(::org::yaorm::ConnectionInfo* connection_info) {
+  delete connection_info_;
+  connection_info_ = connection_info;
+  if (connection_info) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.connection_info)
+}
+
+// .org.yaorm.WhereClause where_clause = 5;
+bool UIYaormRequest::has_where_clause() const {
+  return this != internal_default_instance() && where_clause_ != NULL;
+}
+void UIYaormRequest::clear_where_clause() {
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) delete where_clause_;
+  where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& UIYaormRequest::where_clause() const {
+  const ::org::yaorm::WhereClause* p = where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* UIYaormRequest::mutable_where_clause() {
+  
+  if (where_clause_ == NULL) {
+    where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.where_clause)
+  return where_clause_;
+}
+::org::yaorm::WhereClause* UIYaormRequest::release_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.where_clause)
+  
+  ::org::yaorm::WhereClause* temp = where_clause_;
+  where_clause_ = NULL;
+  return temp;
+}
+void UIYaormRequest::set_allocated_where_clause(::org::yaorm::WhereClause* where_clause) {
+  delete where_clause_;
+  where_clause_ = where_clause;
+  if (where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.where_clause)
+}
+
+// int64 limit = 6;
+void UIYaormRequest::clear_limit() {
+  limit_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 UIYaormRequest::limit() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.limit)
+  return limit_;
+}
+void UIYaormRequest::set_limit(::google::protobuf::int64 value) {
+  
+  limit_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.limit)
+}
+
+// int64 offset = 7;
+void UIYaormRequest::clear_offset() {
+  offset_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 UIYaormRequest::offset() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.offset)
+  return offset_;
+}
+void UIYaormRequest::set_offset(::google::protobuf::int64 value) {
+  
+  offset_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.offset)
+}
+
+// bool insert_same_as_update = 8;
+void UIYaormRequest::clear_insert_same_as_update() {
+  insert_same_as_update_ = false;
+}
+bool UIYaormRequest::insert_same_as_update() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.insert_same_as_update)
+  return insert_same_as_update_;
+}
+void UIYaormRequest::set_insert_same_as_update(bool value) {
+  
+  insert_same_as_update_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.insert_same_as_update)
+}
+
+// string schema_name = 9;
+void UIYaormRequest::clear_schema_name() {
+  schema_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormRequest::schema_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.schema_name)
+  return schema_name_.GetNoArena();
+}
+void UIYaormRequest::set_schema_name(const ::std::string& value) {
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.schema_name)
+}
+#if LANG_CXX11
+void UIYaormRequest::set_schema_name(::std::string&& value) {
+  
+  schema_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormRequest.schema_name)
+}
+#endif
+void UIYaormRequest::set_schema_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.schema_name)
+}
+void UIYaormRequest::set_schema_name(const char* value, size_t size) {
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.schema_name)
+}
+::std::string* UIYaormRequest::mutable_schema_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.schema_name)
+  return schema_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormRequest::release_schema_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.schema_name)
+  
+  return schema_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormRequest::set_allocated_schema_name(::std::string* schema_name) {
+  if (schema_name != NULL) {
+    
+  } else {
+    
+  }
+  schema_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), schema_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.schema_name)
+}
+
+// string table_name = 10;
+void UIYaormRequest::clear_table_name() {
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormRequest::table_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.table_name)
+  return table_name_.GetNoArena();
+}
+void UIYaormRequest::set_table_name(const ::std::string& value) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.table_name)
+}
+#if LANG_CXX11
+void UIYaormRequest::set_table_name(::std::string&& value) {
+  
+  table_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormRequest.table_name)
+}
+#endif
+void UIYaormRequest::set_table_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.table_name)
+}
+void UIYaormRequest::set_table_name(const char* value, size_t size) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.table_name)
+}
+::std::string* UIYaormRequest::mutable_table_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.table_name)
+  return table_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormRequest::release_table_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.table_name)
+  
+  return table_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormRequest::set_allocated_table_name(::std::string* table_name) {
+  if (table_name != NULL) {
+    
+  } else {
+    
+  }
+  table_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), table_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.table_name)
+}
+
+// string custom_sql = 11;
+void UIYaormRequest::clear_custom_sql() {
+  custom_sql_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormRequest::custom_sql() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.custom_sql)
+  return custom_sql_.GetNoArena();
+}
+void UIYaormRequest::set_custom_sql(const ::std::string& value) {
+  
+  custom_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.custom_sql)
+}
+#if LANG_CXX11
+void UIYaormRequest::set_custom_sql(::std::string&& value) {
+  
+  custom_sql_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormRequest.custom_sql)
+}
+#endif
+void UIYaormRequest::set_custom_sql(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  custom_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.custom_sql)
+}
+void UIYaormRequest::set_custom_sql(const char* value, size_t size) {
+  
+  custom_sql_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.custom_sql)
+}
+::std::string* UIYaormRequest::mutable_custom_sql() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.custom_sql)
+  return custom_sql_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormRequest::release_custom_sql() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.custom_sql)
+  
+  return custom_sql_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormRequest::set_allocated_custom_sql(::std::string* custom_sql) {
+  if (custom_sql != NULL) {
+    
+  } else {
+    
+  }
+  custom_sql_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), custom_sql);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.custom_sql)
+}
+
+// string file_descriptor = 13;
+void UIYaormRequest::clear_file_descriptor() {
+  file_descriptor_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormRequest::file_descriptor() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.file_descriptor)
+  return file_descriptor_.GetNoArena();
+}
+void UIYaormRequest::set_file_descriptor(const ::std::string& value) {
+  
+  file_descriptor_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.file_descriptor)
+}
+#if LANG_CXX11
+void UIYaormRequest::set_file_descriptor(::std::string&& value) {
+  
+  file_descriptor_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormRequest.file_descriptor)
+}
+#endif
+void UIYaormRequest::set_file_descriptor(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  file_descriptor_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.file_descriptor)
+}
+void UIYaormRequest::set_file_descriptor(const char* value, size_t size) {
+  
+  file_descriptor_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.file_descriptor)
+}
+::std::string* UIYaormRequest::mutable_file_descriptor() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.file_descriptor)
+  return file_descriptor_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormRequest::release_file_descriptor() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormRequest.file_descriptor)
+  
+  return file_descriptor_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormRequest::set_allocated_file_descriptor(::std::string* file_descriptor) {
+  if (file_descriptor != NULL) {
+    
+  } else {
+    
+  }
+  file_descriptor_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), file_descriptor);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormRequest.file_descriptor)
+}
+
+// repeated string ids = 14;
+int UIYaormRequest::ids_size() const {
+  return ids_.size();
+}
+void UIYaormRequest::clear_ids() {
+  ids_.Clear();
+}
+const ::std::string& UIYaormRequest::ids(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormRequest.ids)
+  return ids_.Get(index);
+}
+::std::string* UIYaormRequest::mutable_ids(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormRequest.ids)
+  return ids_.Mutable(index);
+}
+void UIYaormRequest::set_ids(int index, const ::std::string& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.ids)
+  ids_.Mutable(index)->assign(value);
+}
+#if LANG_CXX11
+void UIYaormRequest::set_ids(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormRequest.ids)
+  ids_.Mutable(index)->assign(std::move(value));
+}
+#endif
+void UIYaormRequest::set_ids(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  ids_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormRequest.ids)
+}
+void UIYaormRequest::set_ids(int index, const char* value, size_t size) {
+  ids_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormRequest.ids)
+}
+::std::string* UIYaormRequest::add_ids() {
+  // @@protoc_insertion_point(field_add_mutable:org.yaorm.UIYaormRequest.ids)
+  return ids_.Add();
+}
+void UIYaormRequest::add_ids(const ::std::string& value) {
+  ids_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormRequest.ids)
+}
+#if LANG_CXX11
+void UIYaormRequest::add_ids(::std::string&& value) {
+  ids_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormRequest.ids)
+}
+#endif
+void UIYaormRequest::add_ids(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  ids_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:org.yaorm.UIYaormRequest.ids)
+}
+void UIYaormRequest::add_ids(const char* value, size_t size) {
+  ids_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:org.yaorm.UIYaormRequest.ids)
+}
+const ::google::protobuf::RepeatedPtrField< ::std::string>&
+UIYaormRequest::ids() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.UIYaormRequest.ids)
+  return ids_;
+}
+::google::protobuf::RepeatedPtrField< ::std::string>*
+UIYaormRequest::mutable_ids() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.UIYaormRequest.ids)
+  return &ids_;
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int UIYaormResponse::kRecordsFieldNumber;
+const int UIYaormResponse::kSchemasFieldNumber;
+const int UIYaormResponse::kTablesFieldNumber;
+const int UIYaormResponse::kTableDefinitionFieldNumber;
+const int UIYaormResponse::kTableDefinitionsFieldNumber;
+const int UIYaormResponse::kRecordCountFieldNumber;
+const int UIYaormResponse::kResultFieldNumber;
+const int UIYaormResponse::kProtoTypeToSqlTypesFieldNumber;
+const int UIYaormResponse::kStringResultFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+UIYaormResponse::UIYaormResponse()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.UIYaormResponse)
+}
+UIYaormResponse::UIYaormResponse(const UIYaormResponse& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      schemas_(from.schemas_),
+      tables_(from.tables_),
+      proto_type_to_sql_types_(from.proto_type_to_sql_types_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  string_result_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.string_result().size() > 0) {
+    string_result_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.string_result_);
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  if (from.has_table_definition()) {
+    table_definition_ = new ::org::yaorm::TableDefinition(*from.table_definition_);
+  } else {
+    table_definition_ = NULL;
+  }
+  if (from.has_table_definitions()) {
+    table_definitions_ = new ::org::yaorm::TableDefinitions(*from.table_definitions_);
+  } else {
+    table_definitions_ = NULL;
+  }
+  ::memcpy(&record_count_, &from.record_count_,
+    static_cast<size_t>(reinterpret_cast<char*>(&result_) -
+    reinterpret_cast<char*>(&record_count_)) + sizeof(result_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.UIYaormResponse)
+}
+
+void UIYaormResponse::SharedCtor() {
+  string_result_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&records_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&result_) -
+      reinterpret_cast<char*>(&records_)) + sizeof(result_));
+  _cached_size_ = 0;
+}
+
+UIYaormResponse::~UIYaormResponse() {
+  // @@protoc_insertion_point(destructor:org.yaorm.UIYaormResponse)
+  SharedDtor();
+}
+
+void UIYaormResponse::SharedDtor() {
+  string_result_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete records_;
+  if (this != internal_default_instance()) delete table_definition_;
+  if (this != internal_default_instance()) delete table_definitions_;
+}
+
+void UIYaormResponse::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* UIYaormResponse::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const UIYaormResponse& UIYaormResponse::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+UIYaormResponse* UIYaormResponse::New(::google::protobuf::Arena* arena) const {
+  UIYaormResponse* n = new UIYaormResponse;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void UIYaormResponse::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.UIYaormResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  schemas_.Clear();
+  tables_.Clear();
+  proto_type_to_sql_types_.Clear();
+  string_result_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) {
+    delete table_definition_;
+  }
+  table_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && table_definitions_ != NULL) {
+    delete table_definitions_;
+  }
+  table_definitions_ = NULL;
+  ::memset(&record_count_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&result_) -
+      reinterpret_cast<char*>(&record_count_)) + sizeof(result_));
+  _internal_metadata_.Clear();
+}
+
+bool UIYaormResponse::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.UIYaormResponse)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.Records records = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated string schemas = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->add_schemas()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->schemas(this->schemas_size() - 1).data(),
+            static_cast<int>(this->schemas(this->schemas_size() - 1).length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormResponse.schemas"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated string tables = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->add_tables()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->tables(this->tables_size() - 1).data(),
+            static_cast<int>(this->tables(this->tables_size() - 1).length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormResponse.tables"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinition table_definition = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.TableDefinitions table_definitions = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_table_definitions()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 record_count = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(48u /* 48 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &record_count_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // bool result = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(56u /* 56 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   bool, ::google::protobuf::internal::WireFormatLite::TYPE_BOOL>(
+                 input, &result_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // repeated .org.yaorm.ProtoTypeToSqlType proto_type_to_sql_types = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(66u /* 66 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+                input, add_proto_type_to_sql_types()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string string_result = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(74u /* 74 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_string_result()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->string_result().data(), static_cast<int>(this->string_result().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.UIYaormResponse.string_result"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.UIYaormResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.UIYaormResponse)
+  return false;
+#undef DO_
+}
+
+void UIYaormResponse::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.UIYaormResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Records records = 1;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->records_, output);
+  }
+
+  // repeated string schemas = 2;
+  for (int i = 0, n = this->schemas_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schemas(i).data(), static_cast<int>(this->schemas(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.schemas");
+    ::google::protobuf::internal::WireFormatLite::WriteString(
+      2, this->schemas(i), output);
+  }
+
+  // repeated string tables = 3;
+  for (int i = 0, n = this->tables_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->tables(i).data(), static_cast<int>(this->tables(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.tables");
+    ::google::protobuf::internal::WireFormatLite::WriteString(
+      3, this->tables(i), output);
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 4;
+  if (this->has_table_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->table_definition_, output);
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 5;
+  if (this->has_table_definitions()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, *this->table_definitions_, output);
+  }
+
+  // int64 record_count = 6;
+  if (this->record_count() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(6, this->record_count(), output);
+  }
+
+  // bool result = 7;
+  if (this->result() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteBool(7, this->result(), output);
+  }
+
+  // repeated .org.yaorm.ProtoTypeToSqlType proto_type_to_sql_types = 8;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->proto_type_to_sql_types_size()); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      8, this->proto_type_to_sql_types(static_cast<int>(i)), output);
+  }
+
+  // string string_result = 9;
+  if (this->string_result().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->string_result().data(), static_cast<int>(this->string_result().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.string_result");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      9, this->string_result(), output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.UIYaormResponse)
+}
+
+::google::protobuf::uint8* UIYaormResponse::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.UIYaormResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.Records records = 1;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->records_, deterministic, target);
+  }
+
+  // repeated string schemas = 2;
+  for (int i = 0, n = this->schemas_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schemas(i).data(), static_cast<int>(this->schemas(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.schemas");
+    target = ::google::protobuf::internal::WireFormatLite::
+      WriteStringToArray(2, this->schemas(i), target);
+  }
+
+  // repeated string tables = 3;
+  for (int i = 0, n = this->tables_size(); i < n; i++) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->tables(i).data(), static_cast<int>(this->tables(i).length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.tables");
+    target = ::google::protobuf::internal::WireFormatLite::
+      WriteStringToArray(3, this->tables(i), target);
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 4;
+  if (this->has_table_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->table_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 5;
+  if (this->has_table_definitions()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->table_definitions_, deterministic, target);
+  }
+
+  // int64 record_count = 6;
+  if (this->record_count() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(6, this->record_count(), target);
+  }
+
+  // bool result = 7;
+  if (this->result() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteBoolToArray(7, this->result(), target);
+  }
+
+  // repeated .org.yaorm.ProtoTypeToSqlType proto_type_to_sql_types = 8;
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->proto_type_to_sql_types_size()); i < n; i++) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        8, this->proto_type_to_sql_types(static_cast<int>(i)), deterministic, target);
+  }
+
+  // string string_result = 9;
+  if (this->string_result().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->string_result().data(), static_cast<int>(this->string_result().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.UIYaormResponse.string_result");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        9, this->string_result(), target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.UIYaormResponse)
+  return target;
+}
+
+size_t UIYaormResponse::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.UIYaormResponse)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated string schemas = 2;
+  total_size += 1 *
+      ::google::protobuf::internal::FromIntSize(this->schemas_size());
+  for (int i = 0, n = this->schemas_size(); i < n; i++) {
+    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
+      this->schemas(i));
+  }
+
+  // repeated string tables = 3;
+  total_size += 1 *
+      ::google::protobuf::internal::FromIntSize(this->tables_size());
+  for (int i = 0, n = this->tables_size(); i < n; i++) {
+    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
+      this->tables(i));
+  }
+
+  // repeated .org.yaorm.ProtoTypeToSqlType proto_type_to_sql_types = 8;
+  {
+    unsigned int count = static_cast<unsigned int>(this->proto_type_to_sql_types_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->proto_type_to_sql_types(static_cast<int>(i)));
+    }
+  }
+
+  // string string_result = 9;
+  if (this->string_result().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->string_result());
+  }
+
+  // .org.yaorm.Records records = 1;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  // .org.yaorm.TableDefinition table_definition = 4;
+  if (this->has_table_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definition_);
+  }
+
+  // .org.yaorm.TableDefinitions table_definitions = 5;
+  if (this->has_table_definitions()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->table_definitions_);
+  }
+
+  // int64 record_count = 6;
+  if (this->record_count() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->record_count());
+  }
+
+  // bool result = 7;
+  if (this->result() != 0) {
+    total_size += 1 + 1;
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void UIYaormResponse::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.UIYaormResponse)
+  GOOGLE_DCHECK_NE(&from, this);
+  const UIYaormResponse* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const UIYaormResponse>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.UIYaormResponse)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.UIYaormResponse)
+    MergeFrom(*source);
+  }
+}
+
+void UIYaormResponse::MergeFrom(const UIYaormResponse& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.UIYaormResponse)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  schemas_.MergeFrom(from.schemas_);
+  tables_.MergeFrom(from.tables_);
+  proto_type_to_sql_types_.MergeFrom(from.proto_type_to_sql_types_);
+  if (from.string_result().size() > 0) {
+
+    string_result_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.string_result_);
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+  if (from.has_table_definition()) {
+    mutable_table_definition()->::org::yaorm::TableDefinition::MergeFrom(from.table_definition());
+  }
+  if (from.has_table_definitions()) {
+    mutable_table_definitions()->::org::yaorm::TableDefinitions::MergeFrom(from.table_definitions());
+  }
+  if (from.record_count() != 0) {
+    set_record_count(from.record_count());
+  }
+  if (from.result() != 0) {
+    set_result(from.result());
+  }
+}
+
+void UIYaormResponse::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.UIYaormResponse)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void UIYaormResponse::CopyFrom(const UIYaormResponse& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.UIYaormResponse)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool UIYaormResponse::IsInitialized() const {
+  return true;
+}
+
+void UIYaormResponse::Swap(UIYaormResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void UIYaormResponse::InternalSwap(UIYaormResponse* other) {
+  using std::swap;
+  schemas_.InternalSwap(&other->schemas_);
+  tables_.InternalSwap(&other->tables_);
+  proto_type_to_sql_types_.InternalSwap(&other->proto_type_to_sql_types_);
+  string_result_.Swap(&other->string_result_);
+  swap(records_, other->records_);
+  swap(table_definition_, other->table_definition_);
+  swap(table_definitions_, other->table_definitions_);
+  swap(record_count_, other->record_count_);
+  swap(result_, other->result_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata UIYaormResponse::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// UIYaormResponse
+
+// .org.yaorm.Records records = 1;
+bool UIYaormResponse::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void UIYaormResponse::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& UIYaormResponse::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* UIYaormResponse::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.records)
+  return records_;
+}
+::org::yaorm::Records* UIYaormResponse::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormResponse.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void UIYaormResponse::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormResponse.records)
+}
+
+// repeated string schemas = 2;
+int UIYaormResponse::schemas_size() const {
+  return schemas_.size();
+}
+void UIYaormResponse::clear_schemas() {
+  schemas_.Clear();
+}
+const ::std::string& UIYaormResponse::schemas(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.schemas)
+  return schemas_.Get(index);
+}
+::std::string* UIYaormResponse::mutable_schemas(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.schemas)
+  return schemas_.Mutable(index);
+}
+void UIYaormResponse::set_schemas(int index, const ::std::string& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.schemas)
+  schemas_.Mutable(index)->assign(value);
+}
+#if LANG_CXX11
+void UIYaormResponse::set_schemas(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.schemas)
+  schemas_.Mutable(index)->assign(std::move(value));
+}
+#endif
+void UIYaormResponse::set_schemas(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  schemas_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormResponse.schemas)
+}
+void UIYaormResponse::set_schemas(int index, const char* value, size_t size) {
+  schemas_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormResponse.schemas)
+}
+::std::string* UIYaormResponse::add_schemas() {
+  // @@protoc_insertion_point(field_add_mutable:org.yaorm.UIYaormResponse.schemas)
+  return schemas_.Add();
+}
+void UIYaormResponse::add_schemas(const ::std::string& value) {
+  schemas_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormResponse.schemas)
+}
+#if LANG_CXX11
+void UIYaormResponse::add_schemas(::std::string&& value) {
+  schemas_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormResponse.schemas)
+}
+#endif
+void UIYaormResponse::add_schemas(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  schemas_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:org.yaorm.UIYaormResponse.schemas)
+}
+void UIYaormResponse::add_schemas(const char* value, size_t size) {
+  schemas_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:org.yaorm.UIYaormResponse.schemas)
+}
+const ::google::protobuf::RepeatedPtrField< ::std::string>&
+UIYaormResponse::schemas() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.UIYaormResponse.schemas)
+  return schemas_;
+}
+::google::protobuf::RepeatedPtrField< ::std::string>*
+UIYaormResponse::mutable_schemas() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.UIYaormResponse.schemas)
+  return &schemas_;
+}
+
+// repeated string tables = 3;
+int UIYaormResponse::tables_size() const {
+  return tables_.size();
+}
+void UIYaormResponse::clear_tables() {
+  tables_.Clear();
+}
+const ::std::string& UIYaormResponse::tables(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.tables)
+  return tables_.Get(index);
+}
+::std::string* UIYaormResponse::mutable_tables(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.tables)
+  return tables_.Mutable(index);
+}
+void UIYaormResponse::set_tables(int index, const ::std::string& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.tables)
+  tables_.Mutable(index)->assign(value);
+}
+#if LANG_CXX11
+void UIYaormResponse::set_tables(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.tables)
+  tables_.Mutable(index)->assign(std::move(value));
+}
+#endif
+void UIYaormResponse::set_tables(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  tables_.Mutable(index)->assign(value);
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormResponse.tables)
+}
+void UIYaormResponse::set_tables(int index, const char* value, size_t size) {
+  tables_.Mutable(index)->assign(
+    reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormResponse.tables)
+}
+::std::string* UIYaormResponse::add_tables() {
+  // @@protoc_insertion_point(field_add_mutable:org.yaorm.UIYaormResponse.tables)
+  return tables_.Add();
+}
+void UIYaormResponse::add_tables(const ::std::string& value) {
+  tables_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormResponse.tables)
+}
+#if LANG_CXX11
+void UIYaormResponse::add_tables(::std::string&& value) {
+  tables_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormResponse.tables)
+}
+#endif
+void UIYaormResponse::add_tables(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  tables_.Add()->assign(value);
+  // @@protoc_insertion_point(field_add_char:org.yaorm.UIYaormResponse.tables)
+}
+void UIYaormResponse::add_tables(const char* value, size_t size) {
+  tables_.Add()->assign(reinterpret_cast<const char*>(value), size);
+  // @@protoc_insertion_point(field_add_pointer:org.yaorm.UIYaormResponse.tables)
+}
+const ::google::protobuf::RepeatedPtrField< ::std::string>&
+UIYaormResponse::tables() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.UIYaormResponse.tables)
+  return tables_;
+}
+::google::protobuf::RepeatedPtrField< ::std::string>*
+UIYaormResponse::mutable_tables() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.UIYaormResponse.tables)
+  return &tables_;
+}
+
+// .org.yaorm.TableDefinition table_definition = 4;
+bool UIYaormResponse::has_table_definition() const {
+  return this != internal_default_instance() && table_definition_ != NULL;
+}
+void UIYaormResponse::clear_table_definition() {
+  if (GetArenaNoVirtual() == NULL && table_definition_ != NULL) delete table_definition_;
+  table_definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& UIYaormResponse::table_definition() const {
+  const ::org::yaorm::TableDefinition* p = table_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.table_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* UIYaormResponse::mutable_table_definition() {
+  
+  if (table_definition_ == NULL) {
+    table_definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.table_definition)
+  return table_definition_;
+}
+::org::yaorm::TableDefinition* UIYaormResponse::release_table_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormResponse.table_definition)
+  
+  ::org::yaorm::TableDefinition* temp = table_definition_;
+  table_definition_ = NULL;
+  return temp;
+}
+void UIYaormResponse::set_allocated_table_definition(::org::yaorm::TableDefinition* table_definition) {
+  delete table_definition_;
+  table_definition_ = table_definition;
+  if (table_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormResponse.table_definition)
+}
+
+// .org.yaorm.TableDefinitions table_definitions = 5;
+bool UIYaormResponse::has_table_definitions() const {
+  return this != internal_default_instance() && table_definitions_ != NULL;
+}
+void UIYaormResponse::clear_table_definitions() {
+  if (GetArenaNoVirtual() == NULL && table_definitions_ != NULL) delete table_definitions_;
+  table_definitions_ = NULL;
+}
+const ::org::yaorm::TableDefinitions& UIYaormResponse::table_definitions() const {
+  const ::org::yaorm::TableDefinitions* p = table_definitions_;
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.table_definitions)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinitions*>(
+      &::org::yaorm::_TableDefinitions_default_instance_);
+}
+::org::yaorm::TableDefinitions* UIYaormResponse::mutable_table_definitions() {
+  
+  if (table_definitions_ == NULL) {
+    table_definitions_ = new ::org::yaorm::TableDefinitions;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.table_definitions)
+  return table_definitions_;
+}
+::org::yaorm::TableDefinitions* UIYaormResponse::release_table_definitions() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormResponse.table_definitions)
+  
+  ::org::yaorm::TableDefinitions* temp = table_definitions_;
+  table_definitions_ = NULL;
+  return temp;
+}
+void UIYaormResponse::set_allocated_table_definitions(::org::yaorm::TableDefinitions* table_definitions) {
+  delete table_definitions_;
+  table_definitions_ = table_definitions;
+  if (table_definitions) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormResponse.table_definitions)
+}
+
+// int64 record_count = 6;
+void UIYaormResponse::clear_record_count() {
+  record_count_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 UIYaormResponse::record_count() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.record_count)
+  return record_count_;
+}
+void UIYaormResponse::set_record_count(::google::protobuf::int64 value) {
+  
+  record_count_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.record_count)
+}
+
+// bool result = 7;
+void UIYaormResponse::clear_result() {
+  result_ = false;
+}
+bool UIYaormResponse::result() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.result)
+  return result_;
+}
+void UIYaormResponse::set_result(bool value) {
+  
+  result_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.result)
+}
+
+// repeated .org.yaorm.ProtoTypeToSqlType proto_type_to_sql_types = 8;
+int UIYaormResponse::proto_type_to_sql_types_size() const {
+  return proto_type_to_sql_types_.size();
+}
+void UIYaormResponse::clear_proto_type_to_sql_types() {
+  proto_type_to_sql_types_.Clear();
+}
+const ::org::yaorm::ProtoTypeToSqlType& UIYaormResponse::proto_type_to_sql_types(int index) const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.proto_type_to_sql_types)
+  return proto_type_to_sql_types_.Get(index);
+}
+::org::yaorm::ProtoTypeToSqlType* UIYaormResponse::mutable_proto_type_to_sql_types(int index) {
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.proto_type_to_sql_types)
+  return proto_type_to_sql_types_.Mutable(index);
+}
+::org::yaorm::ProtoTypeToSqlType* UIYaormResponse::add_proto_type_to_sql_types() {
+  // @@protoc_insertion_point(field_add:org.yaorm.UIYaormResponse.proto_type_to_sql_types)
+  return proto_type_to_sql_types_.Add();
+}
+::google::protobuf::RepeatedPtrField< ::org::yaorm::ProtoTypeToSqlType >*
+UIYaormResponse::mutable_proto_type_to_sql_types() {
+  // @@protoc_insertion_point(field_mutable_list:org.yaorm.UIYaormResponse.proto_type_to_sql_types)
+  return &proto_type_to_sql_types_;
+}
+const ::google::protobuf::RepeatedPtrField< ::org::yaorm::ProtoTypeToSqlType >&
+UIYaormResponse::proto_type_to_sql_types() const {
+  // @@protoc_insertion_point(field_list:org.yaorm.UIYaormResponse.proto_type_to_sql_types)
+  return proto_type_to_sql_types_;
+}
+
+// string string_result = 9;
+void UIYaormResponse::clear_string_result() {
+  string_result_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& UIYaormResponse::string_result() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.UIYaormResponse.string_result)
+  return string_result_.GetNoArena();
+}
+void UIYaormResponse::set_string_result(const ::std::string& value) {
+  
+  string_result_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.UIYaormResponse.string_result)
+}
+#if LANG_CXX11
+void UIYaormResponse::set_string_result(::std::string&& value) {
+  
+  string_result_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.UIYaormResponse.string_result)
+}
+#endif
+void UIYaormResponse::set_string_result(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  string_result_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.UIYaormResponse.string_result)
+}
+void UIYaormResponse::set_string_result(const char* value, size_t size) {
+  
+  string_result_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.UIYaormResponse.string_result)
+}
+::std::string* UIYaormResponse::mutable_string_result() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.UIYaormResponse.string_result)
+  return string_result_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* UIYaormResponse::release_string_result() {
+  // @@protoc_insertion_point(field_release:org.yaorm.UIYaormResponse.string_result)
+  
+  return string_result_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void UIYaormResponse::set_allocated_string_result(::std::string* string_result) {
+  if (string_result != NULL) {
+    
+  } else {
+    
+  }
+  string_result_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), string_result);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.UIYaormResponse.string_result)
+}
+
+#endif  // PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// ===================================================================
+
+#if !defined(_MSC_VER) || _MSC_VER >= 1900
+const int SqlGeneratorRequestResponse::kDefinitionFieldNumber;
+const int SqlGeneratorRequestResponse::kColumnDefinitionFieldNumber;
+const int SqlGeneratorRequestResponse::kIndexFieldNumber;
+const int SqlGeneratorRequestResponse::kColumnFieldNumber;
+const int SqlGeneratorRequestResponse::kWhereClauseFieldNumber;
+const int SqlGeneratorRequestResponse::kRecordsFieldNumber;
+const int SqlGeneratorRequestResponse::kLimitFieldNumber;
+const int SqlGeneratorRequestResponse::kOffsetFieldNumber;
+const int SqlGeneratorRequestResponse::kSchemaNameFieldNumber;
+const int SqlGeneratorRequestResponse::kTableNameFieldNumber;
+const int SqlGeneratorRequestResponse::kResponseFieldNumber;
+const int SqlGeneratorRequestResponse::kProtoTypeToSqlTypesFieldNumber;
+#endif  // !defined(_MSC_VER) || _MSC_VER >= 1900
+
+SqlGeneratorRequestResponse::SqlGeneratorRequestResponse()
+  : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  }
+  SharedCtor();
+  // @@protoc_insertion_point(constructor:org.yaorm.SqlGeneratorRequestResponse)
+}
+SqlGeneratorRequestResponse::SqlGeneratorRequestResponse(const SqlGeneratorRequestResponse& from)
+  : ::google::protobuf::Message(),
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  schema_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.schema_name().size() > 0) {
+    schema_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_name_);
+  }
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.table_name().size() > 0) {
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  response_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.response().size() > 0) {
+    response_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.response_);
+  }
+  if (from.has_definition()) {
+    definition_ = new ::org::yaorm::TableDefinition(*from.definition_);
+  } else {
+    definition_ = NULL;
+  }
+  if (from.has_column_definition()) {
+    column_definition_ = new ::org::yaorm::ColumnDefinition(*from.column_definition_);
+  } else {
+    column_definition_ = NULL;
+  }
+  if (from.has_index()) {
+    index_ = new ::org::yaorm::Index(*from.index_);
+  } else {
+    index_ = NULL;
+  }
+  if (from.has_column()) {
+    column_ = new ::org::yaorm::Column(*from.column_);
+  } else {
+    column_ = NULL;
+  }
+  if (from.has_where_clause()) {
+    where_clause_ = new ::org::yaorm::WhereClause(*from.where_clause_);
+  } else {
+    where_clause_ = NULL;
+  }
+  if (from.has_records()) {
+    records_ = new ::org::yaorm::Records(*from.records_);
+  } else {
+    records_ = NULL;
+  }
+  if (from.has_proto_type_to_sql_types()) {
+    proto_type_to_sql_types_ = new ::org::yaorm::ProtoTypeToSqlTypes(*from.proto_type_to_sql_types_);
+  } else {
+    proto_type_to_sql_types_ = NULL;
+  }
+  ::memcpy(&limit_, &from.limit_,
+    static_cast<size_t>(reinterpret_cast<char*>(&offset_) -
+    reinterpret_cast<char*>(&limit_)) + sizeof(offset_));
+  // @@protoc_insertion_point(copy_constructor:org.yaorm.SqlGeneratorRequestResponse)
+}
+
+void SqlGeneratorRequestResponse::SharedCtor() {
+  schema_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  response_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  ::memset(&definition_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&offset_) -
+      reinterpret_cast<char*>(&definition_)) + sizeof(offset_));
+  _cached_size_ = 0;
+}
+
+SqlGeneratorRequestResponse::~SqlGeneratorRequestResponse() {
+  // @@protoc_insertion_point(destructor:org.yaorm.SqlGeneratorRequestResponse)
+  SharedDtor();
+}
+
+void SqlGeneratorRequestResponse::SharedDtor() {
+  schema_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  response_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (this != internal_default_instance()) delete definition_;
+  if (this != internal_default_instance()) delete column_definition_;
+  if (this != internal_default_instance()) delete index_;
+  if (this != internal_default_instance()) delete column_;
+  if (this != internal_default_instance()) delete where_clause_;
+  if (this != internal_default_instance()) delete records_;
+  if (this != internal_default_instance()) delete proto_type_to_sql_types_;
+}
+
+void SqlGeneratorRequestResponse::SetCachedSize(int size) const {
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+}
+const ::google::protobuf::Descriptor* SqlGeneratorRequestResponse::descriptor() {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
+}
+
+const SqlGeneratorRequestResponse& SqlGeneratorRequestResponse::default_instance() {
+  protobuf_yaorm_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
+}
+
+SqlGeneratorRequestResponse* SqlGeneratorRequestResponse::New(::google::protobuf::Arena* arena) const {
+  SqlGeneratorRequestResponse* n = new SqlGeneratorRequestResponse;
+  if (arena != NULL) {
+    arena->Own(n);
+  }
+  return n;
+}
+
+void SqlGeneratorRequestResponse::Clear() {
+// @@protoc_insertion_point(message_clear_start:org.yaorm.SqlGeneratorRequestResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
+  schema_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  response_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && definition_ != NULL) {
+    delete definition_;
+  }
+  definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && column_definition_ != NULL) {
+    delete column_definition_;
+  }
+  column_definition_ = NULL;
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) {
+    delete index_;
+  }
+  index_ = NULL;
+  if (GetArenaNoVirtual() == NULL && column_ != NULL) {
+    delete column_;
+  }
+  column_ = NULL;
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) {
+    delete where_clause_;
+  }
+  where_clause_ = NULL;
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) {
+    delete records_;
+  }
+  records_ = NULL;
+  if (GetArenaNoVirtual() == NULL && proto_type_to_sql_types_ != NULL) {
+    delete proto_type_to_sql_types_;
+  }
+  proto_type_to_sql_types_ = NULL;
+  ::memset(&limit_, 0, static_cast<size_t>(
+      reinterpret_cast<char*>(&offset_) -
+      reinterpret_cast<char*>(&limit_)) + sizeof(offset_));
+  _internal_metadata_.Clear();
+}
+
+bool SqlGeneratorRequestResponse::MergePartialFromCodedStream(
+    ::google::protobuf::io::CodedInputStream* input) {
+#define DO_(EXPRESSION) if (!GOOGLE_PREDICT_TRUE(EXPRESSION)) goto failure
+  ::google::protobuf::uint32 tag;
+  // @@protoc_insertion_point(parse_start:org.yaorm.SqlGeneratorRequestResponse)
+  for (;;) {
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
+    tag = p.first;
+    if (!p.second) goto handle_unusual;
+    switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
+      // .org.yaorm.TableDefinition definition = 1;
+      case 1: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ColumnDefinition column_definition = 2;
+      case 2: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_column_definition()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Index index = 3;
+      case 3: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_index()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Column column = 4;
+      case 4: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_column()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.WhereClause where_clause = 5;
+      case 5: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_where_clause()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.Records records = 6;
+      case 6: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(50u /* 50 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_records()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 limit = 7;
+      case 7: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(56u /* 56 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &limit_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // int64 offset = 8;
+      case 8: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(64u /* 64 & 0xFF */)) {
+
+          DO_((::google::protobuf::internal::WireFormatLite::ReadPrimitive<
+                   ::google::protobuf::int64, ::google::protobuf::internal::WireFormatLite::TYPE_INT64>(
+                 input, &offset_)));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string schema_name = 9;
+      case 9: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(74u /* 74 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_schema_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.SqlGeneratorRequestResponse.schema_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string table_name = 10;
+      case 10: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(82u /* 82 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_table_name()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->table_name().data(), static_cast<int>(this->table_name().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.SqlGeneratorRequestResponse.table_name"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // string response = 11;
+      case 11: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(90u /* 90 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadString(
+                input, this->mutable_response()));
+          DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+            this->response().data(), static_cast<int>(this->response().length()),
+            ::google::protobuf::internal::WireFormatLite::PARSE,
+            "org.yaorm.SqlGeneratorRequestResponse.response"));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      // .org.yaorm.ProtoTypeToSqlTypes proto_type_to_sql_types = 12;
+      case 12: {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(98u /* 98 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
+               input, mutable_proto_type_to_sql_types()));
+        } else {
+          goto handle_unusual;
+        }
+        break;
+      }
+
+      default: {
+      handle_unusual:
+        if (tag == 0) {
+          goto success;
+        }
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
+        break;
+      }
+    }
+  }
+success:
+  // @@protoc_insertion_point(parse_success:org.yaorm.SqlGeneratorRequestResponse)
+  return true;
+failure:
+  // @@protoc_insertion_point(parse_failure:org.yaorm.SqlGeneratorRequestResponse)
+  return false;
+#undef DO_
+}
+
+void SqlGeneratorRequestResponse::SerializeWithCachedSizes(
+    ::google::protobuf::io::CodedOutputStream* output) const {
+  // @@protoc_insertion_point(serialize_start:org.yaorm.SqlGeneratorRequestResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition definition = 1;
+  if (this->has_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      1, *this->definition_, output);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 2;
+  if (this->has_column_definition()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      2, *this->column_definition_, output);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      3, *this->index_, output);
+  }
+
+  // .org.yaorm.Column column = 4;
+  if (this->has_column()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      4, *this->column_, output);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      5, *this->where_clause_, output);
+  }
+
+  // .org.yaorm.Records records = 6;
+  if (this->has_records()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      6, *this->records_, output);
+  }
+
+  // int64 limit = 7;
+  if (this->limit() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(7, this->limit(), output);
+  }
+
+  // int64 offset = 8;
+  if (this->offset() != 0) {
+    ::google::protobuf::internal::WireFormatLite::WriteInt64(8, this->offset(), output);
+  }
+
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.schema_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      9, this->schema_name(), output);
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.table_name");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      10, this->table_name(), output);
+  }
+
+  // string response = 11;
+  if (this->response().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->response().data(), static_cast<int>(this->response().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.response");
+    ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
+      11, this->response(), output);
+  }
+
+  // .org.yaorm.ProtoTypeToSqlTypes proto_type_to_sql_types = 12;
+  if (this->has_proto_type_to_sql_types()) {
+    ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
+      12, *this->proto_type_to_sql_types_, output);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
+  // @@protoc_insertion_point(serialize_end:org.yaorm.SqlGeneratorRequestResponse)
+}
+
+::google::protobuf::uint8* SqlGeneratorRequestResponse::InternalSerializeWithCachedSizesToArray(
+    bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
+  // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.SqlGeneratorRequestResponse)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // .org.yaorm.TableDefinition definition = 1;
+  if (this->has_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        1, *this->definition_, deterministic, target);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 2;
+  if (this->has_column_definition()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        2, *this->column_definition_, deterministic, target);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        3, *this->index_, deterministic, target);
+  }
+
+  // .org.yaorm.Column column = 4;
+  if (this->has_column()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        4, *this->column_, deterministic, target);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        5, *this->where_clause_, deterministic, target);
+  }
+
+  // .org.yaorm.Records records = 6;
+  if (this->has_records()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        6, *this->records_, deterministic, target);
+  }
+
+  // int64 limit = 7;
+  if (this->limit() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(7, this->limit(), target);
+  }
+
+  // int64 offset = 8;
+  if (this->offset() != 0) {
+    target = ::google::protobuf::internal::WireFormatLite::WriteInt64ToArray(8, this->offset(), target);
+  }
+
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->schema_name().data(), static_cast<int>(this->schema_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.schema_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        9, this->schema_name(), target);
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->table_name().data(), static_cast<int>(this->table_name().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.table_name");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        10, this->table_name(), target);
+  }
+
+  // string response = 11;
+  if (this->response().size() > 0) {
+    ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
+      this->response().data(), static_cast<int>(this->response().length()),
+      ::google::protobuf::internal::WireFormatLite::SERIALIZE,
+      "org.yaorm.SqlGeneratorRequestResponse.response");
+    target =
+      ::google::protobuf::internal::WireFormatLite::WriteStringToArray(
+        11, this->response(), target);
+  }
+
+  // .org.yaorm.ProtoTypeToSqlTypes proto_type_to_sql_types = 12;
+  if (this->has_proto_type_to_sql_types()) {
+    target = ::google::protobuf::internal::WireFormatLite::
+      InternalWriteMessageNoVirtualToArray(
+        12, *this->proto_type_to_sql_types_, deterministic, target);
+  }
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
+  // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.SqlGeneratorRequestResponse)
+  return target;
+}
+
+size_t SqlGeneratorRequestResponse::ByteSizeLong() const {
+// @@protoc_insertion_point(message_byte_size_start:org.yaorm.SqlGeneratorRequestResponse)
+  size_t total_size = 0;
+
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string schema_name = 9;
+  if (this->schema_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->schema_name());
+  }
+
+  // string table_name = 10;
+  if (this->table_name().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->table_name());
+  }
+
+  // string response = 11;
+  if (this->response().size() > 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::StringSize(
+        this->response());
+  }
+
+  // .org.yaorm.TableDefinition definition = 1;
+  if (this->has_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->definition_);
+  }
+
+  // .org.yaorm.ColumnDefinition column_definition = 2;
+  if (this->has_column_definition()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->column_definition_);
+  }
+
+  // .org.yaorm.Index index = 3;
+  if (this->has_index()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->index_);
+  }
+
+  // .org.yaorm.Column column = 4;
+  if (this->has_column()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->column_);
+  }
+
+  // .org.yaorm.WhereClause where_clause = 5;
+  if (this->has_where_clause()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->where_clause_);
+  }
+
+  // .org.yaorm.Records records = 6;
+  if (this->has_records()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->records_);
+  }
+
+  // .org.yaorm.ProtoTypeToSqlTypes proto_type_to_sql_types = 12;
+  if (this->has_proto_type_to_sql_types()) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+        *this->proto_type_to_sql_types_);
+  }
+
+  // int64 limit = 7;
+  if (this->limit() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->limit());
+  }
+
+  // int64 offset = 8;
+  if (this->offset() != 0) {
+    total_size += 1 +
+      ::google::protobuf::internal::WireFormatLite::Int64Size(
+        this->offset());
+  }
+
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
+  GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
+  _cached_size_ = cached_size;
+  GOOGLE_SAFE_CONCURRENT_WRITES_END();
+  return total_size;
+}
+
+void SqlGeneratorRequestResponse::MergeFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.SqlGeneratorRequestResponse)
+  GOOGLE_DCHECK_NE(&from, this);
+  const SqlGeneratorRequestResponse* source =
+      ::google::protobuf::internal::DynamicCastToGenerated<const SqlGeneratorRequestResponse>(
+          &from);
+  if (source == NULL) {
+  // @@protoc_insertion_point(generalized_merge_from_cast_fail:org.yaorm.SqlGeneratorRequestResponse)
+    ::google::protobuf::internal::ReflectionOps::Merge(from, this);
+  } else {
+  // @@protoc_insertion_point(generalized_merge_from_cast_success:org.yaorm.SqlGeneratorRequestResponse)
+    MergeFrom(*source);
+  }
+}
+
+void SqlGeneratorRequestResponse::MergeFrom(const SqlGeneratorRequestResponse& from) {
+// @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.SqlGeneratorRequestResponse)
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  if (from.schema_name().size() > 0) {
+
+    schema_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.schema_name_);
+  }
+  if (from.table_name().size() > 0) {
+
+    table_name_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.table_name_);
+  }
+  if (from.response().size() > 0) {
+
+    response_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.response_);
+  }
+  if (from.has_definition()) {
+    mutable_definition()->::org::yaorm::TableDefinition::MergeFrom(from.definition());
+  }
+  if (from.has_column_definition()) {
+    mutable_column_definition()->::org::yaorm::ColumnDefinition::MergeFrom(from.column_definition());
+  }
+  if (from.has_index()) {
+    mutable_index()->::org::yaorm::Index::MergeFrom(from.index());
+  }
+  if (from.has_column()) {
+    mutable_column()->::org::yaorm::Column::MergeFrom(from.column());
+  }
+  if (from.has_where_clause()) {
+    mutable_where_clause()->::org::yaorm::WhereClause::MergeFrom(from.where_clause());
+  }
+  if (from.has_records()) {
+    mutable_records()->::org::yaorm::Records::MergeFrom(from.records());
+  }
+  if (from.has_proto_type_to_sql_types()) {
+    mutable_proto_type_to_sql_types()->::org::yaorm::ProtoTypeToSqlTypes::MergeFrom(from.proto_type_to_sql_types());
+  }
+  if (from.limit() != 0) {
+    set_limit(from.limit());
+  }
+  if (from.offset() != 0) {
+    set_offset(from.offset());
+  }
+}
+
+void SqlGeneratorRequestResponse::CopyFrom(const ::google::protobuf::Message& from) {
+// @@protoc_insertion_point(generalized_copy_from_start:org.yaorm.SqlGeneratorRequestResponse)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+void SqlGeneratorRequestResponse::CopyFrom(const SqlGeneratorRequestResponse& from) {
+// @@protoc_insertion_point(class_specific_copy_from_start:org.yaorm.SqlGeneratorRequestResponse)
+  if (&from == this) return;
+  Clear();
+  MergeFrom(from);
+}
+
+bool SqlGeneratorRequestResponse::IsInitialized() const {
+  return true;
+}
+
+void SqlGeneratorRequestResponse::Swap(SqlGeneratorRequestResponse* other) {
+  if (other == this) return;
+  InternalSwap(other);
+}
+void SqlGeneratorRequestResponse::InternalSwap(SqlGeneratorRequestResponse* other) {
+  using std::swap;
+  schema_name_.Swap(&other->schema_name_);
+  table_name_.Swap(&other->table_name_);
+  response_.Swap(&other->response_);
+  swap(definition_, other->definition_);
+  swap(column_definition_, other->column_definition_);
+  swap(index_, other->index_);
+  swap(column_, other->column_);
+  swap(where_clause_, other->where_clause_);
+  swap(records_, other->records_);
+  swap(proto_type_to_sql_types_, other->proto_type_to_sql_types_);
+  swap(limit_, other->limit_);
+  swap(offset_, other->offset_);
+  _internal_metadata_.Swap(&other->_internal_metadata_);
+  swap(_cached_size_, other->_cached_size_);
+}
+
+::google::protobuf::Metadata SqlGeneratorRequestResponse::GetMetadata() const {
+  protobuf_yaorm_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_yaorm_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
+}
+
+#if PROTOBUF_INLINE_NOT_IN_HEADERS
+// SqlGeneratorRequestResponse
+
+// .org.yaorm.TableDefinition definition = 1;
+bool SqlGeneratorRequestResponse::has_definition() const {
+  return this != internal_default_instance() && definition_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_definition() {
+  if (GetArenaNoVirtual() == NULL && definition_ != NULL) delete definition_;
+  definition_ = NULL;
+}
+const ::org::yaorm::TableDefinition& SqlGeneratorRequestResponse::definition() const {
+  const ::org::yaorm::TableDefinition* p = definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::TableDefinition*>(
+      &::org::yaorm::_TableDefinition_default_instance_);
+}
+::org::yaorm::TableDefinition* SqlGeneratorRequestResponse::mutable_definition() {
+  
+  if (definition_ == NULL) {
+    definition_ = new ::org::yaorm::TableDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.definition)
+  return definition_;
+}
+::org::yaorm::TableDefinition* SqlGeneratorRequestResponse::release_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.definition)
+  
+  ::org::yaorm::TableDefinition* temp = definition_;
+  definition_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_definition(::org::yaorm::TableDefinition* definition) {
+  delete definition_;
+  definition_ = definition;
+  if (definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.definition)
+}
+
+// .org.yaorm.ColumnDefinition column_definition = 2;
+bool SqlGeneratorRequestResponse::has_column_definition() const {
+  return this != internal_default_instance() && column_definition_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_column_definition() {
+  if (GetArenaNoVirtual() == NULL && column_definition_ != NULL) delete column_definition_;
+  column_definition_ = NULL;
+}
+const ::org::yaorm::ColumnDefinition& SqlGeneratorRequestResponse::column_definition() const {
+  const ::org::yaorm::ColumnDefinition* p = column_definition_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.column_definition)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ColumnDefinition*>(
+      &::org::yaorm::_ColumnDefinition_default_instance_);
+}
+::org::yaorm::ColumnDefinition* SqlGeneratorRequestResponse::mutable_column_definition() {
+  
+  if (column_definition_ == NULL) {
+    column_definition_ = new ::org::yaorm::ColumnDefinition;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.column_definition)
+  return column_definition_;
+}
+::org::yaorm::ColumnDefinition* SqlGeneratorRequestResponse::release_column_definition() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.column_definition)
+  
+  ::org::yaorm::ColumnDefinition* temp = column_definition_;
+  column_definition_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_column_definition(::org::yaorm::ColumnDefinition* column_definition) {
+  delete column_definition_;
+  column_definition_ = column_definition;
+  if (column_definition) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.column_definition)
+}
+
+// .org.yaorm.Index index = 3;
+bool SqlGeneratorRequestResponse::has_index() const {
+  return this != internal_default_instance() && index_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_index() {
+  if (GetArenaNoVirtual() == NULL && index_ != NULL) delete index_;
+  index_ = NULL;
+}
+const ::org::yaorm::Index& SqlGeneratorRequestResponse::index() const {
+  const ::org::yaorm::Index* p = index_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.index)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Index*>(
+      &::org::yaorm::_Index_default_instance_);
+}
+::org::yaorm::Index* SqlGeneratorRequestResponse::mutable_index() {
+  
+  if (index_ == NULL) {
+    index_ = new ::org::yaorm::Index;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.index)
+  return index_;
+}
+::org::yaorm::Index* SqlGeneratorRequestResponse::release_index() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.index)
+  
+  ::org::yaorm::Index* temp = index_;
+  index_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_index(::org::yaorm::Index* index) {
+  delete index_;
+  index_ = index;
+  if (index) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.index)
+}
+
+// .org.yaorm.Column column = 4;
+bool SqlGeneratorRequestResponse::has_column() const {
+  return this != internal_default_instance() && column_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_column() {
+  if (GetArenaNoVirtual() == NULL && column_ != NULL) delete column_;
+  column_ = NULL;
+}
+const ::org::yaorm::Column& SqlGeneratorRequestResponse::column() const {
+  const ::org::yaorm::Column* p = column_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.column)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Column*>(
+      &::org::yaorm::_Column_default_instance_);
+}
+::org::yaorm::Column* SqlGeneratorRequestResponse::mutable_column() {
+  
+  if (column_ == NULL) {
+    column_ = new ::org::yaorm::Column;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.column)
+  return column_;
+}
+::org::yaorm::Column* SqlGeneratorRequestResponse::release_column() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.column)
+  
+  ::org::yaorm::Column* temp = column_;
+  column_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_column(::org::yaorm::Column* column) {
+  delete column_;
+  column_ = column;
+  if (column) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.column)
+}
+
+// .org.yaorm.WhereClause where_clause = 5;
+bool SqlGeneratorRequestResponse::has_where_clause() const {
+  return this != internal_default_instance() && where_clause_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_where_clause() {
+  if (GetArenaNoVirtual() == NULL && where_clause_ != NULL) delete where_clause_;
+  where_clause_ = NULL;
+}
+const ::org::yaorm::WhereClause& SqlGeneratorRequestResponse::where_clause() const {
+  const ::org::yaorm::WhereClause* p = where_clause_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.where_clause)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::WhereClause*>(
+      &::org::yaorm::_WhereClause_default_instance_);
+}
+::org::yaorm::WhereClause* SqlGeneratorRequestResponse::mutable_where_clause() {
+  
+  if (where_clause_ == NULL) {
+    where_clause_ = new ::org::yaorm::WhereClause;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.where_clause)
+  return where_clause_;
+}
+::org::yaorm::WhereClause* SqlGeneratorRequestResponse::release_where_clause() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.where_clause)
+  
+  ::org::yaorm::WhereClause* temp = where_clause_;
+  where_clause_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_where_clause(::org::yaorm::WhereClause* where_clause) {
+  delete where_clause_;
+  where_clause_ = where_clause;
+  if (where_clause) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.where_clause)
+}
+
+// .org.yaorm.Records records = 6;
+bool SqlGeneratorRequestResponse::has_records() const {
+  return this != internal_default_instance() && records_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_records() {
+  if (GetArenaNoVirtual() == NULL && records_ != NULL) delete records_;
+  records_ = NULL;
+}
+const ::org::yaorm::Records& SqlGeneratorRequestResponse::records() const {
+  const ::org::yaorm::Records* p = records_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.records)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::Records*>(
+      &::org::yaorm::_Records_default_instance_);
+}
+::org::yaorm::Records* SqlGeneratorRequestResponse::mutable_records() {
+  
+  if (records_ == NULL) {
+    records_ = new ::org::yaorm::Records;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.records)
+  return records_;
+}
+::org::yaorm::Records* SqlGeneratorRequestResponse::release_records() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.records)
+  
+  ::org::yaorm::Records* temp = records_;
+  records_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_records(::org::yaorm::Records* records) {
+  delete records_;
+  records_ = records;
+  if (records) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.records)
+}
+
+// int64 limit = 7;
+void SqlGeneratorRequestResponse::clear_limit() {
+  limit_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 SqlGeneratorRequestResponse::limit() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.limit)
+  return limit_;
+}
+void SqlGeneratorRequestResponse::set_limit(::google::protobuf::int64 value) {
+  
+  limit_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.SqlGeneratorRequestResponse.limit)
+}
+
+// int64 offset = 8;
+void SqlGeneratorRequestResponse::clear_offset() {
+  offset_ = GOOGLE_LONGLONG(0);
+}
+::google::protobuf::int64 SqlGeneratorRequestResponse::offset() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.offset)
+  return offset_;
+}
+void SqlGeneratorRequestResponse::set_offset(::google::protobuf::int64 value) {
+  
+  offset_ = value;
+  // @@protoc_insertion_point(field_set:org.yaorm.SqlGeneratorRequestResponse.offset)
+}
+
+// string schema_name = 9;
+void SqlGeneratorRequestResponse::clear_schema_name() {
+  schema_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& SqlGeneratorRequestResponse::schema_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+  return schema_name_.GetNoArena();
+}
+void SqlGeneratorRequestResponse::set_schema_name(const ::std::string& value) {
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+}
+#if LANG_CXX11
+void SqlGeneratorRequestResponse::set_schema_name(::std::string&& value) {
+  
+  schema_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+}
+#endif
+void SqlGeneratorRequestResponse::set_schema_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+}
+void SqlGeneratorRequestResponse::set_schema_name(const char* value, size_t size) {
+  
+  schema_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+}
+::std::string* SqlGeneratorRequestResponse::mutable_schema_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+  return schema_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* SqlGeneratorRequestResponse::release_schema_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+  
+  return schema_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void SqlGeneratorRequestResponse::set_allocated_schema_name(::std::string* schema_name) {
+  if (schema_name != NULL) {
+    
+  } else {
+    
+  }
+  schema_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), schema_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.schema_name)
+}
+
+// string table_name = 10;
+void SqlGeneratorRequestResponse::clear_table_name() {
+  table_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& SqlGeneratorRequestResponse::table_name() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.table_name)
+  return table_name_.GetNoArena();
+}
+void SqlGeneratorRequestResponse::set_table_name(const ::std::string& value) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.SqlGeneratorRequestResponse.table_name)
+}
+#if LANG_CXX11
+void SqlGeneratorRequestResponse::set_table_name(::std::string&& value) {
+  
+  table_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.SqlGeneratorRequestResponse.table_name)
+}
+#endif
+void SqlGeneratorRequestResponse::set_table_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.SqlGeneratorRequestResponse.table_name)
+}
+void SqlGeneratorRequestResponse::set_table_name(const char* value, size_t size) {
+  
+  table_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.SqlGeneratorRequestResponse.table_name)
+}
+::std::string* SqlGeneratorRequestResponse::mutable_table_name() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.table_name)
+  return table_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* SqlGeneratorRequestResponse::release_table_name() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.table_name)
+  
+  return table_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void SqlGeneratorRequestResponse::set_allocated_table_name(::std::string* table_name) {
+  if (table_name != NULL) {
+    
+  } else {
+    
+  }
+  table_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), table_name);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.table_name)
+}
+
+// string response = 11;
+void SqlGeneratorRequestResponse::clear_response() {
+  response_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+const ::std::string& SqlGeneratorRequestResponse::response() const {
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.response)
+  return response_.GetNoArena();
+}
+void SqlGeneratorRequestResponse::set_response(const ::std::string& value) {
+  
+  response_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:org.yaorm.SqlGeneratorRequestResponse.response)
+}
+#if LANG_CXX11
+void SqlGeneratorRequestResponse::set_response(::std::string&& value) {
+  
+  response_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.SqlGeneratorRequestResponse.response)
+}
+#endif
+void SqlGeneratorRequestResponse::set_response(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  response_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:org.yaorm.SqlGeneratorRequestResponse.response)
+}
+void SqlGeneratorRequestResponse::set_response(const char* value, size_t size) {
+  
+  response_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:org.yaorm.SqlGeneratorRequestResponse.response)
+}
+::std::string* SqlGeneratorRequestResponse::mutable_response() {
+  
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.response)
+  return response_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+::std::string* SqlGeneratorRequestResponse::release_response() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.response)
+  
+  return response_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+void SqlGeneratorRequestResponse::set_allocated_response(::std::string* response) {
+  if (response != NULL) {
+    
+  } else {
+    
+  }
+  response_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), response);
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.response)
+}
+
+// .org.yaorm.ProtoTypeToSqlTypes proto_type_to_sql_types = 12;
+bool SqlGeneratorRequestResponse::has_proto_type_to_sql_types() const {
+  return this != internal_default_instance() && proto_type_to_sql_types_ != NULL;
+}
+void SqlGeneratorRequestResponse::clear_proto_type_to_sql_types() {
+  if (GetArenaNoVirtual() == NULL && proto_type_to_sql_types_ != NULL) delete proto_type_to_sql_types_;
+  proto_type_to_sql_types_ = NULL;
+}
+const ::org::yaorm::ProtoTypeToSqlTypes& SqlGeneratorRequestResponse::proto_type_to_sql_types() const {
+  const ::org::yaorm::ProtoTypeToSqlTypes* p = proto_type_to_sql_types_;
+  // @@protoc_insertion_point(field_get:org.yaorm.SqlGeneratorRequestResponse.proto_type_to_sql_types)
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::ProtoTypeToSqlTypes*>(
+      &::org::yaorm::_ProtoTypeToSqlTypes_default_instance_);
+}
+::org::yaorm::ProtoTypeToSqlTypes* SqlGeneratorRequestResponse::mutable_proto_type_to_sql_types() {
+  
+  if (proto_type_to_sql_types_ == NULL) {
+    proto_type_to_sql_types_ = new ::org::yaorm::ProtoTypeToSqlTypes;
+  }
+  // @@protoc_insertion_point(field_mutable:org.yaorm.SqlGeneratorRequestResponse.proto_type_to_sql_types)
+  return proto_type_to_sql_types_;
+}
+::org::yaorm::ProtoTypeToSqlTypes* SqlGeneratorRequestResponse::release_proto_type_to_sql_types() {
+  // @@protoc_insertion_point(field_release:org.yaorm.SqlGeneratorRequestResponse.proto_type_to_sql_types)
+  
+  ::org::yaorm::ProtoTypeToSqlTypes* temp = proto_type_to_sql_types_;
+  proto_type_to_sql_types_ = NULL;
+  return temp;
+}
+void SqlGeneratorRequestResponse::set_allocated_proto_type_to_sql_types(::org::yaorm::ProtoTypeToSqlTypes* proto_type_to_sql_types) {
+  delete proto_type_to_sql_types_;
+  proto_type_to_sql_types_ = proto_type_to_sql_types;
+  if (proto_type_to_sql_types) {
+    
+  } else {
+    
+  }
+  // @@protoc_insertion_point(field_set_allocated:org.yaorm.SqlGeneratorRequestResponse.proto_type_to_sql_types)
 }
 
 #endif  // PROTOBUF_INLINE_NOT_IN_HEADERS

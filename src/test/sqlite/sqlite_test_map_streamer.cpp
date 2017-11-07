@@ -7,7 +7,7 @@
 SQLiteTestMapStreamer::SQLiteTestMapStreamer(
         org::yaorm::Definition &definition,
         std::promise<org::yaorm::Record>& promise):saved_promise(promise) {
-    for(auto item:definition.property_definitions()) {
+    for(const auto &item:definition.property_definitions()) {
         properties[item.name()] = item;
     }
 }

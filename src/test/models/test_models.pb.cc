@@ -20,145 +20,158 @@
 namespace org {
 namespace yaorm {
 namespace tests {
+class TestModelDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<TestModel>
+     _instance;
+} _TestModel_default_instance_;
+class ChildModelDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<ChildModel>
+     _instance;
+} _ChildModel_default_instance_;
+class SubChildModelDefaultTypeInternal {
+public:
+ ::google::protobuf::internal::ExplicitlyConstructed<SubChildModel>
+     _instance;
+} _SubChildModel_default_instance_;
+
+namespace protobuf_test_5fmodels_2eproto {
+
 
 namespace {
 
-const ::google::protobuf::Descriptor* TestModel_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  TestModel_reflection_ = NULL;
-const ::google::protobuf::Descriptor* ChildModel_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  ChildModel_reflection_ = NULL;
-const ::google::protobuf::Descriptor* SubChildModel_descriptor_ = NULL;
-const ::google::protobuf::internal::GeneratedMessageReflection*
-  SubChildModel_reflection_ = NULL;
+::google::protobuf::Metadata file_level_metadata[3];
 
 }  // namespace
 
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTableField
+    const TableStruct::entries[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  {0, 0, 0, ::google::protobuf::internal::kInvalidMask, 0, 0},
+};
 
-void protobuf_AssignDesc_test_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AssignDesc_test_5fmodels_2eproto() {
-  protobuf_AddDesc_test_5fmodels_2eproto();
-  const ::google::protobuf::FileDescriptor* file =
-    ::google::protobuf::DescriptorPool::generated_pool()->FindFileByName(
-      "test_models.proto");
-  GOOGLE_CHECK(file != NULL);
-  TestModel_descriptor_ = file->message_type(0);
-  static const int TestModel_offsets_[5] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, display_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, child_model_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, displays_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, sub_children_),
-  };
-  TestModel_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      TestModel_descriptor_,
-      TestModel::default_instance_,
-      TestModel_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(TestModel),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, _is_default_instance_));
-  ChildModel_descriptor_ = file->message_type(1);
-  static const int ChildModel_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, child_display_),
-  };
-  ChildModel_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      ChildModel_descriptor_,
-      ChildModel::default_instance_,
-      ChildModel_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(ChildModel),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, _is_default_instance_));
-  SubChildModel_descriptor_ = file->message_type(2);
-  static const int SubChildModel_offsets_[2] = {
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, id_),
-    GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, sub_display_),
-  };
-  SubChildModel_reflection_ =
-    ::google::protobuf::internal::GeneratedMessageReflection::NewGeneratedMessageReflection(
-      SubChildModel_descriptor_,
-      SubChildModel::default_instance_,
-      SubChildModel_offsets_,
-      -1,
-      -1,
-      -1,
-      sizeof(SubChildModel),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, _internal_metadata_),
-      GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, _is_default_instance_));
-}
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::AuxillaryParseTableField
+    const TableStruct::aux[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  ::google::protobuf::internal::AuxillaryParseTableField(),
+};
+PROTOBUF_CONSTEXPR_VAR ::google::protobuf::internal::ParseTable const
+    TableStruct::schema[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+  { NULL, NULL, 0, -1, -1, -1, -1, NULL, false },
+};
+
+const ::google::protobuf::uint32 TableStruct::offsets[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, id_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, display_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, child_model_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, displays_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(TestModel, sub_children_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, id_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(ChildModel, child_display_),
+  ~0u,  // no _has_bits_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, _internal_metadata_),
+  ~0u,  // no _extensions_
+  ~0u,  // no _oneof_case_
+  ~0u,  // no _weak_field_map_
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, id_),
+  GOOGLE_PROTOBUF_GENERATED_MESSAGE_FIELD_OFFSET(SubChildModel, sub_display_),
+};
+static const ::google::protobuf::internal::MigrationSchema schemas[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+  { 0, -1, sizeof(TestModel)},
+  { 10, -1, sizeof(ChildModel)},
+  { 17, -1, sizeof(SubChildModel)},
+};
+
+static ::google::protobuf::Message const * const file_default_instances[] = {
+  reinterpret_cast<const ::google::protobuf::Message*>(&_TestModel_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_ChildModel_default_instance_),
+  reinterpret_cast<const ::google::protobuf::Message*>(&_SubChildModel_default_instance_),
+};
 
 namespace {
 
-GOOGLE_PROTOBUF_DECLARE_ONCE(protobuf_AssignDescriptors_once_);
-inline void protobuf_AssignDescriptorsOnce() {
-  ::google::protobuf::GoogleOnceInit(&protobuf_AssignDescriptors_once_,
-                 &protobuf_AssignDesc_test_5fmodels_2eproto);
+void protobuf_AssignDescriptors() {
+  AddDescriptors();
+  ::google::protobuf::MessageFactory* factory = NULL;
+  AssignDescriptors(
+      "test_models.proto", schemas, file_default_instances, TableStruct::offsets, factory,
+      file_level_metadata, NULL, NULL);
+}
+
+void protobuf_AssignDescriptorsOnce() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &protobuf_AssignDescriptors);
 }
 
 void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;
 void protobuf_RegisterTypes(const ::std::string&) {
   protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      TestModel_descriptor_, &TestModel::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      ChildModel_descriptor_, &ChildModel::default_instance());
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedMessage(
-      SubChildModel_descriptor_, &SubChildModel::default_instance());
+  ::google::protobuf::internal::RegisterAllTypes(file_level_metadata, 3);
 }
 
 }  // namespace
-
-void protobuf_ShutdownFile_test_5fmodels_2eproto() {
-  delete TestModel::default_instance_;
-  delete TestModel_reflection_;
-  delete ChildModel::default_instance_;
-  delete ChildModel_reflection_;
-  delete SubChildModel::default_instance_;
-  delete SubChildModel_reflection_;
-}
-
-void protobuf_AddDesc_test_5fmodels_2eproto() GOOGLE_ATTRIBUTE_COLD;
-void protobuf_AddDesc_test_5fmodels_2eproto() {
-  static bool already_here = false;
-  if (already_here) return;
-  already_here = true;
+void TableStruct::InitDefaultsImpl() {
   GOOGLE_PROTOBUF_VERIFY_VERSION;
 
-  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
-    "\n\021test_models.proto\022\017org.yaorm.tests\"\242\001\n"
-    "\tTestModel\022\n\n\002id\030\001 \001(\t\022\017\n\007display\030\002 \001(\t\022"
-    "0\n\013child_model\030\003 \001(\0132\033.org.yaorm.tests.C"
-    "hildModel\022\020\n\010displays\030\004 \003(\t\0224\n\014sub_child"
-    "ren\030\005 \003(\0132\036.org.yaorm.tests.SubChildMode"
-    "l\"/\n\nChildModel\022\n\n\002id\030\001 \001(\t\022\025\n\rchild_dis"
-    "play\030\002 \001(\t\"0\n\rSubChildModel\022\n\n\002id\030\001 \001(\t\022"
-    "\023\n\013sub_display\030\002 \001(\tb\006proto3", 308);
-  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
-    "test_models.proto", &protobuf_RegisterTypes);
-  TestModel::default_instance_ = new TestModel();
-  ChildModel::default_instance_ = new ChildModel();
-  SubChildModel::default_instance_ = new SubChildModel();
-  TestModel::default_instance_->InitAsDefaultInstance();
-  ChildModel::default_instance_->InitAsDefaultInstance();
-  SubChildModel::default_instance_->InitAsDefaultInstance();
-  ::google::protobuf::internal::OnShutdown(&protobuf_ShutdownFile_test_5fmodels_2eproto);
+  ::google::protobuf::internal::InitProtobufDefaults();
+  _TestModel_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_TestModel_default_instance_);_ChildModel_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_ChildModel_default_instance_);_SubChildModel_default_instance_._instance.DefaultConstruct();
+  ::google::protobuf::internal::OnShutdownDestroyMessage(
+      &_SubChildModel_default_instance_);_TestModel_default_instance_._instance.get_mutable()->child_model_ = const_cast< ::org::yaorm::tests::ChildModel*>(
+      ::org::yaorm::tests::ChildModel::internal_default_instance());
 }
 
-// Force AddDescriptors() to be called at static initialization time.
-struct StaticDescriptorInitializer_test_5fmodels_2eproto {
-  StaticDescriptorInitializer_test_5fmodels_2eproto() {
-    protobuf_AddDesc_test_5fmodels_2eproto();
+void InitDefaults() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &TableStruct::InitDefaultsImpl);
+}
+namespace {
+void AddDescriptorsImpl() {
+  InitDefaults();
+  static const char descriptor[] GOOGLE_ATTRIBUTE_SECTION_VARIABLE(protodesc_cold) = {
+      "\n\021test_models.proto\022\017org.yaorm.tests\"\242\001\n"
+      "\tTestModel\022\n\n\002id\030\001 \001(\t\022\017\n\007display\030\002 \001(\t\022"
+      "0\n\013child_model\030\003 \001(\0132\033.org.yaorm.tests.C"
+      "hildModel\022\020\n\010displays\030\004 \003(\t\0224\n\014sub_child"
+      "ren\030\005 \003(\0132\036.org.yaorm.tests.SubChildMode"
+      "l\"/\n\nChildModel\022\n\n\002id\030\001 \001(\t\022\025\n\rchild_dis"
+      "play\030\002 \001(\t\"0\n\rSubChildModel\022\n\n\002id\030\001 \001(\t\022"
+      "\023\n\013sub_display\030\002 \001(\tb\006proto3"
+  };
+  ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
+      descriptor, 308);
+  ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
+    "test_models.proto", &protobuf_RegisterTypes);
+}
+} // anonymous namespace
+
+void AddDescriptors() {
+  static GOOGLE_PROTOBUF_DECLARE_ONCE(once);
+  ::google::protobuf::GoogleOnceInit(&once, &AddDescriptorsImpl);
+}
+// Force AddDescriptors() to be called at dynamic initialization time.
+struct StaticDescriptorInitializer {
+  StaticDescriptorInitializer() {
+    AddDescriptors();
   }
-} static_descriptor_initializer_test_5fmodels_2eproto_;
+} static_descriptor_initializer;
+
+}  // namespace protobuf_test_5fmodels_2eproto
+
 
 // ===================================================================
 
@@ -172,30 +185,40 @@ const int TestModel::kSubChildrenFieldNumber;
 
 TestModel::TestModel()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_test_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.tests.TestModel)
 }
-
-void TestModel::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-  child_model_ = const_cast< ::org::yaorm::tests::ChildModel*>(&::org::yaorm::tests::ChildModel::default_instance());
-}
-
 TestModel::TestModel(const TestModel& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      displays_(from.displays_),
+      sub_children_(from.sub_children_),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.id().size() > 0) {
+    id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.display().size() > 0) {
+    display_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.display_);
+  }
+  if (from.has_child_model()) {
+    child_model_ = new ::org::yaorm::tests::ChildModel(*from.child_model_);
+  } else {
+    child_model_ = NULL;
+  }
   // @@protoc_insertion_point(copy_constructor:org.yaorm.tests.TestModel)
 }
 
 void TestModel::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
   id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   child_model_ = NULL;
+  _cached_size_ = 0;
 }
 
 TestModel::~TestModel() {
@@ -206,9 +229,7 @@ TestModel::~TestModel() {
 void TestModel::SharedDtor() {
   id_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   display_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-    delete child_model_;
-  }
+  if (this != internal_default_instance()) delete child_model_;
 }
 
 void TestModel::SetCachedSize(int size) const {
@@ -217,16 +238,14 @@ void TestModel::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* TestModel::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return TestModel_descriptor_;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const TestModel& TestModel::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_test_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_test_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-TestModel* TestModel::default_instance_ = NULL;
 
 TestModel* TestModel::New(::google::protobuf::Arena* arena) const {
   TestModel* n = new TestModel;
@@ -238,12 +257,19 @@ TestModel* TestModel::New(::google::protobuf::Arena* arena) const {
 
 void TestModel::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.tests.TestModel)
-  id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (GetArenaNoVirtual() == NULL && child_model_ != NULL) delete child_model_;
-  child_model_ = NULL;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   displays_.Clear();
   sub_children_.Clear();
+  id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (GetArenaNoVirtual() == NULL && child_model_ != NULL) {
+    delete child_model_;
+  }
+  child_model_ = NULL;
+  _internal_metadata_.Clear();
 }
 
 bool TestModel::MergePartialFromCodedStream(
@@ -252,100 +278,90 @@ bool TestModel::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.tests.TestModel)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional string id = 1;
+      // string id = 1;
       case 1: {
-        if (tag == 10) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_id()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->id().data(), this->id().length(),
+            this->id().data(), static_cast<int>(this->id().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.TestModel.id"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_display;
         break;
       }
 
-      // optional string display = 2;
+      // string display = 2;
       case 2: {
-        if (tag == 18) {
-         parse_display:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_display()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->display().data(), this->display().length(),
+            this->display().data(), static_cast<int>(this->display().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.TestModel.display"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(26)) goto parse_child_model;
         break;
       }
 
-      // optional .org.yaorm.tests.ChildModel child_model = 3;
+      // .org.yaorm.tests.ChildModel child_model = 3;
       case 3: {
-        if (tag == 26) {
-         parse_child_model:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(26u /* 26 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                input, mutable_child_model()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(34)) goto parse_displays;
         break;
       }
 
       // repeated string displays = 4;
       case 4: {
-        if (tag == 34) {
-         parse_displays:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(34u /* 34 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->add_displays()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
             this->displays(this->displays_size() - 1).data(),
-            this->displays(this->displays_size() - 1).length(),
+            static_cast<int>(this->displays(this->displays_size() - 1).length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.TestModel.displays"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(34)) goto parse_displays;
-        if (input->ExpectTag(42)) goto parse_sub_children;
         break;
       }
 
       // repeated .org.yaorm.tests.SubChildModel sub_children = 5;
       case 5: {
-        if (tag == 42) {
-         parse_sub_children:
-          DO_(input->IncrementRecursionDepth());
-         parse_loop_sub_children:
-          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtualNoRecursionDepth(
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(42u /* 42 & 0xFF */)) {
+          DO_(::google::protobuf::internal::WireFormatLite::ReadMessageNoVirtual(
                 input, add_sub_children()));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(42)) goto parse_loop_sub_children;
-        input->UnsafeDecrementRecursionDepth();
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -362,36 +378,39 @@ failure:
 void TestModel::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.tests.TestModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.id");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       1, this->id(), output);
   }
 
-  // optional string display = 2;
+  // string display = 2;
   if (this->display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->display().data(), this->display().length(),
+      this->display().data(), static_cast<int>(this->display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.display");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       2, this->display(), output);
   }
 
-  // optional .org.yaorm.tests.ChildModel child_model = 3;
+  // .org.yaorm.tests.ChildModel child_model = 3;
   if (this->has_child_model()) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
       3, *this->child_model_, output);
   }
 
   // repeated string displays = 4;
-  for (int i = 0; i < this->displays_size(); i++) {
+  for (int i = 0, n = this->displays_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->displays(i).data(), this->displays(i).length(),
+      this->displays(i).data(), static_cast<int>(this->displays(i).length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.displays");
     ::google::protobuf::internal::WireFormatLite::WriteString(
@@ -399,21 +418,30 @@ void TestModel::SerializeWithCachedSizes(
   }
 
   // repeated .org.yaorm.tests.SubChildModel sub_children = 5;
-  for (unsigned int i = 0, n = this->sub_children_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->sub_children_size()); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::WriteMessageMaybeToArray(
-      5, this->sub_children(i), output);
+      5, this->sub_children(static_cast<int>(i)), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.tests.TestModel)
 }
 
 ::google::protobuf::uint8* TestModel::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.tests.TestModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.id");
     target =
@@ -421,10 +449,10 @@ void TestModel::SerializeWithCachedSizes(
         1, this->id(), target);
   }
 
-  // optional string display = 2;
+  // string display = 2;
   if (this->display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->display().data(), this->display().length(),
+      this->display().data(), static_cast<int>(this->display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.display");
     target =
@@ -432,17 +460,17 @@ void TestModel::SerializeWithCachedSizes(
         2, this->display(), target);
   }
 
-  // optional .org.yaorm.tests.ChildModel child_model = 3;
+  // .org.yaorm.tests.ChildModel child_model = 3;
   if (this->has_child_model()) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        3, *this->child_model_, false, target);
+        3, *this->child_model_, deterministic, target);
   }
 
   // repeated string displays = 4;
-  for (int i = 0; i < this->displays_size(); i++) {
+  for (int i = 0, n = this->displays_size(); i < n; i++) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->displays(i).data(), this->displays(i).length(),
+      this->displays(i).data(), static_cast<int>(this->displays(i).length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.TestModel.displays");
     target = ::google::protobuf::internal::WireFormatLite::
@@ -450,68 +478,81 @@ void TestModel::SerializeWithCachedSizes(
   }
 
   // repeated .org.yaorm.tests.SubChildModel sub_children = 5;
-  for (unsigned int i = 0, n = this->sub_children_size(); i < n; i++) {
+  for (unsigned int i = 0,
+      n = static_cast<unsigned int>(this->sub_children_size()); i < n; i++) {
     target = ::google::protobuf::internal::WireFormatLite::
       InternalWriteMessageNoVirtualToArray(
-        5, this->sub_children(i), false, target);
+        5, this->sub_children(static_cast<int>(i)), deterministic, target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.tests.TestModel)
   return target;
 }
 
-int TestModel::ByteSize() const {
+size_t TestModel::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.tests.TestModel)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // optional string id = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // repeated string displays = 4;
+  total_size += 1 *
+      ::google::protobuf::internal::FromIntSize(this->displays_size());
+  for (int i = 0, n = this->displays_size(); i < n; i++) {
+    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
+      this->displays(i));
+  }
+
+  // repeated .org.yaorm.tests.SubChildModel sub_children = 5;
+  {
+    unsigned int count = static_cast<unsigned int>(this->sub_children_size());
+    total_size += 1UL * count;
+    for (unsigned int i = 0; i < count; i++) {
+      total_size +=
+        ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
+          this->sub_children(static_cast<int>(i)));
+    }
+  }
+
+  // string id = 1;
   if (this->id().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->id());
   }
 
-  // optional string display = 2;
+  // string display = 2;
   if (this->display().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->display());
   }
 
-  // optional .org.yaorm.tests.ChildModel child_model = 3;
+  // .org.yaorm.tests.ChildModel child_model = 3;
   if (this->has_child_model()) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
         *this->child_model_);
   }
 
-  // repeated string displays = 4;
-  total_size += 1 * this->displays_size();
-  for (int i = 0; i < this->displays_size(); i++) {
-    total_size += ::google::protobuf::internal::WireFormatLite::StringSize(
-      this->displays(i));
-  }
-
-  // repeated .org.yaorm.tests.SubChildModel sub_children = 5;
-  total_size += 1 * this->sub_children_size();
-  for (int i = 0; i < this->sub_children_size(); i++) {
-    total_size +=
-      ::google::protobuf::internal::WireFormatLite::MessageSizeNoVirtual(
-        this->sub_children(i));
-  }
-
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void TestModel::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.tests.TestModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const TestModel* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const TestModel* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const TestModel>(
           &from);
   if (source == NULL) {
@@ -525,9 +566,11 @@ void TestModel::MergeFrom(const ::google::protobuf::Message& from) {
 
 void TestModel::MergeFrom(const TestModel& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.tests.TestModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   displays_.MergeFrom(from.displays_);
   sub_children_.MergeFrom(from.sub_children_);
   if (from.id().size() > 0) {
@@ -558,7 +601,6 @@ void TestModel::CopyFrom(const TestModel& from) {
 }
 
 bool TestModel::IsInitialized() const {
-
   return true;
 }
 
@@ -567,61 +609,68 @@ void TestModel::Swap(TestModel* other) {
   InternalSwap(other);
 }
 void TestModel::InternalSwap(TestModel* other) {
+  using std::swap;
+  displays_.InternalSwap(&other->displays_);
+  sub_children_.InternalSwap(&other->sub_children_);
   id_.Swap(&other->id_);
   display_.Swap(&other->display_);
-  std::swap(child_model_, other->child_model_);
-  displays_.UnsafeArenaSwap(&other->displays_);
-  sub_children_.UnsafeArenaSwap(&other->sub_children_);
+  swap(child_model_, other->child_model_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata TestModel::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = TestModel_descriptor_;
-  metadata.reflection = TestModel_reflection_;
-  return metadata;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // TestModel
 
-// optional string id = 1;
+// string id = 1;
 void TestModel::clear_id() {
   id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& TestModel::id() const {
+const ::std::string& TestModel::id() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.TestModel.id)
-  return id_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return id_.GetNoArena();
 }
- void TestModel::set_id(const ::std::string& value) {
+void TestModel::set_id(const ::std::string& value) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.TestModel.id)
 }
- void TestModel::set_id(const char* value) {
+#if LANG_CXX11
+void TestModel::set_id(::std::string&& value) {
+  
+  id_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.TestModel.id)
+}
+#endif
+void TestModel::set_id(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.TestModel.id)
 }
- void TestModel::set_id(const char* value, size_t size) {
+void TestModel::set_id(const char* value, size_t size) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.TestModel.id)
 }
- ::std::string* TestModel::mutable_id() {
+::std::string* TestModel::mutable_id() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.TestModel.id)
   return id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* TestModel::release_id() {
+::std::string* TestModel::release_id() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.TestModel.id)
   
   return id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void TestModel::set_allocated_id(::std::string* id) {
+void TestModel::set_allocated_id(::std::string* id) {
   if (id != NULL) {
     
   } else {
@@ -631,41 +680,50 @@ void TestModel::clear_id() {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.tests.TestModel.id)
 }
 
-// optional string display = 2;
+// string display = 2;
 void TestModel::clear_display() {
   display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& TestModel::display() const {
+const ::std::string& TestModel::display() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.TestModel.display)
-  return display_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return display_.GetNoArena();
 }
- void TestModel::set_display(const ::std::string& value) {
+void TestModel::set_display(const ::std::string& value) {
   
   display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.TestModel.display)
 }
- void TestModel::set_display(const char* value) {
+#if LANG_CXX11
+void TestModel::set_display(::std::string&& value) {
+  
+  display_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.TestModel.display)
+}
+#endif
+void TestModel::set_display(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.TestModel.display)
 }
- void TestModel::set_display(const char* value, size_t size) {
+void TestModel::set_display(const char* value, size_t size) {
   
   display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.TestModel.display)
 }
- ::std::string* TestModel::mutable_display() {
+::std::string* TestModel::mutable_display() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.TestModel.display)
   return display_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* TestModel::release_display() {
+::std::string* TestModel::release_display() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.TestModel.display)
   
   return display_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void TestModel::set_allocated_display(::std::string* display) {
+void TestModel::set_allocated_display(::std::string* display) {
   if (display != NULL) {
     
   } else {
@@ -675,17 +733,19 @@ void TestModel::clear_display() {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.tests.TestModel.display)
 }
 
-// optional .org.yaorm.tests.ChildModel child_model = 3;
+// .org.yaorm.tests.ChildModel child_model = 3;
 bool TestModel::has_child_model() const {
-  return !_is_default_instance_ && child_model_ != NULL;
+  return this != internal_default_instance() && child_model_ != NULL;
 }
 void TestModel::clear_child_model() {
   if (GetArenaNoVirtual() == NULL && child_model_ != NULL) delete child_model_;
   child_model_ = NULL;
 }
 const ::org::yaorm::tests::ChildModel& TestModel::child_model() const {
+  const ::org::yaorm::tests::ChildModel* p = child_model_;
   // @@protoc_insertion_point(field_get:org.yaorm.tests.TestModel.child_model)
-  return child_model_ != NULL ? *child_model_ : *default_instance_->child_model_;
+  return p != NULL ? *p : *reinterpret_cast<const ::org::yaorm::tests::ChildModel*>(
+      &::org::yaorm::tests::_ChildModel_default_instance_);
 }
 ::org::yaorm::tests::ChildModel* TestModel::mutable_child_model() {
   
@@ -720,49 +780,63 @@ int TestModel::displays_size() const {
 void TestModel::clear_displays() {
   displays_.Clear();
 }
- const ::std::string& TestModel::displays(int index) const {
+const ::std::string& TestModel::displays(int index) const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.TestModel.displays)
   return displays_.Get(index);
 }
- ::std::string* TestModel::mutable_displays(int index) {
+::std::string* TestModel::mutable_displays(int index) {
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.TestModel.displays)
   return displays_.Mutable(index);
 }
- void TestModel::set_displays(int index, const ::std::string& value) {
+void TestModel::set_displays(int index, const ::std::string& value) {
   // @@protoc_insertion_point(field_set:org.yaorm.tests.TestModel.displays)
   displays_.Mutable(index)->assign(value);
 }
- void TestModel::set_displays(int index, const char* value) {
+#if LANG_CXX11
+void TestModel::set_displays(int index, ::std::string&& value) {
+  // @@protoc_insertion_point(field_set:org.yaorm.tests.TestModel.displays)
+  displays_.Mutable(index)->assign(std::move(value));
+}
+#endif
+void TestModel::set_displays(int index, const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   displays_.Mutable(index)->assign(value);
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.TestModel.displays)
 }
- void TestModel::set_displays(int index, const char* value, size_t size) {
+void TestModel::set_displays(int index, const char* value, size_t size) {
   displays_.Mutable(index)->assign(
     reinterpret_cast<const char*>(value), size);
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.TestModel.displays)
 }
- ::std::string* TestModel::add_displays() {
+::std::string* TestModel::add_displays() {
   // @@protoc_insertion_point(field_add_mutable:org.yaorm.tests.TestModel.displays)
   return displays_.Add();
 }
- void TestModel::add_displays(const ::std::string& value) {
+void TestModel::add_displays(const ::std::string& value) {
   displays_.Add()->assign(value);
   // @@protoc_insertion_point(field_add:org.yaorm.tests.TestModel.displays)
 }
- void TestModel::add_displays(const char* value) {
+#if LANG_CXX11
+void TestModel::add_displays(::std::string&& value) {
+  displays_.Add(std::move(value));
+  // @@protoc_insertion_point(field_add:org.yaorm.tests.TestModel.displays)
+}
+#endif
+void TestModel::add_displays(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   displays_.Add()->assign(value);
   // @@protoc_insertion_point(field_add_char:org.yaorm.tests.TestModel.displays)
 }
- void TestModel::add_displays(const char* value, size_t size) {
+void TestModel::add_displays(const char* value, size_t size) {
   displays_.Add()->assign(reinterpret_cast<const char*>(value), size);
   // @@protoc_insertion_point(field_add_pointer:org.yaorm.tests.TestModel.displays)
 }
- const ::google::protobuf::RepeatedPtrField< ::std::string>&
+const ::google::protobuf::RepeatedPtrField< ::std::string>&
 TestModel::displays() const {
   // @@protoc_insertion_point(field_list:org.yaorm.tests.TestModel.displays)
   return displays_;
 }
- ::google::protobuf::RepeatedPtrField< ::std::string>*
+::google::protobuf::RepeatedPtrField< ::std::string>*
 TestModel::mutable_displays() {
   // @@protoc_insertion_point(field_mutable_list:org.yaorm.tests.TestModel.displays)
   return &displays_;
@@ -809,28 +883,32 @@ const int ChildModel::kChildDisplayFieldNumber;
 
 ChildModel::ChildModel()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_test_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.tests.ChildModel)
 }
-
-void ChildModel::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 ChildModel::ChildModel(const ChildModel& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.id().size() > 0) {
+    id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  child_display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.child_display().size() > 0) {
+    child_display_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.child_display_);
+  }
   // @@protoc_insertion_point(copy_constructor:org.yaorm.tests.ChildModel)
 }
 
 void ChildModel::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
   id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   child_display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  _cached_size_ = 0;
 }
 
 ChildModel::~ChildModel() {
@@ -841,8 +919,6 @@ ChildModel::~ChildModel() {
 void ChildModel::SharedDtor() {
   id_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   child_display_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-  }
 }
 
 void ChildModel::SetCachedSize(int size) const {
@@ -851,16 +927,14 @@ void ChildModel::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* ChildModel::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return ChildModel_descriptor_;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const ChildModel& ChildModel::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_test_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_test_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-ChildModel* ChildModel::default_instance_ = NULL;
 
 ChildModel* ChildModel::New(::google::protobuf::Arena* arena) const {
   ChildModel* n = new ChildModel;
@@ -872,8 +946,13 @@ ChildModel* ChildModel::New(::google::protobuf::Arena* arena) const {
 
 void ChildModel::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.tests.ChildModel)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   child_display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
 bool ChildModel::MergePartialFromCodedStream(
@@ -882,51 +961,49 @@ bool ChildModel::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.tests.ChildModel)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional string id = 1;
+      // string id = 1;
       case 1: {
-        if (tag == 10) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_id()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->id().data(), this->id().length(),
+            this->id().data(), static_cast<int>(this->id().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.ChildModel.id"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_child_display;
         break;
       }
 
-      // optional string child_display = 2;
+      // string child_display = 2;
       case 2: {
-        if (tag == 18) {
-         parse_child_display:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_child_display()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->child_display().data(), this->child_display().length(),
+            this->child_display().data(), static_cast<int>(this->child_display().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.ChildModel.child_display"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -943,36 +1020,47 @@ failure:
 void ChildModel::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.tests.ChildModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.ChildModel.id");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       1, this->id(), output);
   }
 
-  // optional string child_display = 2;
+  // string child_display = 2;
   if (this->child_display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->child_display().data(), this->child_display().length(),
+      this->child_display().data(), static_cast<int>(this->child_display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.ChildModel.child_display");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       2, this->child_display(), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.tests.ChildModel)
 }
 
 ::google::protobuf::uint8* ChildModel::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.tests.ChildModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.ChildModel.id");
     target =
@@ -980,10 +1068,10 @@ void ChildModel::SerializeWithCachedSizes(
         1, this->id(), target);
   }
 
-  // optional string child_display = 2;
+  // string child_display = 2;
   if (this->child_display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->child_display().data(), this->child_display().length(),
+      this->child_display().data(), static_cast<int>(this->child_display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.ChildModel.child_display");
     target =
@@ -991,40 +1079,48 @@ void ChildModel::SerializeWithCachedSizes(
         2, this->child_display(), target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.tests.ChildModel)
   return target;
 }
 
-int ChildModel::ByteSize() const {
+size_t ChildModel::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.tests.ChildModel)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // optional string id = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string id = 1;
   if (this->id().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->id());
   }
 
-  // optional string child_display = 2;
+  // string child_display = 2;
   if (this->child_display().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->child_display());
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void ChildModel::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.tests.ChildModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const ChildModel* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const ChildModel* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const ChildModel>(
           &from);
   if (source == NULL) {
@@ -1038,9 +1134,11 @@ void ChildModel::MergeFrom(const ::google::protobuf::Message& from) {
 
 void ChildModel::MergeFrom(const ChildModel& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.tests.ChildModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
@@ -1066,7 +1164,6 @@ void ChildModel::CopyFrom(const ChildModel& from) {
 }
 
 bool ChildModel::IsInitialized() const {
-
   return true;
 }
 
@@ -1075,58 +1172,65 @@ void ChildModel::Swap(ChildModel* other) {
   InternalSwap(other);
 }
 void ChildModel::InternalSwap(ChildModel* other) {
+  using std::swap;
   id_.Swap(&other->id_);
   child_display_.Swap(&other->child_display_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata ChildModel::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = ChildModel_descriptor_;
-  metadata.reflection = ChildModel_reflection_;
-  return metadata;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // ChildModel
 
-// optional string id = 1;
+// string id = 1;
 void ChildModel::clear_id() {
   id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& ChildModel::id() const {
+const ::std::string& ChildModel::id() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.ChildModel.id)
-  return id_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return id_.GetNoArena();
 }
- void ChildModel::set_id(const ::std::string& value) {
+void ChildModel::set_id(const ::std::string& value) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.ChildModel.id)
 }
- void ChildModel::set_id(const char* value) {
+#if LANG_CXX11
+void ChildModel::set_id(::std::string&& value) {
+  
+  id_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.ChildModel.id)
+}
+#endif
+void ChildModel::set_id(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.ChildModel.id)
 }
- void ChildModel::set_id(const char* value, size_t size) {
+void ChildModel::set_id(const char* value, size_t size) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.ChildModel.id)
 }
- ::std::string* ChildModel::mutable_id() {
+::std::string* ChildModel::mutable_id() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.ChildModel.id)
   return id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* ChildModel::release_id() {
+::std::string* ChildModel::release_id() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.ChildModel.id)
   
   return id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void ChildModel::set_allocated_id(::std::string* id) {
+void ChildModel::set_allocated_id(::std::string* id) {
   if (id != NULL) {
     
   } else {
@@ -1136,41 +1240,50 @@ void ChildModel::clear_id() {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.tests.ChildModel.id)
 }
 
-// optional string child_display = 2;
+// string child_display = 2;
 void ChildModel::clear_child_display() {
   child_display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& ChildModel::child_display() const {
+const ::std::string& ChildModel::child_display() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.ChildModel.child_display)
-  return child_display_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return child_display_.GetNoArena();
 }
- void ChildModel::set_child_display(const ::std::string& value) {
+void ChildModel::set_child_display(const ::std::string& value) {
   
   child_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.ChildModel.child_display)
 }
- void ChildModel::set_child_display(const char* value) {
+#if LANG_CXX11
+void ChildModel::set_child_display(::std::string&& value) {
+  
+  child_display_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.ChildModel.child_display)
+}
+#endif
+void ChildModel::set_child_display(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   child_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.ChildModel.child_display)
 }
- void ChildModel::set_child_display(const char* value, size_t size) {
+void ChildModel::set_child_display(const char* value, size_t size) {
   
   child_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.ChildModel.child_display)
 }
- ::std::string* ChildModel::mutable_child_display() {
+::std::string* ChildModel::mutable_child_display() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.ChildModel.child_display)
   return child_display_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* ChildModel::release_child_display() {
+::std::string* ChildModel::release_child_display() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.ChildModel.child_display)
   
   return child_display_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void ChildModel::set_allocated_child_display(::std::string* child_display) {
+void ChildModel::set_allocated_child_display(::std::string* child_display) {
   if (child_display != NULL) {
     
   } else {
@@ -1191,28 +1304,32 @@ const int SubChildModel::kSubDisplayFieldNumber;
 
 SubChildModel::SubChildModel()
   : ::google::protobuf::Message(), _internal_metadata_(NULL) {
+  if (GOOGLE_PREDICT_TRUE(this != internal_default_instance())) {
+    protobuf_test_5fmodels_2eproto::InitDefaults();
+  }
   SharedCtor();
   // @@protoc_insertion_point(constructor:org.yaorm.tests.SubChildModel)
 }
-
-void SubChildModel::InitAsDefaultInstance() {
-  _is_default_instance_ = true;
-}
-
 SubChildModel::SubChildModel(const SubChildModel& from)
   : ::google::protobuf::Message(),
-    _internal_metadata_(NULL) {
-  SharedCtor();
-  MergeFrom(from);
+      _internal_metadata_(NULL),
+      _cached_size_(0) {
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.id().size() > 0) {
+    id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
+  }
+  sub_display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  if (from.sub_display().size() > 0) {
+    sub_display_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.sub_display_);
+  }
   // @@protoc_insertion_point(copy_constructor:org.yaorm.tests.SubChildModel)
 }
 
 void SubChildModel::SharedCtor() {
-    _is_default_instance_ = false;
-  ::google::protobuf::internal::GetEmptyString();
-  _cached_size_ = 0;
   id_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   sub_display_.UnsafeSetDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  _cached_size_ = 0;
 }
 
 SubChildModel::~SubChildModel() {
@@ -1223,8 +1340,6 @@ SubChildModel::~SubChildModel() {
 void SubChildModel::SharedDtor() {
   id_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   sub_display_.DestroyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
-  if (this != default_instance_) {
-  }
 }
 
 void SubChildModel::SetCachedSize(int size) const {
@@ -1233,16 +1348,14 @@ void SubChildModel::SetCachedSize(int size) const {
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
 }
 const ::google::protobuf::Descriptor* SubChildModel::descriptor() {
-  protobuf_AssignDescriptorsOnce();
-  return SubChildModel_descriptor_;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages].descriptor;
 }
 
 const SubChildModel& SubChildModel::default_instance() {
-  if (default_instance_ == NULL) protobuf_AddDesc_test_5fmodels_2eproto();
-  return *default_instance_;
+  protobuf_test_5fmodels_2eproto::InitDefaults();
+  return *internal_default_instance();
 }
-
-SubChildModel* SubChildModel::default_instance_ = NULL;
 
 SubChildModel* SubChildModel::New(::google::protobuf::Arena* arena) const {
   SubChildModel* n = new SubChildModel;
@@ -1254,8 +1367,13 @@ SubChildModel* SubChildModel::New(::google::protobuf::Arena* arena) const {
 
 void SubChildModel::Clear() {
 // @@protoc_insertion_point(message_clear_start:org.yaorm.tests.SubChildModel)
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  // Prevent compiler warnings about cached_has_bits being unused
+  (void) cached_has_bits;
+
   id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
   sub_display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  _internal_metadata_.Clear();
 }
 
 bool SubChildModel::MergePartialFromCodedStream(
@@ -1264,51 +1382,49 @@ bool SubChildModel::MergePartialFromCodedStream(
   ::google::protobuf::uint32 tag;
   // @@protoc_insertion_point(parse_start:org.yaorm.tests.SubChildModel)
   for (;;) {
-    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoff(127);
+    ::std::pair< ::google::protobuf::uint32, bool> p = input->ReadTagWithCutoffNoLastTag(127u);
     tag = p.first;
     if (!p.second) goto handle_unusual;
     switch (::google::protobuf::internal::WireFormatLite::GetTagFieldNumber(tag)) {
-      // optional string id = 1;
+      // string id = 1;
       case 1: {
-        if (tag == 10) {
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(10u /* 10 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_id()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->id().data(), this->id().length(),
+            this->id().data(), static_cast<int>(this->id().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.SubChildModel.id"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectTag(18)) goto parse_sub_display;
         break;
       }
 
-      // optional string sub_display = 2;
+      // string sub_display = 2;
       case 2: {
-        if (tag == 18) {
-         parse_sub_display:
+        if (static_cast< ::google::protobuf::uint8>(tag) ==
+            static_cast< ::google::protobuf::uint8>(18u /* 18 & 0xFF */)) {
           DO_(::google::protobuf::internal::WireFormatLite::ReadString(
                 input, this->mutable_sub_display()));
           DO_(::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-            this->sub_display().data(), this->sub_display().length(),
+            this->sub_display().data(), static_cast<int>(this->sub_display().length()),
             ::google::protobuf::internal::WireFormatLite::PARSE,
             "org.yaorm.tests.SubChildModel.sub_display"));
         } else {
           goto handle_unusual;
         }
-        if (input->ExpectAtEnd()) goto success;
         break;
       }
 
       default: {
       handle_unusual:
-        if (tag == 0 ||
-            ::google::protobuf::internal::WireFormatLite::GetTagWireType(tag) ==
-            ::google::protobuf::internal::WireFormatLite::WIRETYPE_END_GROUP) {
+        if (tag == 0) {
           goto success;
         }
-        DO_(::google::protobuf::internal::WireFormatLite::SkipField(input, tag));
+        DO_(::google::protobuf::internal::WireFormat::SkipField(
+              input, tag, _internal_metadata_.mutable_unknown_fields()));
         break;
       }
     }
@@ -1325,36 +1441,47 @@ failure:
 void SubChildModel::SerializeWithCachedSizes(
     ::google::protobuf::io::CodedOutputStream* output) const {
   // @@protoc_insertion_point(serialize_start:org.yaorm.tests.SubChildModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.SubChildModel.id");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       1, this->id(), output);
   }
 
-  // optional string sub_display = 2;
+  // string sub_display = 2;
   if (this->sub_display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->sub_display().data(), this->sub_display().length(),
+      this->sub_display().data(), static_cast<int>(this->sub_display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.SubChildModel.sub_display");
     ::google::protobuf::internal::WireFormatLite::WriteStringMaybeAliased(
       2, this->sub_display(), output);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    ::google::protobuf::internal::WireFormat::SerializeUnknownFields(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), output);
+  }
   // @@protoc_insertion_point(serialize_end:org.yaorm.tests.SubChildModel)
 }
 
 ::google::protobuf::uint8* SubChildModel::InternalSerializeWithCachedSizesToArray(
     bool deterministic, ::google::protobuf::uint8* target) const {
+  (void)deterministic; // Unused
   // @@protoc_insertion_point(serialize_to_array_start:org.yaorm.tests.SubChildModel)
-  // optional string id = 1;
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
+  // string id = 1;
   if (this->id().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->id().data(), this->id().length(),
+      this->id().data(), static_cast<int>(this->id().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.SubChildModel.id");
     target =
@@ -1362,10 +1489,10 @@ void SubChildModel::SerializeWithCachedSizes(
         1, this->id(), target);
   }
 
-  // optional string sub_display = 2;
+  // string sub_display = 2;
   if (this->sub_display().size() > 0) {
     ::google::protobuf::internal::WireFormatLite::VerifyUtf8String(
-      this->sub_display().data(), this->sub_display().length(),
+      this->sub_display().data(), static_cast<int>(this->sub_display().length()),
       ::google::protobuf::internal::WireFormatLite::SERIALIZE,
       "org.yaorm.tests.SubChildModel.sub_display");
     target =
@@ -1373,40 +1500,48 @@ void SubChildModel::SerializeWithCachedSizes(
         2, this->sub_display(), target);
   }
 
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    target = ::google::protobuf::internal::WireFormat::SerializeUnknownFieldsToArray(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()), target);
+  }
   // @@protoc_insertion_point(serialize_to_array_end:org.yaorm.tests.SubChildModel)
   return target;
 }
 
-int SubChildModel::ByteSize() const {
+size_t SubChildModel::ByteSizeLong() const {
 // @@protoc_insertion_point(message_byte_size_start:org.yaorm.tests.SubChildModel)
-  int total_size = 0;
+  size_t total_size = 0;
 
-  // optional string id = 1;
+  if ((_internal_metadata_.have_unknown_fields() &&  ::google::protobuf::internal::GetProto3PreserveUnknownsDefault())) {
+    total_size +=
+      ::google::protobuf::internal::WireFormat::ComputeUnknownFieldsSize(
+        (::google::protobuf::internal::GetProto3PreserveUnknownsDefault()   ? _internal_metadata_.unknown_fields()   : _internal_metadata_.default_instance()));
+  }
+  // string id = 1;
   if (this->id().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->id());
   }
 
-  // optional string sub_display = 2;
+  // string sub_display = 2;
   if (this->sub_display().size() > 0) {
     total_size += 1 +
       ::google::protobuf::internal::WireFormatLite::StringSize(
         this->sub_display());
   }
 
+  int cached_size = ::google::protobuf::internal::ToCachedSize(total_size);
   GOOGLE_SAFE_CONCURRENT_WRITES_BEGIN();
-  _cached_size_ = total_size;
+  _cached_size_ = cached_size;
   GOOGLE_SAFE_CONCURRENT_WRITES_END();
   return total_size;
 }
 
 void SubChildModel::MergeFrom(const ::google::protobuf::Message& from) {
 // @@protoc_insertion_point(generalized_merge_from_start:org.yaorm.tests.SubChildModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
-  const SubChildModel* source = 
+  GOOGLE_DCHECK_NE(&from, this);
+  const SubChildModel* source =
       ::google::protobuf::internal::DynamicCastToGenerated<const SubChildModel>(
           &from);
   if (source == NULL) {
@@ -1420,9 +1555,11 @@ void SubChildModel::MergeFrom(const ::google::protobuf::Message& from) {
 
 void SubChildModel::MergeFrom(const SubChildModel& from) {
 // @@protoc_insertion_point(class_specific_merge_from_start:org.yaorm.tests.SubChildModel)
-  if (GOOGLE_PREDICT_FALSE(&from == this)) {
-    ::google::protobuf::internal::MergeFromFail(__FILE__, __LINE__);
-  }
+  GOOGLE_DCHECK_NE(&from, this);
+  _internal_metadata_.MergeFrom(from._internal_metadata_);
+  ::google::protobuf::uint32 cached_has_bits = 0;
+  (void) cached_has_bits;
+
   if (from.id().size() > 0) {
 
     id_.AssignWithDefault(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), from.id_);
@@ -1448,7 +1585,6 @@ void SubChildModel::CopyFrom(const SubChildModel& from) {
 }
 
 bool SubChildModel::IsInitialized() const {
-
   return true;
 }
 
@@ -1457,58 +1593,65 @@ void SubChildModel::Swap(SubChildModel* other) {
   InternalSwap(other);
 }
 void SubChildModel::InternalSwap(SubChildModel* other) {
+  using std::swap;
   id_.Swap(&other->id_);
   sub_display_.Swap(&other->sub_display_);
   _internal_metadata_.Swap(&other->_internal_metadata_);
-  std::swap(_cached_size_, other->_cached_size_);
+  swap(_cached_size_, other->_cached_size_);
 }
 
 ::google::protobuf::Metadata SubChildModel::GetMetadata() const {
-  protobuf_AssignDescriptorsOnce();
-  ::google::protobuf::Metadata metadata;
-  metadata.descriptor = SubChildModel_descriptor_;
-  metadata.reflection = SubChildModel_reflection_;
-  return metadata;
+  protobuf_test_5fmodels_2eproto::protobuf_AssignDescriptorsOnce();
+  return protobuf_test_5fmodels_2eproto::file_level_metadata[kIndexInFileMessages];
 }
 
 #if PROTOBUF_INLINE_NOT_IN_HEADERS
 // SubChildModel
 
-// optional string id = 1;
+// string id = 1;
 void SubChildModel::clear_id() {
   id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& SubChildModel::id() const {
+const ::std::string& SubChildModel::id() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.SubChildModel.id)
-  return id_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return id_.GetNoArena();
 }
- void SubChildModel::set_id(const ::std::string& value) {
+void SubChildModel::set_id(const ::std::string& value) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.SubChildModel.id)
 }
- void SubChildModel::set_id(const char* value) {
+#if LANG_CXX11
+void SubChildModel::set_id(::std::string&& value) {
+  
+  id_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.SubChildModel.id)
+}
+#endif
+void SubChildModel::set_id(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.SubChildModel.id)
 }
- void SubChildModel::set_id(const char* value, size_t size) {
+void SubChildModel::set_id(const char* value, size_t size) {
   
   id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.SubChildModel.id)
 }
- ::std::string* SubChildModel::mutable_id() {
+::std::string* SubChildModel::mutable_id() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.SubChildModel.id)
   return id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* SubChildModel::release_id() {
+::std::string* SubChildModel::release_id() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.SubChildModel.id)
   
   return id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void SubChildModel::set_allocated_id(::std::string* id) {
+void SubChildModel::set_allocated_id(::std::string* id) {
   if (id != NULL) {
     
   } else {
@@ -1518,41 +1661,50 @@ void SubChildModel::clear_id() {
   // @@protoc_insertion_point(field_set_allocated:org.yaorm.tests.SubChildModel.id)
 }
 
-// optional string sub_display = 2;
+// string sub_display = 2;
 void SubChildModel::clear_sub_display() {
   sub_display_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- const ::std::string& SubChildModel::sub_display() const {
+const ::std::string& SubChildModel::sub_display() const {
   // @@protoc_insertion_point(field_get:org.yaorm.tests.SubChildModel.sub_display)
-  return sub_display_.GetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return sub_display_.GetNoArena();
 }
- void SubChildModel::set_sub_display(const ::std::string& value) {
+void SubChildModel::set_sub_display(const ::std::string& value) {
   
   sub_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
   // @@protoc_insertion_point(field_set:org.yaorm.tests.SubChildModel.sub_display)
 }
- void SubChildModel::set_sub_display(const char* value) {
+#if LANG_CXX11
+void SubChildModel::set_sub_display(::std::string&& value) {
+  
+  sub_display_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:org.yaorm.tests.SubChildModel.sub_display)
+}
+#endif
+void SubChildModel::set_sub_display(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
   
   sub_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
   // @@protoc_insertion_point(field_set_char:org.yaorm.tests.SubChildModel.sub_display)
 }
- void SubChildModel::set_sub_display(const char* value, size_t size) {
+void SubChildModel::set_sub_display(const char* value, size_t size) {
   
   sub_display_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
       ::std::string(reinterpret_cast<const char*>(value), size));
   // @@protoc_insertion_point(field_set_pointer:org.yaorm.tests.SubChildModel.sub_display)
 }
- ::std::string* SubChildModel::mutable_sub_display() {
+::std::string* SubChildModel::mutable_sub_display() {
   
   // @@protoc_insertion_point(field_mutable:org.yaorm.tests.SubChildModel.sub_display)
   return sub_display_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- ::std::string* SubChildModel::release_sub_display() {
+::std::string* SubChildModel::release_sub_display() {
   // @@protoc_insertion_point(field_release:org.yaorm.tests.SubChildModel.sub_display)
   
   return sub_display_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
 }
- void SubChildModel::set_allocated_sub_display(::std::string* sub_display) {
+void SubChildModel::set_allocated_sub_display(::std::string* sub_display) {
   if (sub_display != NULL) {
     
   } else {

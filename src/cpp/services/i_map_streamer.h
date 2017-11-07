@@ -9,7 +9,7 @@
 
 class IMapStreamer {
 public:
-    virtual std::map<std::string, org::yaorm::PropertyDefinition>& get_properties() = 0;
+    virtual std::map<std::string, org::yaorm::ColumnDefinition>& get_properties() = 0;
     virtual void stream(org::yaorm::Record& record) = 0;
 };
 

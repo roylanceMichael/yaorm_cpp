@@ -11,8 +11,11 @@
 class IGranularDatabaseService {
 public:
     virtual bool is_available() = 0;
-    virtual bool execute_update_query(const std::string query) = 0;
-    virtual bool execute_select_query_stream(const std::string query, IMapStreamer& streamer) = 0;
+
+    virtual bool execute_update_query(std::string &query) = 0;
+
+    virtual bool execute_select_query_stream(std::string &query, IMapStreamer &streamer) = 0;
+
     virtual bool close() = 0;
 };
 

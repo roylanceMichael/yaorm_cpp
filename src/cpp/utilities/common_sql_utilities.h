@@ -31,25 +31,34 @@ const std::string NOT_EQUALS = "!=";
 class CommonSQLUtilities {
 public:
     bool check_if_ok(const google::protobuf::Descriptor &descriptor);
+
     bool check_if_child_ok(const google::protobuf::Descriptor &descriptor);
+
     std::string build_column_name_type_field(const google::protobuf::FieldDescriptor &field);
+
     std::string build_column_name_type(const google::protobuf::Descriptor &descriptor,
                                        std::map<int, std::string> &compiled_maps,
-                                       const std::string primary_key);
-    std::string build_column_name_type(const org::yaorm::Definition& definition, std::map<int, std::string>& compiled_maps,
-                                       const std::string& primary_key);
-    std::string build_comma_separated_column_names(const org::yaorm::Definition &definition);
-    std::string build_index_name(std::vector<org::yaorm::PropertyDefinition>& columns);
-    std::string get_formatted_string(org::yaorm::PropertyHolder& holder);
-    std::string build_where_clause_helper(org::yaorm::WhereClauseItem& where_clause);
+                                       std::string primary_key);
+
+    std::string
+    build_column_name_type(const org::yaorm::TableDefinition &definition, std::map<int, std::string> &compiled_maps,
+                           const std::string &primary_key);
+
+    std::string build_comma_separated_column_names(const org::yaorm::TableDefinition &definition);
+
+    std::string build_index_name(std::vector<org::yaorm::ColumnDefinition> &columns);
+
+    std::string get_formatted_string(org::yaorm::Column &holder);
+
+    std::string build_where_clause_helper(org::yaorm::WhereClause &where_clause);
 };
 
-static bool sort_by_name(const org::yaorm::PropertyDefinition &first, const org::yaorm::PropertyDefinition &second) {
+static bool sort_by_name(const org::yaorm::ColumnDefinition &first, const org::yaorm::ColumnDefinition &second) {
     return first.name() < second.name();
 }
 
-static bool sort_record_by_name(const org::yaorm::PropertyHolder &first, const org::yaorm::PropertyHolder &second) {
-    return first.property_definition().name() < second.property_definition().name();
+static bool sort_record_by_name(const org::yaorm::Column &first, const org::yaorm::Column &second) {
+    return first.definition().name() < second.definition().name();
 }
 
 #endif //YAORM_CPP_COMMON_SQL_UTILITIES_H_H
