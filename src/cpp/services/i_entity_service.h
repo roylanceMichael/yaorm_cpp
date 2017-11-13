@@ -13,19 +13,21 @@ class IEntityService {
 public:
     virtual bool get_same_as_update() = 0;
 
-    virtual bool create_table(org::yaorm::TableDefinition &definition) = 0;
+    virtual bool create_table(const org::yaorm::TableDefinition &definition) = 0;
 
-    virtual bool drop_table(org::yaorm::TableDefinition &definition) = 0;
+    virtual bool drop_table(const org::yaorm::TableDefinition &definition) = 0;
 
-    virtual bool create_index(org::yaorm::Index &index, org::yaorm::TableDefinition &definition) = 0;
+    virtual bool create_index(const org::yaorm::Index &index,
+                              const org::yaorm::TableDefinition &definition) = 0;
 
-    virtual bool drop_index(org::yaorm::Index &index, org::yaorm::TableDefinition &definition) = 0;
+    virtual bool drop_index(const org::yaorm::Index &index,
+                            const org::yaorm::TableDefinition &definition) = 0;
 
-    virtual bool create_column(org::yaorm::ColumnDefinition &propertyDefinition,
-                               org::yaorm::TableDefinition &definition) = 0;
+    virtual bool create_column(const org::yaorm::ColumnDefinition &propertyDefinition,
+                               const org::yaorm::TableDefinition &definition) = 0;
 
-    virtual bool drop_column(org::yaorm::ColumnDefinition &propertyDefinition,
-                             org::yaorm::TableDefinition &definition) = 0;
+    virtual bool drop_column(const org::yaorm::ColumnDefinition &propertyDefinition,
+                             const org::yaorm::TableDefinition &definition) = 0;
 
     virtual bool bulk_insert(org::yaorm::Records &instances, org::yaorm::TableDefinition &definition) = 0;
 

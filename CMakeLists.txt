@@ -96,8 +96,6 @@ set(SOURCE_FILES
         src/cpp/models/yaorm_models.pb.h
         src/cpp/models/yaorm_models.pb.cc
         src/cpp/services/i_sql_generator_service.h
-        src/cpp/services/sqlite/sqlite_generator_service.cpp
-        src/cpp/services/sqlite/sqlite_generator_service.h
         src/cpp/models/sqlite_models.pb.h
         src/cpp/models/sqlite_models.pb.cc
         src/cpp/utilities/common_sql_utilities.cpp
@@ -108,9 +106,7 @@ set(SOURCE_FILES
         src/cpp/services/i_entity_service.h
         src/cpp/services/i_entity_message_service.h
         src/cpp/services/i_entity_context.h
-        src/cpp/services/entity_context.cpp
-        src/cpp/services/sqlite/sqlite_generator_service2.cpp
-        src/cpp/services/sqlite/sqlite_generator_service2.h)
+        src/cpp/services/entity_context.cpp)
 
 add_library(yaorm_sqlite_cpp SHARED ${SOURCE_FILES})
 target_link_libraries(yaorm_sqlite_cpp protobuf)
@@ -128,20 +124,20 @@ set(SQLITE_SOURCE
 
 add_library(sqlite3 SHARED ${SQLITE_SOURCE})
 
-enable_testing()
-set(TEST_SOURCE_FILES ${SOURCE_FILES}
-        src/test/sqlite/sqlite_granular_database_service.cpp
-        src/test/sqlite/sqlite_granular_database_service.h
-        src/test/sqlite/sqlite_generator_service_tests.cpp
-        src/test/sqlite/sqlite_generator_service_tests.h
-        src/test/sqlite/sqlite_granular_database_service_tests.cpp
-        src/test/sqlite/sqlite_granular_database_service_tests.h
-        src/test/test_main.cpp
-        src/test/sqlite/test_utilities.cpp
-        src/test/sqlite/test_utilities.h
-        src/test/sqlite/sqlite_test_map_streamer.cpp
-        src/test/sqlite/sqlite_test_map_streamer.h
-        src/test/models/test_models.pb.h
-        src/test/models/test_models.pb.cc)
-add_executable(yaorm_cpp_test ${TEST_SOURCE_FILES})
-target_link_libraries(yaorm_cpp_test protobuf sqlite3)
+#enable_testing()
+#set(TEST_SOURCE_FILES ${SOURCE_FILES}
+#        src/test/sqlite/sqlite_granular_database_service.cpp
+#        src/test/sqlite/sqlite_granular_database_service.h
+#        src/test/sqlite/sqlite_generator_service_tests.cpp
+#        src/test/sqlite/sqlite_generator_service_tests.h
+#        src/test/sqlite/sqlite_granular_database_service_tests.cpp
+#        src/test/sqlite/sqlite_granular_database_service_tests.h
+#        src/test/test_main.cpp
+#        src/test/sqlite/test_utilities.cpp
+#        src/test/sqlite/test_utilities.h
+#        src/test/sqlite/sqlite_test_map_streamer.cpp
+#        src/test/sqlite/sqlite_test_map_streamer.h
+#        src/test/models/test_models.pb.h
+#        src/test/models/test_models.pb.cc)
+#add_executable(yaorm_cpp_test ${TEST_SOURCE_FILES})
+#target_link_libraries(yaorm_cpp_test protobuf sqlite3)
