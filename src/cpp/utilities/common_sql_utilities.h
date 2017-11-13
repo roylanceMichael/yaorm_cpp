@@ -61,4 +61,20 @@ static bool sort_record_by_name(const org::yaorm::Column &first, const org::yaor
     return first.definition().name() < second.definition().name();
 }
 
+// taken from stack-overflow
+static std::string generate_guid() {
+    char new_guid[255] = {0};
+    srand((unsigned) time(NULL));
+
+    sprintf(new_guid, "%x%x-%x-%x-%x-%x%x%x",
+            rand(), rand(),                 // Generates a 64-bit Hex number
+            rand(),                         // Generates a 32-bit Hex number
+            ((rand() & 0x0fff) |
+             0x4000),   // Generates a 32-bit Hex number of the form 4xxx (4 indicates the UUID version)
+            rand() % 0x3fff + 0x8000,       // Generates a 32-bit Hex number in the range [0x8000, 0xbfff]
+            rand(), rand(), rand());        // Generates a 96-bit Hex number
+
+    return new_guid;
+}
+
 #endif //YAORM_CPP_COMMON_SQL_UTILITIES_H_H
